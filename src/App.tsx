@@ -1,34 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Link, Route, Routes } from 'react-router-dom'
+
+import Layout from './components/Layout'
+import About from './pages/About'
+import Blog from './pages/Blog'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
+import Pricing from './pages/Pricing'
+import Product from './pages/Product'
+import UseCases from './pages/UseCases'
+
+function NotFound() {
+  return (
+    <div className="py-24 text-center px-6">
+      <p className="text-3xl font-semibold text-gray-900 mb-4">Página no encontrada</p>
+      <p className="text-gray-600 mb-6">La página que buscas no existe o fue movida.</p>
+      <Link to="/" className="text-blue-600 font-semibold hover:underline">
+        Volver al inicio
+      </Link>
+    </div>
+  )
+}
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Routes>
+      <Route element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/use-cases" element={<UseCases />} />
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Route>
+    </Routes>
   )
 }
 
