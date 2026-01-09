@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "badge": "🚀 Our Story",
+    "title": "About DocumentoIQ",
+    "subtitle": "We created DocumentoIQ to help companies of all sizes analyze and understand complex documents through artificial intelligence, reducing time, errors and operational burden, without replacing human judgment."
+  },
+  "mission": {
+    "title": "Our mission",
+    "description": "Reduce the manual burden of document processing in critical sectors such as legal, banking and notarial, through artificial intelligence solutions that assist analysis, are accessible, accurate and multilingual."
+  },
+  "vision": {
+    "title": "Our vision",
+    "description": "To be the reference platform for AI document automation in Latin America and emerging markets, recognized for helping professionals make better decisions in notaries, banks, law firms and organizations that work with critical documents."
+  },
+  "values": {
+    "title": "Our values",
+    "subtitle": "The principles that guide our work",
+    "precision": {
+      "emoji": "🎯",
+      "title": "Precision",
+      "description": "We focus on the accuracy and quality of extracted data, especially in legal, notarial and financial documents, where error is not an option."
+    },
+    "speed": {
+      "emoji": "⚡",
+      "title": "Speed",
+      "description": "We design our solutions to be fast and efficient, significantly reducing document review time without sacrificing precision."
+    },
+    "accessibility": {
+      "emoji": "🤝",
+      "title": "Accessibility",
+      "description": "We believe that advanced artificial intelligence should be accessible to companies of all sizes, without technical barriers or drastic changes to their processes."
+    }
+  },
+  "team": {
+    "title": "Our team",
+    "description": "We are an interdisciplinary team of developers, legaltech experts and applied artificial intelligence specialists. We work to create tools that assist professionals in reviewing complex documents, reducing errors and improving operational efficiency.",
+    "ai": {
+      "emoji": "🧠",
+      "title": "AI Experience",
+      "description": "Language models and computer vision applied to document analysis and critical information extraction."
+    },
+    "legal": {
+      "emoji": "⚖️",
+      "title": "Legal Knowledge",
+      "description": "Deep understanding of legal, notarial and financial documents, and the risks associated with their manual processing."
+    },
+    "development": {
+      "emoji": "💻",
+      "title": "Full-Stack Development",
+      "description": "Development of a robust, secure and scalable platform, designed to integrate into existing document workflows."
+    }
+  },
+  "impact": {
+    "title": "Our impact",
+    "subtitle": "We help companies and professionals work more efficiently through AI-assisted document analysis and automation.",
+    "accuracy": {
+      "value": "90%+",
+      "label": "Average accuracy"
+    },
+    "timeReduction": {
+      "value": "80%",
+      "label": "Time reduction"
+    },
+    "documents": {
+      "value": "10K+",
+      "label": "Documents processed"
+    },
+    "response": {
+      "value": "24h",
+      "label": "Response time"
+    },
+    "microcopy": "Average results observed in real implementations."
+  },
+  "cta": {
+    "title": "Want to collaborate with us?",
+    "subtitle": "We are looking for strategic partners, integrators and distributors interested in bringing AI document automation to sectors where precision and human control are critical. Write to us and let's talk.",
+    "button": "Contact us →"
+  }
+}

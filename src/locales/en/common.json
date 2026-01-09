@@ -1,0 +1,45 @@
+{
+  "cta": {
+    "startFree": "Start free",
+    "scheduleDemo": "Schedule demo",
+    "requestDemo": "Request personalized demo",
+    "contactUs": "Contact us",
+    "learnMore": "Learn more →"
+  },
+  "trust": {
+    "noCreditCard": "No credit card",
+    "setupMinutes": "Setup in minutes",
+    "spanishSupport": "Spanish support"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved",
+    "madeWith": "Made with",
+    "inLatinAmerica": "in Latin America",
+    "description": "Intelligent document processing with AI for notaries, banks and law firms.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "howItWorks": "How it works",
+    "useCases": "Use Cases",
+    "pricing": "Pricing",
+    "apiDocs": "API Documentation",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "careers": "Careers",
+    "privacy": "Privacy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies",
+    "security": "Security",
+    "banner": "🎉 Try for free • No credit card • Setup in minutes"
+  },
+  "nav": {
+    "product": "Product",
+    "useCases": "Use Cases",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Menu"
+  }
+}

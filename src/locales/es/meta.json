@@ -1,0 +1,48 @@
+{
+  "siteName": "DocumentoIQ",
+  "home": {
+    "title": "DocumentoIQ | IA para extraer información y analizar documentos complejos",
+    "description": "Analiza, extrae y organiza información clave de documentos extensos en minutos, reduciendo hasta 70% el tiempo de revisión y hasta 80% los errores humanos, sin reemplazar tu criterio profesional."
+  },
+  "product": {
+    "title": "¿Cómo funciona DocumentoIQ? | Procesamiento Inteligente de Documentos con IA",
+    "description": "Procesamiento inteligente de documentos mediante OCR avanzado y modelos de lenguaje de última generación para extraer información crítica con alta precisión."
+  },
+  "useCases": {
+    "title": "Casos de Uso | DocumentoIQ - Automatización Documental con IA",
+    "description": "Descubre cómo DocumentoIQ ayuda a notarías, bancos y firmas legales a analizar y extraer información clave de documentos complejos con inteligencia artificial."
+  },
+  "pricing": {
+    "title": "Planes y Precios | DocumentoIQ - Desde Gratis hasta Enterprise",
+    "description": "Selecciona el plan que mejor se ajuste a tu flujo de trabajo. Paga solo por lo que procesas."
+  },
+  "about": {
+    "title": "Acerca de DocumentoIQ | Transformando Documentos con IA",
+    "description": "Conoce la misión, visión y equipo detrás de DocumentoIQ. Ayudamos a profesionales a analizar documentos complejos más rápido, con menos errores y total control humano."
+  },
+  "contact": {
+    "title": "Contacto | DocumentoIQ - Agenda tu Demo Personalizada",
+    "description": "Contáctanos para demos personalizadas, soporte o integraciones a medida. Estamos aquí para ayudarte a automatizar tus documentos."
+  },
+  "blog": {
+    "title": "Blog | DocumentoIQ - Recursos sobre IA y Análisis Documental",
+    "description": "Lee artículos sobre procesamiento inteligente de documentos, automatización legal con IA y casos de uso prácticos en notarías, banca y legaltech."
+  },
+  "privacy": {
+    "title": "Política de Privacidad | DocumentoIQ - Cómo Protegemos Tus Datos",
+    "description": "Conoce cómo DocumentoIQ protege tu privacidad y datos personales. Nuestro compromiso con la seguridad de datos y transparencia en el procesamiento de documentos."
+  },
+  "terms": {
+    "title": "Términos y Condiciones | DocumentoIQ - Términos de Servicio",
+    "description": "Lee los términos y condiciones que rigen tu uso de los servicios de DocumentoIQ. Términos legales, derechos de usuario y acuerdos de servicio."
+  },
+  "cookies": {
+    "title": "Política de Cookies | DocumentoIQ - Cómo Usamos las Cookies",
+    "description": "Entiende cómo DocumentoIQ utiliza cookies y tecnologías similares para mejorar tu experiencia y funcionalidad de la plataforma."
+  },
+  "security": {
+    "title": "Política de Seguridad | DocumentoIQ - Protección y Seguridad de Datos",
+    "description": "Medidas de seguridad de DocumentoIQ, estándares de cifrado y compromiso con la protección de tus documentos y datos."
+  }
+}
+

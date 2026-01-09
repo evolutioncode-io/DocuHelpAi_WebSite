@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "badge": "🔒 Privacy Policy",
+    "title": "Privacy Policy",
+    "subtitle": "Your privacy and data security are fundamental to us"
+  },
+  "lastUpdated": "Last updated: January 20, 2025",
+  "introduction": {
+    "title": "Introduction",
+    "content": "DocumentoIQ ('we', 'our', or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our platform for intelligent document processing."
+  },
+  "dataCollection": {
+    "title": "Information We Collect",
+    "items": {
+      "personal": {
+        "title": "Personal Information",
+        "content": "When you register or use our services, we may collect: name, email address, company name, billing information, and contact details."
+      },
+      "usage": {
+        "title": "Usage Data",
+        "content": "We automatically collect information about how you interact with our platform, including: documents processed, features used, access logs, IP address, browser type, and device information."
+      },
+      "documents": {
+        "title": "Document Content",
+        "content": "Documents you upload are processed securely and temporarily stored for analysis. We do not use document content for purposes other than providing our services."
+      }
+    }
+  },
+  "dataUse": {
+    "title": "How We Use Your Information",
+    "items": {
+      "service": "To provide, maintain, and improve our document processing services",
+      "communication": "To send you service updates, support responses, and important notifications",
+      "security": "To protect against fraud, unauthorized access, and security threats",
+      "compliance": "To comply with legal obligations and enforce our terms of service",
+      "analytics": "To analyze usage patterns and improve our platform's performance"
+    }
+  },
+  "dataSharing": {
+    "title": "Data Sharing and Disclosure",
+    "content": "We do not sell your personal information. We may share data only in these circumstances:",
+    "items": {
+      "serviceProviders": "With trusted service providers who assist in platform operations (under strict confidentiality agreements)",
+      "legal": "When required by law, court order, or government regulation",
+      "business": "In connection with a merger, acquisition, or sale of assets (with notice to users)",
+      "consent": "With your explicit consent for specific purposes"
+    }
+  },
+  "dataSecurity": {
+    "title": "Data Security",
+    "content": "We implement industry-standard security measures:",
+    "items": {
+      "encryption": "End-to-end encryption for document processing",
+      "access": "Strict access controls and authentication protocols",
+      "storage": "Secure data storage with regular backups",
+      "monitoring": "Continuous security monitoring and threat detection"
+    }
+  },
+  "yourRights": {
+    "title": "Your Rights",
+    "content": "You have the right to:",
+    "items": {
+      "access": "Access and receive a copy of your personal data",
+      "rectify": "Correct inaccurate or incomplete information",
+      "delete": "Request deletion of your personal data",
+      "object": "Object to processing of your data",
+      "portability": "Request data portability",
+      "withdraw": "Withdraw consent at any time"
+    }
+  },
+  "cookies": {
+    "title": "Cookies and Tracking",
+    "content": "We use cookies and similar technologies to enhance your experience. See our Cookie Policy for details."
+  },
+  "dataRetention": {
+    "title": "Data Retention",
+    "content": "We retain your data only as long as necessary to provide our services and comply with legal obligations. Document content is processed and stored temporarily, then securely deleted according to our retention policy."
+  },
+  "international": {
+    "title": "International Data Transfers",
+    "content": "Your data may be processed in countries outside your jurisdiction. We ensure adequate protection through standard contractual clauses and security measures."
+  },
+  "children": {
+    "title": "Children's Privacy",
+    "content": "Our services are not directed to individuals under 18 years of age. We do not knowingly collect personal information from children."
+  },
+  "changes": {
+    "title": "Changes to This Policy",
+    "content": "We may update this Privacy Policy periodically. We will notify you of significant changes via email or platform notification."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "content": "For privacy-related questions or to exercise your rights, contact us at:",
+    "email": "privacy@documentoiq.com"
+  }
+}
+

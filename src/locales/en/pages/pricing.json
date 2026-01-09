@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "badge": "💰 Transparent Pricing",
+    "title": "Plans and Pricing",
+    "subtitle": "Select the plan that best fits your workflow. Pay only for what you process.",
+    "features": {
+      "noCommitment": "No commitment",
+      "cancelAnytime": "Cancel anytime",
+      "spanishSupport": "Spanish support"
+    }
+  },
+  "plans": {
+    "starter": {
+      "name": "Starter",
+      "description": "Ideal for trying the platform",
+      "price": "Free",
+      "priceSubtext": "No credit card",
+      "features": {
+        "documents": "10 documents per month",
+        "export": "Export to Excel or JSON",
+        "support": "Email support",
+        "ocr": "Basic OCR"
+      },
+      "button": "Start free"
+    },
+    "professional": {
+      "name": "Professional",
+      "description": "For growing notaries, law firms or banks",
+      "badge": "MOST POPULAR",
+      "price": "$49",
+      "pricePeriod": "/month",
+      "priceSubtext": "Billed monthly",
+      "features": {
+        "documents": "300 documents/month",
+        "processing": "OCR and advanced extraction processing",
+        "api": "API access",
+        "support": "Priority support in Spanish",
+        "zapier": "Zapier integration"
+      },
+      "button": "Subscribe now"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "For high volumes or custom workflows",
+      "price": "Custom",
+      "priceSubtext": "Custom quote",
+      "features": {
+        "documents": "Unlimited documents",
+        "support": "Dedicated 24/7 support",
+        "onboarding": "Onboarding and training",
+        "integrations": "Custom integrations",
+        "sla": "Guaranteed SLA"
+      },
+      "button": "Request demo"
+    }
+  },
+  "comparison": {
+    "title": "Feature comparison",
+    "headers": {
+      "feature": "Feature",
+      "starter": "Starter",
+      "professional": "Professional",
+      "enterprise": "Enterprise"
+    },
+    "rows": {
+      "documents": {
+        "label": "Documents per month",
+        "starter": "10",
+        "professional": "300",
+        "enterprise": "Unlimited"
+      },
+      "ocr": {
+        "label": "Advanced OCR"
+      },
+      "api": {
+        "label": "API access"
+      },
+      "integrations": {
+        "label": "Custom integrations"
+      },
+      "support": {
+        "label": "Support",
+        "starter": "Email",
+        "professional": "Priority",
+        "enterprise": "Dedicated 24/7"
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": {
+      "changePlan": {
+        "question": "Can I change plans at any time?",
+        "answer": "Yes, you can upgrade or downgrade your plan at any time. Changes will be reflected in your next billing cycle."
+      },
+      "limit": {
+        "question": "What happens if I exceed my document limit?",
+        "answer": "We'll notify you when you're close to the limit. You can upgrade your plan or purchase additional documents as needed."
+      },
+      "discounts": {
+        "question": "Do you offer volume discounts?",
+        "answer": "Yes, for Enterprise plans we offer custom pricing based on volume. Contact us for a quote."
+      },
+      "contracts": {
+        "question": "Are there long-term contracts?",
+        "answer": "No, all our plans are monthly with no commitment. You can cancel anytime without penalties."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "subtitle": "Start free today. No credit card. Setup in minutes.",
+    "buttonPrimary": "Start free",
+    "buttonSecondary": "Talk to sales"
+  }
+}

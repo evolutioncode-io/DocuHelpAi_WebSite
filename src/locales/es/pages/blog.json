@@ -1,0 +1,60 @@
+{
+  "hero": {
+    "badge": "📚 Recursos y Guías",
+    "title": "Blog de DocumentoIQ",
+    "subtitle": "Explora artículos, guías y recursos sobre automatización documental con inteligencia artificial"
+  },
+  "featured": {
+    "badge": "⭐ Destacado",
+    "title": "¿Qué es el procesamiento inteligente de documentos (IDP)?",
+    "description": "Una guía completa para entender cómo la IA puede transformar la lectura y extracción de datos desde documentos PDF.",
+    "cta": "Leer artículo →",
+    "topics": {
+      "one": "Diferencias entre OCR tradicional y AI",
+      "two": "Casos de uso en notarías y banca",
+      "three": "ROI y métricas de éxito"
+    }
+  },
+  "categories": {
+    "banking": {
+      "emoji": "🏦",
+      "label": "Banca",
+      "title": "Automatización de hipotecas con IA en Latam"
+    },
+    "legal": {
+      "emoji": "⚖️",
+      "label": "Legal",
+      "title": "Comparativa: OCR tradicional vs IA moderna"
+    },
+    "notarial": {
+      "emoji": "🏛️",
+      "label": "Notarías",
+      "title": "Casos de uso reales: legaltech y notarías"
+    },
+    "technology": {
+      "emoji": "🔍",
+      "label": "Tecnología",
+      "title": "¿Cómo funcionan los modelos de lenguaje en documentos?"
+    },
+    "useCases": {
+      "emoji": "💡",
+      "label": "Casos de Uso",
+      "title": "5 formas de reducir errores en entrada de datos"
+    },
+    "roi": {
+      "emoji": "📊",
+      "label": "ROI",
+      "title": "Calculando el ROI de la automatización documental"
+    }
+  },
+  "articleDescription": "Profundizamos en tácticas, estrategias y aprendizajes reales de automatización documental con IA.",
+  "readMore": "Leer más",
+  "newsletter": {
+    "emoji": "📬",
+    "title": "Suscríbete a nuestro newsletter",
+    "subtitle": "Recibe artículos, guías y novedades sobre automatización documental con IA",
+    "placeholder": "tu@email.com",
+    "button": "Suscribirse",
+    "disclaimer": "Sin spam. Solo contenido valioso. Cancela cuando quieras."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "badge": "📊 Procesamiento Inteligente de Documentos (IDP)",
+    "title": "¿Cómo funciona DocumentoIQ?",
+    "subtitle": "Procesamiento inteligente de documentos mediante OCR avanzado y modelos de lenguaje de última generación para extraer información crítica con alta precisión."
+  },
+  "steps": {
+    "step1": {
+      "heading": "1. Subida de documentos",
+      "description": "Arrastra tu PDF al panel o conéctate por API. Aceptamos documentos escaneados, imágenes o generados por computadora. Sin límites de tamaño.",
+      "badge": "Formatos compatibles: PDF, JPG, PNG, TIFF"
+    },
+    "step2": {
+      "heading": "2. Procesamiento con IA",
+      "description": "Combinamos OCR avanzado con modelos de lenguaje (LLM + NLP) para identificar texto, entidades legales, fechas, montos y campos clave automáticamente, con una precisión superior al 90%. La IA asiste el análisis; el control y la validación final siempre son humanos.",
+      "badge": "Tecnología: OCR + LLM + NLP"
+    },
+    "step3": {
+      "heading": "3. Resultados estructurados",
+      "description": "Exporta los datos en Excel, CSV o JSON para integrarlos en tus sistemas, o revisa toda la información directamente desde el panel visual de la plataforma.",
+      "badge": "Salidas: Excel, CSV, JSON, API"
+    }
+  },
+  "benefits": {
+    "title": "Beneficios técnicos y de negocio",
+    "subtitle": "Tecnología de automatización documental con IA diseñada para reducir tiempos, errores y fricción operativa en procesos legales y notariales.",
+    "business": {
+      "title": "Beneficios de negocio",
+      "items": {
+        "accuracy": {
+          "title": "Precisión >90% en datos legales y notariales",
+          "description": "Extracción precisa de información crítica con validación automática"
+        },
+        "time": {
+          "title": "Reducción significativa de tiempos en revisión documental",
+          "description": "Acelera procesos sin sacrificar precisión"
+        },
+        "automation": {
+          "title": "Menor dependencia de procesos manuales repetitivos",
+          "description": "Automatiza tareas rutinarias permitiendo enfoque en decisiones estratégicas"
+        },
+        "consistency": {
+          "title": "Mayor consistencia y control en la información procesada",
+          "description": "Estándares uniformes y trazabilidad completa"
+        }
+      }
+    },
+    "technical": {
+      "title": "Beneficios técnicos",
+      "items": {
+        "scanning": {
+          "title": "Soporte para documentos escaneados, complejos o de baja calidad",
+          "description": "OCR avanzado procesa documentos de baja calidad o manuscritos"
+        },
+        "handwriting": {
+          "title": "OCR avanzado capaz de procesar manuscritos",
+          "description": "Reconocimiento óptico de última generación para cualquier tipo de documento"
+        },
+        "flexible": {
+          "title": "Extracción flexible con variables personalizables",
+          "description": "Define qué campos extraer según tus necesidades específicas"
+        },
+        "visual": {
+          "title": "Panel visual para revisión manual opcional",
+          "description": "Revisa y valida datos extraídos en interfaz intuitiva"
+        },
+        "export": {
+          "title": "Exportación inmediata en Excel, CSV o JSON",
+          "description": "Descarga o integra datos en múltiples formatos estándar"
+        },
+        "integration": {
+          "title": "Integración vía API y Zapier con sistemas existentes",
+          "description": "Conecta con tus sistemas sin cambios drásticos en tu proceso actual"
+        }
+      }
+    }
+  },
+  "technology": {
+    "title": "Tecnología de última generación para procesamiento documental con IA",
+    "subtitle": "Combinamos lo mejor de OCR y modelos de lenguaje",
+    "ocr": {
+      "title": "OCR Avanzado",
+      "description": "Reconocimiento óptico de caracteres de última generación para documentos de cualquier calidad"
+    },
+    "llm": {
+      "title": "Modelos de lenguaje especializados",
+      "description": "Modelos de lenguaje entrenados para comprender documentos legales y financieros, permitiendo una interpretación más precisa del contenido."
+    },
+    "validation": {
+      "title": "Validación Inteligente",
+      "description": "Verificación automática de datos extraídos con reglas de negocio personalizables"
+    }
+  },
+  "cta": {
+    "title": "¿Tienes un flujo documental personalizado?",
+    "subtitle": "Nuestro equipo puede ayudarte a adaptar DocumentoIQ a procesos notariales, hipotecarios o legales específicos, integrándose a tu operación actual sin fricciones.",
+    "buttonPrimary": "Hablar con un especialista",
+    "buttonSecondary": "Solicitar demo personalizada"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "badge": "💼 Soluciones por Industria",
+    "title": "Casos de Uso",
+    "subtitle": "Automatización de documentos con IA para notarías, bancos, firmas legales y más"
+  },
+  "mainCases": {
+    "notarial": {
+      "title": "Notarías",
+      "description": "Procesa automáticamente actas, poderes, escrituras notariales y testamentos. Ideal para modernizar registros físicos.",
+      "highlight": "Ahorra hasta 75% del tiempo de procesamiento"
+    },
+    "banking": {
+      "title": "Banca / Hipotecas",
+      "description": "Automatiza la revisión de cierres hipotecarios, solicitudes de préstamo, formularios KYC y reportes regulatorios.",
+      "highlight": "90%+ precisión en datos financieros"
+    },
+    "legal": {
+      "title": "Legal / Contratos",
+      "description": "Extrae automáticamente datos clave de contratos, actas constitutivas, NDAs y acuerdos de servicios.",
+      "highlight": "Procesa contratos 10x más rápido"
+    }
+  },
+  "documents": {
+    "title": "📋 Documentos soportados",
+    "items": {
+      "critical": "Documentos críticos del sector",
+      "scanned": "Escaneados, manuscritos o digitales",
+      "attachments": "Adjuntos y formularios regulados"
+    }
+  },
+  "benefits": {
+    "title": "✨ Beneficios clave",
+    "items": {
+      "extract": "Extrae campos clave con precisión",
+      "convert": "Convierte PDFs en datos editables",
+      "digitize": "Digitaliza archivos históricos"
+    }
+  },
+  "link": "Hablar con nosotros →",
+  "otherIndustries": {
+    "title": "Otras industrias",
+    "subtitle": "DocumentoIQ se adapta a múltiples sectores y tipos de documentos",
+    "finance": {
+      "title": "Finanzas",
+      "description": "Facturas, estados de cuenta, reportes financieros"
+    },
+    "insurance": {
+      "title": "Seguros",
+      "description": "Pólizas, reclamaciones, formularios médicos"
+    },
+    "realEstate": {
+      "title": "Inmobiliaria",
+      "description": "Contratos de arrendamiento, avalúos, títulos de propiedad"
+    },
+    "logistics": {
+      "title": "Logística",
+      "description": "Órdenes de compra, facturas de flete, documentos aduanales"
+    }
+  },
+  "cta": {
+    "title": "¿Tienes un caso de uso distinto?",
+    "subtitle": "Trabajamos con empresas de múltiples sectores para adaptar la extracción de datos a diferentes documentos. Escríbenos y te ayudamos.",
+    "button": "Contáctanos →"
+  }
+}

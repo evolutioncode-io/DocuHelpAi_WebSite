@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "badge": "🔒 Política de Privacidad",
+    "title": "Política de Privacidad",
+    "subtitle": "Tu privacidad y la seguridad de tus datos son fundamentales para nosotros"
+  },
+  "lastUpdated": "Última actualización: 20 de enero, 2025",
+  "introduction": {
+    "title": "Introducción",
+    "content": "DocumentoIQ ('nosotros', 'nuestro' o 'nos') está comprometido con la protección de tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestra plataforma para procesamiento inteligente de documentos."
+  },
+  "dataCollection": {
+    "title": "Información que Recopilamos",
+    "items": {
+      "personal": {
+        "title": "Información Personal",
+        "content": "Cuando te registras o usas nuestros servicios, podemos recopilar: nombre, dirección de correo electrónico, nombre de la empresa, información de facturación y datos de contacto."
+      },
+      "usage": {
+        "title": "Datos de Uso",
+        "content": "Recopilamos automáticamente información sobre cómo interactúas con nuestra plataforma, incluyendo: documentos procesados, funciones utilizadas, registros de acceso, dirección IP, tipo de navegador e información del dispositivo."
+      },
+      "documents": {
+        "title": "Contenido de Documentos",
+        "content": "Los documentos que subes se procesan de forma segura y se almacenan temporalmente para análisis. No utilizamos el contenido de los documentos para otros fines que no sean proporcionar nuestros servicios."
+      }
+    }
+  },
+  "dataUse": {
+    "title": "Cómo Usamos Tu Información",
+    "items": {
+      "service": "Para proporcionar, mantener y mejorar nuestros servicios de procesamiento de documentos",
+      "communication": "Para enviarte actualizaciones del servicio, respuestas de soporte y notificaciones importantes",
+      "security": "Para proteger contra fraude, acceso no autorizado y amenazas de seguridad",
+      "compliance": "Para cumplir con obligaciones legales y hacer cumplir nuestros términos de servicio",
+      "analytics": "Para analizar patrones de uso y mejorar el rendimiento de nuestra plataforma"
+    }
+  },
+  "dataSharing": {
+    "title": "Compartir y Divulgación de Datos",
+    "content": "No vendemos tu información personal. Solo compartimos datos en estas circunstancias:",
+    "items": {
+      "serviceProviders": "Con proveedores de servicios de confianza que ayudan en las operaciones de la plataforma (bajo estrictos acuerdos de confidencialidad)",
+      "legal": "Cuando lo requiera la ley, orden judicial o regulación gubernamental",
+      "business": "En relación con una fusión, adquisición o venta de activos (con aviso a los usuarios)",
+      "consent": "Con tu consentimiento explícito para fines específicos"
+    }
+  },
+  "dataSecurity": {
+    "title": "Seguridad de Datos",
+    "content": "Implementamos medidas de seguridad estándar de la industria:",
+    "items": {
+      "encryption": "Cifrado de extremo a extremo para procesamiento de documentos",
+      "access": "Controles de acceso estrictos y protocolos de autenticación",
+      "storage": "Almacenamiento seguro de datos con respaldos regulares",
+      "monitoring": "Monitoreo continuo de seguridad y detección de amenazas"
+    }
+  },
+  "yourRights": {
+    "title": "Tus Derechos",
+    "content": "Tienes derecho a:",
+    "items": {
+      "access": "Acceder y recibir una copia de tus datos personales",
+      "rectify": "Corregir información inexacta o incompleta",
+      "delete": "Solicitar la eliminación de tus datos personales",
+      "object": "Oponerte al procesamiento de tus datos",
+      "portability": "Solicitar portabilidad de datos",
+      "withdraw": "Retirar el consentimiento en cualquier momento"
+    }
+  },
+  "cookies": {
+    "title": "Cookies y Seguimiento",
+    "content": "Utilizamos cookies y tecnologías similares para mejorar tu experiencia. Consulta nuestra Política de Cookies para más detalles."
+  },
+  "dataRetention": {
+    "title": "Retención de Datos",
+    "content": "Retenemos tus datos solo el tiempo necesario para proporcionar nuestros servicios y cumplir con obligaciones legales. El contenido de los documentos se procesa y almacena temporalmente, luego se elimina de forma segura según nuestra política de retención."
+  },
+  "international": {
+    "title": "Transferencias Internacionales de Datos",
+    "content": "Tus datos pueden ser procesados en países fuera de tu jurisdicción. Aseguramos protección adecuada mediante cláusulas contractuales estándar y medidas de seguridad."
+  },
+  "children": {
+    "title": "Privacidad de Menores",
+    "content": "Nuestros servicios no están dirigidos a menores de 18 años. No recopilamos información personal de menores de forma consciente."
+  },
+  "changes": {
+    "title": "Cambios a Esta Política",
+    "content": "Podemos actualizar esta Política de Privacidad periódicamente. Te notificaremos de cambios significativos por correo electrónico o notificación en la plataforma."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "content": "Para preguntas relacionadas con la privacidad o para ejercer tus derechos, contáctanos en:",
+    "email": "privacy@documentoiq.com"
+  }
+}
+

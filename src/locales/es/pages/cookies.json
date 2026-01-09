@@ -1,0 +1,81 @@
+{
+  "hero": {
+    "badge": "🍪 Política de Cookies",
+    "title": "Política de Cookies",
+    "subtitle": "Cómo utilizamos cookies y tecnologías similares"
+  },
+  "lastUpdated": "Última actualización: 20 de enero, 2025",
+  "introduction": {
+    "title": "¿Qué Son las Cookies?",
+    "content": "Las cookies son pequeños archivos de texto que se almacenan en tu dispositivo cuando visitas un sitio web. Ayudan a los sitios web a recordar tus preferencias y mejorar tu experiencia de navegación."
+  },
+  "howWeUse": {
+    "title": "Cómo Usamos las Cookies",
+    "content": "DocumentoIQ utiliza cookies para:",
+    "items": {
+      "essential": "Asegurar que la plataforma funcione correctamente (cookies esenciales)",
+      "preferences": "Recordar tus preferencias de idioma e interfaz",
+      "analytics": "Entender cómo los usuarios interactúan con nuestra plataforma (cookies de análisis)",
+      "security": "Mejorar la seguridad y prevenir actividad fraudulenta",
+      "performance": "Mejorar el rendimiento del sitio web y los tiempos de carga"
+    }
+  },
+  "types": {
+    "title": "Tipos de Cookies que Usamos",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "content": "Estas son necesarias para que el sitio web funcione. Permiten funcionalidad central como seguridad, autenticación y preferencias de idioma. Estas cookies no pueden desactivarse."
+    },
+    "functional": {
+      "title": "Cookies Funcionales",
+      "content": "Estas mejoran la funcionalidad y personalización, como recordar tu elección de idioma y preferencias de interfaz."
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "content": "Estas nos ayudan a entender cómo los visitantes usan nuestro sitio web recopilando información anónima. Esto nos ayuda a mejorar nuestros servicios."
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "content": "Podemos usar estas para entregar anuncios relevantes y rastrear la efectividad de campañas (si aplica)."
+    }
+  },
+  "thirdParty": {
+    "title": "Cookies de Terceros",
+    "content": "Podemos usar servicios de terceros que establecen sus propias cookies, tales como:",
+    "items": {
+      "analytics": "Proveedores de análisis (Google Analytics, etc.)",
+      "hosting": "Servicios de hosting en la nube y CDN",
+      "support": "Servicios de soporte al cliente y chat"
+    },
+    "note": "Estos terceros tienen sus propias políticas de privacidad respecto al uso de cookies."
+  },
+  "control": {
+    "title": "Gestionar Cookies",
+    "content": "Puedes controlar y gestionar cookies de varias maneras:",
+    "items": {
+      "browser": "Configuración del navegador: La mayoría de los navegadores te permiten rechazar o eliminar cookies a través de su configuración",
+      "preferences": "Preferencias de la plataforma: Usa nuestro centro de preferencias de cookies (si está disponible)",
+      "optout": "Exclusiones de terceros: Visita los sitios web de proveedores de terceros para excluirte de sus cookies"
+    },
+    "warning": "Ten en cuenta que desactivar ciertas cookies puede afectar la funcionalidad de nuestra plataforma."
+  },
+  "details": {
+    "title": "Detalles de Cookies",
+    "table": {
+      "name": "Nombre de Cookie",
+      "purpose": "Propósito",
+      "type": "Tipo",
+      "duration": "Duración"
+    }
+  },
+  "updates": {
+    "title": "Actualizaciones de Esta Política",
+    "content": "Podemos actualizar esta Política de Cookies de vez en cuando. Por favor revisa esta página periódicamente para obtener la información más reciente sobre nuestras prácticas de cookies."
+  },
+  "contact": {
+    "title": "Preguntas",
+    "content": "Si tienes preguntas sobre nuestro uso de cookies, contáctanos en:",
+    "email": "privacy@documentoiq.com"
+  }
+}
+

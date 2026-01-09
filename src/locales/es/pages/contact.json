@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "badge": "📞 Estamos aquí para ayudarte",
+    "title": "Contáctanos",
+    "subtitle": "¿Tienes preguntas, necesitas una demo personalizada o quieres una solución a medida? Envíanos un mensaje."
+  },
+  "form": {
+    "title": "Envíanos un mensaje",
+    "name": {
+      "label": "Nombre completo",
+      "placeholder": "Tu nombre"
+    },
+    "email": {
+      "label": "Correo electrónico",
+      "placeholder": "tu@empresa.com"
+    },
+    "company": {
+      "label": "Empresa (opcional)",
+      "placeholder": "Nombre de tu empresa"
+    },
+    "industry": {
+      "label": "Industria",
+      "placeholder": "Selecciona una industria",
+      "options": {
+        "notaria": "Notaría",
+        "banca": "Banca / Hipotecas",
+        "legal": "Legal / Bufete",
+        "seguros": "Seguros",
+        "inmobiliaria": "Inmobiliaria",
+        "logistica": "Logística",
+        "otra": "Otra"
+      }
+    },
+    "message": {
+      "label": "Mensaje",
+      "placeholder": "Cuéntanos más sobre tu proyecto..."
+    },
+    "submit": "Enviar mensaje →",
+    "response": "Nos comprometemos a responder en menos de 24 horas hábiles"
+  },
+  "whyContact": {
+    "title": "¿Por qué contactarnos?",
+    "items": {
+      "demo": {
+        "title": "Demo personalizada",
+        "description": "Te mostramos cómo DocumentoIQ puede adaptarse a tus documentos específicos"
+      },
+      "custom": {
+        "title": "Soluciones a medida",
+        "description": "Desarrollamos integraciones personalizadas para tu flujo de trabajo"
+      },
+      "support": {
+        "title": "Soporte técnico",
+        "description": "Ayuda con integraciones, APIs y configuración técnica"
+      },
+      "enterprise": {
+        "title": "Cotizaciones enterprise",
+        "description": "Precios personalizados para grandes volúmenes"
+      }
+    }
+  },
+  "otherWays": {
+    "title": "Otras formas de contacto",
+    "email": {
+      "label": "Email",
+      "value": "info@documentoiq.com"
+    },
+    "hours": {
+      "label": "Horario de atención",
+      "value": "Lun - Vie, 9:00 AM - 6:00 PM (GMT-6)"
+    }
+  },
+  "guaranteed": {
+    "title": "Respuesta garantizada",
+    "subtitle": "Menos de 24 horas hábiles"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "badge": "💼 Industry Solutions",
+    "title": "Use Cases",
+    "subtitle": "AI document automation for notaries, banks, law firms and more"
+  },
+  "mainCases": {
+    "notarial": {
+      "title": "Notaries",
+      "description": "Automatically process deeds, powers of attorney, notarial certificates and wills. Ideal for modernizing physical records.",
+      "highlight": "Save up to 75% of processing time"
+    },
+    "banking": {
+      "title": "Banking / Mortgages",
+      "description": "Automate review of mortgage closings, loan applications, KYC forms and regulatory reports.",
+      "highlight": "90%+ accuracy in financial data"
+    },
+    "legal": {
+      "title": "Legal / Contracts",
+      "description": "Automatically extract key data from contracts, articles of incorporation, NDAs and service agreements.",
+      "highlight": "Process contracts 10x faster"
+    }
+  },
+  "documents": {
+    "title": "📋 Supported documents",
+    "items": {
+      "critical": "Critical sector documents",
+      "scanned": "Scanned, handwritten or digital",
+      "attachments": "Attachments and regulated forms"
+    }
+  },
+  "benefits": {
+    "title": "✨ Key benefits",
+    "items": {
+      "extract": "Extracts key fields with precision",
+      "convert": "Converts PDFs into editable data",
+      "digitize": "Digitizes historical files"
+    }
+  },
+  "link": "Talk to us →",
+  "otherIndustries": {
+    "title": "Other industries",
+    "subtitle": "DocumentoIQ adapts to multiple sectors and document types",
+    "finance": {
+      "title": "Finance",
+      "description": "Invoices, account statements, financial reports"
+    },
+    "insurance": {
+      "title": "Insurance",
+      "description": "Policies, claims, medical forms"
+    },
+    "realEstate": {
+      "title": "Real Estate",
+      "description": "Lease contracts, appraisals, property titles"
+    },
+    "logistics": {
+      "title": "Logistics",
+      "description": "Purchase orders, freight invoices, customs documents"
+    }
+  },
+  "cta": {
+    "title": "Do you have a different use case?",
+    "subtitle": "We work with companies across multiple sectors to adapt data extraction to different documents. Write to us and we'll help you.",
+    "button": "Contact us →"
+  }
+}

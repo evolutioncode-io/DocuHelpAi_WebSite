@@ -1,26 +1,30 @@
+import { useTranslation } from 'react-i18next'
+
 import { usePageMetadata } from '../hooks/usePageMetadata'
 
 function Contact() {
+  const { t } = useTranslation('contact')
+
   usePageMetadata({
-    title: 'Contacto | DocuHelpAi - Agenda tu Demo Personalizada',
-    description:
-      'Contáctanos para demos personalizadas, soporte o integraciones a medida. Estamos aquí para ayudarte a automatizar tus documentos.',
+    titleKey: 'contact.title',
+    descriptionKey: 'contact.description',
+    namespace: 'meta',
   })
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
+      <section className="bg-gradient-to-br from-amber-50 via-white to-orange-50 py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="inline-block mb-6">
-            <span className="bg-blue-100 text-blue-800 text-sm font-semibold px-4 py-2 rounded-full">
-              📞 Estamos aquí para ayudarte
+            <span className="bg-amber-100 text-amber-800 text-sm font-semibold px-4 py-2 rounded-full">
+              {t('hero.badge')}
             </span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
-            Contáctanos
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-amber-700 to-orange-700 bg-clip-text text-transparent">
+            {t('hero.title')}
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
-            ¿Tienes preguntas, necesitas una demo personalizada o quieres una solución a medida? Envíanos un mensaje.
+            {t('hero.subtitle')}
           </p>
         </div>
       </section>
@@ -28,102 +32,103 @@ function Contact() {
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="bg-white p-10 rounded-3xl shadow-xl border border-gray-100">
-            <h2 className="text-3xl font-bold mb-8 text-gray-900">Envíanos un mensaje</h2>
-            <form className="space-y-6">
+            <h2 className="text-3xl font-bold mb-8 text-gray-900">{t('form.title')}</h2>
+            <form className="space-y-6" aria-label={t('form.title')}>
               <div>
                 <label htmlFor="name" className="block font-semibold mb-2 text-gray-900">
-                  Nombre completo
+                  {t('form.name.label')}
                 </label>
                 <input
                   type="text"
                   id="name"
                   name="name"
                   required
-                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-blue-500 focus:outline-none transition-colors"
-                  placeholder="Tu nombre"
+                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-amber-500 focus:outline-none transition-colors"
+                  placeholder={t('form.name.placeholder')}
                 />
               </div>
               <div>
                 <label htmlFor="email" className="block font-semibold mb-2 text-gray-900">
-                  Correo electrónico
+                  {t('form.email.label')}
                 </label>
                 <input
                   type="email"
                   id="email"
                   name="email"
                   required
-                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-blue-500 focus:outline-none transition-colors"
-                  placeholder="tu@empresa.com"
+                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-amber-500 focus:outline-none transition-colors"
+                  placeholder={t('form.email.placeholder')}
                 />
               </div>
               <div>
                 <label htmlFor="company" className="block font-semibold mb-2 text-gray-900">
-                  Empresa (opcional)
+                  {t('form.company.label')}
                 </label>
                 <input
                   type="text"
                   id="company"
                   name="company"
-                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-blue-500 focus:outline-none transition-colors"
-                  placeholder="Nombre de tu empresa"
+                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-amber-500 focus:outline-none transition-colors"
+                  placeholder={t('form.company.placeholder')}
                 />
               </div>
               <div>
                 <label htmlFor="industry" className="block font-semibold mb-2 text-gray-900">
-                  Industria
+                  {t('form.industry.label')}
                 </label>
                 <select
                   id="industry"
                   name="industry"
                   defaultValue=""
-                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-blue-500 focus:outline-none transition-colors"
+                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-amber-500 focus:outline-none transition-colors"
                 >
-                  <option value="">Selecciona una industria</option>
-                  <option value="notaria">Notaría</option>
-                  <option value="banca">Banca / Hipotecas</option>
-                  <option value="legal">Legal / Bufete</option>
-                  <option value="seguros">Seguros</option>
-                  <option value="inmobiliaria">Inmobiliaria</option>
-                  <option value="logistica">Logística</option>
-                  <option value="otra">Otra</option>
+                  <option value="">{t('form.industry.placeholder')}</option>
+                  <option value="notaria">{t('form.industry.options.notaria')}</option>
+                  <option value="banca">{t('form.industry.options.banca')}</option>
+                  <option value="legal">{t('form.industry.options.legal')}</option>
+                  <option value="seguros">{t('form.industry.options.seguros')}</option>
+                  <option value="inmobiliaria">{t('form.industry.options.inmobiliaria')}</option>
+                  <option value="logistica">{t('form.industry.options.logistica')}</option>
+                  <option value="otra">{t('form.industry.options.otra')}</option>
                 </select>
               </div>
               <div>
                 <label htmlFor="message" className="block font-semibold mb-2 text-gray-900">
-                  Mensaje
+                  {t('form.message.label')}
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   rows={5}
                   required
-                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-blue-500 focus:outline-none transition-colors resize-none"
-                  placeholder="Cuéntanos más sobre tu proyecto..."
+                  className="w-full border-2 border-gray-200 px-5 py-4 rounded-xl focus:border-amber-500 focus:outline-none transition-colors resize-none"
+                  placeholder={t('form.message.placeholder')}
                 />
               </div>
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-5 rounded-xl font-bold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-lg"
+                className="w-full bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-5 rounded-xl font-bold hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 text-lg"
+                aria-label={t('form.submit')}
               >
-                Enviar mensaje →
+                {t('form.submit')}
               </button>
-              <p className="text-sm text-gray-600 text-center">Nos comprometemos a responder en menos de 24 horas hábiles</p>
+              <p className="text-sm text-gray-600 text-center">{t('form.response')}</p>
             </form>
           </div>
 
           <div className="space-y-8">
-            <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-8 rounded-3xl border-2 border-blue-200">
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">¿Por qué contactarnos?</h3>
+            <div className="bg-gradient-to-br from-amber-50 to-amber-100 p-8 rounded-3xl border-2 border-amber-200">
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">{t('whyContact.title')}</h3>
               <div className="space-y-6">
                 {[
-                  { title: 'Demo personalizada', description: 'Te mostramos cómo DocuHelpAi puede adaptarse a tus documentos específicos' },
-                  { title: 'Soluciones a medida', description: 'Desarrollamos integraciones personalizadas para tu flujo de trabajo' },
-                  { title: 'Soporte técnico', description: 'Ayuda con integraciones, APIs y configuración técnica' },
-                  { title: 'Cotizaciones enterprise', description: 'Precios personalizados para grandes volúmenes' },
+                  { title: t('whyContact.items.demo.title'), description: t('whyContact.items.demo.description') },
+                  { title: t('whyContact.items.custom.title'), description: t('whyContact.items.custom.description') },
+                  { title: t('whyContact.items.support.title'), description: t('whyContact.items.support.description') },
+                  { title: t('whyContact.items.enterprise.title'), description: t('whyContact.items.enterprise.description') },
                 ].map((item) => (
                   <div key={item.title} className="flex items-start gap-4">
                     <div className="bg-white p-3 rounded-xl flex-shrink-0">
-                      <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-6 h-6 text-amber-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path
                           strokeLinecap="round"
                           strokeLinejoin="round"
@@ -142,10 +147,10 @@ function Contact() {
             </div>
 
             <div className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100">
-              <h3 className="text-2xl font-bold mb-6 text-gray-900">Otras formas de contacto</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gray-900">{t('otherWays.title')}</h3>
               <div className="space-y-4">
                 <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
-                  <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -154,19 +159,19 @@ function Contact() {
                     />
                   </svg>
                   <div>
-                    <p className="font-semibold text-gray-900">Email</p>
-                    <a href="mailto:info@docuhelpai.com" className="text-blue-600 hover:underline">
-                      info@docuhelpai.com
+                    <p className="font-semibold text-gray-900">{t('otherWays.email.label')}</p>
+                    <a href={`mailto:${t('otherWays.email.value')}`} className="text-amber-600 hover:underline">
+                      {t('otherWays.email.value')}
                     </a>
                   </div>
                 </div>
                 <div className="flex items-center gap-4 p-4 bg-gray-50 rounded-xl">
-                  <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-6 h-6 text-amber-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   <div>
-                    <p className="font-semibold text-gray-900">Horario de atención</p>
-                    <p className="text-gray-600">Lun - Vie, 9:00 AM - 6:00 PM (GMT-6)</p>
+                    <p className="font-semibold text-gray-900">{t('otherWays.hours.label')}</p>
+                    <p className="text-gray-600">{t('otherWays.hours.value')}</p>
                   </div>
                 </div>
               </div>
@@ -181,9 +186,9 @@ function Contact() {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span className="font-bold text-lg">Respuesta garantizada</span>
+                <span className="font-bold text-lg">{t('guaranteed.title')}</span>
               </div>
-              <p className="text-white/90">Menos de 24 horas hábiles</p>
+              <p className="text-white/90">{t('guaranteed.subtitle')}</p>
             </div>
           </div>
         </div>
