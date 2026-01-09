@@ -1,0 +1,45 @@
+{
+  "cta": {
+    "startFree": "Comenzar gratis",
+    "scheduleDemo": "Agendar demo",
+    "requestDemo": "Solicitar demo personalizada",
+    "contactUs": "Contáctanos",
+    "learnMore": "Ver más →"
+  },
+  "trust": {
+    "noCreditCard": "Sin tarjeta de crédito",
+    "setupMinutes": "Configuración en minutos",
+    "spanishSupport": "Soporte en español"
+  },
+  "footer": {
+    "rightsReserved": "Todos los derechos reservados",
+    "madeWith": "Hecho con",
+    "inLatinAmerica": "en Latinoamérica",
+    "description": "Procesamiento inteligente de documentos con IA para notarías, bancos y firmas legales.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "howItWorks": "Cómo funciona",
+    "useCases": "Casos de uso",
+    "pricing": "Precios",
+    "apiDocs": "Documentación API",
+    "about": "Nosotros",
+    "blog": "Blog",
+    "contact": "Contacto",
+    "careers": "Carreras",
+    "privacy": "Privacidad",
+    "terms": "Términos de servicio",
+    "cookies": "Cookies",
+    "security": "Seguridad",
+    "banner": "🎉 Prueba gratis • Sin tarjeta de crédito • Configura en minutos"
+  },
+  "nav": {
+    "product": "Producto",
+    "useCases": "Casos de uso",
+    "pricing": "Precios",
+    "blog": "Blog",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "menu": "Menú"
+  }
+}

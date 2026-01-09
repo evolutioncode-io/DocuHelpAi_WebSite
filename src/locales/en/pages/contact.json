@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "badge": "📞 We're here to help",
+    "title": "Contact us",
+    "subtitle": "Have questions, need a personalized demo or want a custom solution? Send us a message."
+  },
+  "form": {
+    "title": "Send us a message",
+    "name": {
+      "label": "Full name",
+      "placeholder": "Your name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "you@company.com"
+    },
+    "company": {
+      "label": "Company (optional)",
+      "placeholder": "Your company name"
+    },
+    "industry": {
+      "label": "Industry",
+      "placeholder": "Select an industry",
+      "options": {
+        "notaria": "Notary",
+        "banca": "Banking / Mortgages",
+        "legal": "Legal / Law Firm",
+        "seguros": "Insurance",
+        "inmobiliaria": "Real Estate",
+        "logistica": "Logistics",
+        "otra": "Other"
+      }
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Tell us more about your project..."
+    },
+    "submit": "Send message →",
+    "response": "We commit to respond in less than 24 business hours"
+  },
+  "whyContact": {
+    "title": "Why contact us?",
+    "items": {
+      "demo": {
+        "title": "Personalized demo",
+        "description": "We show you how DocumentoIQ can adapt to your specific documents"
+      },
+      "custom": {
+        "title": "Custom solutions",
+        "description": "We develop custom integrations for your workflow"
+      },
+      "support": {
+        "title": "Technical support",
+        "description": "Help with integrations, APIs and technical configuration"
+      },
+      "enterprise": {
+        "title": "Enterprise quotes",
+        "description": "Custom pricing for large volumes"
+      }
+    }
+  },
+  "otherWays": {
+    "title": "Other ways to contact",
+    "email": {
+      "label": "Email",
+      "value": "info@documentoiq.com"
+    },
+    "hours": {
+      "label": "Business hours",
+      "value": "Mon - Fri, 9:00 AM - 6:00 PM (GMT-6)"
+    }
+  },
+  "guaranteed": {
+    "title": "Guaranteed response",
+    "subtitle": "Less than 24 business hours"
+  }
+}

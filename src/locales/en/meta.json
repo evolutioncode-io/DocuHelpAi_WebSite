@@ -1,0 +1,32 @@
+{
+  "siteName": "DocumentoIQ",
+  "home": {
+    "title": "DocumentoIQ | AI to extract information and analyze complex documents",
+    "description": "Analyze, extract and organize key information from extensive documents in minutes, reducing review time by up to 70% and human errors by up to 80%, without replacing your professional judgment."
+  },
+  "product": {
+    "title": "How does DocumentoIQ work? | Intelligent Document Processing with AI",
+    "description": "Intelligent document processing through advanced OCR and state-of-the-art language models to extract critical information with high precision."
+  },
+  "useCases": {
+    "title": "Use Cases | DocumentoIQ - Document Automation with AI",
+    "description": "Discover how DocumentoIQ helps notaries, banks and law firms analyze and extract key information from complex documents with artificial intelligence."
+  },
+  "pricing": {
+    "title": "Plans and Pricing | DocumentoIQ - From Free to Enterprise",
+    "description": "Select the plan that best fits your workflow. Pay only for what you process."
+  },
+  "about": {
+    "title": "About DocumentoIQ | Transforming Documents with AI",
+    "description": "Learn about the mission, vision and team behind DocumentoIQ. We help professionals analyze complex documents faster, with fewer errors and full human control."
+  },
+  "contact": {
+    "title": "Contact | DocumentoIQ - Schedule your Personalized Demo",
+    "description": "Contact us for personalized demos, support or custom integrations. We're here to help you automate your documents."
+  },
+  "blog": {
+    "title": "Blog | DocumentoIQ - Resources on AI and Document Automation",
+    "description": "Read articles on intelligent document processing, legal automation with AI and practical use cases in notaries, banking and legaltech."
+  }
+}
+

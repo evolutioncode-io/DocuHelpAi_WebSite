@@ -1,14 +1,9 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
-const navItems = [
-  { label: 'Producto', path: '/product' },
-  { label: 'Casos de uso', path: '/use-cases' },
-  { label: 'Precios', path: '/pricing' },
-  { label: 'Blog', path: '/blog' },
-  { label: 'Nosotros', path: '/about' },
-  { label: 'Contacto', path: '/contact' },
-]
+import { LanguageSelector } from './LanguageSelector'
+import { useLanguage } from '../hooks/useLanguage'
 
 const baseNavLinkClasses =
   'text-gray-700 hover:text-blue-600 font-medium transition-colors cursor-pointer'
@@ -19,6 +14,8 @@ const mobileNavLinkClasses =
 function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const location = useLocation()
+  const { t } = useTranslation('common')
+  const { getLocalizedRoute } = useLanguage()
 
   useEffect(() => {
     setMobileMenuOpen(false)
@@ -26,40 +23,50 @@ function Layout() {
 
   const year = new Date().getFullYear()
 
+  const navItems = [
+    { labelKey: 'nav.product', pathKey: 'product' as const },
+    { labelKey: 'nav.useCases', pathKey: 'useCases' as const },
+    { labelKey: 'nav.pricing', pathKey: 'pricing' as const },
+    { labelKey: 'nav.blog', pathKey: 'blog' as const },
+    { labelKey: 'nav.about', pathKey: 'about' as const },
+    { labelKey: 'nav.contact', pathKey: 'contact' as const },
+  ]
+
   return (
     <div className="min-h-screen flex flex-col bg-white">
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-2 px-4 text-sm">
-        <span className="font-semibold">🎉 Prueba gratis</span> • Sin tarjeta de crédito • Configura en minutos
+        <span>{t('footer.banner')}</span>
       </div>
 
       <header className="bg-white shadow-md sticky top-0 z-50 border-b border-gray-100">
         <nav className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <Link
-              to="/"
+              to={getLocalizedRoute('home')}
               className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer hover:from-blue-700 hover:to-purple-700 transition-all"
             >
-              DocuHelpAi
+              DocumentoIQ
             </Link>
 
             <div className="hidden lg:flex items-center gap-8">
               {navItems.map((item) => (
                 <NavLink
-                  key={item.path}
-                  to={item.path}
+                  key={item.pathKey}
+                  to={getLocalizedRoute(item.pathKey)}
                   className={({ isActive }) =>
                     `${baseNavLinkClasses} ${isActive ? 'text-blue-600' : ''}`
                   }
                 >
-                  {item.label}
+                  {t(item.labelKey)}
                 </NavLink>
               ))}
             </div>
 
-            <div className="hidden lg:block">
-              <Link to="/contact">
+            <div className="hidden lg:flex items-center gap-4">
+              <LanguageSelector />
+              <Link to={getLocalizedRoute('contact')}>
                 <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all">
-                  Comenzar gratis
+                  {t('cta.startFree')}
                 </button>
               </Link>
             </div>
@@ -67,7 +74,9 @@ function Layout() {
             <button
               className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
               onClick={() => setMobileMenuOpen((prev) => !prev)}
-              aria-label="Abrir menú"
+              aria-label={t('nav.menu')}
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               <svg className="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 {mobileMenuOpen ? (
@@ -80,25 +89,28 @@ function Layout() {
           </div>
 
           {mobileMenuOpen && (
-            <div className="lg:hidden mt-4 pb-4 border-t border-gray-100 pt-4">
+            <div id="mobile-menu" className="lg:hidden mt-4 pb-4 border-t border-gray-100 pt-4" role="menu">
               <div className="flex flex-col gap-4">
                 {navItems.map((item) => (
                   <NavLink
-                    key={item.path}
-                    to={item.path}
+                    key={item.pathKey}
+                    to={getLocalizedRoute(item.pathKey)}
                     onClick={() => setMobileMenuOpen(false)}
                     className={({ isActive }) =>
                       `${mobileNavLinkClasses} ${isActive ? 'text-blue-600' : ''}`
                     }
                   >
-                    {item.label}
+                    {t(item.labelKey)}
                   </NavLink>
                 ))}
-                <Link to="/contact">
-                  <button className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold mt-2">
-                    Comenzar gratis
-                  </button>
-                </Link>
+                <div className="flex items-center justify-between mt-2">
+                  <LanguageSelector />
+                  <Link to={getLocalizedRoute('contact')}>
+                    <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold">
+                      {t('cta.startFree')}
+                    </button>
+                  </Link>
+                </div>
               </div>
             </div>
           )}
@@ -114,11 +126,9 @@ function Layout() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
-                DocuHelpAi
+                DocumentoIQ
               </h3>
-              <p className="text-gray-400 leading-relaxed mb-4">
-                Procesamiento inteligente de documentos con IA para notarías, bancos y firmas legales.
-              </p>
+              <p className="text-gray-400 leading-relaxed mb-4">{t('footer.description')}</p>
               <div className="flex gap-4">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
                   <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -139,78 +149,78 @@ function Layout() {
             </div>
 
             <div>
-              <h4 className="font-bold text-lg mb-4">Producto</h4>
+              <h4 className="font-bold text-lg mb-4">{t('footer.product')}</h4>
               <ul className="space-y-3">
                 <li>
-                  <NavLink to="/product" className={baseNavLinkClasses}>
-                    Cómo funciona
+                  <NavLink to={getLocalizedRoute('product')} className={baseNavLinkClasses}>
+                    {t('footer.howItWorks')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/use-cases" className={baseNavLinkClasses}>
-                    Casos de uso
+                  <NavLink to={getLocalizedRoute('useCases')} className={baseNavLinkClasses}>
+                    {t('footer.useCases')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/pricing" className={baseNavLinkClasses}>
-                    Precios
+                  <NavLink to={getLocalizedRoute('pricing')} className={baseNavLinkClasses}>
+                    {t('footer.pricing')}
                   </NavLink>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    Documentación API
+                    {t('footer.apiDocs')}
                   </a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-bold text-lg mb-4">Empresa</h4>
+              <h4 className="font-bold text-lg mb-4">{t('footer.company')}</h4>
               <ul className="space-y-3">
                 <li>
-                  <NavLink to="/about" className={baseNavLinkClasses}>
-                    Nosotros
+                  <NavLink to={getLocalizedRoute('about')} className={baseNavLinkClasses}>
+                    {t('footer.about')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/blog" className={baseNavLinkClasses}>
-                    Blog
+                  <NavLink to={getLocalizedRoute('blog')} className={baseNavLinkClasses}>
+                    {t('footer.blog')}
                   </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/contact" className={baseNavLinkClasses}>
-                    Contacto
+                  <NavLink to={getLocalizedRoute('contact')} className={baseNavLinkClasses}>
+                    {t('footer.contact')}
                   </NavLink>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    Carreras
+                    {t('footer.careers')}
                   </a>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="font-bold text-lg mb-4">Legal</h4>
+              <h4 className="font-bold text-lg mb-4">{t('footer.legal')}</h4>
               <ul className="space-y-3">
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    Privacidad
+                    {t('footer.privacy')}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    Términos de servicio
+                    {t('footer.terms')}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    Cookies
+                    {t('footer.cookies')}
                   </a>
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                    Seguridad
+                    {t('footer.security')}
                   </a>
                 </li>
               </ul>
@@ -218,9 +228,11 @@ function Layout() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-gray-400 text-sm">© {year} DocuHelpAi • Todos los derechos reservados</p>
+            <p className="text-gray-400 text-sm">
+              © {year} DocumentoIQ • {t('footer.rightsReserved')}
+            </p>
             <div className="flex items-center gap-2 text-gray-400 text-sm">
-              <span>Hecho con</span>
+              <span>{t('footer.madeWith')}</span>
               <svg className="w-4 h-4 text-red-500" fill="currentColor" viewBox="0 0 20 20">
                 <path
                   fillRule="evenodd"
@@ -228,7 +240,7 @@ function Layout() {
                   clipRule="evenodd"
                 />
               </svg>
-              <span>en Latinoamérica</span>
+              <span>{t('footer.inLatinAmerica')}</span>
             </div>
           </div>
         </div>

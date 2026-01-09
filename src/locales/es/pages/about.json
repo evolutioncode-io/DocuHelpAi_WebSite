@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "badge": "🚀 Nuestra Historia",
+    "title": "Acerca de DocumentoIQ",
+    "subtitle": "Creamos DocumentoIQ para ayudar a empresas de todos los tamaños a analizar y comprender documentos complejos mediante inteligencia artificial, reduciendo tiempos, errores y carga operativa, sin reemplazar el criterio humano."
+  },
+  "mission": {
+    "title": "Nuestra misión",
+    "description": "Reducir la carga manual del procesamiento documental en sectores críticos como legal, bancario y notarial, mediante soluciones de inteligencia artificial que asisten el análisis, son accesibles, precisas y multilingües."
+  },
+  "vision": {
+    "title": "Nuestra visión",
+    "description": "Ser la plataforma de referencia para la automatización documental con IA en Latinoamérica y mercados emergentes, reconocida por ayudar a profesionales a tomar mejores decisiones en notarías, bancos, despachos legales y organizaciones que trabajan con documentos críticos."
+  },
+  "values": {
+    "title": "Nuestros valores",
+    "subtitle": "Los principios que guían nuestro trabajo",
+    "precision": {
+      "emoji": "🎯",
+      "title": "Precisión",
+      "description": "Nos enfocamos en la exactitud y calidad de los datos extraídos, especialmente en documentos legales, notariales y financieros, donde el error no es una opción."
+    },
+    "speed": {
+      "emoji": "⚡",
+      "title": "Velocidad",
+      "description": "Diseñamos nuestras soluciones para ser rápidas y eficientes, reduciendo significativamente los tiempos de revisión documental sin sacrificar precisión."
+    },
+    "accessibility": {
+      "emoji": "🤝",
+      "title": "Accesibilidad",
+      "description": "Creemos que la inteligencia artificial avanzada debe ser accesible para empresas de todos los tamaños, sin barreras técnicas ni cambios drásticos en sus procesos."
+    }
+  },
+  "team": {
+    "title": "Nuestro equipo",
+    "description": "Somos un equipo interdisciplinario de desarrolladores, expertos en legaltech y especialistas en inteligencia artificial aplicada. Trabajamos para crear herramientas que asisten a profesionales en la revisión de documentos complejos, reduciendo errores y mejorando la eficiencia operativa.",
+    "ai": {
+      "emoji": "🧠",
+      "title": "Experiencia en IA",
+      "description": "Modelos de lenguaje y visión por computadora aplicados al análisis documental y extracción de información crítica."
+    },
+    "legal": {
+      "emoji": "⚖️",
+      "title": "Conocimiento Legal",
+      "description": "Entendimiento profundo de documentos legales, notariales y financieros, y de los riesgos asociados a su procesamiento manual."
+    },
+    "development": {
+      "emoji": "💻",
+      "title": "Desarrollo Full-Stack",
+      "description": "Desarrollo de una plataforma robusta, segura y escalable, diseñada para integrarse a flujos documentales existentes."
+    }
+  },
+  "impact": {
+    "title": "Nuestro impacto",
+    "subtitle": "Ayudamos a empresas y profesionales a trabajar de forma más eficiente mediante análisis y automatización documental con IA asistiva.",
+    "accuracy": {
+      "value": "90%+",
+      "label": "Precisión promedio"
+    },
+    "timeReduction": {
+      "value": "80%",
+      "label": "Reducción de tiempo"
+    },
+    "documents": {
+      "value": "10K+",
+      "label": "Documentos procesados"
+    },
+    "response": {
+      "value": "24h",
+      "label": "Tiempo de respuesta"
+    },
+    "microcopy": "Resultados promedio observados en implementaciones reales."
+  },
+  "cta": {
+    "title": "¿Quieres colaborar con nosotros?",
+    "subtitle": "Buscamos aliados estratégicos, integradores y distribuidores interesados en llevar la automatización documental con IA a sectores donde la precisión y el control humano son críticos. Escríbenos y conversemos.",
+    "button": "Contáctanos →"
+  }
+}

@@ -1,0 +1,44 @@
+# Robots.txt for DocumentoIQ
+# https://documentoiq.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Block common crawl patterns that don't add value
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow all important pages
+Allow: /
+Allow: /product
+Allow: /use-cases
+Allow: /pricing
+Allow: /blog
+Allow: /about
+Allow: /contact
+
+# Spanish versions
+Allow: /es/
+Allow: /es/producto
+Allow: /es/casos-de-uso
+Allow: /es/precios
+Allow: /es/blog
+Allow: /es/nosotros
+Allow: /es/contacto
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://documentoiq.com/sitemap.xml
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
