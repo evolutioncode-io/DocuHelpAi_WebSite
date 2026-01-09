@@ -92,14 +92,14 @@ function Pricing() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
+      <section className="bg-gradient-to-br from-amber-50 via-white to-orange-50 py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="inline-block mb-6">
             <span className="bg-green-100 text-green-800 text-sm font-semibold px-4 py-2 rounded-full">
               {t('hero.badge')}
             </span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-amber-700 to-orange-700 bg-clip-text text-transparent">
             {t('hero.title')}
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
@@ -161,7 +161,7 @@ function Pricing() {
             </Link>
           </div>
 
-          <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl shadow-2xl p-8 transform lg:-translate-y-4 relative text-white">
+          <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl shadow-2xl p-8 transform lg:-translate-y-4 relative text-white">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
               <span className="bg-yellow-400 text-yellow-900 px-4 py-1 rounded-full text-sm font-bold">{t('plans.professional.badge')}</span>
             </div>
@@ -197,7 +197,7 @@ function Pricing() {
               ))}
             </div>
             <Link to={getLocalizedRoute('contact')}>
-              <button className="w-full bg-white text-blue-600 py-4 rounded-xl font-bold hover:bg-gray-50 transition-colors shadow-lg" aria-label={t('plans.professional.button')}>
+              <button className="w-full bg-white text-amber-600 py-4 rounded-xl font-bold hover:bg-gray-50 transition-colors shadow-lg" aria-label={t('plans.professional.button')}>
                 {t('plans.professional.button')}
               </button>
             </Link>
@@ -250,7 +250,7 @@ function Pricing() {
 
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <table className="w-full">
-            <thead className="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+            <thead className="bg-gradient-to-r from-amber-500 to-orange-600 text-white">
               <tr>
                 {[t('comparison.headers.feature'), t('comparison.headers.starter'), t('comparison.headers.professional'), t('comparison.headers.enterprise')].map((heading) => (
                   <th key={heading} className={`px-6 py-4 ${heading === t('comparison.headers.feature') ? 'text-left' : 'text-center'}`}>
@@ -312,18 +312,18 @@ function Pricing() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-20">
+      <section className="bg-gradient-to-r from-amber-500 to-orange-600 py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
           <p className="text-xl mb-10 text-white/90">{t('cta.subtitle')}</p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link to={getLocalizedRoute('contact')}>
-              <button className="bg-white text-blue-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg" aria-label={t('cta.buttonPrimary')}>
+              <button className="bg-white text-amber-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg" aria-label={t('cta.buttonPrimary')}>
                 {t('cta.buttonPrimary')}
               </button>
             </Link>
             <Link to={getLocalizedRoute('contact')}>
-              <button className="border-2 border-white text-white px-10 py-5 rounded-xl hover:bg-white hover:text-blue-600 transition-all duration-200 font-bold text-lg" aria-label={t('cta.buttonSecondary')}>
+              <button className="border-2 border-white text-white px-10 py-5 rounded-xl hover:bg-white hover:text-amber-600 transition-all duration-200 font-bold text-lg" aria-label={t('cta.buttonSecondary')}>
                 {t('cta.buttonSecondary')}
               </button>
             </Link>

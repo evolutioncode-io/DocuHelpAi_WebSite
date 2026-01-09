@@ -16,14 +16,14 @@ function UseCases() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
+      <section className="bg-gradient-to-br from-amber-50 via-white to-orange-50 py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="inline-block mb-6">
             <span className="bg-green-100 text-green-800 text-sm font-semibold px-4 py-2 rounded-full">
               {t('hero.badge')}
             </span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-amber-700 to-orange-700 bg-clip-text text-transparent">
             {t('hero.title')}
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -40,22 +40,22 @@ function UseCases() {
               title: t('mainCases.notarial.title'),
               description: t('mainCases.notarial.description'),
               highlight: t('mainCases.notarial.highlight'),
-              highlightColor: 'bg-blue-600',
+              highlightColor: 'bg-amber-600',
               highlightText: 'text-white',
-              borderColor: 'border-blue-200',
-              gradient: 'from-blue-50 to-blue-100',
-              linkColor: 'text-blue-700 hover:text-blue-900',
+              borderColor: 'border-amber-200',
+              gradient: 'from-amber-50 to-amber-100',
+              linkColor: 'text-amber-700 hover:text-amber-900',
             },
             {
               emoji: '🏦',
               title: t('mainCases.banking.title'),
               description: t('mainCases.banking.description'),
               highlight: t('mainCases.banking.highlight'),
-              highlightColor: 'bg-purple-600',
+              highlightColor: 'bg-orange-600',
               highlightText: 'text-white',
-              borderColor: 'border-purple-200',
-              gradient: 'from-purple-50 to-purple-100',
-              linkColor: 'text-purple-700 hover:text-purple-900',
+              borderColor: 'border-orange-200',
+              gradient: 'from-orange-50 to-orange-100',
+              linkColor: 'text-orange-700 hover:text-orange-900',
             },
             {
               emoji: '⚖️',
@@ -120,7 +120,7 @@ function UseCases() {
                     <h4 className="font-semibold text-lg mb-2 text-gray-900">{t('benefits.title')}</h4>
                     <ul className="space-y-2 text-gray-600">
                       <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                           <path
                             fillRule="evenodd"
                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -130,7 +130,7 @@ function UseCases() {
                         <span>{t('benefits.items.extract')}</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                           <path
                             fillRule="evenodd"
                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -140,7 +140,7 @@ function UseCases() {
                         <span>{t('benefits.items.convert')}</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <svg className="w-5 h-5 text-blue-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <svg className="w-5 h-5 text-amber-600 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                           <path
                             fillRule="evenodd"
                             d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
@@ -189,14 +189,14 @@ function UseCases() {
         </div>
       </section>
 
-      <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+      <section className="py-20 bg-gradient-to-r from-amber-500 to-orange-600">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
           <p className="text-xl mb-10 text-white/90 leading-relaxed">
             {t('cta.subtitle')}
           </p>
           <Link to={getLocalizedRoute('contact')}>
-            <button className="bg-white text-blue-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
+            <button className="bg-white text-amber-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
               {t('cta.button')}
             </button>
           </Link>

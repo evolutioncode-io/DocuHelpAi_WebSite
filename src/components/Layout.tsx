@@ -6,10 +6,10 @@ import { LanguageSelector } from './LanguageSelector'
 import { useLanguage } from '../hooks/useLanguage'
 
 const baseNavLinkClasses =
-  'text-gray-700 hover:text-blue-600 font-medium transition-colors cursor-pointer'
+  'text-gray-700 hover:text-amber-600 font-medium transition-colors cursor-pointer'
 
 const mobileNavLinkClasses =
-  'block text-gray-700 hover:text-blue-600 font-medium transition-colors py-2'
+  'block text-gray-700 hover:text-amber-600 font-medium transition-colors py-2'
 
 function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -34,7 +34,7 @@ function Layout() {
 
   return (
     <div className="min-h-screen flex flex-col bg-white">
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center py-2 px-4 text-sm">
+      <div className="bg-gradient-to-r from-amber-500 to-orange-600 text-white text-center py-2 px-4 text-sm">
         <span>{t('footer.banner')}</span>
       </div>
 
@@ -43,7 +43,7 @@ function Layout() {
           <div className="flex justify-between items-center">
             <Link
               to={getLocalizedRoute('home')}
-              className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent cursor-pointer hover:from-blue-700 hover:to-purple-700 transition-all"
+              className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent cursor-pointer hover:from-amber-700 hover:to-orange-700 transition-all"
             >
               DocumentoIQ
             </Link>
@@ -54,7 +54,7 @@ function Layout() {
                   key={item.pathKey}
                   to={getLocalizedRoute(item.pathKey)}
                   className={({ isActive }) =>
-                    `${baseNavLinkClasses} ${isActive ? 'text-blue-600' : ''}`
+                    `${baseNavLinkClasses} ${isActive ? 'text-amber-600' : ''}`
                   }
                 >
                   {t(item.labelKey)}
@@ -65,7 +65,7 @@ function Layout() {
             <div className="hidden lg:flex items-center gap-4">
               <LanguageSelector />
               <Link to={getLocalizedRoute('contact')}>
-                <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all">
+                <button className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-6 py-3 rounded-xl font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all">
                   {t('cta.startFree')}
                 </button>
               </Link>
@@ -97,7 +97,7 @@ function Layout() {
                     to={getLocalizedRoute(item.pathKey)}
                     onClick={() => setMobileMenuOpen(false)}
                     className={({ isActive }) =>
-                      `${mobileNavLinkClasses} ${isActive ? 'text-blue-600' : ''}`
+                      `${mobileNavLinkClasses} ${isActive ? 'text-amber-600' : ''}`
                     }
                   >
                     {t(item.labelKey)}
@@ -106,7 +106,7 @@ function Layout() {
                 <div className="flex items-center justify-between mt-2">
                   <LanguageSelector />
                   <Link to={getLocalizedRoute('contact')}>
-                    <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-xl font-semibold">
+                    <button className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-6 py-3 rounded-xl font-semibold">
                       {t('cta.startFree')}
                     </button>
                   </Link>
@@ -125,7 +125,7 @@ function Layout() {
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div>
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-4">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-amber-400 to-orange-400 bg-clip-text text-transparent mb-4">
                 DocumentoIQ
               </h3>
               <p className="text-gray-400 leading-relaxed mb-4">{t('footer.description')}</p>
@@ -204,24 +204,24 @@ function Layout() {
               <h4 className="font-bold text-lg mb-4">{t('footer.legal')}</h4>
               <ul className="space-y-3">
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to={getLocalizedRoute('privacy')} className="text-gray-400 hover:text-white transition-colors">
                     {t('footer.privacy')}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to={getLocalizedRoute('terms')} className="text-gray-400 hover:text-white transition-colors">
                     {t('footer.terms')}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to={getLocalizedRoute('cookies')} className="text-gray-400 hover:text-white transition-colors">
                     {t('footer.cookies')}
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                  <Link to={getLocalizedRoute('security')} className="text-gray-400 hover:text-white transition-colors">
                     {t('footer.security')}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

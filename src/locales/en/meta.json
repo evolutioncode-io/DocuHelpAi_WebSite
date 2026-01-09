@@ -27,6 +27,22 @@
   "blog": {
     "title": "Blog | DocumentoIQ - Resources on AI and Document Automation",
     "description": "Read articles on intelligent document processing, legal automation with AI and practical use cases in notaries, banking and legaltech."
+  },
+  "privacy": {
+    "title": "Privacy Policy | DocumentoIQ - How We Protect Your Data",
+    "description": "Learn how DocumentoIQ protects your privacy and personal data. Our commitment to data security and transparency in document processing."
+  },
+  "terms": {
+    "title": "Terms and Conditions | DocumentoIQ - Service Terms",
+    "description": "Read the terms and conditions governing your use of DocumentoIQ services. Legal terms, user rights, and service agreements."
+  },
+  "cookies": {
+    "title": "Cookie Policy | DocumentoIQ - How We Use Cookies",
+    "description": "Understand how DocumentoIQ uses cookies and similar technologies to improve your experience and platform functionality."
+  },
+  "security": {
+    "title": "Security Policy | DocumentoIQ - Data Protection and Security",
+    "description": "DocumentoIQ's security measures, encryption standards, and commitment to protecting your documents and data."
   }
 }
 

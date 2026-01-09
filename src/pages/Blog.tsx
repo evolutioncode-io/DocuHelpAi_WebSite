@@ -67,13 +67,13 @@ function Blog() {
       emoji: t('categories.banking.emoji'),
       label: t('categories.banking.label'),
       title: t('categories.banking.title'),
-      color: 'from-blue-100 to-blue-200',
+      color: 'from-amber-100 to-amber-200',
     },
     {
       emoji: t('categories.legal.emoji'),
       label: t('categories.legal.label'),
       title: t('categories.legal.title'),
-      color: 'from-purple-100 to-purple-200',
+      color: 'from-orange-100 to-orange-200',
     },
     {
       emoji: t('categories.notarial.emoji'),
@@ -105,12 +105,12 @@ function Blog() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
+      <section className="bg-gradient-to-br from-amber-50 via-white to-orange-50 py-20">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="inline-block mb-6">
             <span className="bg-green-100 text-green-800 text-sm font-semibold px-4 py-2 rounded-full">{t('hero.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-amber-700 to-orange-700 bg-clip-text text-transparent">
             {t('hero.title')}
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">{t('hero.subtitle')}</p>
@@ -118,7 +118,7 @@ function Blog() {
       </section>
 
       <section className="max-w-6xl mx-auto px-6 py-12">
-        <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-3xl overflow-hidden shadow-2xl">
+        <div className="bg-gradient-to-br from-amber-500 to-orange-600 rounded-3xl overflow-hidden shadow-2xl">
           <div className="grid md:grid-cols-2 gap-8 p-12 items-center">
             <div className="text-white text-left">
               <div className="inline-block mb-4">
@@ -126,7 +126,7 @@ function Blog() {
               </div>
               <h2 className="text-4xl font-bold mb-4">{t('featured.title')}</h2>
               <p className="text-xl text-white/90 mb-6 leading-relaxed">{t('featured.description')}</p>
-              <a href="#" className="inline-block bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:shadow-xl transform hover:-translate-y-1 transition-all" aria-label={t('featured.cta')}>
+              <a href="#" className="inline-block bg-white text-amber-600 px-8 py-4 rounded-xl font-bold hover:shadow-xl transform hover:-translate-y-1 transition-all" aria-label={t('featured.cta')}>
                 {t('featured.cta')}
               </a>
             </div>
@@ -164,9 +164,9 @@ function Blog() {
                 </div>
               </div>
               <div className="p-8">
-                <h2 className="text-2xl font-bold mb-3 text-gray-900 group-hover:text-blue-600 transition-colors">{category.title}</h2>
+                <h2 className="text-2xl font-bold mb-3 text-gray-900 group-hover:text-amber-600 transition-colors">{category.title}</h2>
                 <p className="text-gray-600 mb-6 leading-relaxed">{t('articleDescription')}</p>
-                <a href="#" className="text-blue-600 font-semibold hover:underline inline-flex items-center gap-2" aria-label={`${t('readMore')}: ${category.title}`}>
+                <a href="#" className="text-amber-600 font-semibold hover:underline inline-flex items-center gap-2" aria-label={`${t('readMore')}: ${category.title}`}>
                   {t('readMore')}
                   <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -178,7 +178,7 @@ function Blog() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-20">
+      <section className="bg-gradient-to-r from-amber-500 to-orange-600 py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <div className="text-5xl mb-6">{t('newsletter.emoji')}</div>
           <h2 className="text-4xl font-bold mb-6 text-white">{t('newsletter.title')}</h2>
@@ -191,7 +191,7 @@ function Blog() {
               aria-label={t('newsletter.placeholder')}
               required
             />
-            <button className="bg-white text-blue-600 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition-colors shadow-lg" type="button" aria-label={t('newsletter.button')}>
+            <button className="bg-white text-amber-600 px-8 py-4 rounded-xl font-bold hover:bg-gray-100 transition-colors shadow-lg" type="button" aria-label={t('newsletter.button')}>
               {t('newsletter.button')}
             </button>
           </div>

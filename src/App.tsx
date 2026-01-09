@@ -13,13 +13,17 @@ const Contact = lazy(() => import('./pages/Contact'))
 const Pricing = lazy(() => import('./pages/Pricing'))
 const Product = lazy(() => import('./pages/Product'))
 const UseCases = lazy(() => import('./pages/UseCases'))
+const Privacy = lazy(() => import('./pages/Privacy'))
+const Terms = lazy(() => import('./pages/Terms'))
+const Cookies = lazy(() => import('./pages/Cookies'))
+const Security = lazy(() => import('./pages/Security'))
 
 // Loading component for Suspense
 function PageLoader() {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
-        <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"></div>
+        <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-amber-600 mb-4"></div>
         <p className="text-gray-600">Loading...</p>
       </div>
     </div>
@@ -40,7 +44,7 @@ function NotFound() {
           ? 'La página que buscas no existe o fue movida.'
           : 'The page you are looking for does not exist or has been moved.'}
       </p>
-      <a href={isSpanish ? '/es/' : '/'} className="text-blue-600 font-semibold hover:underline">
+      <a href={isSpanish ? '/es/' : '/'} className="text-amber-600 font-semibold hover:underline">
         {isSpanish ? 'Volver al inicio' : 'Go back home'}
       </a>
     </div>
@@ -72,6 +76,10 @@ function App() {
             <Route path="blog" element={<Blog />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="terms" element={<Terms />} />
+            <Route path="cookies" element={<Cookies />} />
+            <Route path="security" element={<Security />} />
           </Route>
         </Route>
 
@@ -85,6 +93,10 @@ function App() {
             <Route path="blog" element={<Blog />} />
             <Route path="nosotros" element={<About />} />
             <Route path="contacto" element={<Contact />} />
+            <Route path="privacidad" element={<Privacy />} />
+            <Route path="terminos" element={<Terms />} />
+            <Route path="cookies" element={<Cookies />} />
+            <Route path="seguridad" element={<Security />} />
           </Route>
         </Route>
 

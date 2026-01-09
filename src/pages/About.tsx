@@ -16,12 +16,12 @@ function About() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <section className="bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
+      <section className="bg-gradient-to-br from-amber-50 via-white to-orange-50 py-20">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <div className="inline-block mb-6">
-            <span className="bg-purple-100 text-purple-800 text-sm font-semibold px-4 py-2 rounded-full">{t('hero.badge')}</span>
+            <span className="bg-orange-100 text-orange-800 text-sm font-semibold px-4 py-2 rounded-full">{t('hero.badge')}</span>
           </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-purple-900 to-blue-900 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-amber-700 to-orange-700 bg-clip-text text-transparent">
             {t('hero.title')}
           </h1>
           <p className="text-xl text-gray-600 leading-relaxed">
@@ -36,17 +36,17 @@ function About() {
             {
               title: t('mission.title'),
               description: t('mission.description'),
-              border: 'border-blue-200',
-              gradient: 'from-blue-50 to-blue-100',
-              iconColor: 'text-blue-600',
+              border: 'border-amber-200',
+              gradient: 'from-amber-50 to-amber-100',
+              iconColor: 'text-amber-600',
               iconPath: 'M13 10V3L4 14h7v7l9-11h-7z',
             },
             {
               title: t('vision.title'),
               description: t('vision.description'),
-              border: 'border-purple-200',
-              gradient: 'from-purple-50 to-purple-100',
-              iconColor: 'text-purple-600',
+              border: 'border-orange-200',
+              gradient: 'from-orange-50 to-orange-100',
+              iconColor: 'text-orange-600',
               iconPath:
                 'M15 12a3 3 0 11-6 0 3 3 0 016 0z M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z',
             },
@@ -92,7 +92,7 @@ function About() {
               },
             ].map((value) => (
               <div key={value.title} className="text-center p-8 bg-gradient-to-b from-gray-50 to-white rounded-2xl border border-gray-100">
-                <div className="bg-blue-100 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">
+                <div className="bg-amber-100 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-3xl">
                   {value.emoji}
                 </div>
                 <h3 className="text-xl font-bold mb-3 text-gray-900">{value.title}</h3>
@@ -149,8 +149,8 @@ function About() {
           </div>
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             {[
-              { value: t('impact.accuracy.value'), label: t('impact.accuracy.label'), color: 'text-blue-600' },
-              { value: t('impact.timeReduction.value'), label: t('impact.timeReduction.label'), color: 'text-purple-600' },
+              { value: t('impact.accuracy.value'), label: t('impact.accuracy.label'), color: 'text-amber-600' },
+              { value: t('impact.timeReduction.value'), label: t('impact.timeReduction.label'), color: 'text-orange-600' },
               { value: t('impact.documents.value'), label: t('impact.documents.label'), color: 'text-green-600' },
               { value: t('impact.response.value'), label: t('impact.response.label'), color: 'text-orange-600' },
             ].map((stat) => (
@@ -164,14 +164,14 @@ function About() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-blue-600 to-purple-600 py-20">
+      <section className="bg-gradient-to-r from-amber-500 to-orange-600 py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
           <p className="text-xl mb-10 text-white/90 leading-relaxed">
             {t('cta.subtitle')}
           </p>
           <Link to={getLocalizedRoute('contact')}>
-            <button className="bg-white text-blue-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
+            <button className="bg-white text-amber-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
               {t('cta.button')}
             </button>
           </Link>

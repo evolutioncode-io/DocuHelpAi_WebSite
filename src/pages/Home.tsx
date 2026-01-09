@@ -17,16 +17,16 @@ function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
-      <section className="relative overflow-hidden bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <section className="relative overflow-hidden bg-gradient-to-br from-amber-50 via-white to-orange-50">
         <div className="absolute inset-0 bg-grid-pattern opacity-5" />
         <div className="max-w-7xl mx-auto px-6 py-20 md:py-32 relative">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-block mb-6">
-              <span className="bg-blue-100 text-blue-800 text-sm font-semibold px-4 py-2 rounded-full">
+              <span className="bg-amber-100 text-amber-800 text-sm font-semibold px-4 py-2 rounded-full">
                 {t('hero.badge')}
               </span>
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 bg-clip-text text-transparent leading-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-gray-900 via-amber-700 to-orange-700 bg-clip-text text-transparent leading-tight">
               {t('hero.title')}
             </h1>
             <p className="text-xl md:text-2xl mb-10 text-gray-700 leading-relaxed">
@@ -34,7 +34,7 @@ function Home() {
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
               <Link to={getLocalizedRoute('contact')}>
-                <button className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 font-semibold text-lg">
+                <button className="bg-gradient-to-r from-amber-500 to-orange-600 text-white px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 font-semibold text-lg">
                   {t('hero.ctaPrimary')}
                 </button>
               </Link>
@@ -66,7 +66,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="py-16 bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+      <section className="py-16 bg-gradient-to-r from-amber-500 to-orange-600 text-white">
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             {[
@@ -104,17 +104,17 @@ function Home() {
               emoji: '🏛️',
               title: t('useCases.notarial.title'),
               description: t('useCases.notarial.description'),
-              color: 'from-blue-50 to-blue-100',
-              border: 'border-blue-200',
-              linkColor: 'text-blue-700 hover:text-blue-900',
+              color: 'from-amber-50 to-amber-100',
+              border: 'border-amber-200',
+              linkColor: 'text-amber-700 hover:text-amber-900',
             },
             {
               emoji: '⚖️',
               title: t('useCases.legal.title'),
               description: t('useCases.legal.description'),
-              color: 'from-purple-50 to-purple-100',
-              border: 'border-purple-200',
-              linkColor: 'text-purple-700 hover:text-purple-900',
+              color: 'from-orange-50 to-orange-100',
+              border: 'border-orange-200',
+              linkColor: 'text-orange-700 hover:text-orange-900',
             },
             {
               emoji: '🏢',
@@ -148,20 +148,20 @@ function Home() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-12 relative">
-            <div className="hidden md:block absolute top-24 left-1/4 right-1/4 h-1 bg-gradient-to-r from-blue-200 via-purple-200 to-blue-200 -z-10" />
+            <div className="hidden md:block absolute top-24 left-1/4 right-1/4 h-1 bg-gradient-to-r from-amber-200 via-orange-200 to-amber-200 -z-10" />
 
             {[
               {
                 step: '1',
                 title: t('howItWorks.step1.title'),
                 description: t('howItWorks.step1.description'),
-                color: 'from-blue-500 to-blue-600',
+                color: 'from-amber-500 to-amber-600',
               },
               {
                 step: '2',
                 title: t('howItWorks.step2.title'),
                 description: t('howItWorks.step2.description'),
-                color: 'from-purple-500 to-purple-600',
+                color: 'from-orange-500 to-orange-600',
               },
               {
                 step: '3',
@@ -271,7 +271,7 @@ function Home() {
             </blockquote>
           </div>
           <footer className="flex flex-col items-center">
-            <div className="w-16 h-16 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full mb-4 flex items-center justify-center text-2xl font-bold">
+            <div className="w-16 h-16 bg-gradient-to-br from-amber-400 to-orange-500 rounded-full mb-4 flex items-center justify-center text-2xl font-bold">
               JM
             </div>
             <p className="font-semibold text-lg">{t('testimonial.author')}</p>
@@ -280,14 +280,14 @@ function Home() {
         </div>
       </section>
 
-      <section className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-600 py-20">
+      <section className="bg-gradient-to-r from-amber-500 via-orange-600 to-amber-500 py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">{t('cta.title')}</h2>
           <p className="text-xl mb-10 text-white/90 leading-relaxed">
             {t('cta.subtitle')}
           </p>
           <Link to={getLocalizedRoute('contact')}>
-            <button className="bg-white text-blue-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
+            <button className="bg-white text-amber-600 px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
               {t('cta.button')}
             </button>
           </Link>

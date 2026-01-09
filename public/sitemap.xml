@@ -142,5 +142,85 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/blog" />
   </url>
   
+  <!-- Privacy - English -->
+  <url>
+    <loc>https://documentoiq.com/privacy</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/privacidad" />
+  </url>
+  
+  <!-- Privacy - Spanish -->
+  <url>
+    <loc>https://documentoiq.com/es/privacidad</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/privacidad" />
+  </url>
+  
+  <!-- Terms - English -->
+  <url>
+    <loc>https://documentoiq.com/terms</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/terminos" />
+  </url>
+  
+  <!-- Terms - Spanish -->
+  <url>
+    <loc>https://documentoiq.com/es/terminos</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/terminos" />
+  </url>
+  
+  <!-- Cookies - English -->
+  <url>
+    <loc>https://documentoiq.com/cookies</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/cookies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/cookies" />
+  </url>
+  
+  <!-- Cookies - Spanish -->
+  <url>
+    <loc>https://documentoiq.com/es/cookies</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/cookies" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/cookies" />
+  </url>
+  
+  <!-- Security - English -->
+  <url>
+    <loc>https://documentoiq.com/security</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/security" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/seguridad" />
+  </url>
+  
+  <!-- Security - Spanish -->
+  <url>
+    <loc>https://documentoiq.com/es/seguridad</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://documentoiq.com/security" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://documentoiq.com/es/seguridad" />
+  </url>
+  
 </urlset>
 

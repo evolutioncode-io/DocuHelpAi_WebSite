@@ -27,6 +27,22 @@
   "blog": {
     "title": "Blog | DocumentoIQ - Recursos sobre IA y Análisis Documental",
     "description": "Lee artículos sobre procesamiento inteligente de documentos, automatización legal con IA y casos de uso prácticos en notarías, banca y legaltech."
+  },
+  "privacy": {
+    "title": "Política de Privacidad | DocumentoIQ - Cómo Protegemos Tus Datos",
+    "description": "Conoce cómo DocumentoIQ protege tu privacidad y datos personales. Nuestro compromiso con la seguridad de datos y transparencia en el procesamiento de documentos."
+  },
+  "terms": {
+    "title": "Términos y Condiciones | DocumentoIQ - Términos de Servicio",
+    "description": "Lee los términos y condiciones que rigen tu uso de los servicios de DocumentoIQ. Términos legales, derechos de usuario y acuerdos de servicio."
+  },
+  "cookies": {
+    "title": "Política de Cookies | DocumentoIQ - Cómo Usamos las Cookies",
+    "description": "Entiende cómo DocumentoIQ utiliza cookies y tecnologías similares para mejorar tu experiencia y funcionalidad de la plataforma."
+  },
+  "security": {
+    "title": "Política de Seguridad | DocumentoIQ - Protección y Seguridad de Datos",
+    "description": "Medidas de seguridad de DocumentoIQ, estándares de cifrado y compromiso con la protección de tus documentos y datos."
   }
 }
 

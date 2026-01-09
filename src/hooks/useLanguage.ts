@@ -14,6 +14,10 @@ const routeMappings = {
     about: '/about',
     contact: '/contact',
     blog: '/blog',
+    privacy: '/privacy',
+    terms: '/terms',
+    cookies: '/cookies',
+    security: '/security',
   },
   es: {
     home: '/es/',
@@ -23,6 +27,10 @@ const routeMappings = {
     about: '/es/nosotros',
     contact: '/es/contacto',
     blog: '/es/blog',
+    privacy: '/es/privacidad',
+    terms: '/es/terminos',
+    cookies: '/es/cookies',
+    security: '/es/seguridad',
   },
 } as const
 
