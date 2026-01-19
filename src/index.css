@@ -1,8 +1,34 @@
 @import 'tailwindcss';
 
 :root {
-  color: #0f172a;
-  background-color: #ffffff;
+  /* Brand palette (DocumentoIQ) - Updated to Yellow/Black theme */
+  --color-primary-900: #000000;
+  --color-primary-800: #000000;
+  --color-primary-700: #000000;
+
+  --color-neutral-900: #000000;
+  --color-neutral-700: #4a5568;
+  --color-neutral-400: #000000;
+  --color-neutral-100: #F8F8F8;
+  --color-neutral-000: #ffffff;
+
+  --color-accent-700: #FFCF00;
+  --color-accent-500: #FEC930;
+  --color-accent-300: #FEC930;
+
+  --color-accent-gray: #EEEEEE;
+  --color-yellow-transparent: rgba(254, 201, 48, 0.15);
+
+  --color-success: #2f855a;
+  --color-warning: #b7791f;
+  --color-error: #c53030;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #000000, #000000);
+  --gradient-secondary: linear-gradient(90deg, #FEC930, #FEC930);
+
+  color: var(--color-neutral-900);
+  background-color: var(--color-neutral-000);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -18,8 +44,8 @@ body {
   min-height: 100vh;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', sans-serif;
-  background: #f8fafc;
-  color: #0f172a;
+  background: var(--color-neutral-100);
+  color: var(--color-neutral-900);
 }
 
 #root {
@@ -31,7 +57,121 @@ a {
 }
 
 .bg-grid-pattern {
-  background-image: linear-gradient(to right, rgba(59, 130, 246, 0.2) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(147, 51, 234, 0.2) 1px, transparent 1px);
+  background-image: linear-gradient(to right, rgba(15, 42, 68, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(37, 99, 235, 0.10) 1px, transparent 1px);
   background-size: 40px 40px;
+}
+
+/* Global UI primitives (use in TSX className) */
+.bg-app {
+  background: var(--color-neutral-100);
+}
+
+.bg-surface {
+  background: var(--color-neutral-000);
+}
+
+.bg-surface-muted {
+  background: var(--color-neutral-100);
+}
+
+.text-heading {
+  color: var(--color-primary-900);
+}
+
+.text-body {
+  color: var(--color-neutral-700);
+}
+
+.text-muted {
+  color: var(--color-neutral-700);
+}
+
+.border-ui {
+  border-color: var(--color-neutral-400);
+}
+
+.bg-gradient-primary {
+  background-image: var(--gradient-primary);
+}
+
+.bg-gradient-secondary {
+  background-image: var(--gradient-secondary);
+}
+
+.bg-hero-overlay {
+  background-image: var(--gradient-primary);
+  opacity: 0.06;
+  /* 5–8% per spec */
+}
+
+.btn-primary {
+  background: #FEC930;
+  color: #000000;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  filter: brightness(0.95);
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--color-accent-500);
+  color: var(--color-accent-700);
+  border-radius: 6px;
+}
+
+.link {
+  color: var(--color-accent-700);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-accent-500);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.card-surface {
+  background: var(--color-neutral-000);
+  border: 1px solid #000000;
+  box-shadow: 0 6px 18px rgba(26, 32, 44, 0.06);
+}
+
+/* Animación para el borde amarillo en hover */
+@keyframes borderPulse {
+
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(254, 201, 48, 0.4), 0 0 0 0 rgba(254, 201, 48, 0.4);
+  }
+
+  50% {
+    box-shadow: 0 0 0 4px rgba(254, 201, 48, 0.2), 0 0 0 8px rgba(254, 201, 48, 0.1);
+  }
+}
+
+@keyframes borderGlow {
+
+  0%,
+  100% {
+    border-color: #FEC930;
+    box-shadow: 0 0 5px rgba(254, 201, 48, 0.3), inset 0 0 5px rgba(254, 201, 48, 0.1);
+  }
+
+  50% {
+    border-color: #FFCF00;
+    box-shadow: 0 0 15px rgba(254, 201, 48, 0.5), inset 0 0 10px rgba(254, 201, 48, 0.15);
+  }
+}
+
+.card-hover-blue {
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.card-hover-blue:hover {
+  border-color: #FEC930;
+  animation: borderGlow 2s ease-in-out infinite;
 }

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "🚀 Análisis Inteligente de Documentos",
+    "badge": "Análisis Inteligente de Documentos",
     "title": "IA para extraer información y analizar documentos complejos con mayor precisión y menos errores",
     "subtitle": "Analiza, extrae y organiza información clave de documentos extensos en minutos, reduciendo hasta 70% el tiempo de revisión y hasta 80% los errores humanos, sin reemplazar tu criterio profesional.",
     "ctaPrimary": "Solicitar demo personalizada",
@@ -61,17 +61,17 @@
       "description": "el tiempo de revisión"
     },
     "errors": {
-      "emoji": "❌",
+      "emoji": "",
       "title": "Disminuye hasta 80%",
       "description": "los errores humanos"
     },
     "understanding": {
-      "emoji": "🧠",
+      "emoji": "",
       "title": "Mejora la comprensión",
       "description": "de documentos extensos"
     },
     "keyInfo": {
-      "emoji": "🔍",
+      "emoji": "",
       "title": "Información clave",
       "description": "clara y estructurada"
     },

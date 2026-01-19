@@ -21,10 +21,10 @@ const Security = lazy(() => import('./pages/Security'))
 // Loading component for Suspense
 function PageLoader() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex items-center justify-center bg-app">
       <div className="text-center">
-        <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-amber-600 mb-4"></div>
-        <p className="text-gray-600">Loading...</p>
+        <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 mb-4 border-ui"></div>
+        <p className="text-body">Loading...</p>
       </div>
     </div>
   )
@@ -36,15 +36,15 @@ function NotFound() {
 
   return (
     <div className="py-24 text-center px-6">
-      <p className="text-3xl font-semibold text-gray-900 mb-4">
+      <p className="text-3xl font-semibold text-heading mb-4">
         {isSpanish ? 'Página no encontrada' : 'Page not found'}
       </p>
-      <p className="text-gray-600 mb-6">
+      <p className="text-body mb-6">
         {isSpanish
           ? 'La página que buscas no existe o fue movida.'
           : 'The page you are looking for does not exist or has been moved.'}
       </p>
-      <a href={isSpanish ? '/es/' : '/'} className="text-amber-600 font-semibold hover:underline">
+      <a href={isSpanish ? '/es/' : '/'} className="link font-semibold">
         {isSpanish ? 'Volver al inicio' : 'Go back home'}
       </a>
     </div>
