@@ -1,11 +1,11 @@
 {
   "hero": {
-    "badge": "📚 Resources and Guides",
+    "badge": "Resources and Guides",
     "title": "DocumentoIQ Blog",
     "subtitle": "Explore articles, guides and resources on document automation with artificial intelligence"
   },
   "featured": {
-    "badge": "⭐ Featured",
+    "badge": "Featured",
     "title": "What is Intelligent Document Processing (IDP)?",
     "description": "A complete guide to understanding how AI can transform reading and data extraction from PDF documents.",
     "cta": "Read article →",
@@ -17,32 +17,32 @@
   },
   "categories": {
     "banking": {
-      "emoji": "🏦",
+      "emoji": "",
       "label": "Banking",
       "title": "Mortgage automation with AI in Latam"
     },
     "legal": {
-      "emoji": "⚖️",
+      "emoji": "",
       "label": "Legal",
       "title": "Comparison: Traditional OCR vs Modern AI"
     },
     "notarial": {
-      "emoji": "🏛️",
+      "emoji": "",
       "label": "Notaries",
       "title": "Real use cases: legaltech and notaries"
     },
     "technology": {
-      "emoji": "🔍",
+      "emoji": "",
       "label": "Technology",
       "title": "How do language models work in documents?"
     },
     "useCases": {
-      "emoji": "💡",
+      "emoji": "",
       "label": "Use Cases",
       "title": "5 ways to reduce errors in data entry"
     },
     "roi": {
-      "emoji": "📊",
+      "emoji": "",
       "label": "ROI",
       "title": "Calculating the ROI of document automation"
     }
@@ -50,7 +50,7 @@
   "articleDescription": "We dive deep into tactics, strategies and real learnings from document automation with AI.",
   "readMore": "Read more",
   "newsletter": {
-    "emoji": "📬",
+    "emoji": "",
     "title": "Subscribe to our newsletter",
     "subtitle": "Receive articles, guides and news about document automation with AI",
     "placeholder": "your@email.com",

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "📊 Procesamiento Inteligente de Documentos (IDP)",
+    "badge": "Procesamiento Inteligente de Documentos (IDP)",
     "title": "¿Cómo funciona DocumentoIQ?",
     "subtitle": "Procesamiento inteligente de documentos mediante OCR avanzado y modelos de lenguaje de última generación para extraer información crítica con alta precisión."
   },
@@ -80,7 +80,7 @@
     "subtitle": "Combinamos lo mejor de OCR y modelos de lenguaje",
     "ocr": {
       "title": "OCR Avanzado",
-      "description": "Reconocimiento óptico de caracteres de última generación para documentos de cualquier calidad"
+      "description": "Reconocimiento óptico de caracteres de última generación para documentos de cualquier calidad, incluyendo escaneos y manuscritos"
     },
     "llm": {
       "title": "Modelos de lenguaje especializados",
@@ -88,7 +88,7 @@
     },
     "validation": {
       "title": "Validación Inteligente",
-      "description": "Verificación automática de datos extraídos con reglas de negocio personalizables"
+      "description": "Verificación automática de datos extraídos con reglas de negocio personalizables reduciendo errores y mejorando la confiabilidad"
     }
   },
   "cta": {

@@ -76,11 +76,11 @@
     }
   },
   "technology": {
-    "title": "State-of-the-art technology for AI document processing",
+    "title": "Technology for AI document processing",
     "subtitle": "We combine the best of OCR and language models",
     "ocr": {
       "title": "Advanced OCR",
-      "description": "State-of-the-art optical character recognition for documents of any quality"
+      "description": "optical character recognition for documents of any quality, including scans and manuscripts."
     },
     "llm": {
       "title": "Specialized language models",

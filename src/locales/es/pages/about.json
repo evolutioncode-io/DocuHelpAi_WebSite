@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "🚀 Nuestra Historia",
+    "badge": "Nuestra Historia",
     "title": "Acerca de DocumentoIQ",
     "subtitle": "Creamos DocumentoIQ para ayudar a empresas de todos los tamaños a analizar y comprender documentos complejos mediante inteligencia artificial, reduciendo tiempos, errores y carga operativa, sin reemplazar el criterio humano."
   },
@@ -16,17 +16,17 @@
     "title": "Nuestros valores",
     "subtitle": "Los principios que guían nuestro trabajo",
     "precision": {
-      "emoji": "🎯",
+      "emoji": "",
       "title": "Precisión",
       "description": "Nos enfocamos en la exactitud y calidad de los datos extraídos, especialmente en documentos legales, notariales y financieros, donde el error no es una opción."
     },
     "speed": {
-      "emoji": "⚡",
+      "emoji": "",
       "title": "Velocidad",
       "description": "Diseñamos nuestras soluciones para ser rápidas y eficientes, reduciendo significativamente los tiempos de revisión documental sin sacrificar precisión."
     },
     "accessibility": {
-      "emoji": "🤝",
+      "emoji": "",
       "title": "Accesibilidad",
       "description": "Creemos que la inteligencia artificial avanzada debe ser accesible para empresas de todos los tamaños, sin barreras técnicas ni cambios drásticos en sus procesos."
     }
@@ -35,17 +35,17 @@
     "title": "Nuestro equipo",
     "description": "Somos un equipo interdisciplinario de desarrolladores, expertos en legaltech y especialistas en inteligencia artificial aplicada. Trabajamos para crear herramientas que asisten a profesionales en la revisión de documentos complejos, reduciendo errores y mejorando la eficiencia operativa.",
     "ai": {
-      "emoji": "🧠",
+      "emoji": "",
       "title": "Experiencia en IA",
       "description": "Modelos de lenguaje y visión por computadora aplicados al análisis documental y extracción de información crítica."
     },
     "legal": {
-      "emoji": "⚖️",
+      "emoji": "",
       "title": "Conocimiento Legal",
       "description": "Entendimiento profundo de documentos legales, notariales y financieros, y de los riesgos asociados a su procesamiento manual."
     },
     "development": {
-      "emoji": "💻",
+      "emoji": "",
       "title": "Desarrollo Full-Stack",
       "description": "Desarrollo de una plataforma robusta, segura y escalable, diseñada para integrarse a flujos documentales existentes."
     }
@@ -70,6 +70,26 @@
       "label": "Tiempo de respuesta"
     },
     "microcopy": "Resultados promedio observados en implementaciones reales."
+  },
+  "differentiator": {
+    "badge": "✨ Por Qué Elegirnos",
+    "title": "¿Por Qué DocumentoIQ?",
+    "subtitle": "Lo que nos diferencia en el mercado de automatización documental con IA",
+    "specialization": {
+      "icon": "🎯",
+      "title": "Especialización Sectorial",
+      "description": "Nos enfocamos exclusivamente en documentos legales, notariales y financieros, entendiendo las necesidades y riesgos específicos de estos sectores críticos."
+    },
+    "humanCentric": {
+      "icon": "👥",
+      "title": "IA Centrada en el Humano",
+      "description": "Nuestra IA asiste a profesionales sin reemplazar su criterio. Potenciamos la toma de decisiones humana, no la automatizamos por completo."
+    },
+    "multilingual": {
+      "icon": "🌍",
+      "title": "Excelencia bilingüe",
+      "description": "Soporte nativo para español e inglés, con comprensión profunda de la terminología y contextos legales."
+    }
   },
   "cta": {
     "title": "¿Quieres colaborar con nosotros?",
