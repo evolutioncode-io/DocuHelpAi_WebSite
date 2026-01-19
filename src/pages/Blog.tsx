@@ -129,7 +129,7 @@ function Blog() {
               <p className="text-xl text-white/90 mb-6 leading-relaxed">{t('featured.description')}</p>
               <a
                 href="#"
-                className="inline-block bg-white text-[color:var(--color-accent-700)] px-8 py-4 rounded-xl font-bold hover:shadow-xl transform hover:-translate-y-1 transition-all"
+                className="inline-block bg-[color:var(--color-neutral-900)] text-white px-8 py-4 rounded-xl font-bold hover:shadow-xl transform hover:-translate-y-1 transition-all"
                 aria-label={t('featured.cta')}
               >
                 {t('featured.cta')}
@@ -221,11 +221,11 @@ function Blog() {
             <input
               type="email"
               placeholder={t('newsletter.placeholder')}
-              className="flex-1 px-6 py-4 rounded-xl text-[color:var(--color-neutral-900)] focus:outline-none focus:ring-2 focus:ring-white"
+              className="flex-1 px-6 py-4 rounded-xl text-[color:var(--color-neutral-900)] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-white"
               aria-label={t('newsletter.placeholder')}
               required
             />
-            <button className="bg-white text-[color:var(--color-accent-700)] px-8 py-4 rounded-xl font-bold hover:bg-surface-muted transition-colors shadow-lg" type="button" aria-label={t('newsletter.button')}>
+            <button className="bg-white text-[color:var(--color-accent-700)] px-8 py-4 rounded-xl font-bold hover:bg-gray-100 hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg" type="button" aria-label={t('newsletter.button')}>
               {t('newsletter.button')}
             </button>
           </div>

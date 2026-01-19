@@ -72,21 +72,21 @@
     "microcopy": "Resultados promedio observados en implementaciones reales."
   },
   "differentiator": {
-    "badge": "✨ Por Qué Elegirnos",
+    "badge": "Por Qué Elegirnos",
     "title": "¿Por Qué DocumentoIQ?",
     "subtitle": "Lo que nos diferencia en el mercado de automatización documental con IA",
     "specialization": {
-      "icon": "🎯",
+      "icon": "",
       "title": "Especialización Sectorial",
       "description": "Nos enfocamos exclusivamente en documentos legales, notariales y financieros, entendiendo las necesidades y riesgos específicos de estos sectores críticos."
     },
     "humanCentric": {
-      "icon": "👥",
+      "icon": "",
       "title": "IA Centrada en el Humano",
       "description": "Nuestra IA asiste a profesionales sin reemplazar su criterio. Potenciamos la toma de decisiones humana, no la automatizamos por completo."
     },
     "multilingual": {
-      "icon": "🌍",
+      "icon": "",
       "title": "Excelencia bilingüe",
       "description": "Soporte nativo para español e inglés, con comprensión profunda de la terminología y contextos legales."
     }

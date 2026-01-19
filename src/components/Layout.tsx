@@ -23,9 +23,8 @@ function Layout() {
   const year = new Date().getFullYear()
 
   const navItems = [
-    { labelKey: 'nav.product', pathKey: 'product' as const },
+    { labelKey: 'nav.legalHelpAi', pathKey: 'legalHelpAi' as const },
     { labelKey: 'nav.useCases', pathKey: 'useCases' as const },
-    { labelKey: 'nav.pricing', pathKey: 'pricing' as const },
     { labelKey: 'nav.blog', pathKey: 'blog' as const },
     { labelKey: 'nav.about', pathKey: 'about' as const },
     { labelKey: 'nav.contact', pathKey: 'contact' as const },
@@ -158,11 +157,6 @@ function Layout() {
                 <li>
                   <NavLink to={getLocalizedRoute('useCases')} className={baseNavLinkClasses}>
                     {t('footer.useCases')}
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to={getLocalizedRoute('pricing')} className={baseNavLinkClasses}>
-                    {t('footer.pricing')}
                   </NavLink>
                 </li>
                 <li>

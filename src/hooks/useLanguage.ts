@@ -9,8 +9,8 @@ const routeMappings = {
   en: {
     home: '/',
     product: '/product',
+    legalHelpAi: '/legal-help-ai',
     useCases: '/use-cases',
-    pricing: '/pricing',
     about: '/about',
     contact: '/contact',
     blog: '/blog',
@@ -22,8 +22,8 @@ const routeMappings = {
   es: {
     home: '/es/',
     product: '/es/producto',
+    legalHelpAi: '/es/legal-help-ai',
     useCases: '/es/casos-de-uso',
-    pricing: '/es/precios',
     about: '/es/nosotros',
     contact: '/es/contacto',
     blog: '/es/blog',
