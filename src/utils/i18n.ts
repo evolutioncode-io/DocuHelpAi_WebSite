@@ -16,8 +16,8 @@ import contactEn from '../locales/en/pages/contact.json'
 import contactEs from '../locales/es/pages/contact.json'
 import homeEn from '../locales/en/pages/home.json'
 import homeEs from '../locales/es/pages/home.json'
-import pricingEn from '../locales/en/pages/pricing.json'
-import pricingEs from '../locales/es/pages/pricing.json'
+import legalHelpAiEn from '../locales/en/pages/legalHelpAi.json'
+import legalHelpAiEs from '../locales/es/pages/legalHelpAi.json'
 import productEn from '../locales/en/pages/product.json'
 import productEs from '../locales/es/pages/product.json'
 import useCasesEn from '../locales/en/pages/useCases.json'
@@ -42,7 +42,7 @@ const resources = {
     home: homeEn,
     product: productEn,
     useCases: useCasesEn,
-    pricing: pricingEn,
+    legalHelpAi: legalHelpAiEn,
     about: aboutEn,
     contact: contactEn,
     blog: blogEn,
@@ -58,7 +58,7 @@ const resources = {
     home: homeEs,
     product: productEs,
     useCases: useCasesEs,
-    pricing: pricingEs,
+    legalHelpAi: legalHelpAiEs,
     about: aboutEs,
     contact: contactEs,
     blog: blogEs,

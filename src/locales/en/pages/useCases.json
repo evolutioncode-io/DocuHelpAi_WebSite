@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "💼 Industry Solutions",
+    "badge": "Industry Solutions",
     "title": "Use Cases",
     "subtitle": "AI document automation for notaries, banks, law firms and more"
   },
@@ -22,7 +22,7 @@
     }
   },
   "documents": {
-    "title": "📋 Supported documents",
+    "title": "Supported documents",
     "items": {
       "critical": "Critical sector documents",
       "scanned": "Scanned, handwritten or digital",
@@ -30,7 +30,7 @@
     }
   },
   "benefits": {
-    "title": "✨ Key benefits",
+    "title": "Key benefits",
     "items": {
       "extract": "Extracts key fields with precision",
       "convert": "Converts PDFs into editable data",
@@ -45,17 +45,9 @@
       "title": "Finance",
       "description": "Invoices, account statements, financial reports"
     },
-    "insurance": {
-      "title": "Insurance",
-      "description": "Policies, claims, medical forms"
-    },
     "realEstate": {
       "title": "Real Estate",
       "description": "Lease contracts, appraisals, property titles"
-    },
-    "logistics": {
-      "title": "Logistics",
-      "description": "Purchase orders, freight invoices, customs documents"
     }
   },
   "cta": {

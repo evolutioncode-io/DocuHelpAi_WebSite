@@ -1,0 +1,126 @@
+{
+    "hero": {
+        "badge": "IA para análisis y revisión de documentos notariales",
+        "title": "LegalHelpAI powered by DocumentoIQ",
+        "subtitle": "LegalHelpAI asiste a notarías en el análisis, extracción y validación de información clave de escrituras y documentos notariales complejos, reduciendo tiempos y errores sin reemplazar el criterio del notario.",
+        "formats": "Diseñado para escrituras, poderes, compraventas y protocolos notariales.",
+        "primaryCta": "Solicitar demo para notarías",
+        "secondaryCta": "Ver cómo funciona con una escritura"
+    },
+    "whatIs": {
+        "title": "¿Qué es LegalHelpAI?",
+        "description": "LegalHelpAI es el producto especializado de DocumentoIQ diseñado específicamente para notarías. Utiliza inteligencia artificial para analizar documentos notariales extensos, identificar información crítica y estructurar datos relevantes, ayudando a los notarios y su equipo a trabajar con mayor precisión, velocidad y confianza.",
+        "disclaimer": "LegalHelpAI no reemplaza al notario. Funciona como un asistente inteligente que reduce la carga manual y los errores en la revisión documental."
+    },
+    "howItWorks": {
+        "title": "¿Cómo funciona LegalHelpAI?",
+        "steps": {
+            "step1": {
+                "title": "Subida de documentos notariales",
+                "description": "Carga escrituras públicas, poderes, compraventas, protocolos u otros documentos notariales, ya sean digitales o escaneados.",
+                "footer": "Formatos: PDF, JPG, PNG, TIFF"
+            },
+            "step2": {
+                "title": "Procesamiento con IA especializada",
+                "intro": "LegalHelpAI combina OCR avanzado con modelos de lenguaje entrenados para comprender documentos notariales, identificando automáticamente:",
+                "items": [
+                    "Partes involucradas",
+                    "Fechas y actos jurídicos",
+                    "Montos y bienes",
+                    "Referencias y datos clave"
+                ],
+                "footer": "La IA asiste el análisis; la validación final siempre es humana."
+            },
+            "step3": {
+                "title": "Resultados estructurados y revisables",
+                "description": "Revisa la información desde el panel visual o exporta los datos en Excel, CSV o JSON para integrarlos a tus sistemas notariales."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Beneficios técnicos y de negocio para notarías",
+        "business": {
+            "title": "Beneficios de negocio",
+            "items": {
+                "time": {
+                    "title": "Reducción significativa del tiempo de revisión",
+                    "description": "Procesa escrituras extensas en minutos, liberando tiempo valioso del equipo notarial."
+                },
+                "operational": {
+                    "title": "Menor carga operativa",
+                    "description": "Reduce la carga manual del equipo notarial en tareas repetitivas de extracción de datos."
+                },
+                "errors": {
+                    "title": "Menos errores en documentos críticos",
+                    "description": "La IA identifica inconsistencias y datos faltantes que podrían pasar desapercibidos."
+                },
+                "consistency": {
+                    "title": "Mayor consistencia y control",
+                    "description": "Estandariza procesos de revisión manteniendo el control profesional del notario."
+                }
+            }
+        },
+        "technical": {
+            "title": "Beneficios técnicos",
+            "items": {
+                "accuracy": {
+                    "title": "Precisión superior al 90%",
+                    "description": "Alta precisión en la extracción de datos de documentos notariales complejos."
+                },
+                "ocr": {
+                    "title": "OCR avanzado",
+                    "description": "Procesa documentos escaneados o de baja calidad con tecnología OCR de última generación."
+                },
+                "flexible": {
+                    "title": "Extracción flexible",
+                    "description": "Campos notariales personalizables según las necesidades específicas de tu notaría."
+                },
+                "ui": {
+                    "title": "Panel visual de revisión",
+                    "description": "Interfaz intuitiva para revisar y validar la información extraída manualmente."
+                },
+                "export": {
+                    "title": "Exportación inmediata",
+                    "description": "Descarga datos en Excel, CSV o JSON para integración con tus sistemas."
+                },
+                "api": {
+                    "title": "Integración vía API y Zapier",
+                    "description": "Conecta LegalHelpAI con tus herramientas y flujos de trabajo existentes."
+                }
+            }
+        }
+    },
+    "features": {
+        "title": "Características diseñadas para procesos notariales",
+        "items": {
+            "ocr": {
+                "title": "OCR avanzado para documentos notariales",
+                "description": "Procesa documentos extensos, escaneados o manuscritos con alta precisión."
+            },
+            "llm": {
+                "title": "Modelos de lenguaje especializados",
+                "description": "Modelos entrenados para comprender el lenguaje y la estructura de escrituras y actos notariales."
+            },
+            "validation": {
+                "title": "Validación inteligente",
+                "description": "Reglas de negocio personalizables para verificar datos notariales y reducir riesgos."
+            },
+            "integration": {
+                "title": "Integración con flujos existentes",
+                "description": "LegalHelpAI se integra a los procesos actuales de la notaría sin obligar cambios drásticos."
+            }
+        }
+    },
+    "brand": {
+        "title": "LegalHelpAI es parte del ecosistema DocumentoIQ",
+        "description1": "DocumentoIQ es la plataforma de inteligencia artificial para análisis documental.",
+        "description2": "LegalHelpAI es su producto especializado para notarías, diseñado para cubrir las necesidades específicas del sector notarial sin perder la flexibilidad y escalabilidad de la plataforma principal.",
+        "tagline": "Una sola base tecnológica. Un producto especializado para notarías."
+    },
+    "cta": {
+        "title": "Optimiza el análisis de documentos notariales con LegalHelpAI",
+        "subtitle": "Solicita una demo personalizada y descubre cómo LegalHelpAI puede ayudarte a reducir tiempos, errores y carga operativa en tu notaría, manteniendo siempre el control profesional.",
+        "button": "Solicitar demo para notarías",
+        "microcopy": "Demo enfocada en documentos notariales reales."
+    }
+}

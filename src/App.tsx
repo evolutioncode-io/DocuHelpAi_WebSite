@@ -10,8 +10,8 @@ const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
 const Blog = lazy(() => import('./pages/Blog'))
 const Contact = lazy(() => import('./pages/Contact'))
-const Pricing = lazy(() => import('./pages/Pricing'))
 const Product = lazy(() => import('./pages/Product'))
+const LegalHelpAi = lazy(() => import('./pages/LegalHelpAi'))
 const UseCases = lazy(() => import('./pages/UseCases'))
 const Privacy = lazy(() => import('./pages/Privacy'))
 const Terms = lazy(() => import('./pages/Terms'))
@@ -71,8 +71,8 @@ function App() {
           <Route element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="product" element={<Product />} />
+            <Route path="legal-help-ai" element={<LegalHelpAi />} />
             <Route path="use-cases" element={<UseCases />} />
-            <Route path="pricing" element={<Pricing />} />
             <Route path="blog" element={<Blog />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
@@ -88,8 +88,8 @@ function App() {
           <Route element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="producto" element={<Product />} />
+            <Route path="legal-help-ai" element={<LegalHelpAi />} />
             <Route path="casos-de-uso" element={<UseCases />} />
-            <Route path="precios" element={<Pricing />} />
             <Route path="blog" element={<Blog />} />
             <Route path="nosotros" element={<About />} />
             <Route path="contacto" element={<Contact />} />

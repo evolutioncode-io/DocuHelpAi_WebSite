@@ -22,7 +22,7 @@
     }
   },
   "documents": {
-    "title": "📋 Documentos soportados",
+    "title": "Documentos soportados",
     "items": {
       "critical": "Documentos críticos del sector",
       "scanned": "Escaneados, manuscritos o digitales",
@@ -30,7 +30,7 @@
     }
   },
   "benefits": {
-    "title": "✨ Beneficios clave",
+    "title": "Beneficios clave",
     "items": {
       "extract": "Extrae campos clave con precisión",
       "convert": "Convierte PDFs en datos editables",
@@ -45,17 +45,9 @@
       "title": "Finanzas",
       "description": "Facturas, estados de cuenta, reportes financieros"
     },
-    "insurance": {
-      "title": "Seguros",
-      "description": "Pólizas, reclamaciones, formularios médicos"
-    },
     "realEstate": {
       "title": "Inmobiliaria",
       "description": "Contratos de arrendamiento, avalúos, títulos de propiedad"
-    },
-    "logistics": {
-      "title": "Logística",
-      "description": "Órdenes de compra, facturas de flete, documentos aduanales"
     }
   },
   "cta": {
