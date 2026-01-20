@@ -9,9 +9,9 @@ function LegalHelpAi() {
     const { getLocalizedRoute } = useLanguage()
 
     usePageMetadata({
-        titleKey: 'legalHelpAi.hero.title',
-        descriptionKey: 'legalHelpAi.hero.subtitle',
-        namespace: 'pages',
+        titleKey: 'hero.title',
+        descriptionKey: 'hero.subtitle',
+        namespace: 'legalHelpAi',
     })
 
     return (
