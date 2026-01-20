@@ -1,0 +1,77 @@
+{
+  "hero": {
+    "badge": "📞 Estamos aqui para ajudar",
+    "title": "Fale conosco",
+    "subtitle": "Tem dúvidas, precisa de uma demo personalizada ou quer uma solução sob medida? Envie uma mensagem."
+  },
+  "form": {
+    "title": "Envie uma mensagem",
+    "name": {
+      "label": "Nome completo",
+      "placeholder": "Seu nome"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "voce@empresa.com"
+    },
+    "company": {
+      "label": "Empresa (opcional)",
+      "placeholder": "Nome da sua empresa"
+    },
+    "industry": {
+      "label": "Setor",
+      "placeholder": "Selecione um setor",
+      "options": {
+        "notaria": "Cartório",
+        "banca": "Bancos / Hipotecas",
+        "legal": "Jurídico / Escritório de advocacia",
+        "seguros": "Seguros",
+        "inmobiliaria": "Imobiliário",
+        "logistica": "Logística",
+        "otra": "Outro"
+      }
+    },
+    "message": {
+      "label": "Mensagem",
+      "placeholder": "Conte mais sobre seu projeto..."
+    },
+    "submit": "Enviar mensagem →",
+    "response": "Comprometemo-nos a responder em menos de 24 horas úteis"
+  },
+  "whyContact": {
+    "title": "Por que falar conosco?",
+    "items": {
+      "demo": {
+        "title": "Demo personalizada",
+        "description": "Mostramos como o DocumentoIQ pode se adaptar aos seus documentos específicos"
+      },
+      "custom": {
+        "title": "Soluções sob medida",
+        "description": "Desenvolvemos integrações personalizadas para seu fluxo de trabalho"
+      },
+      "support": {
+        "title": "Suporte técnico",
+        "description": "Ajuda com integrações, APIs e configuração técnica"
+      },
+      "enterprise": {
+        "title": "Cotações enterprise",
+        "description": "Preços personalizados para grandes volumes"
+      }
+    }
+  },
+  "otherWays": {
+    "title": "Outras formas de contato",
+    "email": {
+      "label": "Email",
+      "value": "info@documentoiq.com"
+    },
+    "hours": {
+      "label": "Horário comercial",
+      "value": "Seg - Sex, 9:00 - 18:00 (GMT-6)"
+    }
+  },
+  "guaranteed": {
+    "title": "Resposta garantida",
+    "subtitle": "Em menos de 24 horas úteis"
+  }
+}

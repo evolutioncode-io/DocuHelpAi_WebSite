@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "badge": "📋 Termos de Serviço",
+    "title": "Termos e condições",
+    "subtitle": "Termos que regem o uso dos serviços do DocumentoIQ"
+  },
+  "lastUpdated": "Última atualização: 20 de janeiro de 2025",
+  "acceptance": {
+    "title": "Aceitação dos termos",
+    "content": "Ao acessar e usar o DocumentoIQ ('Serviço'), você aceita e concorda em cumprir estes Termos e Condições. Se não concordar, não utilize nosso Serviço."
+  },
+  "service": {
+    "title": "Descrição do serviço",
+    "content": "O DocumentoIQ fornece serviços de processamento inteligente de documentos usando inteligência artificial, incluindo OCR, extração de dados e análise de documentos. Reservamo-nos o direito de modificar, suspender ou descontinuar qualquer aspecto do Serviço a qualquer momento."
+  },
+  "accounts": {
+    "title": "Contas de usuário",
+    "items": {
+      "responsibility": "Você é responsável por manter a confidencialidade das credenciais da sua conta",
+      "accuracy": "Você deve fornecer informações precisas e completas ao criar uma conta",
+      "security": "Você deve nos notificar imediatamente sobre qualquer acesso não autorizado à sua conta",
+      "liability": "Você é responsável por todas as atividades realizadas sob sua conta"
+    }
+  },
+  "usage": {
+    "title": "Uso aceitável",
+    "content": "Você concorda em não:",
+    "items": {
+      "illegal": "Usar o Serviço para qualquer finalidade ilegal ou em violação de quaisquer leis",
+      "harmful": "Enviar conteúdo prejudicial, malicioso ou ofensivo",
+      "reverse": "Tentar fazer engenharia reversa, descompilar ou extrair código-fonte",
+      "interfere": "Interferir ou interromper o Serviço ou servidores",
+      "unauthorized": "Acessar o Serviço por meios não autorizados",
+      "commercial": "Revender ou redistribuir o Serviço sem autorização"
+    }
+  },
+  "intellectual": {
+    "title": "Propriedade intelectual",
+    "content": "Todo o conteúdo, recursos e funcionalidades do Serviço, incluindo textos, gráficos, logotipos e software, são propriedade exclusiva do DocumentoIQ e estão protegidos por leis internacionais de direitos autorais, marcas registradas e outras leis de propriedade intelectual."
+  },
+  "userContent": {
+    "title": "Conteúdo do usuário",
+    "content": "Ao enviar documentos, você concede ao DocumentoIQ uma licença limitada para processar, analisar e armazenar esse conteúdo exclusivamente para a prestação do Serviço. Você mantém a propriedade dos seus documentos e é responsável por garantir que tem o direito de enviá-los."
+  },
+  "payment": {
+    "title": "Pagamento e faturamento",
+    "items": {
+      "fees": "As taxas de assinatura são cobradas de acordo com o plano selecionado",
+      "renewal": "Os serviços são renovados automaticamente, salvo cancelamento",
+      "refunds": "As políticas de reembolso são especificadas no seu contrato de assinatura",
+      "changes": "Reservamo-nos o direito de alterar preços com 30 dias de antecedência"
+    }
+  },
+  "termination": {
+    "title": "Rescisão",
+    "content": "Podemos suspender ou encerrar sua conta se você violar estes Termos. Você pode cancelar sua conta a qualquer momento. Ao término, seu direito de usar o Serviço cessará imediatamente."
+  },
+  "disclaimers": {
+    "title": "Isenções de responsabilidade",
+    "content": "O SERVIÇO É FORNECIDO 'NO ESTADO EM QUE SE ENCONTRA', SEM GARANTIAS DE QUALQUER TIPO. Não garantimos operação ininterrupta, sem erros ou segura do Serviço."
+  },
+  "limitation": {
+    "title": "Limitação de responsabilidade",
+    "content": "NO LIMITE MÁXIMO PERMITIDO POR LEI, O DOCUMENTOIQ NÃO SERÁ RESPONSÁVEL POR QUAISQUER DANOS INDIRETOS, INCIDENTAIS, ESPECIAIS, CONSEQUENCIAIS OU PUNITIVOS RESULTANTES DO USO DO SERVIÇO."
+  },
+  "indemnification": {
+    "title": "Indenização",
+    "content": "Você concorda em indenizar e isentar o DocumentoIQ de quaisquer reivindicações, danos ou despesas decorrentes do uso do Serviço ou violação destes Termos."
+  },
+  "changes": {
+    "title": "Alterações nos termos",
+    "content": "Reservamo-nos o direito de modificar estes Termos a qualquer momento. Mudanças materiais serão comunicadas por email ou notificação na plataforma. O uso contínuo do Serviço constitui aceitação dos Termos modificados."
+  },
+  "governing": {
+    "title": "Lei aplicável",
+    "content": "Estes Termos são regidos pelas leis de [Sua Jurisdição]. Quaisquer disputas serão resolvidas por arbitragem vinculante ou nos tribunais de [Sua Jurisdição]."
+  },
+  "contact": {
+    "title": "Contato",
+    "content": "Para dúvidas sobre estes Termos, entre em contato em:",
+    "email": "legal@documentoiq.com"
+  }
+}

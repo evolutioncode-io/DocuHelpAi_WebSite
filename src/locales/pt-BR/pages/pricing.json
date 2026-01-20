@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "badge": "💰 Preços transparentes",
+    "title": "Planos e preços",
+    "subtitle": "Selecione o plano que melhor se adapta ao seu fluxo de trabalho. Pague apenas pelo que processa.",
+    "features": {
+      "noCommitment": "Sem compromisso",
+      "cancelAnytime": "Cancele quando quiser",
+      "spanishSupport": "Suporte em espanhol"
+    }
+  },
+  "plans": {
+    "starter": {
+      "name": "Inicial",
+      "description": "Ideal para testar a plataforma",
+      "price": "Grátis",
+      "priceSubtext": "Sem cartão de crédito",
+      "features": {
+        "documents": "10 documentos por mês",
+        "export": "Exportar para Excel ou JSON",
+        "support": "Suporte por email",
+        "ocr": "OCR básico"
+      },
+      "button": "Começar grátis"
+    },
+    "professional": {
+      "name": "Profissional",
+      "description": "Para cartórios, escritórios de advocacia ou bancos em crescimento",
+      "badge": "MAIS POPULAR",
+      "price": "$49",
+      "pricePeriod": "/mês",
+      "priceSubtext": "Cobrança mensal",
+      "features": {
+        "documents": "300 documentos/mês",
+        "processing": "OCR e extração avançada",
+        "api": "Acesso à API",
+        "support": "Suporte prioritário em espanhol",
+        "zapier": "Integração com Zapier"
+      },
+      "button": "Assinar agora"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Para grandes volumes ou fluxos de trabalho personalizados",
+      "price": "Personalizado",
+      "priceSubtext": "Orçamento sob medida",
+      "features": {
+        "documents": "Documentos ilimitados",
+        "support": "Suporte dedicado 24/7",
+        "onboarding": "Onboarding e treinamento",
+        "integrations": "Integrações personalizadas",
+        "sla": "SLA garantido"
+      },
+      "button": "Solicitar demo"
+    }
+  },
+  "comparison": {
+    "title": "Comparação de recursos",
+    "headers": {
+      "feature": "Recurso",
+      "starter": "Inicial",
+      "professional": "Profissional",
+      "enterprise": "Enterprise"
+    },
+    "rows": {
+      "documents": {
+        "label": "Documentos por mês",
+        "starter": "10",
+        "professional": "300",
+        "enterprise": "Ilimitado"
+      },
+      "ocr": {
+        "label": "OCR avançado"
+      },
+      "api": {
+        "label": "Acesso à API"
+      },
+      "integrations": {
+        "label": "Integrações personalizadas"
+      },
+      "support": {
+        "label": "Suporte",
+        "starter": "Email",
+        "professional": "Prioritário",
+        "enterprise": "Dedicado 24/7"
+      }
+    }
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "items": {
+      "changePlan": {
+        "question": "Posso mudar de plano a qualquer momento?",
+        "answer": "Sim, você pode fazer upgrade ou downgrade do seu plano a qualquer momento. As mudanças serão refletidas no seu próximo ciclo de cobrança."
+      },
+      "limit": {
+        "question": "O que acontece se eu exceder meu limite de documentos?",
+        "answer": "Avisaremos quando você estiver próximo do limite. Você pode fazer upgrade do plano ou comprar documentos adicionais conforme necessário."
+      },
+      "discounts": {
+        "question": "Vocês oferecem descontos por volume?",
+        "answer": "Sim, para planos Enterprise oferecemos preços personalizados de acordo com o volume. Entre em contato para um orçamento."
+      },
+      "contracts": {
+        "question": "Existem contratos de longo prazo?",
+        "answer": "Não, todos os nossos planos são mensais e sem compromisso. Você pode cancelar a qualquer momento sem penalidades."
+      }
+    }
+  },
+  "cta": {
+    "title": "Pronto para começar?",
+    "subtitle": "Comece grátis hoje. Sem cartão de crédito. Configuração em minutos.",
+    "buttonPrimary": "Começar grátis",
+    "buttonSecondary": "Falar com vendas"
+  }
+}
