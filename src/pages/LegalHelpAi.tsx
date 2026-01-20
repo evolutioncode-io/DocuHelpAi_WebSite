@@ -74,8 +74,8 @@ function LegalHelpAi() {
                     </div>
 
                     <div className="grid md:grid-cols-3 gap-8">
-                        <div className="relative">
-                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
+                        <div className="relative h-full">
+                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer h-full flex flex-col">
                                 <div className="absolute -top-6 -right-6 bg-gradient-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl font-bold shadow-lg text-center">
                                     1
                                 </div>
@@ -103,8 +103,8 @@ function LegalHelpAi() {
                             </div>
                         </div>
 
-                        <div className="relative">
-                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
+                        <div className="relative h-full">
+                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer h-full flex flex-col">
                                 <div className="absolute -top-6 -right-6 bg-gradient-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl font-bold shadow-lg text-center">
                                     2
                                 </div>
@@ -128,8 +128,8 @@ function LegalHelpAi() {
                             </div>
                         </div>
 
-                        <div className="relative">
-                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer">
+                        <div className="relative h-full">
+                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer h-full flex flex-col">
                                 <div className="absolute -top-6 -right-6 bg-gradient-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl font-bold shadow-lg text-center">
                                     3
                                 </div>

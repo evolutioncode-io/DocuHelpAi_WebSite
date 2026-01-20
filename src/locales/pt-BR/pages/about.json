@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "🚀 Nossa história",
+    "badge": "Nossa história",
     "title": "Sobre o DocumentoIQ",
     "subtitle": "Criamos o DocumentoIQ para ajudar empresas de todos os tamanhos a analisar e compreender documentos complexos com inteligência artificial, reduzindo tempo, erros e carga operacional, sem substituir o julgamento humano."
   },
@@ -16,17 +16,17 @@
     "title": "Nossos valores",
     "subtitle": "Os princípios que guiam nosso trabalho",
     "precision": {
-      "emoji": "🎯",
+      "emoji": "",
       "title": "Precisão",
       "description": "Focamos na exatidão e qualidade dos dados extraídos, especialmente em documentos jurídicos, notariais e financeiros, onde o erro não é uma opção."
     },
     "speed": {
-      "emoji": "⚡",
+      "emoji": "",
       "title": "Velocidade",
       "description": "Projetamos nossas soluções para serem rápidas e eficientes, reduzindo significativamente o tempo de revisão de documentos sem sacrificar a precisão."
     },
     "accessibility": {
-      "emoji": "🤝",
+      "emoji": "",
       "title": "Acessibilidade",
       "description": "Acreditamos que a inteligência artificial avançada deve ser acessível a empresas de todos os tamanhos, sem barreiras técnicas ou mudanças drásticas em seus processos."
     }
@@ -35,17 +35,17 @@
     "title": "Nosso time",
     "description": "Somos uma equipe interdisciplinar de desenvolvedores, especialistas em legaltech e especialistas em inteligência artificial aplicada. Trabalhamos para criar ferramentas que auxiliem profissionais na revisão de documentos complexos, reduzindo erros e melhorando a eficiência operacional.",
     "ai": {
-      "emoji": "🧠",
+      "emoji": "",
       "title": "Experiência em IA",
       "description": "Modelos de linguagem e visão computacional aplicados à análise de documentos e extração de informações críticas."
     },
     "legal": {
-      "emoji": "⚖️",
+      "emoji": "",
       "title": "Conhecimento jurídico",
       "description": "Profundo entendimento de documentos jurídicos, notariais e financeiros, e dos riscos associados ao seu processamento manual."
     },
     "development": {
-      "emoji": "💻",
+      "emoji": "",
       "title": "Desenvolvimento full-stack",
       "description": "Desenvolvimento de uma plataforma robusta, segura e escalável, projetada para integrar-se a fluxos de trabalho documentais existentes."
     }

@@ -1,11 +1,11 @@
 {
   "hero": {
-    "badge": "📚 Recursos e guias",
+    "badge": "Recursos e guias",
     "title": "Blog DocumentoIQ",
     "subtitle": "Explore artigos, guias e recursos sobre automação de documentos com inteligência artificial"
   },
   "featured": {
-    "badge": "⭐ Em destaque",
+    "badge": "Em destaque",
     "title": "O que é Processamento Inteligente de Documentos (IDP)?",
     "description": "Um guia completo para entender como a IA pode transformar a leitura e extração de dados de documentos PDF.",
     "cta": "Ler artigo →",
@@ -17,32 +17,32 @@
   },
   "categories": {
     "banking": {
-      "emoji": "🏦",
+      "emoji": "",
       "label": "Bancos",
       "title": "Automação de hipotecas com IA na América Latina"
     },
     "legal": {
-      "emoji": "⚖️",
+      "emoji": "",
       "label": "Jurídico",
       "title": "Comparativo: OCR tradicional vs IA moderna"
     },
     "notarial": {
-      "emoji": "🏛️",
+      "emoji": "",
       "label": "Cartórios",
       "title": "Casos reais: legaltech e cartórios"
     },
     "technology": {
-      "emoji": "🔍",
+      "emoji": "",
       "label": "Tecnologia",
       "title": "Como funcionam os modelos de linguagem em documentos?"
     },
     "useCases": {
-      "emoji": "💡",
+      "emoji": "",
       "label": "Casos de uso",
       "title": "5 formas de reduzir erros na digitação de dados"
     },
     "roi": {
-      "emoji": "📊",
+      "emoji": "",
       "label": "ROI",
       "title": "Calculando o ROI da automação de documentos"
     }
@@ -50,7 +50,7 @@
   "articleDescription": "Aprofundamos táticas, estratégias e aprendizados reais de automação de documentos com IA.",
   "readMore": "Leia mais",
   "newsletter": {
-    "emoji": "📬",
+    "emoji": "",
     "title": "Assine nossa newsletter",
     "subtitle": "Receba artigos, guias e novidades sobre automação de documentos com IA",
     "placeholder": "seu@email.com",

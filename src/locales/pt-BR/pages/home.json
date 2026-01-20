@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "🚀 Análise Inteligente de Documentos",
+    "badge": "Análise Inteligente de Documentos",
     "title": "IA para extrair informações e analisar documentos complexos com mais precisão e menos erros",
     "subtitle": "Analise, extraia e organize informações-chave de documentos extensos em minutos, reduzindo o tempo de revisão em até 70% e erros humanos em até 80%, sem substituir seu julgamento profissional.",
     "ctaPrimary": "Solicitar demo personalizada",
@@ -56,27 +56,27 @@
     "title": "Benefícios do uso de IA na análise de documentos",
     "subtitle": "Resultados mensuráveis que melhoram a eficiência e a precisão no processamento de documentos complexos",
     "time": {
-      "emoji": "⏱",
+      "emoji": "",
       "title": "Reduza até 70%",
       "description": "o tempo de revisão"
     },
     "errors": {
-      "emoji": "❌",
+      "emoji": "",
       "title": "Reduza até 80%",
       "description": "erros humanos"
     },
     "understanding": {
-      "emoji": "🧠",
+      "emoji": "",
       "title": "Melhore o entendimento",
       "description": "de documentos extensos"
     },
     "keyInfo": {
-      "emoji": "🔍",
+      "emoji": "",
       "title": "Informações-chave",
       "description": "claras e estruturadas"
     },
     "control": {
-      "emoji": "⚖",
+      "emoji": "",
       "title": "Controle profissional",
       "description": "em todos os momentos"
     }

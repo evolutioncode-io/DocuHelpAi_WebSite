@@ -1,6 +1,6 @@
 {
   "hero": {
-    "badge": "💼 Soluções por setor",
+    "badge": "Soluções por setor",
     "title": "Casos de uso",
     "subtitle": "Automação de documentos com IA para cartórios, bancos, escritórios de advocacia e mais"
   },
@@ -22,7 +22,7 @@
     }
   },
   "documents": {
-    "title": "📋 Documentos suportados",
+    "title": "Documentos suportados",
     "items": {
       "critical": "Documentos de setores críticos",
       "scanned": "Digitalizados, manuscritos ou digitais",
@@ -30,7 +30,7 @@
     }
   },
   "benefits": {
-    "title": "✨ Principais benefícios",
+    "title": "Principais benefícios",
     "items": {
       "extract": "Extrai campos-chave com precisão",
       "convert": "Converte PDFs em dados editáveis",
