@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "badge": "🚀 Análise Inteligente de Documentos",
+    "title": "IA para extrair informações e analisar documentos complexos com mais precisão e menos erros",
+    "subtitle": "Analise, extraia e organize informações-chave de documentos extensos em minutos, reduzindo o tempo de revisão em até 70% e erros humanos em até 80%, sem substituir seu julgamento profissional.",
+    "ctaPrimary": "Solicitar demo personalizada",
+    "ctaSecondary": "Veja como funciona com um documento real",
+    "microcopy": "Desenvolvido para cartórios, equipes jurídicas e empresas que trabalham com documentos críticos."
+  },
+  "stats": {
+    "accuracy": "90%+",
+    "accuracyLabel": "Precisão em dados jurídicos e notariais",
+    "timeReduction": "70%",
+    "timeReductionLabel": "Redução no tempo de revisão",
+    "errorReduction": "80%",
+    "errorReductionLabel": "Redução de erros humanos"
+  },
+  "whatIs": {
+    "title": "O que é o DocumentoIQ?",
+    "description": "DocumentoIQ é uma plataforma de inteligência artificial projetada para apoiar profissionais e empresas na análise, compreensão e revisão de documentos complexos. A IA identifica informações relevantes, reduz erros humanos e acelera processos sem substituir a validação profissional."
+  },
+  "useCases": {
+    "title": "Uma plataforma de IA, múltiplos casos de uso",
+    "subtitle": "Análise de documentos com IA adaptada a diferentes setores e processos",
+    "notarial": {
+      "title": "IA para documentos notariais",
+      "description": "Escrituras, procurações, contratos de compra e venda e protocolos extensos, com informações-chave destacadas para uma revisão mais eficiente."
+    },
+    "legal": {
+      "title": "IA para revisão jurídica e contratos",
+      "description": "Identifica cláusulas relevantes, dados críticos e possíveis omissões em documentos jurídicos."
+    },
+    "business": {
+      "title": "IA para documentos empresariais",
+      "description": "Analisa relatórios, propostas e documentação interna para melhorar a tomada de decisão."
+    },
+    "seeMore": "Ver mais →"
+  },
+  "howItWorks": {
+    "title": "Como o DocumentoIQ funciona",
+    "subtitle": "Processamento inteligente de documentos em 3 etapas simples",
+    "step1": {
+      "title": "Envie seus documentos",
+      "description": "Envie PDFs ou outros formatos, incluindo documentos longos e complexos."
+    },
+    "step2": {
+      "title": "A IA analisa e extrai informações-chave",
+      "description": "O DocumentoIQ identifica dados relevantes, seções importantes e padrões críticos. A IA auxilia, não substitui o julgamento humano."
+    },
+    "step3": {
+      "title": "Valide e decida com confiança",
+      "description": "Revise as informações organizadas e tome decisões com mais segurança."
+    }
+  },
+  "benefits": {
+    "title": "Benefícios do uso de IA na análise de documentos",
+    "subtitle": "Resultados mensuráveis que melhoram a eficiência e a precisão no processamento de documentos complexos",
+    "time": {
+      "emoji": "⏱",
+      "title": "Reduza até 70%",
+      "description": "o tempo de revisão"
+    },
+    "errors": {
+      "emoji": "❌",
+      "title": "Reduza até 80%",
+      "description": "erros humanos"
+    },
+    "understanding": {
+      "emoji": "🧠",
+      "title": "Melhore o entendimento",
+      "description": "de documentos extensos"
+    },
+    "keyInfo": {
+      "emoji": "🔍",
+      "title": "Informações-chave",
+      "description": "claras e estruturadas"
+    },
+    "control": {
+      "emoji": "⚖",
+      "title": "Controle profissional",
+      "description": "em todos os momentos"
+    }
+  },
+  "differentiator": {
+    "title": "Uma plataforma de IA flexível, não limitada a um único setor",
+    "subtitle": "Enquanto outras soluções são projetadas para um único tipo de documento ou segmento, o DocumentoIQ se adapta a diferentes processos, setores e formatos, permitindo escalar o uso de IA sem mudar sua forma de trabalhar.",
+    "points": {
+      "one": "Uma IA para vários documentos",
+      "two": "Se adapta ao seu processo atual",
+      "three": "Escalável por setor",
+      "four": "Assistente, não substituta"
+    }
+  },
+  "security": {
+    "title": "Segurança, confidencialidade e controle",
+    "description": "O DocumentoIQ foi projetado para lidar com documentos sensíveis com altos padrões de segurança, garantindo confidencialidade, controle do usuário e uso responsável da inteligência artificial."
+  },
+  "testimonial": {
+    "quote": "É impossível voltar ao método tradicional e abrir mão das vantagens de eficiência e precisão que temos agora com o DocumentoIQ",
+    "author": "Diretor Jurídico",
+    "company": "Escritório especializado em documentação bancária • México"
+  },
+  "cta": {
+    "title": "Descubra como o DocumentoIQ se adapta aos seus documentos",
+    "subtitle": "Solicite uma demo personalizada e veja como a IA pode ajudar a reduzir tempo e erros na sua operação diária.",
+    "button": "Solicitar demo personalizada",
+    "microcopy": "Sem compromisso • Adaptado ao seu tipo de documento • Suporte em espanhol"
+  }
+}

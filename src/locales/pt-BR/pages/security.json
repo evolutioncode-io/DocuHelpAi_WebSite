@@ -1,0 +1,79 @@
+{
+  "hero": {
+    "badge": "🛡️ Segurança",
+    "title": "Política de Segurança",
+    "subtitle": "Nosso compromisso com a proteção dos seus dados e documentos"
+  },
+  "lastUpdated": "Última atualização: 20 de janeiro de 2025",
+  "commitment": {
+    "title": "Compromisso com segurança",
+    "content": "O DocumentoIQ leva a segurança de dados a sério. Implementamos múltiplas camadas de proteção para resguardar seus documentos e informações durante todo o ciclo de processamento."
+  },
+  "measures": {
+    "title": "Medidas de segurança",
+    "encryption": {
+      "title": "Criptografia",
+      "content": "Toda transmissão de dados usa criptografia TLS 1.3. Documentos em repouso são criptografados com padrões AES-256."
+    },
+    "access": {
+      "title": "Controles de acesso",
+      "content": "Implementamos controles de acesso rígidos, incluindo autenticação multifator (MFA), controle de acesso baseado em funções (RBAC) e auditorias regulares."
+    },
+    "infrastructure": {
+      "title": "Segurança da infraestrutura",
+      "content": "Nossa plataforma é hospedada em infraestrutura em nuvem de nível empresarial com: atualizações de segurança regulares, sistemas de detecção de intrusão, proteção DDoS e backups automatizados."
+    },
+    "monitoring": {
+      "title": "Monitoramento de segurança",
+      "content": "Monitoramos continuamente ameaças com ferramentas automatizadas e protocolos de resposta a incidentes. Todos os eventos de segurança são registrados e revisados regularmente."
+    },
+    "compliance": {
+      "title": "Conformidade e certificações",
+      "content": "Seguimos frameworks de segurança padrão do setor e estamos trabalhando para certificações relevantes (ISO 27001, SOC 2, etc.)."
+    }
+  },
+  "dataHandling": {
+    "title": "Práticas de tratamento de dados",
+    "items": {
+      "processing": "Documentos são processados em ambientes isolados e seguros",
+      "retention": "Políticas de retenção garantem exclusão de documentos no prazo definido",
+      "deletion": "Métodos de exclusão segura garantem que os dados não possam ser recuperados",
+      "access": "Apenas pessoal autorizado pode acessar dados de usuários, e todo acesso é registrado"
+    }
+  },
+  "userSecurity": {
+    "title": "Seu papel na segurança",
+    "content": "Segurança é uma responsabilidade compartilhada:",
+    "items": {
+      "password": "Use senhas fortes e únicas para sua conta",
+      "authentication": "Ative a autenticação multifator quando disponível",
+      "sharing": "Não compartilhe suas credenciais de acesso",
+      "reporting": "Reporte qualquer atividade suspeita imediatamente"
+    }
+  },
+  "incidents": {
+    "title": "Resposta a incidentes de segurança",
+    "content": "Em caso de incidente de segurança:",
+    "items": {
+      "detection": "Detectaremos e avaliaremos o incidente rapidamente",
+      "containment": "Tomaremos medidas imediatas para conter a ameaça",
+      "notification": "Notificaremos usuários afetados conforme exigido por lei",
+      "resolution": "Resolveremos o problema e implementaremos medidas preventivas"
+    }
+  },
+  "vulnerability": {
+    "title": "Divulgação de vulnerabilidades",
+    "content": "Se você descobrir uma vulnerabilidade de segurança, reporte de forma responsável para:",
+    "email": "security@documentoiq.com",
+    "responsible": "Incentivamos a divulgação responsável e trabalharemos com pesquisadores de segurança para corrigir problemas rapidamente."
+  },
+  "updates": {
+    "title": "Atualizações de segurança",
+    "content": "Atualizamos regularmente nossas medidas de segurança e comunicaremos mudanças significativas pela plataforma ou por email aos usuários afetados."
+  },
+  "contact": {
+    "title": "Dúvidas sobre segurança",
+    "content": "Para questões relacionadas à segurança, entre em contato em:",
+    "email": "security@documentoiq.com"
+  }
+}

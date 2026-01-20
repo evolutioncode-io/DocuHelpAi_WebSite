@@ -1,0 +1,45 @@
+{
+  "cta": {
+    "startFree": "Começar grátis",
+    "scheduleDemo": "Agendar demo",
+    "requestDemo": "Solicitar demo personalizada",
+    "contactUs": "Fale conosco",
+    "learnMore": "Saiba mais →"
+  },
+  "trust": {
+    "noCreditCard": "Sem cartão de crédito",
+    "setupMinutes": "Configuração em minutos",
+    "spanishSupport": "Suporte em espanhol"
+  },
+  "footer": {
+    "rightsReserved": "Todos os direitos reservados",
+    "madeWith": "Feito com",
+    "inLatinAmerica": "na América Latina",
+    "description": "Processamento inteligente de documentos com IA para cartórios, bancos e escritórios de advocacia.",
+    "product": "Produto",
+    "company": "Empresa",
+    "legal": "Jurídico",
+    "howItWorks": "Como funciona",
+    "useCases": "Casos de uso",
+    "pricing": "Preços",
+    "apiDocs": "Documentação da API",
+    "about": "Sobre",
+    "blog": "Blog",
+    "contact": "Contato",
+    "careers": "Carreiras",
+    "privacy": "Privacidade",
+    "terms": "Termos de serviço",
+    "cookies": "Cookies",
+    "security": "Segurança",
+    "banner": "🎉 Experimente grátis • Sem cartão de crédito • Configuração em minutos"
+  },
+  "nav": {
+    "product": "Produto",
+    "useCases": "Casos de uso",
+    "pricing": "Preços",
+    "blog": "Blog",
+    "about": "Sobre",
+    "contact": "Contato",
+    "menu": "Menu"
+  }
+}

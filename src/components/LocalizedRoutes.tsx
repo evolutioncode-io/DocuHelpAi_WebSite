@@ -8,10 +8,14 @@ function LocalizedRoutes() {
 
   useEffect(() => {
     // Sync language with URL path
-    const isSpanish = location.pathname.startsWith('/es')
+    const normalizedPath = location.pathname.toLowerCase()
+    const isSpanish = normalizedPath.startsWith('/es')
+    const isPortuguese = normalizedPath.startsWith('/pt-br')
     if (isSpanish && i18n.language !== 'es') {
       i18n.changeLanguage('es')
-    } else if (!isSpanish && i18n.language !== 'en') {
+    } else if (isPortuguese && i18n.language !== 'pt-BR') {
+      i18n.changeLanguage('pt-BR')
+    } else if (!isSpanish && !isPortuguese && i18n.language !== 'en') {
       i18n.changeLanguage('en')
     }
   }, [location.pathname, i18n])

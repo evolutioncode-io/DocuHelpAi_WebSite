@@ -32,6 +32,19 @@ const routeMappings = {
     cookies: '/es/cookies',
     security: '/es/seguridad',
   },
+  'pt-BR': {
+    home: '/pt-br/',
+    product: '/pt-br/produto',
+    useCases: '/pt-br/casos-de-uso',
+    pricing: '/pt-br/precos',
+    about: '/pt-br/sobre',
+    contact: '/pt-br/contato',
+    blog: '/pt-br/blog',
+    privacy: '/pt-br/privacidade',
+    terms: '/pt-br/termos',
+    cookies: '/pt-br/cookies',
+    security: '/pt-br/seguranca',
+  },
 } as const
 
 export function useLanguage() {
@@ -39,12 +52,25 @@ export function useLanguage() {
   const location = useLocation()
   const navigate = useNavigate()
 
-  const currentLanguage = (i18n.language === 'es' ? 'es' : 'en') as SupportedLanguage
+  const currentLanguage = (() => {
+    const resolved = (i18n.resolvedLanguage || i18n.language || 'en').toLowerCase()
+    if (resolved.startsWith('es')) {
+      return 'es'
+    }
+    if (resolved.startsWith('pt')) {
+      return 'pt-BR'
+    }
+    return 'en'
+  })() as SupportedLanguage
 
   // Extract language from URL path
   const getLanguageFromPath = (path: string): SupportedLanguage => {
-    if (path.startsWith('/es/')) {
+    const normalizedPath = path.toLowerCase()
+    if (normalizedPath === '/es' || normalizedPath.startsWith('/es/')) {
       return 'es'
+    }
+    if (normalizedPath === '/pt-br' || normalizedPath.startsWith('/pt-br/')) {
+      return 'pt-BR'
     }
     return 'en'
   }
@@ -76,6 +102,11 @@ export function useLanguage() {
       }
       // Handle /es route
       if ((currentPath === '/es' || currentPath === '/es/') && key === 'home') {
+        routeKey = 'home'
+        break
+      }
+      // Handle /pt-br route
+      if ((currentPath === '/pt-br' || currentPath === '/pt-br/') && key === 'home') {
         routeKey = 'home'
         break
       }

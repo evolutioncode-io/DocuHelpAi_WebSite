@@ -7,7 +7,7 @@ export function LanguageSelector() {
     <div className="relative">
       <select
         value={currentLanguage}
-        onChange={(e) => changeLanguage(e.target.value as 'en' | 'es')}
+        onChange={(e) => changeLanguage(e.target.value as typeof currentLanguage)}
         className="bg-transparent border border-gray-300 rounded-lg px-3 py-1.5 text-sm font-medium text-gray-700 hover:border-amber-600 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:border-transparent cursor-pointer appearance-none pr-8"
         aria-label="Select language"
       >

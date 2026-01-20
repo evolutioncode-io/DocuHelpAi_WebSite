@@ -65,13 +65,20 @@ export function usePageMetadata({
 
   // Get current language and URLs
   const currentPath = location.pathname
-  const isSpanish = currentPath.startsWith('/es')
-  const currentLang = isSpanish ? 'es' : 'en'
+  const normalizedPath = currentPath.toLowerCase()
+  const isSpanish = normalizedPath.startsWith('/es')
+  const isPortuguese = normalizedPath.startsWith('/pt-br')
+  const currentLang = isSpanish ? 'es' : isPortuguese ? 'pt-BR' : 'en'
   const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://documentoiq.com'
   const currentUrl = `${baseUrl}${currentPath}`
-  const currentPathWithoutLang = isSpanish ? currentPath.replace('/es', '') || '/' : currentPath
+  const currentPathWithoutLang = isSpanish
+    ? currentPath.replace('/es', '') || '/'
+    : isPortuguese
+      ? currentPath.replace('/pt-br', '') || '/'
+      : currentPath
   const enPath = currentPathWithoutLang === '/' ? '/' : currentPathWithoutLang
   const esPath = currentPathWithoutLang === '/' ? '/es/' : `/es${currentPathWithoutLang}`
+  const ptBrPath = currentPathWithoutLang === '/' ? '/pt-br/' : `/pt-br${currentPathWithoutLang}`
 
   // Update lang attribute on HTML element
   useEffect(() => {
@@ -111,7 +118,11 @@ export function usePageMetadata({
     getOrCreateMeta('og:url', currentUrl, true)
     getOrCreateMeta('og:type', type, true)
     getOrCreateMeta('og:site_name', 'DocumentoIQ', true)
-    getOrCreateMeta('og:locale', currentLang === 'es' ? 'es_ES' : 'en_US', true)
+    getOrCreateMeta(
+      'og:locale',
+      currentLang === 'es' ? 'es_ES' : currentLang === 'pt-BR' ? 'pt_BR' : 'en_US',
+      true
+    )
 
     // Twitter Card tags
     getOrCreateMeta('twitter:card', 'summary_large_image')
@@ -126,6 +137,7 @@ export function usePageMetadata({
     // Hreflang tags
     getOrCreateLink('alternate', `${baseUrl}${enPath}`, 'en')
     getOrCreateLink('alternate', `${baseUrl}${esPath}`, 'es')
+    getOrCreateLink('alternate', `${baseUrl}${ptBrPath}`, 'pt-BR')
     getOrCreateLink('alternate', `${baseUrl}${enPath}`, 'x-default')
 
     // Structured Data (JSON-LD)
@@ -150,7 +162,7 @@ export function usePageMetadata({
       contactPoint: {
         '@type': 'ContactPoint',
         contactType: 'Customer Service',
-        availableLanguage: ['English', 'Spanish'],
+        availableLanguage: ['English', 'Spanish', 'Portuguese'],
       },
       aggregateRating: {
         '@type': 'AggregateRating',
@@ -159,6 +171,9 @@ export function usePageMetadata({
       },
     }
 
+    const languageTags = ['en-US', 'es-ES', 'pt-BR']
+    const currentLanguageTag = currentLang === 'es' ? 'es-ES' : currentLang === 'pt-BR' ? 'pt-BR' : 'en-US'
+
     const webSiteStructuredData = {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
@@ -166,7 +181,7 @@ export function usePageMetadata({
       url: baseUrl,
       alternateName: ['DocumentoIQ AI', 'Document IQ'],
       description: finalDescription,
-      inLanguage: [currentLang === 'es' ? 'es-ES' : 'en-US', currentLang === 'es' ? 'en-US' : 'es-ES'],
+      inLanguage: [currentLanguageTag, ...languageTags.filter((tag) => tag !== currentLanguageTag)],
       potentialAction: {
         '@type': 'SearchAction',
         target: {
@@ -219,7 +234,7 @@ export function usePageMetadata({
       // Cleanup structured data scripts on unmount
       document.head.querySelectorAll('script[id^="documentoiq-structured-data"]').forEach((el) => el.remove())
     }
-  }, [finalTitle, finalDescription, currentUrl, image, type, currentLang, baseUrl, enPath, esPath])
+  }, [finalTitle, finalDescription, currentUrl, image, type, currentLang, baseUrl, enPath, esPath, ptBrPath])
 
   // Cleanup hreflang tags on unmount
   useEffect(() => {

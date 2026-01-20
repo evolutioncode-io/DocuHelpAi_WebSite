@@ -32,20 +32,27 @@ function PageLoader() {
 
 function NotFound() {
   const location = useLocation()
-  const isSpanish = location.pathname.startsWith('/es/') || location.pathname === '/es'
+  const normalizedPath = location.pathname.toLowerCase()
+  const isSpanish = normalizedPath.startsWith('/es/') || normalizedPath === '/es'
+  const isPortuguese = normalizedPath.startsWith('/pt-br/') || normalizedPath === '/pt-br'
 
   return (
     <div className="py-24 text-center px-6">
       <p className="text-3xl font-semibold text-gray-900 mb-4">
-        {isSpanish ? 'Página no encontrada' : 'Page not found'}
+        {isSpanish ? 'Página no encontrada' : isPortuguese ? 'Página não encontrada' : 'Page not found'}
       </p>
       <p className="text-gray-600 mb-6">
         {isSpanish
           ? 'La página que buscas no existe o fue movida.'
-          : 'The page you are looking for does not exist or has been moved.'}
+          : isPortuguese
+            ? 'A página que você procura não existe ou foi movida.'
+            : 'The page you are looking for does not exist or has been moved.'}
       </p>
-      <a href={isSpanish ? '/es/' : '/'} className="text-amber-600 font-semibold hover:underline">
-        {isSpanish ? 'Volver al inicio' : 'Go back home'}
+      <a
+        href={isSpanish ? '/es/' : isPortuguese ? '/pt-br/' : '/'}
+        className="text-amber-600 font-semibold hover:underline"
+      >
+        {isSpanish ? 'Volver al inicio' : isPortuguese ? 'Voltar ao início' : 'Go back home'}
       </a>
     </div>
   )
@@ -54,9 +61,10 @@ function NotFound() {
 // Redirect root to default language based on browser/preferences
 function RootRedirect() {
   const { i18n } = useTranslation()
-  const defaultLang = i18n.language === 'es' ? 'es' : 'en'
+  const resolved = (i18n.resolvedLanguage || i18n.language || 'en').toLowerCase()
+  const defaultLang = resolved.startsWith('es') ? 'es' : resolved.startsWith('pt') ? 'pt-BR' : 'en'
   // Redirect to language-specific home page
-  return <Navigate to={defaultLang === 'es' ? '/es' : ''} replace />
+  return <Navigate to={defaultLang === 'es' ? '/es' : defaultLang === 'pt-BR' ? '/pt-br' : ''} replace />
 }
 
 function App() {
@@ -97,6 +105,23 @@ function App() {
             <Route path="terminos" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
             <Route path="seguridad" element={<Security />} />
+          </Route>
+        </Route>
+
+        {/* Portuguese routes (with /pt-br/ prefix) */}
+        <Route path="/pt-br" element={<LocalizedRoutes />}>
+          <Route element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="produto" element={<Product />} />
+            <Route path="casos-de-uso" element={<UseCases />} />
+            <Route path="precos" element={<Pricing />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="sobre" element={<About />} />
+            <Route path="contato" element={<Contact />} />
+            <Route path="privacidade" element={<Privacy />} />
+            <Route path="termos" element={<Terms />} />
+            <Route path="cookies" element={<Cookies />} />
+            <Route path="seguranca" element={<Security />} />
           </Route>
         </Route>
 
