@@ -40,22 +40,7 @@ function Home() {
                 </button>
               </Link>
               <Link to={getLocalizedRoute('contact')}>
-                <button
-                  className="
-                    btn-secondary
-                    px-8 py-4
-                    font-semibold text-lg
-                    shadow-md
-                    transition-all duration-200 ease-in-out
-                    hover:bg-[color:var(--color-accent-500)]
-                    hover:text-white
-                    hover:border-[color:var(--color-accent-500)]
-                    hover:shadow-xl
-                    hover:-translate-y-0.5
-                    active:translate-y-0
-                    active:shadow-md
-                  "
-                >
+                <button className=" btn-primary px-8 py-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 font-semibold text-lg">
                   {t('hero.ctaSecondary')}
                 </button>
               </Link>
@@ -241,17 +226,17 @@ function Home() {
         <div className="grid md:grid-cols-5 gap-6">
           {[
             {
-              iconPath: 'M12 6v6l4 2',
+              iconPath: 'M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5',
               title: t('benefits.time.title'),
               description: t('benefits.time.description'),
             },
             {
-              iconPath: 'M9 12l2 2 4-4',
+              iconPath: 'M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z',
               title: t('benefits.errors.title'),
               description: t('benefits.errors.description'),
             },
             {
-              iconPath: 'M12 4.5c-4.418 0-8 3.134-8 7s3.582 7 8 7 8-3.134 8-7-3.582-7-8-7Zm0 9.75a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z',
+              iconPath: 'M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3',
               title: t('benefits.understanding.title'),
               description: t('benefits.understanding.description'),
             },
@@ -261,7 +246,7 @@ function Home() {
               description: t('benefits.keyInfo.description'),
             },
             {
-              iconPath: 'M12 3.75v16.5m8.25-8.25H3.75',
+              iconPath: 'M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605',
               title: t('benefits.control.title'),
               description: t('benefits.control.description'),
             },
