@@ -1,0 +1,74 @@
+{
+    "hero": {
+        "title": "Is Investing in Custom AI Worth It? Real Cases and Return on Investment",
+        "subtitle": "In a context where artificial intelligence (AI) is becoming a key factor in transforming complex operations, many organizations ask: is it worth investing in custom AI?",
+        "intro": "In this article, we explore what recent research shows about the return on investment (ROI) of AI, how it translates into real business benefits, and what we can learn from concrete cases, especially in the context of complex documents and verticals like notary offices."
+    },
+    "sections": {
+        "whatIsCustomAi": {
+            "title": "What does investing in custom AI mean?",
+            "content": [
+                "Investing in custom AI involves developing or personalizing solutions that adapt to the specific needs of an organization, rather than using generic tools. This approach addresses particular problems, such as automating the analysis of notarial documents, with potentially deeper results and a higher ROI."
+            ]
+        },
+        "globalTrends": {
+            "title": "Global AI investment trends",
+            "content": [
+                "AI adoption continues to grow at the enterprise level. According to McKinsey's global survey, approximately 88% of companies regularly use AI in at least one business function, although many are still in pilot or initial expansion phases.",
+                "A study by SAP reveals that nearly 64% of organizations are satisfied with the ROI of their AI initiatives, and about half expect a faster return compared to other technology investments.",
+                "These figures not only demonstrate that AI is being widely adopted, but that many companies are already seeing real benefits."
+            ]
+        },
+        "howToMeasure": {
+            "title": "How to measure AI return on investment",
+            "content": [
+                "Calculating AI ROI is not limited to measuring time saved or money not spent. It is important to consider:",
+                "• Process efficiency: reduction of human hours in repetitive tasks.",
+                "• Better decision-making: less error in complex analyses (e.g., in financial or notarial documents).",
+                "• Increased productivity: more work processed per unit of time.",
+                "• Indirect savings: better risk management, compliance, and quality of results.",
+                "ROI can also be expressed as:",
+                "ROI = (Benefit – Investment) / Investment × 100",
+                "In practice, well-implemented projects can recover investment in 2-3 years, and even offer a multiple of return when linking efficiency with strategic business decisions."
+            ]
+        },
+        "tangibleBenefits": {
+            "title": "Tangible benefits of investing in custom AI",
+            "content": [
+                "Although exact data varies by industry and case, there are moderately quantifiable benefits that support the investment:",
+                "• Higher operational productivity: teams spend less time on manual tasks.",
+                "• Reduction of human errors: especially critical in complex documents.",
+                "• Better analysis quality: AI systems bring consistency and depth to data analysis.",
+                "• Organizational scalability: AI can process large volumes of information that exceed human capacity.",
+                "These advantages impact both the total cost of ownership (TCO) and overall business value, especially in sectors dealing with complex information, such as legal and notarial."
+            ]
+        },
+        "useCases": {
+            "title": "Real use cases: complex documents",
+            "content": [
+                "One area where AI can provide clear and demonstrable value is the analysis of complex documents, such as:",
+                "• Notarial deeds",
+                "• Extensive contracts and legal clauses",
+                "• Regulatory or financial reports",
+                "• Scanned and unstructured files",
+                "Specific solutions, like LegalHelp AI, designed for notaries, allow key information to be extracted with precision, reducing manual load and accelerating review cycles without losing human control, directly contributing to a positive ROI."
+            ]
+        },
+        "conclusion": {
+            "title": "Is investing in custom AI worth it?",
+            "content": [
+                "Yes, contemporary evidence suggests that investing in custom AI can generate positive returns, especially when the solution is well-aligned with business processes and addresses specific problems like automated document analysis.",
+                "It is not just about implementing AI, but doing so with a clear strategy, defined objectives, and measurable metrics. ROI should not only be measured in time and reduced costs, but also in the quality of decisions and the reduction of operational risks."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Explore how LegalHelp AI can help you improve efficiency and return on investment in notaries.",
+        "button": "Request demo for notaries"
+    },
+    "references": {
+        "1": "[1] The state of AI in 2025: Agents, innovation, and transformation, 2025",
+        "2": "[2] SAP research reveals AI to deliver a 31% return on investment, 2025",
+        "3": "[3] ROI de Implementar IA en Empresas: Guía con Datos Reales (2026), 2026"
+    }
+}

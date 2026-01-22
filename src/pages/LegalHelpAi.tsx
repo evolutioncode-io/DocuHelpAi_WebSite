@@ -41,17 +41,23 @@ function LegalHelpAi() {
                                     {t('hero.primaryCta')}
                                 </button>
                             </Link>
-                            <Link to={getLocalizedRoute('contact')}>
-                                <button className="btn-primary px-10 py-5 text-lg transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-105 active:scale-95">
-                                    {t('hero.secondaryCta')}
-                                </button>
-                            </Link>
+                            <a
+                                href="https://www.youtube.com/watch?v=X2DkVdgkeGo"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn-primary px-10 py-5 text-lg transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-105 active:scale-95 inline-block text-center"
+                            >
+                                {t('hero.secondaryCta')}
+                            </a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* ¿Qué es LegalHelpAI? */}
+            {/* ¿Qué es LegalHelp AI? */
+            /* ¿Qué es LegalHelp AI? */
+            /* ¿Qué es LegalHelp AI? */}
+            {/* ¿Qué es LegalHelp AI? */}
             <section className="max-w-6xl mx-auto px-6 py-20">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6 text-heading">{t('whatIs.title')}</h2>
@@ -66,7 +72,7 @@ function LegalHelpAi() {
                 </div>
             </section>
 
-            {/* ¿Cómo funciona LegalHelpAI? */}
+            {/* ¿Cómo funciona LegalHelp AI? */}
             <section className="bg-surface-muted py-20">
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="text-center mb-16">
@@ -301,7 +307,7 @@ function LegalHelpAi() {
                 </div>
             </section>
 
-            {/* LegalHelpAI y DocumentoIQ */}
+            {/* LegalHelp AI y DocumentoIQ */}
             <section className="py-20 bg-surface">
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <h2 className="text-4xl font-bold mb-6 text-heading">{t('brand.title')}</h2>
@@ -320,7 +326,7 @@ function LegalHelpAi() {
             </section>
 
             {/* CTA Final con Video */}
-            <section className="bg-[color:var(--color-neutral-900)] py-20">
+            <section id="video-demo" className="bg-[color:var(--color-neutral-900)] py-20">
                 <div className="max-w-4xl mx-auto text-center px-6">
                     <h2 className="text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
                     <p className="text-xl mb-10 text-white/90 leading-relaxed">

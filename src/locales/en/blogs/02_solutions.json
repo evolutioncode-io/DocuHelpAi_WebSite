@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "Custom AI Solutions: How to Power Up Your Business | DocumentoIQ",
+        "description": "Generic tools or custom AI? Discover how personalized artificial intelligence improves efficiency and reduces errors in complex processes."
+    },
+    "hero": {
+        "title": "Custom AI Solutions: How to Power Up Your Business with Personalized Artificial Intelligence",
+        "subtitle": "Artificial intelligence has become one of the main drivers of business transformation. However, as organizations advance in their adoption, a key question arises: is a generic tool sufficient or is it better to invest in custom AI solutions?",
+        "intro": "In this article, we analyze how personalized artificial intelligence solutions can help companies boost their operations, improve efficiency, and reduce errors, especially in contexts where processes and documents are complex."
+    },
+    "sections": {
+        "whatIsCustomAi": {
+            "title": "What are custom AI solutions?",
+            "content": [
+                "Custom AI solutions are systems designed specifically to adapt to an organization's particular processes, data, and objectives. Unlike standard tools, these types of solutions are trained and configured considering the real business context, allowing for more relevant and actionable results.",
+                "This approach is especially useful in industries such as legal, notarial, financial, and operations, where workflows are not homogeneous and accuracy is critical."
+            ]
+        },
+        "trends": {
+            "title": "Recent trends in enterprise AI",
+            "content": [
+                "AI adoption continues to grow, but with an increasingly strategic focus. A McKinsey study reports that 65% of organizations use AI regularly, with benefits in both efficiency and revenue derived from generative AI. [1]",
+                "Meanwhile, an article by Conecta Latam points out that approximately 45% of Mexican companies report a positive ROI from their AI investments. [2]",
+                "These findings reinforce a central idea: personalization is a key factor for AI to generate real value."
+            ]
+        },
+        "whenToInvest": {
+            "title": "When is it worth investing in custom AI?",
+            "intro": "Investing in custom AI solutions is especially convenient when:",
+            "list": [
+                "Processes are complex or poorly standardized",
+                "Large volumes of unstructured information are managed",
+                "Accuracy and traceability are critical",
+                "Generic tools do not fit the real business context"
+            ],
+            "conclusion": "In these scenarios, personalized AI allows tasks to be automated without losing context or control, something difficult to achieve with universal solutions."
+        },
+        "keyBenefits": {
+            "title": "Key benefits of custom AI for businesses",
+            "intro": "Organizations that bet on custom AI solutions typically experience benefits such as:",
+            "list": [
+                "Greater operational efficiency, by reducing repetitive manual tasks",
+                "Lower error rate, especially in critical processes",
+                "Better decision making, thanks to structured and consistent information",
+                "Scalability, processing larger volumes of information without increasing resources"
+            ],
+            "conclusion": "According to IBM, companies that implement AI focused on specific processes achieve significant improvements in productivity and operational quality compared to generic implementations. [3]"
+        },
+        "legalHelpAi": {
+            "title": "LegalHelpAI: an example of custom AI applied to complex documents",
+            "content": "A concrete case where custom AI demonstrates its value is the analysis of legal and notarial documents, which are usually extensive, heterogeneous, and highly sensitive to errors. LegalHelp AI, a specialized product of the DocumentoIQ ecosystem, was designed specifically to assist notaries and legal teams in the review and analysis of complex documents such as deeds, powers of attorney, sales, and notarial protocols.",
+            "components": {
+                "1": {
+                    "title": "1. Advanced OCR",
+                    "description": "Capable of processing scanned or low-quality documents"
+                },
+                "2": {
+                    "title": "2. Specialized language models",
+                    "description": "Trained in legal and notarial context, to identify key entities, dates, amounts, and legal acts"
+                },
+                "3": {
+                    "title": "3. Structured extraction",
+                    "description": "Information configurable according to the document type"
+                },
+                "4": {
+                    "title": "4. Visual review panel",
+                    "description": "Allows validating and correcting results before use"
+                }
+            },
+            "conclusion": "It is important to emphasize that LegalHelp AI does not replace the notary or legal professional. It functions as an intelligent assistant that reduces manual load, speeds up review, and decreases errors, always maintaining control and responsibility in human hands. This approach reflects the true value of custom AI: adapting to a specific domain and empowering professional work, not replacing it."
+        },
+        "conclusion": {
+            "title": "Conclusion",
+            "content": [
+                "Custom AI solutions represent a strategic opportunity for companies looking for something more than basic automation. When AI is designed with real processes, specific data, and concrete needs in mind, it can generate substantial improvements in efficiency, accuracy, and decision-making.",
+                "More than a technological investment, custom AI should be understood as an investment in operational capacity and quality, especially in sectors where errors have a high cost."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Learn how a custom AI solution can help you optimize complex processes in your organization.",
+        "button": "Request LegalHelp AI demo"
+    },
+    "references": {
+        "1": "[1] The state of AI in early 2024: Gen AI adoption spikes and starts to generate value, 2024",
+        "2": "[2] Artificial Intelligence generates return on investment in 45% of Mexican companies, 2025",
+        "3": "[3] AI in Action, 2024"
+    }
+}

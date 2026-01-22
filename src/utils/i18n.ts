@@ -44,6 +44,18 @@ import cookiesPtBr from '../locales/pt-BR/pages/cookies.json'
 import securityEn from '../locales/en/pages/security.json'
 import securityEs from '../locales/es/pages/security.json'
 import securityPtBr from '../locales/pt-BR/pages/security.json'
+import blog00IdpEn from '../locales/en/blogs/00-IDP.json'
+import blog00IdpEs from '../locales/es/blogs/00-IDP.json'
+import blog00IdpPtBr from '../locales/pt-BR/blogs/00-IDP.json'
+import blog01InvestEn from '../locales/en/blogs/01-invest.json'
+import blog01InvestEs from '../locales/es/blogs/01-invest.json'
+import blog01InvestPtBr from '../locales/pt-BR/blogs/01-invest.json'
+import blog02SolutionsEn from '../locales/en/blogs/02_solutions.json'
+import blog02SolutionsEs from '../locales/es/blogs/02_solutions.json'
+import blog02SolutionsPtBr from '../locales/pt-BR/blogs/02_solutions.json'
+import meta00IdpEn from '../locales/en/metadata/00-IDP.json'
+import meta00IdpEs from '../locales/es/metadata/00-IDP.json'
+import meta00IdpPtBr from '../locales/pt-BR/metadata/00-IDP.json'
 
 export const supportedLanguages = ['en', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
@@ -64,6 +76,10 @@ const resources = {
     terms: termsEn,
     cookies: cookiesEn,
     security: securityEn,
+    blog_00_IDP: blog00IdpEn,
+    blog_01_invest: blog01InvestEn,
+    blog_02_solutions: blog02SolutionsEn,
+    meta_00_IDP: meta00IdpEn,
   },
   es: {
     common: commonEs,
@@ -80,6 +96,10 @@ const resources = {
     terms: termsEs,
     cookies: cookiesEs,
     security: securityEs,
+    blog_00_IDP: blog00IdpEs,
+    blog_01_invest: blog01InvestEs,
+    blog_02_solutions: blog02SolutionsEs,
+    meta_00_IDP: meta00IdpEs,
   },
   'pt-BR': {
     common: commonPtBr,
@@ -96,6 +116,10 @@ const resources = {
     terms: termsPtBr,
     cookies: cookiesPtBr,
     security: securityPtBr,
+    blog_00_IDP: blog00IdpPtBr,
+    blog_01_invest: blog01InvestPtBr,
+    blog_02_solutions: blog02SolutionsPtBr,
+    meta_00_IDP: meta00IdpPtBr,
   },
 }
 

@@ -39,11 +39,11 @@ function Home() {
                   {t('hero.ctaPrimary')}
                 </button>
               </Link>
-              <Link to={getLocalizedRoute('contact')}>
+              <a href="https://www.youtube.com/watch?v=X2DkVdgkeGo" target="_blank" rel="noopener noreferrer">
                 <button className=" btn-primary px-8 py-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 font-semibold text-lg">
                   {t('hero.ctaSecondary')}
                 </button>
-              </Link>
+              </a>
             </div>
             <p className="text-sm text-body mt-6">
               {t('hero.microcopy')}

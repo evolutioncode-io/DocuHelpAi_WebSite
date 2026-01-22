@@ -10,6 +10,11 @@ type PageMetadataOptions = {
   namespace?: string
   image?: string
   type?: string
+  ogTitle?: string
+  ogDescription?: string
+  ogUrl?: string
+  canonicalUrl?: string
+  twitterCard?: string
 }
 
 // Helper function to get or create meta element
@@ -55,6 +60,11 @@ export function usePageMetadata({
   namespace = 'meta',
   image = 'https://documentoiq.com/og-image.jpg',
   type = 'website',
+  ogTitle,
+  ogDescription,
+  ogUrl,
+  canonicalUrl,
+  twitterCard,
 }: PageMetadataOptions) {
   const { t } = useTranslation(namespace)
   const location = useLocation()
@@ -112,10 +122,10 @@ export function usePageMetadata({
     getOrCreateMeta('title', finalTitle)
 
     // Open Graph tags
-    getOrCreateMeta('og:title', finalTitle, true)
-    getOrCreateMeta('og:description', finalDescription, true)
+    getOrCreateMeta('og:title', ogTitle || finalTitle, true)
+    getOrCreateMeta('og:description', ogDescription || finalDescription, true)
     getOrCreateMeta('og:image', image, true)
-    getOrCreateMeta('og:url', currentUrl, true)
+    getOrCreateMeta('og:url', ogUrl || currentUrl, true)
     getOrCreateMeta('og:type', type, true)
     getOrCreateMeta('og:site_name', 'DocumentoIQ', true)
     getOrCreateMeta(
@@ -125,14 +135,14 @@ export function usePageMetadata({
     )
 
     // Twitter Card tags
-    getOrCreateMeta('twitter:card', 'summary_large_image')
-    getOrCreateMeta('twitter:title', finalTitle)
-    getOrCreateMeta('twitter:description', finalDescription)
+    getOrCreateMeta('twitter:card', twitterCard || 'summary_large_image')
+    getOrCreateMeta('twitter:title', ogTitle || finalTitle)
+    getOrCreateMeta('twitter:description', ogDescription || finalDescription)
     getOrCreateMeta('twitter:image', image)
-    getOrCreateMeta('twitter:url', currentUrl)
+    getOrCreateMeta('twitter:url', ogUrl || currentUrl)
 
     // Canonical URL
-    getOrCreateLink('canonical', currentUrl)
+    getOrCreateLink('canonical', canonicalUrl || currentUrl)
 
     // Hreflang tags
     getOrCreateLink('alternate', `${baseUrl}${enPath}`, 'en')
@@ -234,7 +244,7 @@ export function usePageMetadata({
       // Cleanup structured data scripts on unmount
       document.head.querySelectorAll('script[id^="documentoiq-structured-data"]').forEach((el) => el.remove())
     }
-  }, [finalTitle, finalDescription, currentUrl, image, type, currentLang, baseUrl, enPath, esPath, ptBrPath])
+  }, [finalTitle, finalDescription, currentUrl, image, type, currentLang, baseUrl, enPath, esPath, ptBrPath, ogTitle, ogDescription, ogUrl, canonicalUrl, twitterCard])
 
   // Cleanup hreflang tags on unmount
   useEffect(() => {

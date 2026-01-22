@@ -17,6 +17,10 @@ const Privacy = lazy(() => import('./pages/Privacy'))
 const Terms = lazy(() => import('./pages/Terms'))
 const Cookies = lazy(() => import('./pages/Cookies'))
 const Security = lazy(() => import('./pages/Security'))
+const BlogPost = lazy(() => import('./pages/BlogPost'))
+import heroImageIdp from './assets/blog_images/00_art.png'
+import heroImageInvest from './assets/blog_images/01_art.png'
+import heroImageCustomAi from './assets/blog_images/02_art.png'
 
 // Loading component for Suspense
 function PageLoader() {
@@ -84,7 +88,21 @@ function App() {
             <Route path="privacy" element={<Privacy />} />
             <Route path="terms" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
+            <Route path="cookies" element={<Cookies />} />
             <Route path="security" element={<Security />} />
+            <Route path="security" element={<Security />} />
+            <Route
+              path="blog/what-is-intelligent-document-processing-idp"
+              element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
+            />
+            <Route
+              path="blog/is-investing-in-custom-ai-worth-it"
+              element={<BlogPost contentNamespace="blog_01_invest" metadataNamespace="blog_01_invest" heroImage={heroImageInvest} />}
+            />
+            <Route
+              path="blog/custom-ai-solutions-how-to-power-up-your-business"
+              element={<BlogPost contentNamespace="blog_02_solutions" metadataNamespace="blog_02_solutions" heroImage={heroImageCustomAi} />}
+            />
           </Route>
         </Route>
 
@@ -101,7 +119,21 @@ function App() {
             <Route path="privacidad" element={<Privacy />} />
             <Route path="terminos" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
+            <Route path="cookies" element={<Cookies />} />
             <Route path="seguridad" element={<Security />} />
+            <Route path="seguridad" element={<Security />} />
+            <Route
+              path="blog/que-es-procesamiento-inteligente-documentos-idp"
+              element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
+            />
+            <Route
+              path="blog/vale-la-pena-invertir-en-ia-personalizada"
+              element={<BlogPost contentNamespace="blog_01_invest" metadataNamespace="blog_01_invest" heroImage={heroImageInvest} />}
+            />
+            <Route
+              path="blog/soluciones-de-ia-a-medida-como-potenciar-tu-empresa"
+              element={<BlogPost contentNamespace="blog_02_solutions" metadataNamespace="blog_02_solutions" heroImage={heroImageCustomAi} />}
+            />
           </Route>
         </Route>
 
@@ -118,7 +150,21 @@ function App() {
             <Route path="privacidade" element={<Privacy />} />
             <Route path="termos" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
+            <Route path="cookies" element={<Cookies />} />
             <Route path="seguranca" element={<Security />} />
+            <Route path="seguranca" element={<Security />} />
+            <Route
+              path="blog/o-que-e-processamento-inteligente-documentos-idp"
+              element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
+            />
+            <Route
+              path="blog/vale-a-pena-investir-em-ia-personalizada"
+              element={<BlogPost contentNamespace="blog_01_invest" metadataNamespace="blog_01_invest" heroImage={heroImageInvest} />}
+            />
+            <Route
+              path="blog/solucoes-de-ia-sob-medida-como-potencializar-sua-empresa"
+              element={<BlogPost contentNamespace="blog_02_solutions" metadataNamespace="blog_02_solutions" heroImage={heroImageCustomAi} />}
+            />
           </Route>
         </Route>
 

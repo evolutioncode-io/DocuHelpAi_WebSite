@@ -18,6 +18,9 @@ const routeMappings = {
     terms: '/terms',
     cookies: '/cookies',
     security: '/security',
+    blog00Idp: '/blog/what-is-intelligent-document-processing-idp',
+    blog01Invest: '/blog/is-investing-in-custom-ai-worth-it',
+    blog02Solutions: '/blog/custom-ai-solutions-how-to-power-up-your-business',
   },
   es: {
     home: '/es/',
@@ -31,6 +34,9 @@ const routeMappings = {
     terms: '/es/terminos',
     cookies: '/es/cookies',
     security: '/es/seguridad',
+    blog00Idp: '/es/blog/que-es-procesamiento-inteligente-documentos-idp',
+    blog01Invest: '/es/blog/vale-la-pena-invertir-en-ia-personalizada',
+    blog02Solutions: '/es/blog/soluciones-de-ia-a-medida-como-potenciar-tu-empresa',
   },
   'pt-BR': {
     home: '/pt-br/',
@@ -44,6 +50,9 @@ const routeMappings = {
     terms: '/pt-br/termos',
     cookies: '/pt-br/cookies',
     security: '/pt-br/seguranca',
+    blog00Idp: '/pt-br/blog/o-que-e-processamento-inteligente-documentos-idp',
+    blog01Invest: '/pt-br/blog/vale-a-pena-investir-em-ia-personalizada',
+    blog02Solutions: '/pt-br/blog/solucoes-de-ia-sob-medida-como-potencializar-sua-empresa',
   },
 } as const
 

@@ -1,19 +1,19 @@
 {
   "hero": {
     "badge": "IA para análise e revisão de documentos notariais",
-    "title": "LegalHelpAI por DocumentoIQ",
-    "subtitle": "O LegalHelpAI auxilia tabeliães na análise, extração e validação de informações-chave de escrituras e documentos notariais complexos, reduzindo tempo e erros sem substituir o julgamento do tabelião.",
+    "title": "LegalHelp AI por DocumentoIQ",
+    "subtitle": "O LegalHelp AI auxilia tabeliães na análise, extração e validação de informações-chave de escrituras e documentos notariais complexos, reduzindo tempo e erros sem substituir o julgamento do tabelião.",
     "formats": "Projetado para escrituras, procurações, contratos de compra e venda e protocolos notariais.",
     "primaryCta": "Solicitar demo para cartório",
-    "secondaryCta": "Veja como funciona com uma escritura"
+    "secondaryCta": "Veja como funciona com uma hipoteca"
   },
   "whatIs": {
-    "title": "O que é o LegalHelpAI?",
-    "description": "LegalHelpAI é o produto especializado do DocumentoIQ, criado especificamente para cartórios. Ele usa inteligência artificial para analisar documentos notariais extensos, identificar informações críticas e estruturar dados relevantes, ajudando tabeliães e suas equipes a trabalhar com mais precisão, rapidez e confiança.",
-    "disclaimer": "O LegalHelpAI não substitui o tabelião. Atua como um assistente inteligente que reduz a carga manual e os erros na revisão de documentos."
+    "title": "O que é o LegalHelp AI?",
+    "description": "LegalHelp AI é o produto especializado do DocumentoIQ, criado especificamente para cartórios. Ele usa inteligência artificial para analisar documentos notariais extensos, identificar informações críticas e estruturar dados relevantes, ajudando tabeliães e suas equipes a trabalhar com mais precisão, rapidez e confiança.",
+    "disclaimer": "O LegalHelp AI não substitui o tabelião. Atua como um assistente inteligente que reduz a carga manual e os erros na revisão de documentos."
   },
   "howItWorks": {
-    "title": "Como o LegalHelpAI funciona?",
+    "title": "Como o LegalHelp AI funciona?",
     "steps": {
       "step1": {
         "title": "Envie documentos notariais",
@@ -22,7 +22,7 @@
       },
       "step2": {
         "title": "Processamento com IA especializada",
-        "intro": "O LegalHelpAI combina OCR avançado com modelos de linguagem treinados para entender documentos notariais, identificando automaticamente:",
+        "intro": "O LegalHelp AI combina OCR avançado com modelos de linguagem treinados para entender documentos notariais, identificando automaticamente:",
         "items": [
           "Partes envolvidas",
           "Datas e atos jurídicos",
@@ -85,7 +85,7 @@
         },
         "api": {
           "title": "Integração via API e Zapier",
-          "description": "Conecte o LegalHelpAI às suas ferramentas e fluxos de trabalho."
+          "description": "Conecte o LegalHelp AI às suas ferramentas e fluxos de trabalho."
         }
       }
     }
@@ -107,19 +107,19 @@
       },
       "integration": {
         "title": "Integração com fluxos existentes",
-        "description": "O LegalHelpAI se integra aos processos atuais do cartório sem mudanças drásticas."
+        "description": "O LegalHelp AI se integra aos processos atuais do cartório sem mudanças drásticas."
       }
     }
   },
   "brand": {
-    "title": "LegalHelpAI faz parte do ecossistema DocumentoIQ",
+    "title": "LegalHelp AI faz parte do ecossistema DocumentoIQ",
     "description1": "DocumentoIQ é a plataforma de inteligência artificial para análise de documentos.",
-    "description2": "LegalHelpAI é seu produto especializado para cartórios, desenhado para atender necessidades específicas do setor notarial sem perder a flexibilidade e escalabilidade da plataforma principal.",
+    "description2": "LegalHelp AI é seu produto especializado para cartórios, desenhado para atender necessidades específicas do setor notarial sem perder a flexibilidade e escalabilidade da plataforma principal.",
     "tagline": "Uma base tecnológica única. Um produto especializado para cartórios."
   },
   "cta": {
-    "title": "Otimize a análise de documentos notariais com o LegalHelpAI",
-    "subtitle": "Solicite uma demo personalizada e descubra como o LegalHelpAI pode ajudar a reduzir tempo, erros e carga operacional no seu cartório, mantendo sempre o controle profissional.",
+    "title": "Otimize a análise de documentos notariais com o LegalHelp AI",
+    "subtitle": "Solicite uma demonstração personalizada e descubra como o LegalHelp AI pode ajudar a reduzir tempo, erros e carga operacional no seu cartório, mantendo sempre o controle profissional.",
     "button": "Solicitar demo para cartório",
     "microcopy": "Demo focada em documentos notariais reais."
   }
