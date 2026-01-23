@@ -1,0 +1,90 @@
+{
+    "meta": {
+        "title": "IA em Ação: O Que Separa uma Implementação de Sucesso de um Piloto que Não Escala | DocumentoIQ",
+        "description": "Descubra sinais claros de adoção bem-sucedida de IA em ambientes jurídicos e de compliance, e como passar do piloto para a operação real."
+    },
+    "hero": {
+        "title": "IA em Ação: O Que Separa uma Implementação de Sucesso de um Piloto que Não Escala",
+        "subtitle": "Muitas organizações já \"testaram a IA\". Poucas a transformaram em uma vantagem operacional real.",
+        "intro": "Em processos baseados em documentos, como operações jurídicas, cartórios e compliance, a diferença entre um piloto e uma implementação bem-sucedida não está no modelo, mas em como ele é integrado, governado e validado."
+    },
+    "sections": {
+        "signal1": {
+            "title": "Sinal #1: A IA é Adotada Quando o Negócio a Incorpora ao Modelo Operacional",
+            "content": [
+                "Em serviços profissionais e jurídicos, a adoção real está avançando, mas ainda existe uma lacuna entre \"uso individual\" e \"estratégia organizacional\". Um relatório da Thomson Reuters descreve precisamente esse salto: do uso tático à integração em orçamentos, treinamento, políticas e relacionamento com clientes. [1]",
+                "O que os casos de sucesso fazem de diferente:",
+                "• Definem um caso de uso com dono (operações/jurídico/compliance)",
+                "• Estabelecem políticas de uso e formação",
+                "• Conectam a IA a objetivos mensuráveis (tempo, risco, custo, conformidade)"
+            ]
+        },
+        "signal2": {
+            "title": "Sinal #2: A Liderança Jurídica/Compliance se Envolve desde o Início",
+            "content": [
+                "As implementações bem-sucedidas não são \"empurradas\" da TI para o jurídico. Elas são co-projetadas com liderança jurídica e operacional. A PwC afirma que a adoção ganha tração quando a direção jurídica participa cedo, não apenas para \"frear riscos\", mas para detectar oportunidades e construir confiança interna. [2]",
+                "O que isso implica na prática:",
+                "• Workshops com equipes jurídicas para mapear tarefas repetitivas",
+                "• Definição de critérios de qualidade (o que é \"correto\" e o que não é)",
+                "• Cenários de exceção (o raro é o normal em documentos)"
+            ]
+        },
+        "signal3": {
+            "title": "Sinal #3: Sem Governança, a IA Não Escala (Mesmo que o Piloto \"Funcione\")",
+            "content": [
+                "Em ambientes regulados, a governança não é opcional. O framework da NIST para gestão de riscos de IA é uma referência amplamente utilizada para estruturar práticas de controle: governar, mapear, medir e gerenciar riscos ao longo do ciclo de vida. [3]",
+                "O que isso traduz para operações documentais:",
+                "• Controle de dados de entrada (qualidade, privacidade, retenção)",
+                "• Avaliação de riscos por tipo documental (alto impacto vs baixo impacto)",
+                "• Rastreabilidade e auditoria (quem validou o quê e quando)"
+            ]
+        },
+        "signal4": {
+            "title": "Sinal #4: A Revisão Pré-Implantação (e Controles) Tornam-se Parte do Fluxo",
+            "content": [
+                "Em nível de prática operacional, organizações que amadurecem IA criam processos internos para revisão prévia à implantação e documentação, reduzindo variabilidade e risco. A Microsoft ajuda descrevendo mecanismos de \"revisões pré-implantação\" e padronização de requisitos para usos sensíveis ou de maior risco. [4]",
+                "Em documentos jurídicos/notariais isso se traduz em:",
+                "• Validação humana obrigatória para campos críticos",
+                "• Regras de negócio para valores, datas, identidades, cláusulas",
+                "• Log de alterações e evidências para auditoria"
+            ]
+        },
+        "signal5": {
+            "title": "Sinal #5: No Jurídico/Notarial, a Mudança Não é Apenas Tecnológica: É de Modelo Operacional",
+            "content": [
+                "O mercado jurídico está se reconfigurando por expectativas de clientes, pressão competitiva e tecnologia impulsionada por IA. A Thomson Reuters, em seu relatório sobre o mercado jurídico nos EUA, enfatiza que essas mudanças estão empurrando para repensar modelos e operação, não apenas ferramentas. [5]",
+                "Paralelamente, a Deloitte levanta expectativas de adoção de IA especificamente em departamentos jurídicos e escritórios, reforçando que a implementação bem-sucedida requer clareza sobre onde ela agrega valor e como se integra. [6]"
+            ]
+        },
+        "howToApply": {
+            "title": "Como Levar Esses Aprendizados a um Fluxo Documental Jurídico",
+            "content": [
+                "Se você está avaliando IA para documentos jurídicos/notariais, estas são perguntas típicas:",
+                "• Quais documentos priorizamos (contratos, escrituras, processos, procurações)?",
+                "• Quais campos críticos devem ser extraídos com controle (datas, valores, identidades, cláusulas)?",
+                "• Qual validação humana é obrigatória e onde elá é documentada?",
+                "• Qual padrão de governança seguimos (risco, auditoria, rastreabilidade)?",
+                "• Como medimos impacto (tempo, custo, risco, conformidade)?"
+            ]
+        },
+        "legalHelpAi": {
+            "title": "Como se Conecta com a LegalHelp AI",
+            "content": [
+                "Se seu objetivo é passar de piloto para operação real em processamento documental jurídico, a abordagem mais sólida é IA aplicada ao workflow, com controles, validação e rastreabilidade.",
+                "A LegalHelp AI (dentro do ecossistema DocumentoIQ) foi projetada precisamente para isso: apoiar o processamento documental jurídico/notarial com extração estruturada, revisão humana e governança operacional, para que a IA seja útil em produção, não apenas em testes."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Quer avaliar qual caso de uso é o mais rentável e seguro para sua operação jurídica?",
+        "button": "Fale com um especialista"
+    },
+    "references": {
+        "1": "[1] 2025 Generative AI in Professional Services Report, 2025",
+        "2": "[2] Midyear update: 2025 AI predictions, 2025",
+        "3": "[3] AI Risk Management Framework, 2023",
+        "4": "[4] Responsible AI Transparency Report, 2025",
+        "5": "[5] 2025 Report on the State of the US Legal Market, 2025",
+        "6": "[6] AI for in-house legal 2025 predictions, 2025"
+    }
+}

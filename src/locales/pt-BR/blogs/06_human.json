@@ -1,0 +1,84 @@
+{
+    "meta": {
+        "title": "Por Que a IA Precisa da Lógica Humana para Ser Realmente Útil | DocumentoIQ",
+        "description": "A IA não substitui a lógica humana: ela precisa dela. Descubra como modelos híbridos IA + humano geram mais valor em processos empresariais."
+    },
+    "hero": {
+        "title": "Por Que a IA Precisa da Lógica Humana para Ser Realmente Útil",
+        "subtitle": "À medida que a inteligência artificial se integra a mais processos empresariais, surge uma pergunta recorrente: a IA substituirá as pessoas?",
+        "intro": "Na prática, os casos de maior sucesso demonstram o contrário. A IA gera valor quando complementa o raciocínio humano, não quando tenta substituí-lo."
+    },
+    "sections": {
+        "whyAiNotEnough": {
+            "title": "Por que a IA sozinha não é suficiente",
+            "content": [
+                "A IA é excelente no processamento de dados, mas carece de:",
+                "• Compreensão contextual profunda",
+                "• Responsabilidade legal ou ética",
+                "• Critério profissional",
+                "O Stanford Human-Centered AI Institute aponta que os sistemas de IA devem ser projetados para ampliar a tomada de decisões humanas. [1]"
+            ]
+        },
+        "humanLogicControl": {
+            "title": "A lógica humana como camada de controle",
+            "content": [
+                "Em ambientes reais, a lógica humana:",
+                "• Valida resultados",
+                "• Interpreta exceções",
+                "• Garante a conformidade regulatória",
+                "O Observatório de Políticas de IA da OCDE enfatiza a necessidade de supervisão humana em setores regulados. [2]"
+            ]
+        },
+        "aiInProcesses": {
+            "title": "A IA útil vive dentro dos processos",
+            "content": [
+                "A IA agrega valor quando integrada a fluxos existentes. Pesquisas do MIT Sloan Management Review mostram que os melhores resultados vêm de modelos híbridos IA + humano. [3]"
+            ]
+        },
+        "exampleLegalHelpAi": {
+            "title": "Exemplo aplicado: LegalHelp AI",
+            "content": "A LegalHelp AI, dentro do ecossistema DocumentoIQ, aplica IA ao processamento documental jurídico através de:",
+            "components": {
+                "extract": {
+                    "title": "Extração de dados",
+                    "description": "Extração de dados estruturados de documentos complexos."
+                },
+                "highlight": {
+                    "title": "Destaque inteligente",
+                    "description": "Destacando seções relevantes para análise."
+                },
+                "review": {
+                    "title": "Revisão e validação",
+                    "description": "Permitindo que os profissionais revisem e validem os resultados."
+                }
+            },
+            "conclusion": "A IA acelera a análise de documentos, enquanto os profissionais humanos continuam responsáveis pela interpretação e pelas decisões. O sistema é projetado para apoiar a lógica, não para substituí-la, destacando informações-chave e permitindo revisão humana obrigatória. A IA acelera a análise; o profissional mantém o controle."
+        },
+        "strategicImplications": {
+            "title": "Implicações estratégicas",
+            "content": [
+                "Para executivos e líderes operacionais:",
+                "• A IA deve ser projetada com supervisão humana",
+                "• O valor está na integração",
+                "• A responsabilidade não é automatizada",
+                "O World Economic Forum apoia essa abordagem em seu trabalho sobre IA responsável. [4]"
+            ]
+        },
+        "finalConclusion": {
+            "title": "Conclusão",
+            "content": [
+                "A IA não substitui a lógica humana: ela precisa dela. Os sistemas mais eficazes são aqueles que fortalecem o raciocínio profissional e melhoram processos reais de forma responsável."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Descubra como a IA pode apoiar a tomada de decisões humanas em fluxos documentais.",
+        "button": "Solicitar demonstração"
+    },
+    "references": {
+        "1": "[1] Stanford Human-Centered AI Institute",
+        "2": "[2] OCDE",
+        "3": "[3] MIT Sloan Management Review",
+        "4": "[4] World Economic Forum"
+    }
+}

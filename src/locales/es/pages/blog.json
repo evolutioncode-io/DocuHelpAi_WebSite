@@ -18,33 +18,49 @@
   "categories": {
     "banking": {
       "emoji": "",
-      "label": "Banca",
-      "title": "Automatización de hipotecas con IA en Latam"
+      "label": "Inversión",
+      "title": "¿Vale la Pena Invertir en IA Personalizada? Casos Reales y Retorno de Inversión"
     },
     "legal": {
       "emoji": "",
-      "label": "Legal",
-      "title": "Comparativa: OCR tradicional vs IA moderna"
+      "label": "Soluciones",
+      "title": "Soluciones de IA a Medida: Cómo Potenciar tu Empresa con Inteligencia Artificial Personalizada",
+      "description": "Descubre cómo la IA personalizada mejora la eficiencia y reduce errores en procesos críticos y documentos complejos."
     },
     "notarial": {
       "emoji": "",
-      "label": "Notarías",
-      "title": "Casos de uso reales: legaltech y notarías"
+      "label": "Gestión",
+      "title": "El Futuro del Trabajo Legal: Cómo la IA Está Transformando la Gestión de Documentos",
+      "description": "Explora cómo la inteligencia artificial está redefiniendo las operaciones legales y el rol del profesional jurídico."
     },
     "technology": {
       "emoji": "",
       "label": "Tecnología",
-      "title": "¿Cómo funcionan los modelos de lenguaje en documentos?"
+      "title": "Más Allá de la Guerra de Modelos de IA: Por Qué la IA Liderada por Aplicaciones Gana en 2026",
+      "description": "Descubre por qué en 2026 la ventaja competitiva no reside en el modelo base, sino en la capa de aplicación."
     },
     "useCases": {
       "emoji": "",
       "label": "Casos de Uso",
-      "title": "5 formas de reducir errores en entrada de datos"
+      "title": "Cómo LegalHelp AI está Transformando el Procesamiento de Documentos Legales",
+      "description": "Las organizaciones legales y notariales operan en entornos donde la precisión es fundamental."
     },
     "roi": {
       "emoji": "",
-      "label": "ROI",
-      "title": "Calculando el ROI de la automatización documental"
+      "label": "Útil",
+      "title": "Por Qué la IA Necesita Lógica Humana para Ser Realmente Útil",
+      "description": "A medida que la inteligencia artificial se integra en más procesos de negocio, surge una pregunta recurrente."
+    },
+    "customAi": {
+      "emoji": "",
+      "label": "IA Personalizada",
+      "title": "Soluciones de IA a Medida para tu Empresa"
+    },
+    "aiInAction": {
+      "emoji": "",
+      "label": "IA en Acción",
+      "title": "IA en Acción: Qué Separa una Implementación Exitosa de un Piloto que no Escala",
+      "description": "Muchas organizaciones ya han \"probado la IA\". Pocas lo han convertido en una ventaja operativa real."
     }
   },
   "articleDescription": "Profundizamos en tácticas, estrategias y aprendizajes reales de automatización documental con IA.",

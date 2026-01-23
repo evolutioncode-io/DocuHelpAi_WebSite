@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "title": "How LegalHelp AI is Transforming Legal Document Processing | DocumentoIQ",
+        "description": "Discover how LegalHelp AI transforms legal document processing through assistive AI, ensuring accuracy and human control."
+    },
+    "hero": {
+        "title": "How LegalHelp AI is Transforming Legal Document Processing",
+        "subtitle": "Legal and notarial organizations operate in environments where accuracy, consistency, and professional responsibility are critical.",
+        "intro": "Assistive AI applied to document processing emerges as a practical response to this challenge, designed to support professional judgment and improve operational efficiency."
+    },
+    "sections": {
+        "structuralChallenge": {
+            "title": "The structural challenge of legal document flows",
+            "content": [
+                "Legal work depends on extensive, heterogeneous, and legally binding documents.",
+                " workflows based on documents, contracts, deeds, and powers of attorney remain essential, but increasingly difficult to scale through manual processes.",
+                "According to the Legal Technology & AI Adoption Report by AllRize, more than 60% of legal firms already integrate AI tools into their tech stacks, although full integration remains a challenge. [1]"
+            ]
+        },
+        "genericAiNotEnough": {
+            "title": "Why generic AI is not enough",
+            "content": [
+                "Generic AI tools often lack:",
+                "• Legal and notarial context",
+                "• Structuring aligned with professional workflows",
+                "• Clear validation mechanisms",
+                "The OECD AI Policy Observatory underscores that AI in regulated sectors must be designed with explicit human accountability. [2]"
+            ]
+        },
+        "howItWorks": {
+            "title": "How LegalHelp AI by DocumentoIQ works",
+            "content": "LegalHelp AI was designed specifically for legal and notarial documents, focusing on real workflows:",
+            "components": {
+                "ocr": {
+                    "title": "Advanced OCR for complex documents",
+                    "description": "LegalHelp AI processes scanned and digital documents, including those with complex layouts or variable quality."
+                },
+                "languageUnderstanding": {
+                    "title": "Understanding legal language",
+                    "description": "The system applies language models adapted to legal terminology and document structures, allowing precise identification of entities, dates, monetary values, and legal actions."
+                },
+                "extraction": {
+                    "title": "Structured information extraction",
+                    "description": "Relevant information is converted into structured results that can be reviewed, validated, and integrated into downstream systems."
+                },
+                "humanInTheLoop": {
+                    "title": "Integrated human review (human-in-the-loop)",
+                    "description": "A visual review interface ensures that professionals validate extracted data before it is used operationally, preserving accountability."
+                }
+            },
+            "conclusion": "As part of DocumentoIQ, LegalHelp AI allows scaling legal document processing while maintaining traceability, regulatory compliance, and operational control."
+        },
+        "strategicImplications": {
+            "title": "Strategic implications",
+            "content": [
+                "The report AI Adoption Surges in the Legal Industry highlights that around 74% of legal professionals plan to use AI tools in their roles in the coming year, underscoring the importance of document automation. [3]",
+                "For executives, notaries, and legal leaders:",
+                "• Effective AI is built at the application level",
+                "• Domain knowledge is key",
+                "• Human oversight remains indispensable",
+                "• AI must be integrated into real processes"
+            ]
+        },
+        "finalConclusion": {
+            "title": "Conclusion",
+            "content": [
+                "LegalHelp AI demonstrates how responsibly applied AI can transform legal document processing without substituting professional judgment. The combination of technology, processes, and human validation is the foundation of sustainable adoption."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Learn how assistive AI can optimize legal document processing.",
+        "button": "Explore LegalHelp AI"
+    },
+    "references": {
+        "1": "[1] Legal Technology & AI Adoption Report, 2025",
+        "2": "[2] OECD",
+        "3": "[3] AI Adoption Surges in the Legal Industry, 2025"
+    }
+}

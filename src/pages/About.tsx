@@ -148,11 +148,14 @@ function About() {
       <section className="bg-surface-muted py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 text-heading">{t('impact.title')}</h2>
+            <h2 className="text-4xl font-bold mb-4 text-heading">
+              {t('impact.title')}
+            </h2>
             <p className="text-xl text-body">
               {t('impact.subtitle')}
             </p>
           </div>
+
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             {[
               { value: t('impact.accuracy.value'), label: t('impact.accuracy.label') },
@@ -160,13 +163,43 @@ function About() {
               { value: t('impact.documents.value'), label: t('impact.documents.label') },
               { value: t('impact.response.value'), label: t('impact.response.label') },
             ].map((stat) => (
-              <div key={stat.label} className="text-center p-6 card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] rounded-2xl cursor-pointer">
-                <div className="text-4xl font-bold mb-2 text-[color:var(--color-primary-800)]">{stat.value}</div>
-                <p className="text-body font-medium">{stat.label}</p>
+              <div
+                key={stat.label}
+                className="
+                  group text-center p-6
+                  card-surface card-hover-blue
+                  border-2 border-[color:var(--color-neutral-400)]
+                  rounded-2xl cursor-pointer
+                  transition-colors duration-300
+                "
+              >
+                <div
+                  className="
+                    text-4xl font-bold mb-2
+                    text-[color:var(--color-primary-800)]
+                    transition-colors duration-300
+                    group-hover:text-[color:var(--color-accent-700)]
+                  "
+                >
+                  {stat.value}
+                </div>
+
+                <p
+                  className="
+                    text-body font-medium
+                    transition-colors duration-300
+                    group-hover:text-[color:var(--color-accent-700)]
+                  "
+                >
+                  {stat.label}
+                </p>
               </div>
             ))}
           </div>
-          <p className="text-center text-body text-sm">{t('impact.microcopy')}</p>
+
+          <p className="text-center text-body text-sm">
+            {t('impact.microcopy')}
+          </p>
         </div>
       </section>
 

@@ -18,33 +18,49 @@
   "categories": {
     "banking": {
       "emoji": "",
-      "label": "Banking",
-      "title": "Mortgage automation with AI in Latam"
+      "label": "Investment",
+      "title": "Is Custom AI Worth the Investment? Real Cases and ROI"
     },
     "legal": {
       "emoji": "",
-      "label": "Legal",
-      "title": "Comparison: Traditional OCR vs Modern AI"
+      "label": "Solutions",
+      "title": "Custom AI Solutions: How to Power Up Your Business with Personalized Artificial Intelligence",
+      "description": "Discover how personalized AI improves efficiency and reduces errors in critical processes and complex documents."
     },
     "notarial": {
       "emoji": "",
-      "label": "Notaries",
-      "title": "Real use cases: legaltech and notaries"
+      "label": "Management",
+      "title": "The Future of Legal Work: How AI is Transforming Document Management",
+      "description": "Explore how AI is redefining legal operations and the role of the legal professional."
     },
     "technology": {
       "emoji": "",
       "label": "Technology",
-      "title": "How do language models work in documents?"
+      "title": "Beyond the AI Model War: Why Application-Led AI Wins in 2026",
+      "description": "Discover why in 2026 the competitive advantage lies not in the base model, but in the application layer."
     },
     "useCases": {
       "emoji": "",
       "label": "Use Cases",
-      "title": "5 ways to reduce errors in data entry"
+      "title": "How LegalHelp AI is Transforming Legal Document Processing",
+      "description": "Legal and notarial organizations operate in environments where accuracy is critical."
     },
     "roi": {
       "emoji": "",
-      "label": "ROI",
-      "title": "Calculating the ROI of document automation"
+      "label": "Useful",
+      "title": "Why AI Needs Human Logic to Be Truly Useful",
+      "description": "As artificial intelligence integrates into more business processes, a recurring question arises."
+    },
+    "customAi": {
+      "emoji": "",
+      "label": "Custom AI",
+      "title": "Tailored AI Solutions for Your Enterprise"
+    },
+    "aiInAction": {
+      "emoji": "",
+      "label": "AI in Action",
+      "title": "AI in Action: What Separates a Successful Implementation from a Pilot That Doesn't Scale",
+      "description": "Many organizations have already \"tried AI\". Few have turned it into a real operational advantage."
     }
   },
   "articleDescription": "We dive deep into tactics, strategies and real learnings from document automation with AI.",

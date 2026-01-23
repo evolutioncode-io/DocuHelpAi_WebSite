@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "title": "The Future of Legal Work: How AI is Transforming Document Management | DocumentoIQ",
+        "description": "Discover how AI is transforming legal and notarial operations, improving efficiency and reducing errors without replacing the human professional."
+    },
+    "hero": {
+        "title": "The Future of Legal Work: How AI is Transforming Document Management",
+        "subtitle": "Legal work is at a turning point. The exponential growth of documents, the pressure for greater efficiency, and the need to reduce errors are leading law firms, notaries, and operations teams to rethink how they manage information.",
+        "intro": "In this context, artificial intelligence (AI) is consolidating itself as a key tool to transform document-based legal operations."
+    },
+    "sections": {
+        "challenge": {
+            "title": "The challenge of document-based legal operations",
+            "content": [
+                "Legal and notarial operations depend on large volumes of complex documents: contracts, deeds, powers of attorney, annexes, and extensive files. Much of the work remains manual, which implies:",
+                "• High review times",
+                "• Risk of human errors",
+                "• Difficulty scaling operations without increasing costs",
+                "According to the Thomson Reuters Institute report, legal teams face increasing pressure to handle larger volumes of document work without proportionally increasing resources, driving the adoption of technologies that improve operational efficiency. [1]"
+            ]
+        },
+        "transformation": {
+            "title": "How AI is transforming legal work",
+            "content": [
+                "AI applied to the legal sector does not seek to replace lawyers or notaries, but to assist them in tasks where automation adds greater value. Among the main impacts are:",
+                "• Faster analysis of extensive documents",
+                "• Automatic identification of key data",
+                "• Structuring of unorganized information",
+                "• Greater consistency in document reviews",
+                "Research from the Stanford CodeX – Center for Legal Informatics highlights that the greatest impact of AI in the legal sector occurs when applied to specific document flows, keeping the legal professional as an active part of the validation and decision process. [2]"
+            ]
+        },
+        "evolution": {
+            "title": "The evolution of the human role in legal work",
+            "content": [
+                "One of the biggest changes is not technological, but operational. AI is redefining the role of the legal professional, shifting them from repetitive tasks towards functions of:",
+                "• Supervision",
+                "• Validation",
+                "• Context analysis",
+                "• Decision making",
+                "According to the World Economic Forum, the most effective work models combine intelligent automation with human supervision, especially in regulated and document-based industries. [3]"
+            ]
+        },
+        "legalHelpAi": {
+            "title": "LegalHelp AI: AI applied to legal and notarial documents",
+            "content": "A concrete example of this transformation is LegalHelp AI, the specialized product for the legal and notarial sector within the DocumentoIQ ecosystem. LegalHelpAI is designed to assist notaries and legal teams in managing complex documents such as deeds, powers of attorney, sales, and notarial protocols.",
+            "components": {
+                "OCR": {
+                    "title": "Advanced OCR",
+                    "description": "Capable of processing scanned or low-quality documents"
+                },
+                "LM": {
+                    "title": "Language models",
+                    "description": "Trained in legal context, understanding structure and terminology of legal documents"
+                },
+                "Extraction": {
+                    "title": "Structured extraction",
+                    "description": "Of key information, configurable according to document type"
+                },
+                "Review": {
+                    "title": "Visual review panel",
+                    "description": "Allows validating results before use"
+                }
+            },
+            "conclusion": "Unlike generic tools, LegalHelpAI adapts to real processes and always maintains human control as a central part of the workflow. AI accelerates document review and reduces errors, but the final decision remains in the hands of the professional."
+        },
+        "future": {
+            "title": "The future of legal work",
+            "content": [
+                "The future of legal work will not be completely automated, but assisted by AI. Organizations that adopt solutions designed for their document processes will be better prepared to:",
+                "• Scale operations",
+                "• Reduce risks",
+                "• Improve response times",
+                "• Free up capacity for higher value tasks",
+                "The key will be to implement AI strategically, aligned with the legal context and with clear human supervision."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Discover how assistive AI can optimize legal and notarial document management.",
+        "button": "Request LegalHelp AI demo"
+    },
+    "references": {
+        "1": "[1] 2024 Report on the State of the US Legal Market, 2024",
+        "2": "[2] Stanford University – CodeX",
+        "3": "[3] Jobs of Tomorrow: Large Language Models and Jobs, 2024"
+    }
+}

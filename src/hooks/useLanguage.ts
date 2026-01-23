@@ -21,6 +21,12 @@ const routeMappings = {
     blog00Idp: '/blog/what-is-intelligent-document-processing-idp',
     blog01Invest: '/blog/is-investing-in-custom-ai-worth-it',
     blog02Solutions: '/blog/custom-ai-solutions-how-to-power-up-your-business',
+    blog03Future: '/blog/the-future-of-legal-work-how-ai-is-transforming-document-management',
+    blog04Beyond: '/blog/beyond-the-ai-model-war-why-application-led-ai-wins-in-2026',
+    blog05Procedure: '/blog/how-legalhelp-ai-is-transforming-legal-document-processing',
+    blog06Human: '/blog/why-ai-needs-human-logic-to-be-truly-useful',
+    blog07Custom: '/blog/tailored-ai-for-legal-document-processing',
+    blog08AiAction: '/blog/ai-in-action-what-separates-implementation-from-pilot',
   },
   es: {
     home: '/es/',
@@ -37,6 +43,12 @@ const routeMappings = {
     blog00Idp: '/es/blog/que-es-procesamiento-inteligente-documentos-idp',
     blog01Invest: '/es/blog/vale-la-pena-invertir-en-ia-personalizada',
     blog02Solutions: '/es/blog/soluciones-de-ia-a-medida-como-potenciar-tu-empresa',
+    blog03Future: '/es/blog/el-futuro-del-trabajo-legal-como-la-ia-esta-transformando-la-gestion-de-documentos',
+    blog04Beyond: '/es/blog/mas-alla-de-la-guerra-de-modelos-de-ia-por-que-la-ia-liderada-por-aplicaciones-gana-en-2026',
+    blog05Procedure: '/es/blog/como-legalhelp-ai-esta-transformando-el-procesamiento-de-documentos-legales',
+    blog06Human: '/es/blog/por-que-la-ia-necesita-logica-humana-para-ser-realmente-util',
+    blog07Custom: '/es/blog/ia-a-medida-para-el-procesamiento-de-documentos-legales',
+    blog08AiAction: '/es/blog/ia-en-accion-que-separa-una-implementacion-exitosa-de-un-piloto',
   },
   'pt-BR': {
     home: '/pt-br/',
@@ -53,6 +65,12 @@ const routeMappings = {
     blog00Idp: '/pt-br/blog/o-que-e-processamento-inteligente-documentos-idp',
     blog01Invest: '/pt-br/blog/vale-a-pena-investir-em-ia-personalizada',
     blog02Solutions: '/pt-br/blog/solucoes-de-ia-sob-medida-como-potencializar-sua-empresa',
+    blog03Future: '/pt-br/blog/o-futuro-do-trabalho-juridico-como-a-ia-esta-transformando-a-gestao-de-documentos',
+    blog04Beyond: '/pt-br/blog/alem-da-guerra-de-modelos-de-ia-por-que-a-ia-liderada-por-aplicativos-vence-em-2026',
+    blog05Procedure: '/pt-br/blog/como-a-legalhelp-ai-esta-transformando-o-processamento-de-documentos-juridicos',
+    blog06Human: '/pt-br/blog/por-que-a-ia-precisa-da-logica-humana-para-ser-realmente-util',
+    blog07Custom: '/pt-br/blog/ia-sob-medida-para-o-processamento-de-documentos-juridicos',
+    blog08AiAction: '/pt-br/blog/ia-em-acao-o-que-separa-uma-implementacao-de-sucesso-de-um-piloto',
   },
 } as const
 
