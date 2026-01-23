@@ -1,0 +1,81 @@
+{
+    "meta": {
+        "title": "¿Qué es el procesamiento inteligente de documentos (IDP)? | DocumentoIQ",
+        "description": "Descubre cómo el IDP transforma documentos no estructurados en datos útiles, reduciendo costos y errores en operaciones legales y financieras."
+    },
+    "hero": {
+        "title": "¿Qué es el procesamiento inteligente de documentos (IDP) y por qué es clave para la eficiencia operativa?",
+        "subtitle": "Las organizaciones modernas dependen cada vez más de documentos para operar: contratos, facturas, expedientes legales, formularios, reportes y registros críticos. Sin embargo, gran parte de esta información sigue procesándose de forma manual, lo que genera costos operativos elevados, tiempos de respuesta lentos y mayor riesgo de errores.",
+        "intro": "En este contexto, el procesamiento inteligente de documentos (Intelligent Document Processing, IDP) se ha convertido en una capacidad estratégica. No se trata solo de digitalizar documentos, sino de extraer, estructurar y aprovechar la información para mejorar decisiones, eficiencia y escalabilidad del negocio."
+    },
+    "sections": {
+        "whatIsIdp": {
+            "title": "¿Qué es el procesamiento inteligente de documentos (IDP)?",
+            "content": [
+                "El IDP es una tecnología que combina OCR avanzado, inteligencia artificial y modelos de comprensión del lenguaje para procesar documentos de forma automática y estructurada.",
+                "A diferencia del procesamiento tradicional, el IDP permite:",
+                "• Comprender documentos no estructurados o semiestructurados",
+                "• Identificar datos clave (fechas, montos, entidades, cláusulas)",
+                "• Convertir información compleja en datos utilizables por sistemas de negocio"
+            ]
+        },
+        "whyRelevant": {
+            "title": "¿Por qué el IDP es relevante para las organizaciones hoy?",
+            "content": [
+                "El valor del IDP va más allá de la automatización. Desde una perspectiva de negocio, permite:",
+                "• Reducir costos operativos, minimizando tareas manuales repetitivas.",
+                "• Acelerar procesos críticos, como aprobaciones, revisiones o validaciones.",
+                "• Disminuir riesgos, al mejorar la consistencia y trazabilidad de la información.",
+                "• Escalar operaciones, incluso cuando el volumen documental crece.",
+                "De acuerdo con Gartner, las organizaciones que adoptan tecnologías de automatización inteligente logran mejoras significativas en eficiencia y control operativo. [1]"
+            ]
+        },
+        "technologies": {
+            "title": "¿Qué tecnologías hacen posible el IDP?",
+            "intro": "El procesamiento inteligente de documentos se apoya en varios componentes clave:",
+            "components": {
+                "1": {
+                    "title": "1. OCR avanzado",
+                    "description": "Permite convertir documentos escaneados o digitales en texto legible, incluso cuando la calidad es baja o el formato es complejo."
+                },
+                "2": {
+                    "title": "2. Inteligencia artificial y machine learning",
+                    "description": "Los modelos de IA aprenden a reconocer patrones, estructuras y campos relevantes dentro de distintos tipos de documentos."
+                },
+                "3": {
+                    "title": "3. Comprensión del lenguaje natural",
+                    "description": "Facilita la interpretación del contenido, más allá de palabras sueltas, entendiendo contexto y relaciones entre datos."
+                }
+            },
+            "conclusion": "Según IBM, la combinación de estas tecnologías es fundamental para transformar documentos en activos de información. [2]"
+        },
+        "useCases": {
+            "title": "Casos de uso comunes del IDP",
+            "intro": "El IDP se aplica en múltiples áreas, entre ellas:",
+            "list": [
+                "Operaciones legales y notariales",
+                "Finanzas y cuentas por pagar",
+                "Onboarding de clientes",
+                "Gestión de contratos y expedientes",
+                "Cumplimiento y auditoría"
+            ],
+            "conclusion": "El IDP es una de las principales palancas para modernizar procesos intensivos en documentos."
+        },
+        "strategy": {
+            "title": "DocumentoIQ y el enfoque estratégico del IDP",
+            "content": "En DocumentoIQ, el IDP se concibe como una capacidad transversal, diseñada para integrarse a procesos reales y apoyar decisiones críticas. No se trata solo de automatizar documentos, sino de habilitar inteligencia operativa a partir de ellos. Este enfoque permite a las organizaciones avanzar de la digitalización básica hacia una gestión documental verdaderamente inteligente y escalable."
+        },
+        "legalHelpAi": {
+            "title": "De la teoría a la práctica: LegalHelp AI",
+            "content": "Dentro del ecosistema DocumentoIQ, LegalHelp AI es un producto especializado que aplica IDP a flujos documentales legales y notariales. Está diseñado para extraer información clave, facilitar la revisión humana y apoyar operaciones con altos requerimientos de precisión y cumplimiento."
+        }
+    },
+    "cta": {
+        "title": "¿Quieres entender cómo el procesamiento inteligente de documentos puede impactar tus operaciones?",
+        "button": "Solicita una demo"
+    },
+    "references": {
+        "1": "[1] Gartner",
+        "2": "[2] The Art of Automation: Chapter 3 – Intelligent Document Processing"
+    }
+}

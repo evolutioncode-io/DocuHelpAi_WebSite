@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "title": "IA Sob Medida para o Processamento de Documentos Jurídicos: Quando as Ferramentas Genéricas Já Não São Suficientes | DocumentoIQ",
+        "description": "Descubra como a IA sob medida transforma o processamento documental jurídico, superando as limitações das ferramentas genéricas."
+    },
+    "hero": {
+        "title": "IA Sob Medida para o Processamento de Documentos Jurídicos: Quando as Ferramentas Genéricas Já Não São Suficientes",
+        "subtitle": "Organizações jurídicas e notariais dependem da precisão documental, da rastreabilidade e da conformidade normativa.",
+        "intro": "No entanto, muitas soluções genéricas de IA e automação não são projetadas para a complexidade dos fluxos jurídicos. É aqui que a IA sob medida para o processamento de documentos jurídicos se torna uma vantagem estratégica."
+    },
+    "sections": {
+        "limitationsGenericAi": {
+            "title": "Limitações da IA genérica em ambientes jurídicos",
+            "content": [
+                "As ferramentas genéricas geralmente apresentam:",
+                "• Compreensão limitada do contexto jurídico",
+                "• Dificuldades em lidar com exceções",
+                "• Falta de mecanismos claros de auditoria",
+                "Segundo a Harvard Business Review, a IA gera impacto quando projetada para processos específicos e não como uma camada universal. [1]"
+            ]
+        },
+        "whatDistinguishesCustomAi": {
+            "title": "O que distingue a IA sob medida",
+            "content": [
+                "A IA sob medida é construída sobre:",
+                "• Conhecimento profundo do domínio",
+                "• Integração direta em fluxos reais",
+                "• Supervisão humana incorporada",
+                "Uma análise da Bain & Company mostra que a escalabilidade real da IA depende de seu alinhamento com processos críticos. [2]"
+            ]
+        },
+        "howLegalHelpAiApplies": {
+            "title": "Como a LegalHelp AI aplica IA sob medida",
+            "content": "A LegalHelp AI foi projetada especificamente para documentos jurídicos e notariais. Integrada ao DocumentoIQ, a LegalHelp AI permite começar com um caso jurídico concreto e evoluir para uma estratégia mais ampla de inteligência documental.",
+            "components": {
+                "ocr": {
+                    "title": "OCR avançado",
+                    "description": "OCR avançado para documentos complexos."
+                },
+                "understanding": {
+                    "title": "Compreensão jurídica",
+                    "description": "Compreensão da linguagem jurídica."
+                },
+                "extraction": {
+                    "title": "Extração estruturada",
+                    "description": "Extração estruturada de informações."
+                },
+                "validation": {
+                    "title": "Validação humana",
+                    "description": "Validação humana obrigatória."
+                }
+            },
+            "conclusion": "Esta abordagem coincide com a visão do Gartner sobre IA aplicada em ambientes regulados. [3]"
+        },
+        "businessImpact": {
+            "title": "Impacto nos negócios",
+            "content": [
+                "Para notários, escritórios de advocacia e líderes de operações, a IA sob medida permite:",
+                "• Maior eficiência sem perder o controle",
+                "• Redução de riscos",
+                "• Melhor escalabilidade",
+                "• Conformidade normativa sólida",
+                "Portanto, a transformação tecnológica jurídica deve equilibrar a automação e a governança."
+            ]
+        },
+        "finalConclusion": {
+            "title": "Conclusão",
+            "content": [
+                "Ferramentas genéricas já não são suficientes para as operações jurídicas modernas. A LegalHelp AI demonstra como a IA sob medida gera valor real alinhando tecnologia, processos e critério profissional."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Descubra como a IA sob medida pode transformar seus fluxos documentais jurídicos.",
+        "button": "Fale com um especialista"
+    },
+    "references": {
+        "1": "[1] The Right Way to Launch an AI Initiative, 2025",
+        "2": "[2] Scaling AI to Transform the Enterprise, 2025",
+        "3": "[3] What Is Artificial Intelligence? Seeing Through the Hype and Focusing on Business Value"
+    }
+}

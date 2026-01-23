@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "title": "IA a Medida para el Procesamiento de Documentos Legales: Cuando las Herramientas Genéricas Ya No Son Suficientes | DocumentoIQ",
+        "description": "Descubre cómo la IA a medida transforma el procesamiento documental legal, superando las limitaciones de las herramientas genéricas."
+    },
+    "hero": {
+        "title": "IA a Medida para el Procesamiento de Documentos Legales: Cuando las Herramientas Genéricas Ya No Son Suficientes",
+        "subtitle": "Las organizaciones legales y notariales dependen de la precisión documental, la trazabilidad y el cumplimiento normativo.",
+        "intro": "Sin embargo, muchas soluciones genéricas de IA y automatización no están diseñadas para la complejidad de los flujos legales. Aquí es donde la IA a medida para el procesamiento de documentos legales se convierte en una ventaja estratégica."
+    },
+    "sections": {
+        "limitationsGenericAi": {
+            "title": "Limitaciones de la IA genérica en entornos legales",
+            "content": [
+                "Las herramientas genéricas suelen presentar:",
+                "• Comprensión limitada del contexto legal",
+                "• Dificultades para manejar excepciones",
+                "• Falta de mecanismos claros de auditoría",
+                "Según Harvard Business Review, la IA genera impacto cuando se diseña para procesos específicos y no como una capa universal. [1]"
+            ]
+        },
+        "whatDistinguishesCustomAi": {
+            "title": "Qué distingue a la IA a medida",
+            "content": [
+                "La IA a medida se construye sobre:",
+                "• Conocimiento profundo del dominio",
+                "• Integración directa en flujos reales",
+                "• Supervisión humana incorporada",
+                "Un análisis de Bain & Company muestra que la escalabilidad real de la IA depende de su alineación con procesos críticos. [2]"
+            ]
+        },
+        "howLegalHelpAiApplies": {
+            "title": "Cómo LegalHelp AI aplica IA a medida",
+            "content": "LegalHelp AI fue diseñado específicamente para documentos legales y notariales. Integrado en DocumentoIQ, LegalHelp AI permite iniciar con un caso legal concreto y evolucionar hacia una estrategia más amplia de inteligencia documental.",
+            "components": {
+                "ocr": {
+                    "title": "OCR avanzado",
+                    "description": "OCR avanzado para documentos complejos."
+                },
+                "understanding": {
+                    "title": "Comprensión legal",
+                    "description": "Comprensión del lenguaje legal."
+                },
+                "extraction": {
+                    "title": "Extracción estructurada",
+                    "description": "Extracción estructurada de información."
+                },
+                "validation": {
+                    "title": "Validación humana",
+                    "description": "Validación humana obligatoria."
+                }
+            },
+            "conclusion": "Este enfoque coincide con la visión de Gartner sobre IA aplicada en entornos regulados. [3]"
+        },
+        "businessImpact": {
+            "title": "Impacto de negocio",
+            "content": [
+                "Para notarios, despachos legales y líderes de operaciones, la IA a medida permite:",
+                "• Mayor eficiencia sin perder control",
+                "• Reducción de riesgos",
+                "• Mejor escalabilidad",
+                "• Cumplimiento normativo sólido",
+                "Por ello, la transformación tecnológica legal debe equilibrar la automatización y la gobernanza."
+            ]
+        },
+        "finalConclusion": {
+            "title": "Conclusión",
+            "content": [
+                "Las herramientas genéricas ya no son suficientes para las operaciones legales modernas. LegalHelp AI demuestra cómo la IA a medida genera valor real alineando tecnología, procesos y criterio profesional."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Descubre cómo la IA a medida puede transformar tus flujos documentales legales.",
+        "button": "Habla con un experto"
+    },
+    "references": {
+        "1": "[1] The Right Way to Launch an AI Initiative, 2025",
+        "2": "[2] Scaling AI to Transform the Enterprise, 2025",
+        "3": "[3] What Is Artificial Intelligence? Seeing Through the Hype and Focusing on Business Value"
+    }
+}

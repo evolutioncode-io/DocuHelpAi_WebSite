@@ -168,10 +168,60 @@ a {
 
 .card-hover-blue {
   position: relative;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .card-hover-blue:hover {
+  background-color: var(--color-primary-900);
   border-color: #FEC930;
   animation: borderGlow 2s ease-in-out infinite;
+}
+
+/* Invert nested elements on card hover */
+.card-hover-blue:hover .text-heading,
+.card-hover-blue:hover h2 {
+  color: var(--color-neutral-000) !important;
+}
+
+.card-hover-blue:hover .text-body,
+.card-hover-blue:hover p {
+  color: var(--color-neutral-000);
+  opacity: 0.9;
+}
+
+.card-hover-blue:hover svg {
+  color: var(--color-accent-500) !important;
+}
+
+.card-hover-blue:hover .bg-surface-muted {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.card-hover-blue:hover .link {
+  color: var(--color-accent-500);
+}
+
+.card-hover-blue:hover span.text-xs {
+  background-color: var(--color-accent-500) !important;
+  color: var(--color-primary-900) !important;
+}
+
+/* Form elements hover state inside card */
+.card-hover-blue:hover input,
+.card-hover-blue:hover textarea,
+.card-hover-blue:hover select {
+  color: var(--color-neutral-000) !important;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border-color: rgba(254, 201, 48, 0.3) !important;
+}
+
+.card-hover-blue:hover input::placeholder,
+.card-hover-blue:hover textarea::placeholder {
+  color: var(--color-accent-500) !important;
+  opacity: 1;
+}
+
+.card-hover-blue:hover select option {
+  background-color: var(--color-primary-900);
+  color: var(--color-neutral-000);
 }

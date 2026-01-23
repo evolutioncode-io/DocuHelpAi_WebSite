@@ -44,6 +44,60 @@ import cookiesPtBr from '../locales/pt-BR/pages/cookies.json'
 import securityEn from '../locales/en/pages/security.json'
 import securityEs from '../locales/es/pages/security.json'
 import securityPtBr from '../locales/pt-BR/pages/security.json'
+import blog00IdpEn from '../locales/en/blogs/00-IDP.json'
+import blog00IdpEs from '../locales/es/blogs/00-IDP.json'
+import blog00IdpPtBr from '../locales/pt-BR/blogs/00-IDP.json'
+import blog01InvestEn from '../locales/en/blogs/01-invest.json'
+import blog01InvestEs from '../locales/es/blogs/01-invest.json'
+import blog01InvestPtBr from '../locales/pt-BR/blogs/01-invest.json'
+import blog02SolutionsEn from '../locales/en/blogs/02_solutions.json'
+import blog02SolutionsEs from '../locales/es/blogs/02_solutions.json'
+import blog02SolutionsPtBr from '../locales/pt-BR/blogs/02_solutions.json'
+import meta00IdpEn from '../locales/en/metadata/00-IDP.json'
+import meta00IdpEs from '../locales/es/metadata/00-IDP.json'
+import meta00IdpPtBr from '../locales/pt-BR/metadata/00-IDP.json'
+import meta01InvestEn from '../locales/en/metadata/01-invest.json'
+import meta01InvestEs from '../locales/es/metadata/01-invest.json'
+import meta01InvestPtBr from '../locales/pt-BR/metadata/01-invest.json'
+import meta02SolutionsEn from '../locales/en/metadata/02_solutions.json'
+import meta02SolutionsEs from '../locales/es/metadata/02_solutions.json'
+import meta02SolutionsPtBr from '../locales/pt-BR/metadata/02_solutions.json'
+import meta03FutureEn from '../locales/en/metadata/03_future.json'
+import meta03FutureEs from '../locales/es/metadata/03_future.json'
+import meta03FuturePtBr from '../locales/pt-BR/metadata/03_future.json'
+import meta04BeyondEn from '../locales/en/metadata/04_beyond.json'
+import meta04BeyondEs from '../locales/es/metadata/04_beyond.json'
+import meta04BeyondPtBr from '../locales/pt-BR/metadata/04_beyond.json'
+import meta05ProcedureEn from '../locales/en/metadata/05_procedure.json'
+import meta05ProcedureEs from '../locales/es/metadata/05_procedure.json'
+import meta05ProcedurePtBr from '../locales/pt-BR/metadata/05_procedure.json'
+import meta06HumanEn from '../locales/en/metadata/06_human.json'
+import meta06HumanEs from '../locales/es/metadata/06_human.json'
+import meta06HumanPtBr from '../locales/pt-BR/metadata/06_human.json'
+import meta07CustomEn from '../locales/en/metadata/07_custom.json'
+import meta07CustomEs from '../locales/es/metadata/07_custom.json'
+import meta07CustomPtBr from '../locales/pt-BR/metadata/07_custom.json'
+import meta08AiActionEn from '../locales/en/metadata/08_ai_action.json'
+import meta08AiActionEs from '../locales/es/metadata/08_ai_action.json'
+import meta08AiActionPtBr from '../locales/pt-BR/metadata/08_ai_action.json'
+import blog03FutureEn from '../locales/en/blogs/03_future.json'
+import blog03FutureEs from '../locales/es/blogs/03_future.json'
+import blog03FuturePtBr from '../locales/pt-BR/blogs/03_future.json'
+import blog04BeyondEn from '../locales/en/blogs/03_beyond.json'
+import blog04BeyondEs from '../locales/es/blogs/03_beyond.json'
+import blog04BeyondPtBr from '../locales/pt-BR/blogs/03_beyond.json'
+import blog05ProcedureEn from '../locales/en/blogs/05_procedure.json'
+import blog05ProcedureEs from '../locales/es/blogs/05_procedure.json'
+import blog05ProcedurePtBr from '../locales/pt-BR/blogs/05_procedure.json'
+import blog06HumanEn from '../locales/en/blogs/06_human.json'
+import blog06HumanEs from '../locales/es/blogs/06_human.json'
+import blog06HumanPtBr from '../locales/pt-BR/blogs/06_human.json'
+import blog07CustomEn from '../locales/en/blogs/07_custom.json'
+import blog07CustomEs from '../locales/es/blogs/07_custom.json'
+import blog07CustomPtBr from '../locales/pt-BR/blogs/07_custom.json'
+import blog08AiActionEn from '../locales/en/blogs/08_ai_action.json'
+import blog08AiActionEs from '../locales/es/blogs/08_ai_action.json'
+import blog08AiActionPtBr from '../locales/pt-BR/blogs/08_ai_action.json'
 
 export const supportedLanguages = ['en', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
@@ -64,6 +118,24 @@ const resources = {
     terms: termsEn,
     cookies: cookiesEn,
     security: securityEn,
+    blog_00_IDP: blog00IdpEn,
+    blog_01_invest: blog01InvestEn,
+    blog_02_solutions: blog02SolutionsEn,
+    blog_03_future: blog03FutureEn,
+    blog_04_beyond: blog04BeyondEn,
+    blog_05_procedure: blog05ProcedureEn,
+    blog_06_human: blog06HumanEn,
+    blog_07_custom: blog07CustomEn,
+    blog_08_ai_action: blog08AiActionEn,
+    meta_00_IDP: meta00IdpEn,
+    meta_01_invest: meta01InvestEn,
+    meta_02_solutions: meta02SolutionsEn,
+    meta_03_future: meta03FutureEn,
+    meta_04_beyond: meta04BeyondEn,
+    meta_05_procedure: meta05ProcedureEn,
+    meta_06_human: meta06HumanEn,
+    meta_07_custom: meta07CustomEn,
+    meta_08_ai_action: meta08AiActionEn,
   },
   es: {
     common: commonEs,
@@ -80,6 +152,24 @@ const resources = {
     terms: termsEs,
     cookies: cookiesEs,
     security: securityEs,
+    blog_00_IDP: blog00IdpEs,
+    blog_01_invest: blog01InvestEs,
+    blog_02_solutions: blog02SolutionsEs,
+    blog_03_future: blog03FutureEs,
+    blog_04_beyond: blog04BeyondEs,
+    blog_05_procedure: blog05ProcedureEs,
+    blog_06_human: blog06HumanEs,
+    blog_07_custom: blog07CustomEs,
+    blog_08_ai_action: blog08AiActionEs,
+    meta_00_IDP: meta00IdpEs,
+    meta_01_invest: meta01InvestEs,
+    meta_02_solutions: meta02SolutionsEs,
+    meta_03_future: meta03FutureEs,
+    meta_04_beyond: meta04BeyondEs,
+    meta_05_procedure: meta05ProcedureEs,
+    meta_06_human: meta06HumanEs,
+    meta_07_custom: meta07CustomEs,
+    meta_08_ai_action: meta08AiActionEs,
   },
   'pt-BR': {
     common: commonPtBr,
@@ -96,6 +186,24 @@ const resources = {
     terms: termsPtBr,
     cookies: cookiesPtBr,
     security: securityPtBr,
+    blog_00_IDP: blog00IdpPtBr,
+    blog_01_invest: blog01InvestPtBr,
+    blog_02_solutions: blog02SolutionsPtBr,
+    blog_03_future: blog03FuturePtBr,
+    blog_04_beyond: blog04BeyondPtBr,
+    blog_05_procedure: blog05ProcedurePtBr,
+    blog_06_human: blog06HumanPtBr,
+    blog_07_custom: blog07CustomPtBr,
+    blog_08_ai_action: blog08AiActionPtBr,
+    meta_00_IDP: meta00IdpPtBr,
+    meta_01_invest: meta01InvestPtBr,
+    meta_02_solutions: meta02SolutionsPtBr,
+    meta_03_future: meta03FuturePtBr,
+    meta_04_beyond: meta04BeyondPtBr,
+    meta_05_procedure: meta05ProcedurePtBr,
+    meta_06_human: meta06HumanPtBr,
+    meta_07_custom: meta07CustomPtBr,
+    meta_08_ai_action: meta08AiActionPtBr,
   },
 }
 

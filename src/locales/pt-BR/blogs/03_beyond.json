@@ -1,0 +1,83 @@
+{
+    "meta": {
+        "title": "Além da Guerra de Modelos de IA: Por Que a IA Liderada por Aplicativos Vence em 2026 | DocumentoIQ",
+        "description": "Em 2026, a verdadeira vantagem competitiva não está no modelo de IA, mas em como as organizações projetam aplicativos para resolver problemas reais."
+    },
+    "hero": {
+        "title": "Além da Guerra de Modelos de IA: Por Que a IA Liderada por Aplicativos Vence em 2026",
+        "subtitle": "Em 2026, o debate sobre qual modelo de IA é 'melhor' deixou de ser relevante para a maioria das empresas. Os modelos de linguagem tornaram-se acessíveis, intercambiáveis e comparáveis em desempenho.",
+        "intro": "A verdadeira vantagem competitiva não está mais no modelo, mas em como as organizações projetam, integram e operam aplicativos baseados em IA para resolver problemas reais."
+    },
+    "sections": {
+        "modelsNotDifferentiator": {
+            "title": "Os modelos de IA não são mais o diferencial",
+            "content": [
+                "Hoje, os modelos de IA funcionam como infraestrutura. De acordo com a TechRepublic, as empresas estão deixando para trás a fase de experimentação para focar na integração da IA diretamente em fluxos operacionais reais. [1]"
+            ]
+        },
+        "realDifferentiation": {
+            "title": "Onde está a diferenciação real em 2026",
+            "content": [
+                "As organizações líderes se diferenciam pela sua capacidade de:",
+                "• Projetar aplicativos alinhados a processos específicos",
+                "• Integrar IA em sistemas existentes",
+                "• Aplicar conhecimento de domínio",
+                "• Manter governança e supervisão humana",
+                "O relatório do ISG confirma que o ROI sustentável provém de arquitetura, integração e execução, não da escolha do modelo. [2]"
+            ]
+        },
+        "appLedAi": {
+            "title": "IA liderada por aplicativos: da teoria à operação",
+            "content": [
+                "A IA liderada por aplicativos prioriza soluções completas. Em vez de focar no modelo, as empresas se perguntam:",
+                "• Onde a IA elimina atrito operacional?",
+                "• Quais tarefas ela pode assistir sem substituir?",
+                "O relatório da OpenAI mostra que as organizações mais avançadas integram a IA diretamente em aplicativos usados por equipes de negócios. [3]"
+            ]
+        },
+        "documentIndustries": {
+            "title": "Indústrias baseadas em documentos lideram essa mudança",
+            "content": [
+                "Setores como jurídico e notarial estão entre os primeiros a se beneficiar dessa abordagem.",
+                "O relatório da AllRize aponta que organizações jurídicas priorizam IA aplicada à revisão documental, redução de carga administrativa e melhoria da consistência operacional. [4]",
+                "Da mesma forma, o relatório da Dentons destaca que o valor da IA jurídica provém de sua integração prática em fluxos de trabalho reais. [5]"
+            ]
+        },
+        "legalHelpAi": {
+            "title": "Exemplo breve: LegalHelp AI no DocumentoIQ",
+            "content": [
+                "Um exemplo claro dessa abordagem é o LegalHelp AI, uma solução especializada dentro do ecossistema DocumentoIQ.",
+                "O LegalHelp AI aplica IA a fluxos reais de documentos jurídicos e notariais, combinando extração estruturada, revisão visual e validação humana. Sua diferenciação não está no modelo, mas em como o aplicativo apoia o trabalho profissional."
+            ]
+        },
+        "implications": {
+            "title": "Implicações para executivos em 2026",
+            "content": [
+                "Para líderes empresariais, a mensagem é clara:",
+                "• A estratégia de IA é estratégia de aplicativos",
+                "• A execução importa mais que a experimentação",
+                "• O conhecimento do domínio é chave",
+                "• A supervisão humana continua indispensável",
+                "Em 2026, a guerra de modelos é ruído. A verdadeira competição acontece na camada de aplicação, onde a IA se torna uma ferramenta operacional real.",
+                "A IA liderada por aplicativos é hoje a estratégia vencedora."
+            ]
+        },
+        "conclusion": {
+            "title": "Conclusão",
+            "content": [
+                "Descubra como a IA liderada por aplicativos pode otimizar fluxos documentais complexos."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Descubra como a IA liderada por aplicativos pode otimizar fluxos documentais complexos.",
+        "button": "Solicitar demonstração do LegalHelp AI"
+    },
+    "references": {
+        "1": "[1] AI Adoption Trends in the Enterprise 2026, 2026",
+        "2": "[2] State of Enterprise AI Adoption, 2025",
+        "3": "[3] El estado de la IA para empresas, 2025",
+        "4": "[4] 2025 Legal Technology and AI Adoption Report, 2025",
+        "5": "[5] Global AI trends report: key legal issues for 2025, 2025"
+    }
+}

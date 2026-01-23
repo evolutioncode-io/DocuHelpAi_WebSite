@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "title": "El Futuro del Trabajo Legal: Cómo la IA Está Transformando la Gestión de Documentos | DocumentoIQ",
+        "description": "Descubre cómo la IA está transformando las operaciones legales y notariales, mejorando la eficiencia y reduciendo errores sin sustituir al profesional humano."
+    },
+    "hero": {
+        "title": "El Futuro del Trabajo Legal: Cómo la IA Está Transformando la Gestión de Documentos",
+        "subtitle": "El trabajo legal se encuentra en un punto de inflexión. El crecimiento exponencial de documentos, la presión por mayor eficiencia y la necesidad de reducir errores están llevando a firmas legales, notarías y equipos de operaciones a replantear la forma en que gestionan la información.",
+        "intro": "En este contexto, la inteligencia artificial (IA) se está consolidando como una herramienta clave para transformar las operaciones legales basadas en documentos."
+    },
+    "sections": {
+        "challenge": {
+            "title": "El reto de las operaciones legales basadas en documentos",
+            "content": [
+                "Las operaciones legales y notariales dependen de grandes volúmenes de documentos complejos: contratos, escrituras, poderes, anexos y expedientes extensos. Gran parte del trabajo sigue siendo manual, lo que implica:",
+                "• Altos tiempos de revisión",
+                "• Riesgo de errores humanos",
+                "• Dificultad para escalar operaciones sin aumentar costos",
+                "De acuerdo con el reporte de Thomson Reuters Institute, los equipos legales enfrentan una creciente presión para manejar mayores volúmenes de trabajo documental sin incrementar proporcionalmente recursos, lo que impulsa la adopción de tecnologías que mejoren la eficiencia operativa. [1]"
+            ]
+        },
+        "transformation": {
+            "title": "Cómo la IA está transformando el trabajo legal",
+            "content": [
+                "La IA aplicada al sector legal no busca sustituir a abogados o notarios, sino asistirlos en tareas donde la automatización aporta mayor valor. Entre los principales impactos se encuentran:",
+                "• Análisis más rápido de documentos extensos",
+                "• Identificación automática de datos clave",
+                "• Estructuración de información no organizada",
+                "• Mayor consistencia en revisiones documentales",
+                "Investigaciones del Stanford CodeX – Center for Legal Informatics destacan que el mayor impacto de la IA en el sector legal se da cuando se aplica a flujos documentales específicos, manteniendo al profesional legal como parte activa del proceso de validación y decisión. [2]"
+            ]
+        },
+        "evolution": {
+            "title": "La evolución del rol humano en el trabajo legal",
+            "content": [
+                "Uno de los mayores cambios no es tecnológico, sino operativo. La IA está redefiniendo el rol del profesional legal, desplazándolo de tareas repetitivas hacia funciones de:",
+                "• Supervisión",
+                "• Validación",
+                "• Análisis de contexto",
+                "• Toma de decisiones",
+                "Según World Economic Forum, los modelos de trabajo más efectivos combinan automatización inteligente con supervisión humana, especialmente en industrias reguladas y basadas en documentos. [3]"
+            ]
+        },
+        "legalHelpAi": {
+            "title": "LegalHelp AI: IA aplicada a documentos legales y notariales",
+            "content": "Un ejemplo concreto de esta transformación es LegalHelp AI, el producto especializado para el sector legal y notarial dentro del ecosistema DocumentoIQ. LegalHelpAI está diseñado para asistir a notarías y equipos legales en la gestión de documentos complejos como escrituras, poderes, compraventas y protocolos notariales.",
+            "components": {
+                "OCR": {
+                    "title": "OCR avanzado",
+                    "description": "Capaz de procesar documentos escaneados o de baja calidad"
+                },
+                "LM": {
+                    "title": "Modelos de lenguaje",
+                    "description": "Entrenados en contexto legal, que comprenden la estructura y terminología de documentos jurídicos"
+                },
+                "Extraction": {
+                    "title": "Extracción estructurada",
+                    "description": "De información clave, configurable según el tipo de documento"
+                },
+                "Review": {
+                    "title": "Panel visual de revisión",
+                    "description": "Permite validar resultados antes de su uso"
+                }
+            },
+            "conclusion": "A diferencia de herramientas genéricas, LegalHelpAI se adapta a procesos reales y mantiene siempre el control humano como parte central del flujo de trabajo. La IA acelera la revisión documental y reduce errores, pero la decisión final permanece en manos del profesional."
+        },
+        "future": {
+            "title": "El futuro del trabajo legal",
+            "content": [
+                "El futuro del trabajo legal no será completamente automatizado, sino asistido por IA. Las organizaciones que adopten soluciones diseñadas para sus procesos documentales estarán mejor preparadas para:",
+                "• Escalar operaciones",
+                "• Reducir riesgos",
+                "• Mejorar tiempos de respuesta",
+                "• Liberar capacidad para tareas de mayor valor",
+                "La clave estará en implementar IA de forma estratégica, alineada con el contexto legal y con una clara supervisión humana."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Descubre cómo la IA asistiva puede optimizar la gestión de documentos legales y notariales.",
+        "button": "Solicitar demo de LegalHelp AI"
+    },
+    "references": {
+        "1": "[1] 2024 Report on the State of the US Legal Market, 2024",
+        "2": "[2] Stanford University – CodeX",
+        "3": "[3] Jobs of Tomorrow: Large Language Models and Jobs, 2024"
+    }
+}

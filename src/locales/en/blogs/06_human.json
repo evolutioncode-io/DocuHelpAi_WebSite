@@ -1,0 +1,84 @@
+{
+    "meta": {
+        "title": "Why AI Needs Human Logic to Be Truly Useful | DocumentoIQ",
+        "description": "AI does not replace human logic: it needs it. Discover how hybrid AI + human models generate more value in business processes."
+    },
+    "hero": {
+        "title": "Why AI Needs Human Logic to Be Truly Useful",
+        "subtitle": "As artificial intelligence integrates into more business processes, a recurring question arises: will AI replace people?",
+        "intro": "In practice, the most successful cases demonstrate the opposite. AI generates value when it complements human reasoning, not when it attempts to substitute it."
+    },
+    "sections": {
+        "whyAiNotEnough": {
+            "title": "Why AI alone is not enough",
+            "content": [
+                "AI is excellent at processing data, but lacks:",
+                "• Deep contextual understanding",
+                "• Legal or ethical accountability",
+                "• Professional judgment",
+                "The Stanford Human-Centered AI Institute points out that AI systems should be designed to augment human decision-making. [1]"
+            ]
+        },
+        "humanLogicControl": {
+            "title": "Human logic as a control layer",
+            "content": [
+                "In real environments, human logic:",
+                "• Validates results",
+                "• Interprets exceptions",
+                "• Ensures regulatory compliance",
+                "The OECD AI Policy Observatory emphasizes the need for human oversight in regulated sectors. [2]"
+            ]
+        },
+        "aiInProcesses": {
+            "title": "Useful AI lives within processes",
+            "content": [
+                "AI adds value when integrated into existing flows. Research from MIT Sloan Management Review shows that the best results come from hybrid AI + human models. [3]"
+            ]
+        },
+        "exampleLegalHelpAi": {
+            "title": "Applied Example: LegalHelp AI",
+            "content": "LegalHelp AI, within the DocumentoIQ ecosystem, applies AI to legal document processing by:",
+            "components": {
+                "extract": {
+                    "title": "Data Extraction",
+                    "description": "Extracting structured data from complex documents."
+                },
+                "highlight": {
+                    "title": "Intelligent Highlighting",
+                    "description": "Highlighting relevant sections for analysis."
+                },
+                "review": {
+                    "title": "Review and Validation",
+                    "description": "Allowing professionals to review and validate results."
+                }
+            },
+            "conclusion": "AI accelerates document analysis, while human professionals remain responsible for interpretation and decisions. The system is designed to back logic, not replace it, highlighting key information and allowing mandatory human review. AI accelerates analysis; the professional maintains control."
+        },
+        "strategicImplications": {
+            "title": "Strategic Implications",
+            "content": [
+                "For executives and operational leaders:",
+                "• AI must be designed with human oversight",
+                "• The value is in integration",
+                "• Responsibility cannot be automated",
+                "The World Economic Forum backs this approach in its work on responsible AI. [4]"
+            ]
+        },
+        "finalConclusion": {
+            "title": "Conclusion",
+            "content": [
+                "AI does not replace human logic: it needs it. The most effective systems are those that strengthen professional reasoning and improve real processes responsibly."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Discover how AI can support human decision-making in document flows.",
+        "button": "Request Demo"
+    },
+    "references": {
+        "1": "[1] Stanford Human-Centered AI Institute",
+        "2": "[2] OECD AI Policy Observatory",
+        "3": "[3] MIT Sloan Management Review",
+        "4": "[4] World Economic Forum"
+    }
+}

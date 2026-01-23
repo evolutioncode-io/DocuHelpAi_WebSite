@@ -1,0 +1,90 @@
+{
+    "meta": {
+        "title": "AI in Action: What Separates a Successful Implementation from a Pilot That Doesn't Scale | DocumentoIQ",
+        "description": "Discover clear signals of successful AI adoption in legal and compliance environments, and how to move from pilot to real operation."
+    },
+    "hero": {
+        "title": "AI in Action: What Separates a Successful Implementation from a Pilot That Doesn't Scale",
+        "subtitle": "Many organizations have already \"tried AI\". Few have turned it into a real operational advantage.",
+        "intro": "In document-based processes, such as legal operations, notaries, and compliance, the difference between a pilot and a successful implementation lies not in the model, but in how it is integrated, governed, and validated."
+    },
+    "sections": {
+        "signal1": {
+            "title": "Signal #1: AI is Adopted When the Business Incorporates it into the Operating Model",
+            "content": [
+                "In professional and legal services, real adoption is advancing, but there is still a gap between \"individual use\" and \"organizational strategy\". A Thomson Reuters report describes precisely that leap: from tactical use to integration into budgets, training, policies, and client relationships. [1]",
+                "What successful cases do differently:",
+                "• Define a use case with an owner (operations/legal/compliance)",
+                "• Establish usage and training policies",
+                "• Connect AI to measurable goals (time, risk, cost, compliance)"
+            ]
+        },
+        "signal2": {
+            "title": "Signal #2: Legal/Compliance Leadership Gets Involved from the Start",
+            "content": [
+                "Successful implementations are not \"pushed\" from IT to legal. They are co-designed with legal and operational leadership. PwC states that adoption gains traction when legal leadership participates early, not just to \"curb risks\", but to detect opportunities and build internal trust. [2]",
+                "What this implies in practice:",
+                "• Workshops with legal teams to map repetitive tasks",
+                "• Definition of quality criteria (what is \"correct\" and what is not)",
+                "• Exception scenarios (the rare is the normal in documents)"
+            ]
+        },
+        "signal3": {
+            "title": "Signal #3: Without Governance, AI Doesn't Scale (Even if the Pilot \"Works\")",
+            "content": [
+                "In regulated environments, governance is not optional. The NIST AI Risk Management Framework is a widely used reference for structuring control practices: govern, map, measure, and manage risks throughout the lifecycle. [3]",
+                "How this translates to document operations:",
+                "• Input data control (quality, privacy, retention)",
+                "• Risk assessment by document type (high impact vs low impact)",
+                "• Traceability and audit (who validated what and when)"
+            ]
+        },
+        "signal4": {
+            "title": "Signal #4: Pre-Deployment Review (and Controls) Become Part of the Flow",
+            "content": [
+                "At an operational practice level, organizations maturing AI create internal processes for pre-deployment review and documentation, reducing variability and risk. Microsoft helps by describing mechanisms for \"pre-deployment reviews\" and standardizing requirements for sensitive or higher-risk uses. [4]",
+                "In legal/notarial documents this translates to:",
+                "• Mandatory human validation for critical fields",
+                "• Business rules for amounts, dates, identities, clauses",
+                "• Change log and evidence for audit"
+            ]
+        },
+        "signal5": {
+            "title": "Signal #5: In Legal/Notarial, Change is Not Just Technological: It's Operational Model",
+            "content": [
+                "The legal market is reconfiguring due to client expectations, competitive pressure, and AI-driven technology. Thomson Reuters, in its report on the US legal market, emphasizes that these changes are pushing to rethink models and operations, not just tools. [5]",
+                "In parallel, Deloitte raises expectations for AI adoption specifically in legal departments and firms, reinforcing that successful implementation requires clarity on where it adds value and how it integrates. [6]"
+            ]
+        },
+        "howToApply": {
+            "title": "How to Bring These Learnings to a Legal Document Workflow",
+            "content": [
+                "If you are evaluating AI for legal/notarial documents, these are typical questions:",
+                "• Which documents do we prioritize (contracts, deeds, files, powers of attorney)?",
+                "• Which critical fields must be extracted with control (dates, amounts, identities, clauses)?",
+                "• What human validation is mandatory and where is it documented?",
+                "• What governance standard do we follow (risk, audit, traceability)?",
+                "• How do we measure impact (time, cost, risk, compliance)?"
+            ]
+        },
+        "legalHelpAi": {
+            "title": "How It Connects with LegalHelp AI",
+            "content": [
+                "If your goal is to move from pilot to real operation in legal document processing, the strongest approach is AI applied to the workflow, with controls, validation, and traceability.",
+                "LegalHelp AI (within the DocumentoIQ ecosystem) is designed precisely for that: supporting legal/notarial document processing with structured extraction, human review, and operational governance, so that AI is useful in production, not just in testing."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Do you want to evaluate which use case is the most profitable and safe for your legal operation?",
+        "button": "Talk to an expert"
+    },
+    "references": {
+        "1": "[1] 2025 Generative AI in Professional Services Report, 2025",
+        "2": "[2] Midyear update: 2025 AI predictions, 2025",
+        "3": "[3] AI Risk Management Framework, 2023",
+        "4": "[4] Responsible AI Transparency Report, 2025",
+        "5": "[5] 2025 Report on the State of the US Legal Market, 2025",
+        "6": "[6] AI for in-house legal 2025 predictions, 2025"
+    }
+}

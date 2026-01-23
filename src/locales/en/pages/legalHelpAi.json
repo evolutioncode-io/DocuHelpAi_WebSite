@@ -1,19 +1,19 @@
 {
     "hero": {
         "badge": "AI for analysis and review of notarial documents",
-        "title": "LegalHelpAI powered by DocumentoIQ",
-        "subtitle": "LegalHelpAI assists notaries in the analysis, extraction, and validation of key information from deeds and complex notarial documents, reducing time and errors without replacing the notary's judgment.",
+        "title": "LegalHelp AI powered by DocumentoIQ",
+        "subtitle": "LegalHelp AI assists notaries in the analysis, extraction, and validation of key information from deeds and complex notarial documents, reducing time and errors without replacing the notary's judgment.",
         "formats": "Designed for deeds, powers of attorney, sales contracts, and notarial protocols.",
         "primaryCta": "Request notary demo",
-        "secondaryCta": "See how it works with a deed"
+        "secondaryCta": "See how it works with a mortgage"
     },
     "whatIs": {
-        "title": "What is LegalHelpAI?",
-        "description": "LegalHelpAI is DocumentoIQ's specialized product designed specifically for notaries. It uses artificial intelligence to analyze extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
-        "disclaimer": "LegalHelpAI does not replace the notary. It works as an intelligent assistant that reduces manual workload and errors in document review."
+        "title": "What is LegalHelp AI?",
+        "description": "LegalHelp AI is DocumentoIQ's specialized product designed specifically for notaries. It uses artificial intelligence to analyze extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
+        "disclaimer": "LegalHelp AI does not replace the notary. It works as an intelligent assistant that reduces manual workload and errors in document review."
     },
     "howItWorks": {
-        "title": "How does LegalHelpAI work?",
+        "title": "How does LegalHelp AI work?",
         "steps": {
             "step1": {
                 "title": "Upload notarial documents",
@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "Processing with specialized AI",
-                "intro": "LegalHelpAI combines advanced OCR with language models trained to understand notarial documents, automatically identifying:",
+                "intro": "LegalHelp AI combines advanced OCR with language models trained to understand notarial documents, automatically identifying:",
                 "items": [
                     "Involved parties",
                     "Dates and legal acts",
@@ -85,7 +85,7 @@
                 },
                 "api": {
                     "title": "Integration via API and Zapier",
-                    "description": "Connect LegalHelpAI with your existing tools and workflows."
+                    "description": "Connect LegalHelp AI with your existing tools and workflows."
                 }
             }
         }
@@ -107,19 +107,19 @@
             },
             "integration": {
                 "title": "Integration with existing flows",
-                "description": "LegalHelpAI integrates into current notary processes without forcing drastic changes."
+                "description": "LegalHelp AI integrates into current notary processes without forcing drastic changes."
             }
         }
     },
     "brand": {
-        "title": "LegalHelpAI is part of the DocumentoIQ ecosystem",
+        "title": "LegalHelp AI is part of the DocumentoIQ ecosystem",
         "description1": "DocumentoIQ is the artificial intelligence platform for document analysis.",
-        "description2": "LegalHelpAI is its specialized product for notaries, designed to cover specific needs of the notarial sector without losing the flexibility and scalability of the main platform.",
+        "description2": "LegalHelp AI is its specialized product for notaries, designed to cover specific needs of the notarial sector without losing the flexibility and scalability of the main platform.",
         "tagline": "A single technological base. A specialized product for notaries."
     },
     "cta": {
-        "title": "Optimize notarial document analysis with LegalHelpAI",
-        "subtitle": "Request a personalized demo and discover how LegalHelpAI can help you reduce time, errors, and operational load in your notary office while always maintaining professional control.",
+        "title": "Optimize notarial document analysis with LegalHelp AI",
+        "subtitle": "Request a personalized demo and discover how LegalHelp AI can help you reduce time, errors, and operational load in your notary office while always maintaining professional control.",
         "button": "Request notary demo",
         "microcopy": "Demo focused on real notarial documents."
     }

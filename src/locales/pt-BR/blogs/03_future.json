@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "title": "O Futuro do Trabalho Jurídico: Como a IA Está Transformando a Gestão de Documentos | DocumentoIQ",
+        "description": "Descubra como a IA está transformando operações jurídicas e notariais, melhorando a eficiência e reduzindo erros sem substituir o profissional humano."
+    },
+    "hero": {
+        "title": "O Futuro do Trabalho Jurídico: Como a IA Está Transformando a Gestão de Documentos",
+        "subtitle": "O trabalho jurídico encontra-se em um ponto de inflexão. O crescimento exponencial de documentos, a pressão por maior eficiência e a necessidade de reduzir erros estão levando escritórios de advocacia, cartórios e equipes de operações a repensar a forma como gerenciam informações.",
+        "intro": "Neste contexto, a inteligência artificial (IA) está se consolidando como uma ferramenta fundamental para transformar operações jurídicas baseadas em documentos."
+    },
+    "sections": {
+        "challenge": {
+            "title": "O desafio das operações jurídicas baseadas em documentos",
+            "content": [
+                "Operações jurídicas e notariais dependem de grandes volumes de documentos complexos: contratos, escrituras, procurações, anexos e expedientes extensos. Grande parte do trabalho continua manual, o que implica:",
+                "• Altos tempos de revisão",
+                "• Risco de erros humanos",
+                "• Dificuldade em escalar operações sem aumentar custos",
+                "De acordo com o relatório do Thomson Reuters Institute, as equipes jurídicas enfrentam pressão crescente para lidar com maiores volumes de trabalho documental sem aumentar proporcionalmente os recursos, impulsionando a adoção de tecnologias que melhorem a eficiência operacional. [1]"
+            ]
+        },
+        "transformation": {
+            "title": "Como a IA está transformando o trabalho jurídico",
+            "content": [
+                "A IA aplicada ao setor jurídico não busca substituir advogados ou notários, mas sim assisti-los em tarefas onde a automação agrega maior valor. Entre os principais impactos estão:",
+                "• Análise mais rápida de documentos extensos",
+                "• Identificação automática de dados-chave",
+                "• Estruturação de informações não organizadas",
+                "• Maior consistência em revisões documentais",
+                "Pesquisas do Stanford CodeX – Center for Legal Informatics destacam que o maior impacto da IA no setor jurídico ocorre quando aplicada a fluxos documentais específicos, mantendo o profissional jurídico como parte ativa do processo de validação e decisão. [2]"
+            ]
+        },
+        "evolution": {
+            "title": "A evolução do papel humano no trabalho jurídico",
+            "content": [
+                "Uma das maiores mudanças não é tecnológica, mas operacional. A IA está redefinindo o papel do profissional jurídico, deslocando-o de tarefas repetitivas para funções de:",
+                "• Supervisão",
+                "• Validação",
+                "• Análise de contexto",
+                "• Tomada de decisão",
+                "Segundo o World Economic Forum, os modelos de trabalho mais eficazes combinam automação inteligente com supervisão humana, especialmente em indústrias reguladas e baseadas em documentos. [3]"
+            ]
+        },
+        "legalHelpAi": {
+            "title": "LegalHelp AI: IA aplicada a documentos jurídicos e notariais",
+            "content": "Um exemplo concreto dessa transformação é o LegalHelp AI, o produto especializado para o setor jurídico e notarial dentro do ecossistema DocumentoIQ. O LegalHelpAI foi projetado para auxiliar cartórios e equipes jurídicas na gestão de documentos complexos como escrituras, procurações, compra e venda e protocolos notariais.",
+            "components": {
+                "OCR": {
+                    "title": "OCR avançado",
+                    "description": "Capaz de processar documentos digitalizados ou de baixa qualidade"
+                },
+                "LM": {
+                    "title": "Modelos de linguagem",
+                    "description": "Treinados em contexto jurídico, compreendendo a estrutura e terminologia de documentos legais"
+                },
+                "Extraction": {
+                    "title": "Extração estruturada",
+                    "description": "De informações-chave, configurável de acordo com o tipo de documento"
+                },
+                "Review": {
+                    "title": "Painel visual de revisão",
+                    "description": "Permite validar resultados antes de seu uso"
+                }
+            },
+            "conclusion": "Ao contrário de ferramentas genéricas, o LegalHelpAI adapta-se a processos reais e mantém sempre o controle humano como parte central do fluxo de trabalho. A IA acelera a revisão documental e reduz erros, mas a decisão final permanece nas mãos do profissional."
+        },
+        "future": {
+            "title": "O futuro do trabalho jurídico",
+            "content": [
+                "O futuro do trabalho jurídico não será completamente automatizado, mas sim assistido por IA. As organizações que adotarem soluções projetadas para seus processos documentais estarão melhor preparadas para:",
+                "• Escalar operações",
+                "• Reduzir riscos",
+                "• Melhorar tempos de resposta",
+                "• Liberar capacidade para tarefas de maior valor",
+                "A chave estará em implementar IA de forma estratégica, alinhada com o contexto jurídico e com clara supervisão humana."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Descubra como a IA assistiva pode otimizar a gestão de documentos jurídicos e notariais.",
+        "button": "Solicitar demonstração do LegalHelp AI"
+    },
+    "references": {
+        "1": "[1] 2024 Report on the State of the US Legal Market, 2024",
+        "2": "[2] Stanford University – CodeX",
+        "3": "[3] Jobs of Tomorrow: Large Language Models and Jobs, 2024"
+    }
+}

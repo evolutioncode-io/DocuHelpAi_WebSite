@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "title": "Beyond the AI Model War: Why Application-Led AI Wins in 2026 | DocumentoIQ",
+        "description": "In 2026, the true competitive advantage is not in the AI model, but in how organizations design apps to solve real problems."
+    },
+    "hero": {
+        "title": "Beyond the AI Model War: Why Application-Led AI Wins in 2026",
+        "subtitle": "In 2026, the debate about which AI model is 'better' has ceased to be relevant for most companies. Language models have become accessible, interchangeable, and comparable in performance.",
+        "intro": "The true competitive advantage is no longer in the model, but in how organizations design, integrate, and operate AI-based applications to solve real problems."
+    },
+    "sections": {
+        "modelsNotDifferentiator": {
+            "title": "AI models are no longer the differentiator",
+            "content": [
+                "Today, AI models function as infrastructure. According to TechRepublic, companies are leaving behind the experimentation phase to focus on integrating AI directly into real operational flows. [1]"
+            ]
+        },
+        "realDifferentiation": {
+            "title": "Where real differentiation lies in 2026",
+            "content": [
+                "Leading organizations differentiate themselves by their ability to:",
+                "• Design applications aligned to specific processes",
+                "• Integrate AI into existing systems",
+                "• Apply domain knowledge",
+                "• Maintain governance and human oversight",
+                "The ISG report confirms that sustainable ROI comes from architecture, integration, and execution, not model choice. [2]"
+            ]
+        },
+        "appLedAi": {
+            "title": "Application-Led AI: From Theory to Operation",
+            "content": [
+                "Application-led AI prioritizes complete solutions. Instead of focusing on the model, companies ask:",
+                "• Where does AI eliminate operational friction?",
+                "• What tasks can it assist without replacing?",
+                "OpenAI's report shows that the most advanced organizations integrate AI directly into applications used by business teams. [3]"
+            ]
+        },
+        "documentIndustries": {
+            "title": "Document-based industries lead this shift",
+            "content": [
+                "Sectors such as legal and notarial are among the first to benefit from this approach.",
+                "The AllRize report notes that legal organizations prioritize AI applied to document review, reduction of administrative burden, and improvement of operational consistency. [4]",
+                "Likewise, the Dentons report highlights that the value of legal AI comes from its practical integration into real workflows. [5]"
+            ]
+        },
+        "legalHelpAi": {
+            "title": "Brief Example: LegalHelp AI in DocumentoIQ",
+            "content": [
+                "A clear example of this approach is LegalHelp AI, a specialized solution within the DocumentoIQ ecosystem.",
+                "LegalHelp AI applies AI to real legal and notarial document flows, combining structured extraction, visual review, and human validation. Its differentiation lies not in the model, but in how the application supports professional work."
+            ]
+        },
+        "implications": {
+            "title": "Implications for Executives in 2026",
+            "content": [
+                "For business leaders, the message is clear:",
+                "• AI strategy is application strategy",
+                "• Execution matters more than experimentation",
+                "• Domain knowledge is key",
+                "• Human oversight remains indispensable",
+                "In 2026, the model war is noise. The real competition happens at the application layer, where AI becomes a real operational tool.",
+                "Application-led AI is the winning strategy today."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Discover how application-led AI can optimize complex document flows.",
+        "button": "Request LegalHelp AI demo"
+    },
+    "references": {
+        "1": "[1] AI Adoption Trends in the Enterprise 2026, 2026",
+        "2": "[2] State of Enterprise AI Adoption, 2025",
+        "3": "[3] El estado de la IA para empresas, 2025",
+        "4": "[4] 2025 Legal Technology and AI Adoption Report, 2025",
+        "5": "[5] Global AI trends report: key legal issues for 2025, 2025"
+    }
+}

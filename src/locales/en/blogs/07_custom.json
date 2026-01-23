@@ -1,0 +1,82 @@
+{
+    "meta": {
+        "title": "Tailored AI for Legal Document Processing: When Generic Tools Are No Longer Enough | DocumentoIQ",
+        "description": "Discover how tailored AI transforms legal document processing, overcoming the limitations of generic tools."
+    },
+    "hero": {
+        "title": "Tailored AI for Legal Document Processing: When Generic Tools Are No Longer Enough",
+        "subtitle": "Legal and notarial organizations depend on document accuracy, traceability, and regulatory compliance.",
+        "intro": "However, many generic AI and automation solutions are not designed for the complexity of legal workflows. This is where tailored AI for legal document processing becomes a strategic advantage."
+    },
+    "sections": {
+        "limitationsGenericAi": {
+            "title": "Limitations of generic AI in legal environments",
+            "content": [
+                "Generic tools often present:",
+                "• Limited understanding of legal context",
+                "• Difficulties in handling exceptions",
+                "• Lack of clear audit mechanisms",
+                "According to Harvard Business Review, AI generates impact when designed for specific processes and not as a universal layer. [1]"
+            ]
+        },
+        "whatDistinguishesCustomAi": {
+            "title": "What distinguishes tailored AI",
+            "content": [
+                "Tailored AI is built on:",
+                "• Deep domain knowledge",
+                "• Direct integration into real workflows",
+                "• Built-in human oversight",
+                "An analysis by Bain & Company shows that real AI scalability depends on its alignment with critical processes. [2]"
+            ]
+        },
+        "howLegalHelpAiApplies": {
+            "title": "How LegalHelp AI applies tailored AI",
+            "content": "LegalHelp AI was designed specifically for legal and notarial documents. Integrated into DocumentoIQ, LegalHelp AI allows starting with a concrete legal case and evolving towards a broader document intelligence strategy.",
+            "components": {
+                "ocr": {
+                    "title": "Advanced OCR",
+                    "description": "Advanced OCR for complex documents."
+                },
+                "understanding": {
+                    "title": "Legal understanding",
+                    "description": "Understanding of legal language."
+                },
+                "extraction": {
+                    "title": "Structured extraction",
+                    "description": "Structured information extraction."
+                },
+                "validation": {
+                    "title": "Human validation",
+                    "description": "Mandatory human validation."
+                }
+            },
+            "conclusion": "This approach matches Gartner's vision on AI applied in regulated environments. [3]"
+        },
+        "businessImpact": {
+            "title": "Business Impact",
+            "content": [
+                "For notaries, law firms, and operations leaders, tailored AI allows:",
+                "• Greater efficiency without losing control",
+                "• Risk reduction",
+                "• Better scalability",
+                "• Solid regulatory compliance",
+                "Therefore, legal technological transformation must balance automation and governance."
+            ]
+        },
+        "finalConclusion": {
+            "title": "Conclusion",
+            "content": [
+                "Generic tools are no longer sufficient for modern legal operations. LegalHelp AI demonstrates how tailored AI generates real value by aligning technology, processes, and professional judgment."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Discover how tailored AI can transform your legal document workflows.",
+        "button": "Talk to an expert"
+    },
+    "references": {
+        "1": "[1] The Right Way to Launch an AI Initiative, 2025",
+        "2": "[2] Scaling AI to Transform the Enterprise, 2025",
+        "3": "[3] What Is Artificial Intelligence? Seeing Through the Hype and Focusing on Business Value"
+    }
+}

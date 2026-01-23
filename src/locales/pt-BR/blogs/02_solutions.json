@@ -1,0 +1,89 @@
+{
+    "meta": {
+        "title": "Soluções de IA Sob Medida: Como Potencializar Sua Empresa | DocumentoIQ",
+        "description": "Ferramentas genéricas ou IA sob medida? Descubra como a inteligência artificial personalizada melhora a eficiência e reduz erros em processos complexos."
+    },
+    "hero": {
+        "title": "Soluções de IA Sob Medida: Como Potencializar Sua Empresa com Inteligência Artificial Personalizada",
+        "subtitle": "A inteligência artificial tornou-se uma das principais alavancas de transformação empresarial. No entanto, conforme as organizações avançam em sua adoção, surge uma pergunta-chave: uma ferramenta genérica é suficiente ou convém investir em soluções de IA sob medida?",
+        "intro": "Neste artigo, analisamos como as soluções de inteligência artificial personalizada podem ajudar as empresas a potencializar sua operação, melhorar a eficiência e reduzir erros, especialmente em contextos onde os processos e os documentos são complexos."
+    },
+    "sections": {
+        "whatIsCustomAi": {
+            "title": "O que são soluções de IA sob medida?",
+            "content": [
+                "As soluções de IA sob medida são sistemas projetados especificamente para se adaptar aos processos, dados e objetivos particulares de uma organização. Diferente de ferramentas padrão, esse tipo de solução é treinada e configurada considerando o contexto real do negócio, o que permite obter resultados mais relevantes e acionáveis.",
+                "Essa abordagem é especialmente útil em indústrias como jurídica, notarial, financeira e operacional, onde os fluxos de trabalho não são homogêneos e a precisão é crítica."
+            ]
+        },
+        "trends": {
+            "title": "Tendências recentes em IA empresarial",
+            "content": [
+                "A adoção de IA continua crescendo, mas com um foco cada vez mais estratégico. Um estudo da McKinsey relata que 65% das organizações usam IA regularmente, com benefícios tanto em eficiência quanto em receitas derivadas de IA generativa. [1]",
+                "Por sua vez, um artigo da Conecta Latam aponta que aproximadamente 45% das empresas mexicanas relatam um ROI positivo de seus investimentos em IA. [2]",
+                "Essas descobertas reforçam uma ideia central: a personalização é um fator-chave para que a IA gere valor real."
+            ]
+        },
+        "whenToInvest": {
+            "title": "Quando convém investir em IA personalizada?",
+            "intro": "Investir em soluções de IA sob medida é especialmente conveniente quando:",
+            "list": [
+                "Os processos são complexos ou pouco padronizados",
+                "Gerenciam-se grandes volumes de informações não estruturadas",
+                "A precisão e a rastreabilidade são críticas",
+                "As ferramentas genéricas não se ajustam ao contexto real do negócio"
+            ],
+            "conclusion": "Nesses cenários, a IA personalizada permite automatizar tarefas sem perder contexto nem controle, algo difícil de alcançar com soluções universais."
+        },
+        "keyBenefits": {
+            "title": "Principais benefícios da IA sob medida para empresas",
+            "intro": "As organizações que apostam em soluções de IA personalizada costumam experimentar benefícios como:",
+            "list": [
+                "Maior eficiência operacional, ao reduzir tarefas manuais repetitivas",
+                "Menor taxa de erros, especialmente em processos críticos",
+                "Melhor tomada de decisão, graças a informações estruturadas e consistentes",
+                "Escalabilidade, ao processar maiores volumes de informações sem aumentar recursos"
+            ],
+            "conclusion": "De acordo com a IBM, as empresas que implementam IA focada em processos específicos alcançam melhorias significativas em produtividade e qualidade operacional em comparação com implementações genéricas. [3]"
+        },
+        "legalHelpAi": {
+            "title": "LegalHelpAI: um exemplo de IA sob medida aplicada a documentos complexos",
+            "content": "Um caso concreto onde a IA personalizada demonstra seu valor é a análise de documentos legais e notariais, que costumam ser extensos, heterogêneos e altamente sensíveis a erros. O LegalHelp AI, produto especializado do ecossistema DocumentoIQ, foi projetado especificamente para ajudar cartórios e equipes jurídicas na revisão e análise de documentos complexos como escrituras, procurações, compras e vendas e protocolos notariais.",
+            "components": {
+                "1": {
+                    "title": "1. OCR avançado",
+                    "description": "Capaz de processar documentos digitalizados ou de baixa qualidade"
+                },
+                "2": {
+                    "title": "2. Modelos de linguagem especializados",
+                    "description": "Treinados em contexto jurídico e notarial, para identificar entidades-chave, datas, valores e atos jurídicos"
+                },
+                "3": {
+                    "title": "3. Extração estruturada",
+                    "description": "Informação configurável de acordo com o tipo de documento"
+                },
+                "4": {
+                    "title": "4. Painel visual de revisão",
+                    "description": "Permite validar e corrigir resultados antes do uso"
+                }
+            },
+            "conclusion": "É importante destacar que o LegalHelp AI não substitui o notário nem o profissional jurídico. Funciona como um assistente inteligente que reduz a carga manual, acelera a revisão e diminui erros, mantendo sempre o controle e a responsabilidade em mãos humanas. Essa abordagem reflete o verdadeiro valor da IA sob medida: adaptar-se a um domínio específico e potencializar o trabalho profissional, não substituí-lo."
+        },
+        "conclusion": {
+            "title": "Conclusão",
+            "content": [
+                "As soluções de IA sob medida representam uma oportunidade estratégica para as empresas que buscam algo mais do que automação básica. Quando a IA é projetada pensando em processos reais, dados específicos e necessidades concretas, pode gerar melhorias substanciais em eficiência, precisão e tomada de decisão.",
+                "Mais do que um investimento tecnológico, a IA personalizada deve ser entendida como um investimento em capacidade operacional e qualidade, especialmente em setores onde os erros têm um alto custo."
+            ]
+        }
+    },
+    "cta": {
+        "title": "Conheça como uma solução de IA sob medida pode ajudar a otimizar processos complexos em sua organização.",
+        "button": "Solicitar demonstração do LegalHelp AI"
+    },
+    "references": {
+        "1": "[1] The state of AI in early 2024: Gen AI adoption spikes and starts to generate value, 2024",
+        "2": "[2] Inteligência Artificial gera retorno de investimento em 45% das empresas mexicanas, 2025",
+        "3": "[3] AI in Action, 2024"
+    }
+}
