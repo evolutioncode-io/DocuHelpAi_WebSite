@@ -131,7 +131,7 @@ function Home() {
           ].map((useCase) => (
             <div
               key={useCase.title}
-              className={`bg-gradient-to-br ${useCase.color} p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border ${useCase.border}`}
+              className={`card-surface card-hover-blue bg-gradient-to-br ${useCase.color} p-8 rounded-2xl border ${useCase.border} cursor-pointer`}
             >
               <div className="mb-4 text-[#FFCF00]">
                 <svg
@@ -253,7 +253,7 @@ function Home() {
           ].map((benefit, index) => (
             <div
               key={index}
-              className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-6 rounded-2xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 text-center cursor-pointer"
+              className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-6 rounded-2xl text-center cursor-pointer"
             >
               <div className="mb-4 flex justify-center">
                 <svg

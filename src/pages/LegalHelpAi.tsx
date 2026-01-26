@@ -81,7 +81,7 @@ function LegalHelpAi() {
 
                     <div className="grid md:grid-cols-3 gap-8">
                         <div className="relative h-full">
-                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer h-full flex flex-col">
+                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl cursor-pointer h-full flex flex-col">
                                 <div className="absolute -top-6 -right-6 bg-gradient-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl font-bold shadow-lg text-center">
                                     1
                                 </div>
@@ -110,7 +110,7 @@ function LegalHelpAi() {
                         </div>
 
                         <div className="relative h-full">
-                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer h-full flex flex-col">
+                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl cursor-pointer h-full flex flex-col">
                                 <div className="absolute -top-6 -right-6 bg-gradient-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl font-bold shadow-lg text-center">
                                     2
                                 </div>
@@ -135,7 +135,7 @@ function LegalHelpAi() {
                         </div>
 
                         <div className="relative h-full">
-                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer h-full flex flex-col">
+                            <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-3xl cursor-pointer h-full flex flex-col">
                                 <div className="absolute -top-6 -right-6 bg-gradient-primary text-white w-16 h-16 rounded-full flex items-center justify-center text-3xl font-bold shadow-lg text-center">
                                     3
                                 </div>
@@ -188,7 +188,7 @@ function LegalHelpAi() {
                             ].map((benefit) => (
                                 <div
                                     key={benefit.title}
-                                    className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-6 rounded-xl group cursor-pointer hover:shadow-xl"
+                                    className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-6 rounded-xl group cursor-pointer"
                                 >
                                     <div className="flex items-start gap-4">
                                         <div className="bg-surface-muted group-hover:bg-[color:var(--color-primary-800)]/10 p-3 rounded-lg flex-shrink-0 transition-colors duration-300">
@@ -243,7 +243,7 @@ function LegalHelpAi() {
                             ].map((benefit) => (
                                 <div
                                     key={benefit.title}
-                                    className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-6 rounded-xl group cursor-pointer hover:shadow-xl"
+                                    className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-6 rounded-xl group cursor-pointer"
                                 >
                                     <div className="flex items-start gap-4">
                                         <div className="bg-surface-muted group-hover:bg-[color:var(--color-primary-800)]/10 p-3 rounded-lg flex-shrink-0 transition-colors duration-300">
@@ -293,7 +293,7 @@ function LegalHelpAi() {
                                 iconPath: 'M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z',
                             },
                         ].map((feature) => (
-                            <div key={feature.title} className="text-center p-8 card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] rounded-2xl group cursor-pointer hover:shadow-xl">
+                            <div key={feature.title} className="text-center p-8 card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] rounded-2xl group cursor-pointer">
                                 <div className="bg-surface-muted group-hover:bg-[color:var(--color-primary-800)]/10 w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg transition-colors duration-300">
                                     <svg className="w-10 h-10 text-[color:var(--color-primary-800)] group-hover:text-[color:var(--color-primary-700)] transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={feature.iconPath} />
