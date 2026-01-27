@@ -1,0 +1,96 @@
+{
+    "hero": {
+        "badge": "Intelligent Notarial Document Analysis",
+        "title": "LegalHelp AI Notaries",
+        "subtitle": "LegalHelp AI Notaries assists in the analysis, extraction, and validation of key information from complex deeds and notarial documents, reducing time and errors without replacing the notary's judgment.",
+        "microcopy": "Designed for deeds, powers of attorney, sales contracts, and notarial protocols.",
+        "primaryCta": "Request demo for notaries",
+        "secondaryCta": "See how it works with a power of attorney"
+    },
+    "whatIs": {
+        "title": "What is LegalHelp AI Notaries?",
+        "description": "LegalHelp AI Notaries is the specialized DocumentoIQ product designed specifically for notaries. It uses artificial intelligence to analyze extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
+        "disclaimer": "LegalHelp AI Notaries does not replace the notary. It functions as an intelligent assistant that reduces manual workload and errors in document review."
+    },
+    "howItWorks": {
+        "title": "How does LegalHelp AI Notaries work?",
+        "steps": {
+            "step1": {
+                "title": "1. Upload notarial documents",
+                "description": "Upload public deeds, powers of attorney, sales contracts, protocols, or other notarial documents, whether digital or scanned.",
+                "footer": "Supported formats: PDF, JPG, PNG, TIFF"
+            },
+            "step2": {
+                "title": "2. Processing with specialized AI",
+                "intro": "LegalHelp AI Notaries combines advanced OCR with language models trained to understand notarial documents, automatically identifying:",
+                "items": [
+                    "Involved parties",
+                    "Dates and legal acts",
+                    "Amounts and assets",
+                    "References and key data"
+                ],
+                "footer": "AI assists the analysis; final validation is always human."
+            },
+            "step3": {
+                "title": "3. Structured and reviewable results",
+                "description": "Review the information from the visual panel or export the data in Excel, CSV, or JSON to integrate it into your notarial systems."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Technical and Business Benefits for Notaries",
+        "business": {
+            "title": "Business Benefits",
+            "items": [
+                "Significant reduction in deed review time",
+                "Lower operational load for the notarial team",
+                "Fewer human errors in critical documents",
+                "Greater consistency and control in notarial processes"
+            ]
+        },
+        "technical": {
+            "title": "Technical Benefits",
+            "items": [
+                "Over 90% accuracy in notarial documents",
+                "Advanced OCR for scanned or low-quality documents",
+                "Flexible extraction of customizable notarial fields",
+                "Visual panel for optional manual review",
+                "Immediate export (Excel, CSV, JSON)",
+                "Integration via API and Zapier"
+            ]
+        }
+    },
+    "useCases": {
+        "title": "Key Applications in Notaries",
+        "items": {
+            "acts": {
+                "title": "Review of notarial minutes",
+                "description": "Analysis of notarial minutes to identify key data such as appearing parties, statements, dates, and legal acts, reducing errors in high-frequency documents."
+            },
+            "powers": {
+                "title": "Validation of powers of attorney",
+                "description": "Automatic extraction and validation of information in general or special powers of attorney, identifying grantors, attorneys-in-fact, scopes, and validity, and pointing out possible inconsistencies for the notary's review."
+            },
+            "deeds": {
+                "title": "Review of public deeds",
+                "description": "Analysis of extensive and complex deeds to identify parties, assets, amounts, backgrounds, and relevant clauses, facilitating review and reducing preparation and validation time."
+            },
+            "wills": {
+                "title": "Wills",
+                "description": "Structured review of wills to identify provisions, heirs, assets, and special conditions, helping to minimize formal errors in legally sensitive documents."
+            }
+        }
+    },
+    "brand": {
+        "title": "LegalHelp AI Notaries is part of the DocumentoIQ ecosystem",
+        "description1": "DocumentoIQ is the artificial intelligence platform for document analysis.",
+        "description2": "LegalHelp AI is its line of industry-specialized products.",
+        "tagline": "A single technological base. Specialized products for critical sectors."
+    },
+    "cta": {
+        "title": "Optimize notarial document analysis with LegalHelp AI Notaries",
+        "subtitle": "Request a personalized demo and discover how LegalHelp AI Notaries can help you reduce time, errors, and operational load in your notary's office, always maintaining professional control.",
+        "button": "Request demo for notaries",
+        "microcopy": "Demo focused on real notarial documents."
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "hero": {
+        "badge": "IA para análise e recomendação de documentos bancários",
+        "title": "LegalHelp AI Banca",
+        "subtitle": "O LegalHelp AI Banca auxilia instituições bancárias na revisão, validação e recomendação de documentos críticos, reduzindo prazos e erros operacionais sem substituir o critério do analista jurídico.",
+        "microcopy": "Projetado para processos de abertura de contas, crédito e hipotecas.",
+        "primaryCta": "Solicitar demonstração para banca",
+        "secondaryCta": "Veja como funciona com um parecer jurídico"
+    },
+    "whatIs": {
+        "title": "O que é o LegalHelp AI Banca?",
+        "description": "LegalHelp AI Banca é o produto especializado do DocumentoIQ projetado para instituições financeiras que lidam com grandes volumes de documentação regulamentada. Utiliza inteligência artificial para analisar expedientes bancários, validar informações e gerar pareceres automatizados, ajudando as equipes jurídicas a trabalhar com maior velocidade, precisão e rastreabilidade.",
+        "disclaimer": "O LegalHelp AI Banca não toma decisões pelo banco. Ele funciona como um assistente inteligente que acelera a revisão documental e aponta apenas as ocorrências que exigem análise humana."
+    },
+    "howItWorks": {
+        "title": "Como o LegalHelp AI Banca funciona?",
+        "steps": {
+            "step1": {
+                "title": "1. Envio de expedientes bancários",
+                "description": "Envie expedientes completos para abertura de contas, solicitações de crédito ou cancelamento de hipotecas, seja por upload direto ou integração via API.",
+                "footer": "Formatos suportados: PDF, JPG, PNG, TIFF"
+            },
+            "step2": {
+                "title": "2. Processamento com IA especializada em banca",
+                "intro": "O LegalHelp AI Banca combina OCR avançado com modelos de linguagem treinados em documentação financeira e regulatória para:",
+                "items": [
+                    "Validar informações do cliente",
+                    "Identificar inconsistências ou faltas",
+                    "Analisar contratos e garantias",
+                    "Detectar ocorrências relevantes"
+                ],
+                "footer": "A IA analisa todo o expediente e destaca apenas o que exige revisão humana."
+            },
+            "step3": {
+                "title": "3. Parecer automatizado e revisão final",
+                "description": "O sistema gera um parecer automatizado e permite ao analista jurídico revisar apenas as ocorrências sinalizadas, reduzindo drasticamente o tempo de avaliação.",
+                "footer": "⏱ Tempo médio: 5 minutos por crédito. Exporte resultados ou integre-os diretamente aos sistemas do banco."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Benefícios técnicos e de negócio para banca",
+        "business": {
+            "title": "Benefícios de negócio",
+            "items": [
+                "Redução de até 40% nos prazos de parecer",
+                "Redução de até 60% nos erros de captura ou revisão manual",
+                "Maior controle e rastreabilidade em cada etapa do processo",
+                "Processamento mais rápido sem aumentar o pessoal",
+                "Melhoria na experiência do cliente final"
+            ]
+        },
+        "technical": {
+            "title": "Benefícios técnicos",
+            "items": [
+                "Parecer automatizado por expediente",
+                "Detecção automática de ocorrências",
+                "OCR avançado para documentos digitalizados ou de baixa qualidade",
+                "Extração flexível de dados bancários",
+                "Painel visual para revisão manual opcional",
+                "Exportação e integração via API"
+            ]
+        }
+    },
+    "useCases": {
+        "title": "Principais aplicações em banca",
+        "items": {
+            "opening": {
+                "title": "Revisão na abertura de contas",
+                "description": "Validação automática de expedientes KYC e documentação exigida, sinalizando inconsistências ou faltas."
+            },
+            "credit": {
+                "title": "Validação de documentos de crédito",
+                "description": "Análise completa de solicitações de crédito, contratos e garantias, com parecer automatizado."
+            },
+            "reports": {
+                "title": "Criação de pareceres",
+                "description": "Geração de pareceres estruturados para aprovação interna, auditoria ou conformidade."
+            },
+            "mortgage": {
+                "title": "Cancelamento de hipotecas",
+                "description": "Revisão e validação documental para processos de liberação e cancelamento de hipotecas."
+            }
+        }
+    },
+    "brand": {
+        "title": "LegalHelp AI Banca é parte do ecossistema DocumentoIQ",
+        "description1": "DocumentoIQ é a plataforma de inteligência artificial para análise documental.",
+        "description2": "LegalHelp AI é sua linha de produtos especializados por indústria.",
+        "tagline": "Uma única base tecnológica. Produtos especializados para setores críticos."
+    },
+    "cta": {
+        "title": "Otimize a revisão documental bancária com LegalHelp AI Banca",
+        "subtitle": "Solicite uma demonstração personalizada e descubra como o LegalHelp AI Banca pode ajudar você a reduzir prazos, erros e riscos operacionais, mantendo sempre o controle humano em processos críticos.",
+        "button": "Solicitar demonstração para banca",
+        "microcopy": "Demonstração focada em expedientes bancários reais."
+    }
+}
