@@ -9,7 +9,6 @@ const routeMappings = {
   en: {
     home: '/',
     product: '/product',
-    legalHelpAi: '/legal-help-ai',
     legalHelpAiNotaries: '/legal-help-ai-notaries',
     legalHelpAiBanking: '/legal-help-ai-banking',
     useCases: '/use-cases',
@@ -33,7 +32,6 @@ const routeMappings = {
   es: {
     home: '/es/',
     product: '/es/producto',
-    legalHelpAi: '/es/legal-help-ai',
     legalHelpAiNotaries: '/es/legal-help-ai-notarias',
     legalHelpAiBanking: '/es/legal-help-ai-banca',
     useCases: '/es/casos-de-uso',
@@ -56,8 +54,7 @@ const routeMappings = {
   },
   'pt-BR': {
     home: '/pt-br/',
-    product: '/pt-br/produto',
-    legalHelpAi: '/pt-br/legal-help-ai',
+    product: '/pt-br/product',
     legalHelpAiNotaries: '/pt-br/legal-help-ai-notarios',
     legalHelpAiBanking: '/pt-br/legal-help-ai-bancario',
     useCases: '/pt-br/casos-de-uso',

@@ -23,7 +23,6 @@ function Layout() {
   const year = new Date().getFullYear()
 
   const navItems = [
-    { labelKey: 'nav.legalHelpAi', pathKey: 'legalHelpAi' as const },
     { labelKey: 'nav.notary', pathKey: 'legalHelpAiNotaries' as const },
     { labelKey: 'nav.banking', pathKey: 'legalHelpAiBanking' as const },
     { labelKey: 'nav.useCases', pathKey: 'useCases' as const },
