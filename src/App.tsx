@@ -12,6 +12,8 @@ const Blog = lazy(() => import('./pages/Blog'))
 const Contact = lazy(() => import('./pages/Contact'))
 const Product = lazy(() => import('./pages/Product'))
 const LegalHelpAi = lazy(() => import('./pages/LegalHelpAi'))
+const LegalHelpAiBanking = lazy(() => import('./pages/LegalHelpAiBanking'))
+const LegalHelpAiNotaries = lazy(() => import('./pages/LegalHelpAiNotaries'))
 const UseCases = lazy(() => import('./pages/UseCases'))
 const Privacy = lazy(() => import('./pages/Privacy'))
 const Terms = lazy(() => import('./pages/Terms'))
@@ -87,6 +89,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="product" element={<Product />} />
             <Route path="legal-help-ai" element={<LegalHelpAi />} />
+            <Route path="legal-help-ai-notaries" element={<LegalHelpAiNotaries />} />
+            <Route path="legal-help-ai-banking" element={<LegalHelpAiBanking />} />
             <Route path="use-cases" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
             <Route path="about" element={<About />} />
@@ -142,6 +146,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="producto" element={<Product />} />
             <Route path="legal-help-ai" element={<LegalHelpAi />} />
+            <Route path="legal-help-ai-notarias" element={<LegalHelpAiNotaries />} />
+            <Route path="legal-help-ai-banca" element={<LegalHelpAiBanking />} />
             <Route path="casos-de-uso" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
             <Route path="nosotros" element={<About />} />
@@ -197,6 +203,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="produto" element={<Product />} />
             <Route path="legal-help-ai" element={<LegalHelpAi />} />
+            <Route path="legal-help-ai-notarios" element={<LegalHelpAiNotaries />} />
+            <Route path="legal-help-ai-bancario" element={<LegalHelpAiBanking />} />
             <Route path="casos-de-uso" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
             <Route path="sobre" element={<About />} />

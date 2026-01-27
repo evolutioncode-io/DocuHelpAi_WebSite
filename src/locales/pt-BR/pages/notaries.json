@@ -1,0 +1,96 @@
+{
+    "hero": {
+        "badge": "Análise Inteligente de Documentos Notariais",
+        "title": "LegalHelp AI Cartórios",
+        "subtitle": "O LegalHelp AI Cartórios auxilia na análise, extração e validação de informações-chave de escrituras e documentos notariais complexos, reduzindo prazos e erros sem substituir o critério do tabelião.",
+        "microcopy": "Projetado para escrituras, procurações, compra e venda e protocolos notariais.",
+        "primaryCta": "Solicitar demonstração para cartórios",
+        "secondaryCta": "Veja como funciona com uma procuração"
+    },
+    "whatIs": {
+        "title": "O que é o LegalHelp AI Cartórios?",
+        "description": "LegalHelp AI Cartórios é o produto especializado do DocumentoIQ projetado especificamente para cartórios. Ele utiliza inteligência artificial para analisar documentos notariais extensos, identificar informações críticas e estruturar dados relevantes, ajudando tabeliães e suas equipes a trabalhar com maior precisão, velocidade e confiança.",
+        "disclaimer": "O LegalHelp AI Cartórios não substitui o tabelião. Ele funciona como um assistente inteligente que reduz a carga manual e os erros na revisão documental."
+    },
+    "howItWorks": {
+        "title": "Como o LegalHelp AI Cartórios funciona?",
+        "steps": {
+            "step1": {
+                "title": "1. Upload de documentos notariais",
+                "description": "Envie escrituras públicas, procurações, contratos de compra e venda, protocolos ou outros documentos notariais, digitais ou digitalizados.",
+                "footer": "Formatos suportados: PDF, JPG, PNG, TIFF"
+            },
+            "step2": {
+                "title": "2. Processamento com IA especializada",
+                "intro": "O LegalHelp AI Cartórios combina OCR avançado com modelos de linguagem treinados para entender documentos notariais, identificando automaticamente:",
+                "items": [
+                    "Partes envolvidas",
+                    "Datas e atos jurídicos",
+                    "Valores e bens",
+                    "Referências e dados fundamentais"
+                ],
+                "footer": "A IA auxilia na análise; a validação final é sempre humana."
+            },
+            "step3": {
+                "title": "3. Resultados estruturados e revisáveis",
+                "description": "Revise as informações pelo painel visual ou exporte os dados em Excel, CSV ou JSON para integrá-los aos seus sistemas notariais."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Benefícios Técnicos e de Negócio para Cartórios",
+        "business": {
+            "title": "Benefícios de Negócio",
+            "items": [
+                "Redução significativa no tempo de revisão de escrituras",
+                "Menor carga operacional para a equipe do cartório",
+                "Menos erros humanos em documentos críticos",
+                "Maior consistência e controle nos processos notariais"
+            ]
+        },
+        "technical": {
+            "title": "Benefícios Técnicos",
+            "items": [
+                "Precisão superior a 90% em documentos notariais",
+                "OCR avançado para documentos digitalizados ou de baixa qualidade",
+                "Extração flexível de campos notariais personalizáveis",
+                "Painel visual para revisão manual opcional",
+                "Exportação imediata (Excel, CSV, JSON)",
+                "Integração via API e Zapier"
+            ]
+        }
+    },
+    "useCases": {
+        "title": "Principais Aplicações em Cartórios",
+        "items": {
+            "acts": {
+                "title": "Revisão de atas notariais",
+                "description": "Análise de atas notariais para identificar dados fundamentais como partes, declarações, datas e atos jurídicos, reduzindo erros em documentos de alta frequência."
+            },
+            "powers": {
+                "title": "Validação de procurações",
+                "description": "Extração e validação automática de informações em procurações gerais ou especiais, identificando outorgantes, procuradores, poderes e validade, apontando possíveis inconsistências para revisão do tabelião."
+            },
+            "deeds": {
+                "title": "Revisión de escrituras públicas",
+                "description": "Análise de escrituras extensas e complexas para identificar partes, bens, valores, antecedentes e cláusulas relevantes, facilitando a revisão e reduzindo o tempo de preparação e validação."
+            },
+            "wills": {
+                "title": "Testamentos",
+                "description": "Revisão estruturada de testamentos para identificar disposições, herdeiros, bens e condições especiais, ajudando a minimizar erros formais em documentos juridicamente sensíveis."
+            }
+        }
+    },
+    "brand": {
+        "title": "LegalHelp AI Cartórios é parte do ecossistema DocumentoIQ",
+        "description1": "DocumentoIQ é a plataforma de inteligência artificial para análise documental.",
+        "description2": "LegalHelp AI é sua linha de produtos especializados por indústria.",
+        "tagline": "Uma única base tecnológica. Produtos especializados para setores críticos."
+    },
+    "cta": {
+        "title": "Otimize a análise de documentos notariais com LegalHelp AI Cartórios",
+        "subtitle": "Solicite uma demonstração personalizada e descubra como o LegalHelp AI Cartórios pode ajudar você a reduzir prazos, erros e carga operacional em seu cartório, mantendo sempre o controle profissional.",
+        "button": "Solicitar demonstração para cartórios",
+        "microcopy": "Demonstração focada em documentos notariais reais."
+    }
+}

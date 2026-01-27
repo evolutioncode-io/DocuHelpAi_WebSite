@@ -1,0 +1,98 @@
+{
+    "hero": {
+        "badge": "IA para análisis y dictaminación de documentos bancarios",
+        "title": "LegalHelp AI Banca",
+        "subtitle": "LegalHelp AI Banca asiste a instituciones bancarias en la revisión, validación y dictaminación de documentos críticos, reduciendo tiempos y errores operativos sin reemplazar el criterio del analista legal.",
+        "microcopy": "Diseñado para procesos de apertura de cuentas, crédito e hipotecas.",
+        "primaryCta": "Solicitar demo para banca",
+        "secondaryCta": "Ver cómo funciona con un dictamen"
+    },
+    "whatIs": {
+        "title": "¿Qué es LegalHelp AI Banca?",
+        "description": "LegalHelp AI Banca es el producto especializado de DocumentoIQ diseñado para instituciones financieras que manejan grandes volúmenes de documentación regulada. Utiliza inteligencia artificial para analizar expedientes bancarios, validar información y generar dictámenes automáticos, ayudando a los equipos legales a trabajar con mayor velocidad, precisión y trazabilidad.",
+        "disclaimer": "LegalHelp AI Banca no toma decisiones por el banco. Funciona como un asistente inteligente que acelera la revisión documental y señala únicamente las incidencias que requieren análisis humano."
+    },
+    "howItWorks": {
+        "title": "¿Cómo funciona LegalHelp AI Banca?",
+        "steps": {
+            "step1": {
+                "title": "1. Ingreso de expedientes bancarios",
+                "description": "Carga expedientes completos para apertura de cuentas, solicitudes de crédito o cancelación de hipotecas, ya sea mediante carga directa o integración vía API.",
+                "footer": "Formatos soportados: PDF, JPG, PNG, TIFF"
+            },
+            "step2": {
+                "title": "2. Procesamiento con IA especializada en banca",
+                "intro": "LegalHelp AI Banca combina OCR avanzado con modelos de lenguaje entrenados en documentación financiera y regulatoria para:",
+                "items": [
+                    "Validar información del cliente",
+                    "Identificar inconsistencias o faltantes",
+                    "Analizar contratos y garantías",
+                    "Detectar incidencias relevantes"
+                ],
+                "footer": "La IA analiza todo el expediente y destaca únicamente lo que requiere revisión humana."
+            },
+            "step3": {
+                "title": "3. Dictamen automatizado y revisión final",
+                "description": "El sistema genera un dictamen automatizado y permite al analista legal revisar solo las incidencias señaladas, reduciendo drásticamente el tiempo de evaluación.",
+                "footer": "⏱ Tiempo promedio: 5 minutos por crédito. Exporta resultados o intégralos directamente a los sistemas del banco."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Beneficios técnicos y de negocio para banca",
+        "business": {
+            "title": "Beneficios de negocio",
+            "items": [
+                "Reducción de hasta 40% en tiempos de dictaminación",
+                "Reducción de hasta 60% en errores por captura o revisión manual",
+                "Mayor control y trazabilidad en cada etapa del proceso",
+                "Procesamiento más rápido sin aumentar personal",
+                "Mejora en la experiencia del cliente final"
+            ]
+        },
+        "technical": {
+            "title": "Beneficios técnicos",
+            "items": [
+                "Dictamen automatizado por expediente",
+                "Detección automática de incidencias",
+                "OCR avanzado para documentos escaneados o de baja calidad",
+                "Extracción flexible de datos bancarios",
+                "Panel visual para revisión manual opcional",
+                "Exportación e integración vía API"
+            ]
+        }
+    },
+    "useCases": {
+        "title": "Aplicaciones clave en banca",
+        "items": {
+            "opening": {
+                "title": "Revisión en apertura de cuentas",
+                "description": "Validación automática de expedientes KYC y documentación requerida, señalando inconsistencias o faltantes."
+            },
+            "credit": {
+                "title": "Validación de documentos de crédito",
+                "description": "Análisis completo de solicitudes de crédito, contratos y garantías, con dictamen automatizado."
+            },
+            "reports": {
+                "title": "Creación de dictámenes",
+                "description": "Generación de dictámenes estructurados para aprobación interna, auditoría o cumplimiento."
+            },
+            "mortgage": {
+                "title": "Cancelación de hipotecas",
+                "description": "Revisión y validación documental para procesos de liberación y cancelación hipotecaria."
+            }
+        }
+    },
+    "brand": {
+        "title": "LegalHelp AI Banca es parte del ecosistema DocumentoIQ",
+        "description1": "DocumentoIQ es la plataforma de inteligencia artificial para análisis documental.",
+        "description2": "LegalHelp AI es su línea de productos especializados por industria.",
+        "tagline": "Una sola base tecnológica. Productos especializados para sectores críticos."
+    },
+    "cta": {
+        "title": "Optimiza la revisión documental bancaria con LegalHelp AI Banca",
+        "subtitle": "Solicita una demo personalizada y descubre cómo LegalHelp AI Banca puede ayudarte a reducir tiempos, errores y riesgos operativos, manteniendo siempre el control humano en procesos críticos.",
+        "button": "Solicitar demo para banca",
+        "microcopy": "Demo enfocada en expedientes bancarios reales."
+    }
+}

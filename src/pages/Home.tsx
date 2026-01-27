@@ -33,17 +33,20 @@ function Home() {
             <p className="text-xl md:text-2xl mb-10 text-body leading-relaxed">
               {t('hero.subtitle')}
             </p>
+            <p className="text-xl font-semibold mb-6 text-heading">
+              {t('hero.solutionsText')}
+            </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
-              <Link to={getLocalizedRoute('contact')}>
+              <Link to={getLocalizedRoute('legalHelpAi')}>
                 <button className="btn-primary px-8 py-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 font-semibold text-lg">
-                  {t('hero.ctaPrimary')}
+                  {t('hero.ctaNotary')}
                 </button>
               </Link>
-              <a href="https://www.youtube.com/watch?v=X2DkVdgkeGo" target="_blank" rel="noopener noreferrer">
+              <Link to={getLocalizedRoute('legalHelpAi')}>
                 <button className=" btn-primary px-8 py-4 shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-200 font-semibold text-lg">
-                  {t('hero.ctaSecondary')}
+                  {t('hero.ctaBanking')}
                 </button>
-              </a>
+              </Link>
             </div>
             <p className="text-sm text-body mt-6">
               {t('hero.microcopy')}

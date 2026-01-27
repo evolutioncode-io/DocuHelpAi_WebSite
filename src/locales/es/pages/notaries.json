@@ -1,0 +1,96 @@
+{
+    "hero": {
+        "badge": "Análisis Inteligente de Documentos Notariales",
+        "title": "LegalHelp AI Notarías",
+        "subtitle": "LegalHelp AI Notarías asiste en el análisis, extracción y validación de información clave de escrituras y documentos notariales complejos, reduciendo tiempos y errores sin reemplazar el criterio del notario.",
+        "microcopy": "Diseñado para escrituras, poderes, compraventas y protocolos notariales.",
+        "primaryCta": "Solicitar demo para notarías",
+        "secondaryCta": "Ver cómo funciona con un poder"
+    },
+    "whatIs": {
+        "title": "¿Qué es LegalHelp AI Notarías?",
+        "description": "LegalHelp AI Notarías es el producto especializado de DocumentoIQ diseñado específicamente para notarías. Utiliza inteligencia artificial para analizar documentos notariales extensos, identificar información crítica y estructurar datos relevantes, ayudando a los notarios y su equipo a trabajar con mayor precisión, velocidad y confianza.",
+        "disclaimer": "LegalHelp AI Notarías no reemplaza al notario. Funciona como un asistente inteligente que reduce la carga manual y los errores en la revisión documental."
+    },
+    "howItWorks": {
+        "title": "¿Cómo funciona LegalHelp AI Notarías?",
+        "steps": {
+            "step1": {
+                "title": "1. Subida de documentos notariales",
+                "description": "Carga escrituras públicas, poderes, compraventas, protocolos u otros documentos notariales, ya sean digitales o escaneados.",
+                "footer": "Formatos soportados: PDF, JPG, PNG, TIFF"
+            },
+            "step2": {
+                "title": "2. Procesamiento con IA especializada",
+                "intro": "LegalHelp AI Notarías combina OCR avanzado con modelos de lenguaje entrenados para comprender documentos notariales, identificando automáticamente:",
+                "items": [
+                    "Partes involucradas",
+                    "Fechas y actos jurídicos",
+                    "Montos y bienes",
+                    "Referencias y datos clave"
+                ],
+                "footer": "La IA asiste el análisis; la validación final siempre es humana."
+            },
+            "step3": {
+                "title": "3. Resultados estructurados y revisables",
+                "description": "Revisa la información desde el panel visual o exporta los datos en Excel, CSV o JSON para integrarlos a tus sistemas notariales."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Beneficios técnicos y de negocio para notarías",
+        "business": {
+            "title": "Beneficios de negocio",
+            "items": [
+                "Reducción significativa del tiempo de revisión de escrituras",
+                "Menor carga operativa para el equipo notarial",
+                "Menos errores humanos en documentos críticos",
+                "Mayor consistencia y control en procesos notariales"
+            ]
+        },
+        "technical": {
+            "title": "Beneficios técnicos",
+            "items": [
+                "Precisión superior al 90% en documentos notariales",
+                "OCR avanzado para documentos escaneados o de baja calidad",
+                "Extracción flexible de campos notariales personalizables",
+                "Panel visual para revisión manual opcional",
+                "Exportación inmediata (Excel, CSV, JSON)",
+                "Integración vía API y Zapier"
+            ]
+        }
+    },
+    "useCases": {
+        "title": "Aplicaciones clave en notarías",
+        "items": {
+            "acts": {
+                "title": "Revisión de actas notariales",
+                "description": "Análisis de actas notariales para identificar datos clave como comparecientes, declaraciones, fechas y actos jurídicos, reduciendo errores en documentos de alta frecuencia."
+            },
+            "powers": {
+                "title": "Validación de poderes",
+                "description": "Extracción y validación automática de información en poderes generales o especiales, identificando otorgantes, apoderados, alcances y vigencia, y señalando posibles inconsistencias para revisión del notario."
+            },
+            "deeds": {
+                "title": "Revisión de escrituras públicas",
+                "description": "Análisis de escrituras extensas y complejas para identificar partes, bienes, montos, antecedentes y cláusulas relevantes, facilitando la revisión y reduciendo el tiempo de preparación y validación."
+            },
+            "wills": {
+                "title": "Testamentos",
+                "description": "Revisión estructurada de testamentos para identificar disposiciones, herederos, bienes y condiciones especiales, ayudando a minimizar errores formales en documentos jurídicamente sensibles."
+            }
+        }
+    },
+    "brand": {
+        "title": "LegalHelp AI Notarías es parte del ecosistema DocumentoIQ",
+        "description1": "DocumentoIQ es la plataforma de inteligencia artificial para análisis documental.",
+        "description2": "LegalHelp AI es su línea de productos especializados por industria.",
+        "tagline": "Una sola base tecnológica. Productos especializados para sectores críticos."
+    },
+    "cta": {
+        "title": "Optimiza el análisis de documentos notariales con LegalHelp AI Notarías",
+        "subtitle": "Solicita una demo personalizada y descubre cómo LegalHelp AI Notarías puede ayudarte a reducir tiempos, errores y carga operativa en tu notaría, manteniendo siempre el control profesional.",
+        "button": "Solicitar demo para notarías",
+        "microcopy": "Demo enfocada en documentos notariales reales."
+    }
+}

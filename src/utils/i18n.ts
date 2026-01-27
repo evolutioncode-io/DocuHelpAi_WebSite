@@ -32,6 +32,12 @@ import productPtBr from '../locales/pt-BR/pages/product.json'
 import useCasesEn from '../locales/en/pages/useCases.json'
 import useCasesEs from '../locales/es/pages/useCases.json'
 import useCasesPtBr from '../locales/pt-BR/pages/useCases.json'
+import notariesEn from '../locales/en/pages/notaries.json'
+import notariesEs from '../locales/es/pages/notaries.json'
+import notariesPtBr from '../locales/pt-BR/pages/notaries.json'
+import bankingEn from '../locales/en/pages/banking.json'
+import bankingEs from '../locales/es/pages/banking.json'
+import bankingPtBr from '../locales/pt-BR/pages/banking.json'
 import privacyEn from '../locales/en/pages/privacy.json'
 import privacyEs from '../locales/es/pages/privacy.json'
 import privacyPtBr from '../locales/pt-BR/pages/privacy.json'
@@ -111,6 +117,8 @@ const resources = {
     product: productEn,
     useCases: useCasesEn,
     legalHelpAi: legalHelpAiEn,
+    notaries: notariesEn,
+    banking: bankingEn,
     about: aboutEn,
     contact: contactEn,
     blog: blogEn,
@@ -145,6 +153,8 @@ const resources = {
     product: productEs,
     useCases: useCasesEs,
     legalHelpAi: legalHelpAiEs,
+    notaries: notariesEs,
+    banking: bankingEs,
     about: aboutEs,
     contact: contactEs,
     blog: blogEs,
@@ -179,6 +189,8 @@ const resources = {
     product: productPtBr,
     useCases: useCasesPtBr,
     legalHelpAi: legalHelpAiPtBr,
+    notaries: notariesPtBr,
+    banking: bankingPtBr,
     about: aboutPtBr,
     contact: contactPtBr,
     blog: blogPtBr,

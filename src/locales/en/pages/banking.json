@@ -1,0 +1,98 @@
+{
+    "hero": {
+        "badge": "AI for Banking Document Analysis and Recommendation",
+        "title": "LegalHelp AI Banking",
+        "subtitle": "LegalHelp AI Banking assists banking institutions in the review, validation, and recommendation of critical documents, reducing times and operational errors without replacing the legal analyst's judgment.",
+        "microcopy": "Designed for account opening, credit, and mortgage processes.",
+        "primaryCta": "Request demo for banking",
+        "secondaryCta": "See how it works with a legal opinion"
+    },
+    "whatIs": {
+        "title": "What is LegalHelp AI Banking?",
+        "description": "LegalHelp AI Banking is the specialized DocumentoIQ product designed for financial institutions that handle large volumes of regulated documentation. It uses artificial intelligence to analyze banking files, validate information, and generate automated legal opinions, helping legal teams work with greater speed, precision, and traceability.",
+        "disclaimer": "LegalHelp AI Banking does not make decisions for the bank. It functions as an intelligent assistant that accelerates document review and points out only the incidents that require human analysis."
+    },
+    "howItWorks": {
+        "title": "How does LegalHelp AI Banking work?",
+        "steps": {
+            "step1": {
+                "title": "1. Submission of banking files",
+                "description": "Upload complete files for account opening, credit applications, or mortgage cancellations, either through direct upload or integration via API.",
+                "footer": "Supported formats: PDF, JPG, PNG, TIFF"
+            },
+            "step2": {
+                "title": "2. Processing with banking-specialized AI",
+                "intro": "LegalHelp AI Banking combines advanced OCR with language models trained in financial and regulatory documentation to:",
+                "items": [
+                    "Validate customer information",
+                    "Identify inconsistencies or missing information",
+                    "Analyze contracts and guarantees",
+                    "Detect relevant incidents"
+                ],
+                "footer": "The AI analyzes the entire file and highlights only what requires human review."
+            },
+            "step3": {
+                "title": "3. Automated recommendation and final review",
+                "description": "The system generates an automated legal opinion and allows the legal analyst to review only the flagged incidents, drastically reducing evaluation time.",
+                "footer": "⏱ Average time: 5 minutes per credit. Export results or integrate them directly into the bank's systems."
+            }
+        }
+    },
+    "benefits": {
+        "title": "Technical and Business Benefits for Banking",
+        "business": {
+            "title": "Business Benefits",
+            "items": [
+                "Up to 40% reduction in reporting times",
+                "Up to 60% reduction in errors from manual capture or review",
+                "Greater control and traceability at each stage of the process",
+                "Faster processing without increasing staff",
+                "Improved final customer experience"
+            ]
+        },
+        "technical": {
+            "title": "Technical Benefits",
+            "items": [
+                "Automated legal opinion per file",
+                "Automatic detection of incidents",
+                "Advanced OCR for scanned or low-quality documents",
+                "Flexible extraction of banking data",
+                "Visual panel for optional manual review",
+                "Export and integration via API"
+            ]
+        }
+    },
+    "useCases": {
+        "title": "Key Applications in Banking",
+        "items": {
+            "opening": {
+                "title": "Account Opening Review",
+                "description": "Automatic validation of KYC files and required documentation, pointing out inconsistencies or missing information."
+            },
+            "credit": {
+                "title": "Validation of Credit Documents",
+                "description": "Complete analysis of credit applications, contracts, and guarantees, with automated legal opinion."
+            },
+            "reports": {
+                "title": "Legal Opinion Creation",
+                "description": "Generation of structured legal opinions for internal approval, audit, or compliance."
+            },
+            "mortgage": {
+                "title": "Mortgage Cancellation",
+                "description": "Document review and validation for mortgage release and cancellation processes."
+            }
+        }
+    },
+    "brand": {
+        "title": "LegalHelp AI Banking is part of the DocumentoIQ ecosystem",
+        "description1": "DocumentoIQ is the artificial intelligence platform for document analysis.",
+        "description2": "LegalHelp AI is its line of industry-specialized products.",
+        "tagline": "A single technological base. Specialized products for critical sectors."
+    },
+    "cta": {
+        "title": "Optimize Banking document review with LegalHelp AI Banking",
+        "subtitle": "Request a personalized demo and discover how LegalHelp AI Banking can help you reduce time, errors, and operational risks, always maintaining human control in critical processes.",
+        "button": "Request demo for banking",
+        "microcopy": "Demo focused on real banking files."
+    }
+}
