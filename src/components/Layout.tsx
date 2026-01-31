@@ -63,11 +63,11 @@ function Layout() {
 
             <div className="hidden lg:flex items-center gap-4">
               <LanguageSelector />
-              <Link to={getLocalizedRoute('contact')}>
+              <a href="https://meetings.hubspot.com/hpensado3" target="_blank" rel="noopener noreferrer">
                 <button className="btn-primary px-6 py-3 font-semibold hover:shadow-lg transform hover:-translate-y-0.5 transition-all">
                   {t('cta.startFree')}
                 </button>
-              </Link>
+              </a>
             </div>
 
             <button
@@ -104,11 +104,11 @@ function Layout() {
                 ))}
                 <div className="flex items-center justify-between mt-2">
                   <LanguageSelector />
-                  <Link to={getLocalizedRoute('contact')}>
+                  <a href="https://meetings.hubspot.com/hpensado3" target="_blank" rel="noopener noreferrer">
                     <button className="btn-primary px-6 py-3 font-semibold">
                       {t('cta.startFree')}
                     </button>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>

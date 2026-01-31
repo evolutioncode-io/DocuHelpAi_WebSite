@@ -82,18 +82,6 @@ export function useLanguage() {
   const location = useLocation()
   const navigate = useNavigate()
 
-  const currentLanguage = (() => {
-    const resolved = (i18n.resolvedLanguage || i18n.language || 'en').toLowerCase()
-    if (resolved.startsWith('es')) {
-      return 'es'
-    }
-    if (resolved.startsWith('pt')) {
-      return 'pt-BR'
-    }
-    return 'en'
-  })() as SupportedLanguage
-
-  // Extract language from URL path
   const getLanguageFromPath = (path: string): SupportedLanguage => {
     const normalizedPath = path.toLowerCase()
     if (normalizedPath === '/es' || normalizedPath.startsWith('/es/')) {
@@ -105,13 +93,14 @@ export function useLanguage() {
     return 'en'
   }
 
-  // Sync language with URL
+  const currentLanguage = getLanguageFromPath(location.pathname)
+
+  // Sync i18n instance with the language determined from the path
   useEffect(() => {
-    const pathLang = getLanguageFromPath(location.pathname)
-    if (pathLang !== currentLanguage && i18n.language !== pathLang) {
-      i18n.changeLanguage(pathLang)
+    if (i18n.language !== currentLanguage) {
+      i18n.changeLanguage(currentLanguage)
     }
-  }, [location.pathname, currentLanguage, i18n])
+  }, [currentLanguage, i18n])
 
   const changeLanguage = (newLang: SupportedLanguage) => {
     // Get current route key
@@ -125,20 +114,20 @@ export function useLanguage() {
         routeKey = key as keyof typeof routeMappings.en
         break
       }
-      // Handle root routes
-      if ((currentPath === '/' || currentPath === '') && key === 'home') {
-        routeKey = 'home'
-        break
-      }
-      // Handle /es route
-      if ((currentPath === '/es' || currentPath === '/es/') && key === 'home') {
-        routeKey = 'home'
-        break
-      }
-      // Handle /pt-br route
-      if ((currentPath === '/pt-br' || currentPath === '/pt-br/') && key === 'home') {
-        routeKey = 'home'
-        break
+      // Handle root routes (/, /es, /pt-br)
+      if (key === 'home') {
+        const normalizedCurrent = currentPath.toLowerCase()
+        if (
+          normalizedCurrent === '/' ||
+          normalizedCurrent === '' ||
+          normalizedCurrent === '/es' ||
+          normalizedCurrent === '/es/' ||
+          normalizedCurrent === '/pt-br' ||
+          normalizedCurrent === '/pt-br/'
+        ) {
+          routeKey = 'home'
+          break
+        }
       }
     }
 

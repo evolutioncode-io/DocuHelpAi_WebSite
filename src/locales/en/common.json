@@ -1,13 +1,13 @@
 {
   "cta": {
-    "startFree": "Start free",
+    "startFree": "Schedule demo",
     "scheduleDemo": "Schedule demo",
     "requestDemo": "Request personalized demo",
     "contactUs": "Contact us",
     "learnMore": "Learn more →"
   },
   "trust": {
-    "noCreditCard": "No credit card",
+    "noCreditCard": "Personalized demo",
     "setupMinutes": "Setup in minutes",
     "spanishSupport": "Spanish support"
   },
@@ -31,7 +31,7 @@
     "terms": "Terms of Service",
     "cookies": "Cookies",
     "security": "Security",
-    "banner": "🎉 Try for free • No credit card • Setup in minutes"
+    "banner": "Try for free. Request your demo now"
   },
   "nav": {
     "product": "Product",
