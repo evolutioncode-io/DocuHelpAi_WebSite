@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import Layout from './components/Layout'
 import LocalizedRoutes from './components/LocalizedRoutes'
+import ScrollToTop from './components/ScrollToTop'
 
 // Lazy load pages for better code splitting and performance
 const Home = lazy(() => import('./pages/Home'))
@@ -78,6 +79,7 @@ function RootRedirect() {
 function App() {
   return (
     <Suspense fallback={<PageLoader />}>
+      <ScrollToTop />
       <Routes>
         {/* Root redirect - detect language and redirect */}
         <Route path="/" element={<RootRedirect />} />
