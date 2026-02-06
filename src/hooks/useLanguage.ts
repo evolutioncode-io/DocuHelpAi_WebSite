@@ -1,4 +1,3 @@
-import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useLocation, useNavigate } from 'react-router-dom'
 
@@ -77,30 +76,27 @@ const routeMappings = {
   },
 } as const
 
+
+/**
+ * Normalizes language codes to our supported set.
+ * e.g., 'en-US' -> 'en', 'es-MX' -> 'es', 'pt' -> 'pt-BR'
+ */
+export function normalizeLanguage(lang: string | undefined | null): SupportedLanguage {
+  if (!lang) return 'en'
+  const lower = lang.toLowerCase()
+  if (lower.startsWith('es')) return 'es'
+  if (lower.startsWith('pt')) return 'pt-BR'
+  return 'en'
+}
+
 export function useLanguage() {
   const { i18n } = useTranslation()
   const location = useLocation()
   const navigate = useNavigate()
 
-  const getLanguageFromPath = (path: string): SupportedLanguage => {
-    const normalizedPath = path.toLowerCase()
-    if (normalizedPath === '/es' || normalizedPath.startsWith('/es/')) {
-      return 'es'
-    }
-    if (normalizedPath === '/pt-br' || normalizedPath.startsWith('/pt-br/')) {
-      return 'pt-BR'
-    }
-    return 'en'
-  }
+  const currentLanguage = normalizeLanguage(i18n.resolvedLanguage || i18n.language)
 
-  const currentLanguage = getLanguageFromPath(location.pathname)
 
-  // Sync i18n instance with the language determined from the path
-  useEffect(() => {
-    if (i18n.language !== currentLanguage) {
-      i18n.changeLanguage(currentLanguage)
-    }
-  }, [currentLanguage, i18n])
 
   const changeLanguage = (newLang: SupportedLanguage) => {
     // Get current route key
