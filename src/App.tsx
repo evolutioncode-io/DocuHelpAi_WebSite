@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 
 import Layout from './components/Layout'
 import LocalizedRoutes from './components/LocalizedRoutes'
+import { normalizeLanguage } from './hooks/useLanguage'
 
 // Lazy load pages for better code splitting and performance
 const Home = lazy(() => import('./pages/Home'))
@@ -69,8 +70,7 @@ function NotFound() {
 // Redirect root to default language based on browser/preferences
 function RootRedirect() {
   const { i18n } = useTranslation()
-  const resolved = (i18n.resolvedLanguage || i18n.language || 'en').toLowerCase()
-  const defaultLang = resolved.startsWith('es') ? 'es' : resolved.startsWith('pt') ? 'pt-BR' : 'en'
+  const defaultLang = normalizeLanguage(i18n.resolvedLanguage || i18n.language)
   // Redirect to language-specific home page
   return <Navigate to={defaultLang === 'es' ? '/es' : defaultLang === 'pt-BR' ? '/pt-br' : ''} replace />
 }
@@ -96,8 +96,6 @@ function App() {
             <Route path="privacy" element={<Privacy />} />
             <Route path="terms" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
-            <Route path="cookies" element={<Cookies />} />
-            <Route path="security" element={<Security />} />
             <Route path="security" element={<Security />} />
             <Route
               path="blog/what-is-intelligent-document-processing-idp"
@@ -152,8 +150,6 @@ function App() {
             <Route path="privacidad" element={<Privacy />} />
             <Route path="terminos" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
-            <Route path="cookies" element={<Cookies />} />
-            <Route path="seguridad" element={<Security />} />
             <Route path="seguridad" element={<Security />} />
             <Route
               path="blog/que-es-procesamiento-inteligente-documentos-idp"
@@ -208,8 +204,6 @@ function App() {
             <Route path="privacidade" element={<Privacy />} />
             <Route path="termos" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
-            <Route path="cookies" element={<Cookies />} />
-            <Route path="seguranca" element={<Security />} />
             <Route path="seguranca" element={<Security />} />
             <Route
               path="blog/o-que-e-processamento-inteligente-documentos-idp"
