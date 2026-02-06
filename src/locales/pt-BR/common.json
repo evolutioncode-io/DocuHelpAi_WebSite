@@ -1,13 +1,13 @@
 {
   "cta": {
-    "startFree": "Começar grátis",
+    "startFree": "Agendar demo",
     "scheduleDemo": "Agendar demo",
     "requestDemo": "Solicitar demo personalizada",
     "contactUs": "Fale conosco",
     "learnMore": "Saiba mais →"
   },
   "trust": {
-    "noCreditCard": "Sem cartão de crédito",
+    "noCreditCard": "Demo personalizada",
     "setupMinutes": "Configuração em minutos",
     "spanishSupport": "Suporte em espanhol"
   },

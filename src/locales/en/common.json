@@ -1,13 +1,13 @@
 {
   "cta": {
-    "startFree": "Start free",
+    "startFree": "Schedule demo",
     "scheduleDemo": "Schedule demo",
     "requestDemo": "Request personalized demo",
     "contactUs": "Contact us",
     "learnMore": "Learn more →"
   },
   "trust": {
-    "noCreditCard": "No credit card",
+    "noCreditCard": "Personalized demo",
     "setupMinutes": "Setup in minutes",
     "spanishSupport": "Spanish support"
   },
