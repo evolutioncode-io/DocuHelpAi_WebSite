@@ -1,24 +1,27 @@
 import { Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+import { normalizeLanguage } from '../hooks/useLanguage'
 
 function LocalizedRoutes() {
   const location = useLocation()
   const { i18n } = useTranslation()
 
   useEffect(() => {
-    // Sync language with URL path
-    const normalizedPath = location.pathname.toLowerCase()
-    const isSpanish = normalizedPath.startsWith('/es')
-    const isPortuguese = normalizedPath.startsWith('/pt-br')
-    if (isSpanish && i18n.language !== 'es') {
-      i18n.changeLanguage('es')
-    } else if (isPortuguese && i18n.language !== 'pt-BR') {
-      i18n.changeLanguage('pt-BR')
-    } else if (!isSpanish && !isPortuguese && i18n.language !== 'en') {
-      i18n.changeLanguage('en')
+    // Sync language with URL path segments
+    const segments = location.pathname.split('/').filter(Boolean)
+    const firstSegment = segments[0]?.toLowerCase()
+
+    let pathLang: string = 'en'
+    if (firstSegment === 'es') pathLang = 'es'
+    else if (firstSegment === 'pt-br') pathLang = 'pt-BR'
+
+    const currentNormalized = normalizeLanguage(i18n.language)
+
+    if (pathLang !== currentNormalized) {
+      i18n.changeLanguage(pathLang)
     }
-  }, [location.pathname, i18n])
+  }, [location.pathname])
 
   return <Outlet />
 }

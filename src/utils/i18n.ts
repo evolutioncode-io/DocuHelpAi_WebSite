@@ -108,6 +108,24 @@ import blog08AiActionPtBr from '../locales/pt-BR/blogs/08_ai_action.json'
 export const supportedLanguages = ['en', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
 
+/**
+ * Detects language from the current URL path synchronously.
+ * This runs BEFORE React renders to prevent language flicker.
+ */
+function getLanguageFromPath(): SupportedLanguage {
+  if (typeof window === 'undefined') return 'en'
+
+  const segments = window.location.pathname.split('/').filter(Boolean)
+  const firstSegment = segments[0]?.toLowerCase()
+
+  if (firstSegment === 'es') return 'es'
+  if (firstSegment === 'pt-br') return 'pt-BR'
+  return 'en'
+}
+
+// Detect initial language from URL before React renders
+const initialLanguage = getLanguageFromPath()
+
 const resources = {
   en: {
     common: commonEn,
@@ -224,6 +242,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
+    lng: initialLanguage, // Use synchronously detected language from URL
     fallbackLng: 'en',
     defaultNS: 'common',
     supportedLngs: supportedLanguages,
@@ -231,7 +250,7 @@ i18n
       escapeValue: false,
     },
     detection: {
-      order: ['path', 'localStorage', 'navigator'],
+      order: ['localStorage', 'navigator'],
       lookupLocalStorage: 'i18nextLng',
       caches: ['localStorage'],
     },
