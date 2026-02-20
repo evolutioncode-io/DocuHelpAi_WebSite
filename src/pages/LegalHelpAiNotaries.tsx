@@ -45,7 +45,7 @@ function LegalHelpAiNotaries() {
                                 </button>
                             </Link>
                             <a
-                                href="https://youtu.be/l2uaFv-G2u0?si=3876f4P_FEhtnbIh"
+                                href="https://youtu.be/EqYHvbZACN8"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="btn-primary px-10 py-5 text-lg transition-all duration-300 ease-in-out hover:shadow-lg hover:scale-105 active:scale-95 inline-block text-center text-black"
@@ -114,7 +114,18 @@ function LegalHelpAiNotaries() {
                                 </div>
                                 <h3 className="font-bold text-2xl mb-4 text-heading">{t('howItWorks.steps.step2.title')}</h3>
                                 <p className="text-body leading-relaxed mb-4">
-                                    {t('howItWorks.steps.step2.intro')}
+                                    {t('howItWorks.steps.step2.intro').split(/(OCR avanzado\*|advanced OCR\*|OCR avançado\*)/g).map((part, i) => {
+                                        const lowerPart = part.toLowerCase();
+                                        const isOcr = lowerPart.includes('ocr') && lowerPart.includes('*');
+                                        if (isOcr) {
+                                            return (
+                                                <Link key={i} to={getLocalizedRoute('blog00Idp')} className="link font-semibold hover:underline">
+                                                    {part}
+                                                </Link>
+                                            );
+                                        }
+                                        return <span key={i}>{part}</span>;
+                                    })}
                                 </p>
                                 <ul className="text-body space-y-2 mb-4">
                                     {(t('howItWorks.steps.step2.items', { returnObjects: true }) as string[]).map((item, index) => (
@@ -176,7 +187,20 @@ function LegalHelpAiNotaries() {
                                         <svg className="w-6 h-6 text-[#FEC930] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                                         </svg>
-                                        <p className="text-body font-medium">{benefit}</p>
+                                        <p className="text-body font-medium">
+                                            {benefit.split(/(OCR avanzado\*|advanced OCR\*|OCR avançado\*)/g).map((part, i) => {
+                                                const lowerPart = part.toLowerCase();
+                                                const isOcr = lowerPart.includes('ocr') && lowerPart.includes('*');
+                                                if (isOcr) {
+                                                    return (
+                                                        <Link key={i} to={getLocalizedRoute('blog00Idp')} className="link font-semibold hover:underline">
+                                                            {part}
+                                                        </Link>
+                                                    );
+                                                }
+                                                return <span key={i}>{part}</span>;
+                                            })}
+                                        </p>
                                     </div>
                                 ))}
                             </div>
@@ -239,7 +263,7 @@ function LegalHelpAiNotaries() {
                         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
                             <iframe
                                 className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-2xl"
-                                src="https://www.youtube.com/embed/0_qIE1Bag6s"
+                                src="https://www.youtube.com/embed/EqYHvbZACN8"
                                 title="LegalHelpAI Demo"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

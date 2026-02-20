@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Procesamiento con IA especializada en banca",
-                "intro": "LegalHelp AI Banca combina OCR avanzado con modelos de lenguaje entrenados en documentación financiera y regulatoria para:",
+                "intro": "LegalHelp AI Banca combina OCR avanzado* con modelos de lenguaje entrenados en documentación financiera y regulatoria para:",
                 "items": [
                     "Validar información del cliente",
                     "Identificar inconsistencias o faltantes",
@@ -55,7 +55,7 @@
             "items": [
                 "Dictamen automatizado por expediente",
                 "Detección automática de incidencias",
-                "OCR avanzado para documentos escaneados o de baja calidad",
+                "OCR avanzado* para documentos escaneados o de baja calidad",
                 "Extracción flexible de datos bancarios",
                 "Panel visual para revisión manual opcional",
                 "Exportación e integración vía API"

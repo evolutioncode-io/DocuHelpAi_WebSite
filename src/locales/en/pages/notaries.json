@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Processing with specialized AI",
-                "intro": "LegalHelp AI Notaries combines advanced OCR with language models trained to understand notarial documents, automatically identifying:",
+                "intro": "LegalHelp AI Notaries combines advanced OCR* with language models trained to understand notarial documents, automatically identifying:",
                 "items": [
                     "Involved parties",
                     "Dates and legal acts",
@@ -52,7 +52,7 @@
             "title": "Technical Benefits",
             "items": [
                 "Over 90% accuracy in notarial documents",
-                "Advanced OCR for scanned or low-quality documents",
+                "Advanced OCR* for scanned or low-quality documents",
                 "Flexible extraction of customizable notarial fields",
                 "Visual panel for optional manual review",
                 "Immediate export (Excel, CSV, JSON)",

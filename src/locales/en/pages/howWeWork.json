@@ -1,0 +1,87 @@
+{
+    "hero": {
+        "title": "What the process to implement DocumentoIQ looks like",
+        "highlights": [
+            "Clear",
+            "Transparent",
+            "Decision-maker oriented"
+        ],
+        "subtitle": "DocumentoIQ follows a structured process to ensure each implementation generates real value from the start, respecting confidentiality, existing flows, and human control at every stage.",
+        "primaryCta": "Request demo",
+        "microcopy": "Designed for sectors where precision and traceability are critical."
+    },
+    "why": {
+        "title": "A process designed to minimize risks and maximize results",
+        "text": "We work with critical documents and sensitive processes. Therefore, DocumentoIQ is not implemented as a generic tool, but as a solution that adapts to your real flows, validates results, and scales in a controlled manner."
+    },
+    "steps": {
+        "title": "Our commercial and adoption process",
+        "step1": {
+            "title": "1. Discovery Call",
+            "description": "We understand your current processes, document types, volumes, and business objectives. This session allows us to evaluate if DocumentoIQ is the right solution for your case and define the initial scope.",
+            "results": [
+                "Prioritized use case",
+                "Clear expectations",
+                "Defined next step"
+            ]
+        },
+        "step2": {
+            "title": "2. NDA / MOU",
+            "description": "We sign confidentiality and understanding agreements to protect your information, documents, and internal processes.",
+            "results": [
+                "Guaranteed confidentiality",
+                "Clear collaboration framework"
+            ],
+            "footer": "DocumentoIQ is designed to operate in regulated and sensitive environments."
+        },
+        "step3": {
+            "title": "3. Pilot Test",
+            "description": "We implement a no-cost* pilot test with real documents and controlled workflows. Here we validate precision, times, and operational value for the organizational entity.",
+            "results": [
+                "Real metrics (time, errors, precision)",
+                "Model and rule adjustments",
+                "Informed decision for production"
+            ],
+            "footer": "⏱ Results visible in days, not months.",
+            "disclaimer": "*The no-cost pilot is subject to restrictions indicated in NDA."
+        },
+        "step4": {
+            "title": "4. Production Setup",
+            "description": "Once you make sure DocumentoIQ is the tool you need, we configure the production operation: business rules, workflows, and integrations (API / internal systems). Throughout the adoption process, we will accompany you with our Customer Support Agents and a dedicated Account Manager.",
+            "results": [
+                "Platform ready for daily use",
+                "Processes aligned with your operation"
+            ]
+        },
+        "step5": {
+            "title": "5. Scale Workflows",
+            "description": "We scale DocumentoIQ to more document types, more areas or teams, and higher volumes. All in a progressive and controlled manner. In addition, we will continue to accompany you on the journey and provide support when you need it.",
+            "results": [
+                "Greater operational impact",
+                "Seamless scalability",
+                "Continuous evolution of flows"
+            ]
+        }
+    },
+    "expectations": {
+        "title": "What our clients get by following this process",
+        "items": [
+            "Seamless implementations",
+            "Measurable results from the pilot",
+            "Lower operational and regulatory risk",
+            "Faster internal adoption",
+            "Confidence at every stage of the process"
+        ]
+    },
+    "assistive": {
+        "title": "Assistive AI, human control at all times",
+        "text1": "DocumentoIQ assists document analysis, but final decisions always remain in the hands of your teams.",
+        "text2": "Our process is designed to validate, adjust, and scale without compromising control or compliance."
+    },
+    "cta": {
+        "title": "Ready to explore DocumentoIQ in your operation?",
+        "subtitle": "Request a demo and see how our process can adapt to your documents, flows, and business objectives.",
+        "button": "Request demo",
+        "microcopy": "The first step for a secure and measurable implementation."
+    }
+}

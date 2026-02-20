@@ -210,10 +210,38 @@ function Home() {
                 </div>
                 <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-2xl cursor-pointer">
                   <h4 className="font-bold text-xl mb-3 text-heading">{item.title}</h4>
-                  <p className="text-body leading-relaxed">{item.description}</p>
+                  <p className="text-body leading-relaxed">
+                    {item.description.split(/(OCR avanzado\*|advanced OCR\*|OCR avançado\*)/g).map((part: string, i: number) => {
+                      const lowerPart = part.toLowerCase();
+                      const isOcr = lowerPart.includes('ocr') && lowerPart.includes('*');
+                      if (isOcr) {
+                        return (
+                          <Link key={i} to={getLocalizedRoute('blog00Idp')} className="link font-semibold hover:underline">
+                            {part}
+                          </Link>
+                        );
+                      }
+                      return <span key={i}>{part}</span>;
+                    })}
+                  </p>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-6 py-20 border-t border-[color:var(--color-neutral-400)]">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-heading">{t('ocr_faq.title')}</h2>
+          <p className="text-xl text-body mb-8 leading-relaxed">
+            {t('ocr_faq.description')}
+          </p>
+          <div className="flex flex-col items-center gap-2 text-lg">
+            <span className="text-body font-medium">{t('ocr_faq.question')}</span>
+            <Link to={getLocalizedRoute('blog00Idp')} className="link font-bold hover:underline">
+              {t('ocr_faq.link')}
+            </Link>
           </div>
         </div>
       </section>

@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Processing with banking-specialized AI",
-                "intro": "LegalHelp AI Banking combines advanced OCR with language models trained in financial and regulatory documentation to:",
+                "intro": "LegalHelp AI Banking combines advanced OCR* with language models trained in financial and regulatory documentation to:",
                 "items": [
                     "Validate customer information",
                     "Identify inconsistencies or missing information",
@@ -55,7 +55,7 @@
             "items": [
                 "Automated legal opinion per file",
                 "Automatic detection of incidents",
-                "Advanced OCR for scanned or low-quality documents",
+                "Advanced OCR* for scanned or low-quality documents",
                 "Flexible extraction of banking data",
                 "Visual panel for optional manual review",
                 "Export and integration via API"

@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Processamento com IA especializada",
-                "intro": "O LegalHelp AI Cartórios combina OCR avançado com modelos de linguagem treinados para entender documentos notariais, identificando automaticamente:",
+                "intro": "O LegalHelp AI Cartórios combina OCR avançado* com modelos de linguagem treinados para entender documentos notariais, identificando automaticamente:",
                 "items": [
                     "Partes envolvidas",
                     "Datas e atos jurídicos",
@@ -52,7 +52,7 @@
             "title": "Benefícios Técnicos",
             "items": [
                 "Precisão superior a 90% em documentos notariais",
-                "OCR avançado para documentos digitalizados ou de baixa qualidade",
+                "OCR avançado* para documentos digitalizados ou de baixa qualidade",
                 "Extração flexível de campos notariais personalizáveis",
                 "Painel visual para revisão manual opcional",
                 "Exportação imediata (Excel, CSV, JSON)",

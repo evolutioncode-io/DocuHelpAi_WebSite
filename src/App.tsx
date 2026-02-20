@@ -22,6 +22,7 @@ const Terms = lazy(() => import('./pages/Terms'))
 const Cookies = lazy(() => import('./pages/Cookies'))
 const Security = lazy(() => import('./pages/Security'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
+const HowWeWork = lazy(() => import('./pages/HowWeWork'))
 import heroImageIdp from './assets/blog_images/00_art.png'
 import heroImageInvest from './assets/blog_images/01_art.png'
 import heroImageCustomAi from './assets/blog_images/02_art.png'
@@ -92,6 +93,7 @@ function App() {
             <Route path="product" element={<Product />} />
             <Route path="legal-help-ai-notaries" element={<LegalHelpAiNotaries />} />
             <Route path="legal-help-ai-banking" element={<LegalHelpAiBanking />} />
+            <Route path="how-we-work" element={<HowWeWork />} />
             <Route path="use-cases" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
             <Route path="about" element={<About />} />
@@ -146,6 +148,7 @@ function App() {
             <Route path="producto" element={<Product />} />
             <Route path="legal-help-ai-notarias" element={<LegalHelpAiNotaries />} />
             <Route path="legal-help-ai-banca" element={<LegalHelpAiBanking />} />
+            <Route path="how-we-work" element={<HowWeWork />} />
             <Route path="casos-de-uso" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
             <Route path="nosotros" element={<About />} />
@@ -200,6 +203,7 @@ function App() {
             <Route path="produto" element={<Product />} />
             <Route path="legal-help-ai-notarios" element={<LegalHelpAiNotaries />} />
             <Route path="legal-help-ai-bancario" element={<LegalHelpAiBanking />} />
+            <Route path="how-we-work" element={<HowWeWork />} />
             <Route path="casos-de-uso" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
             <Route path="sobre" element={<About />} />
