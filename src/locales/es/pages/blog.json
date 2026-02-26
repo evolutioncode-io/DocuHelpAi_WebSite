@@ -8,7 +8,7 @@
     "badge": "Destacado",
     "title": "¿Qué es el procesamiento inteligente de documentos (IDP)?",
     "description": "Una guía completa para entender cómo la IA puede transformar la lectura y extracción de datos desde documentos PDF.",
-    "cta": "Leer artículo →",
+    "cta": "Leer más →",
     "topics": {
       "one": "Diferencias entre OCR tradicional y AI",
       "two": "Casos de uso en notarías y banca",
@@ -61,6 +61,12 @@
       "label": "IA en Acción",
       "title": "IA en Acción: Qué Separa una Implementación Exitosa de un Piloto que no Escala",
       "description": "Muchas organizaciones ya han \"probado la IA\". Pocas lo han convertido en una ventaja operativa real."
+    },
+    "resources": {
+      "emoji": "",
+      "label": "OCR Avanzado",
+      "title": "OCR avanzado: qué es, cómo funciona y por qué ya no es solo digitalización",
+      "description": "Descubre cómo el OCR avanzado con IA transforma documentos complejos en datos accionables."
     }
   },
   "articleDescription": "Profundizamos en tácticas, estrategias y aprendizajes reales de automatización documental con IA.",

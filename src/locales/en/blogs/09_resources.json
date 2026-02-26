@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "title": "Advanced OCR: What It Is, How It Works, and Why It's No Longer Just Digitization | DocumentoIQ",
+        "description": "Discover what advanced OCR is, how it works with AI, and why it's key for automating complex document processes."
+    },
+    "hero": {
+        "title": "Advanced OCR: What It Is, How It Works, and Why It's No Longer Just Digitization",
+        "subtitle": "OCR has evolved: it's no longer just about reading text, but about understanding complex documents and turning them into actionable data.",
+        "intro": "For years, OCR (Optical Character Recognition) has been used to convert scanned documents into digital text. However, in modern business practice, reading text is no longer enough. Organizations work with increasingly complex documents — contracts, deeds, legal files, forms, annexes — where the real challenge is not digitizing, but understanding the information, structuring it, and using it to make decisions. This is where advanced OCR comes in, a key evolution within document automation and intelligence strategies that directly impact operational efficiency, control, and scalability."
+    },
+    "sections": {
+        "whatIs": {
+            "title": "What is Advanced OCR?",
+            "content": [
+                "Advanced OCR goes beyond basic character recognition. It combines high-precision OCR with AI and language comprehension models, enabling not just reading documents, but interpreting them."
+            ],
+            "list": [
+                "Detect key data (dates, amounts, names)",
+                "Recognize structures (tables, sections)",
+                "Adapt to different formats",
+                "Work even with low-quality scans"
+            ]
+        },
+        "comparison": {
+            "title": "Traditional OCR vs Advanced OCR",
+            "content": [
+                "The difference between both approaches is critical from a business perspective, becoming a key piece within intelligent document processing:"
+            ],
+            "components": {
+                "traditional": {
+                    "title": "Traditional OCR",
+                    "description": "Converts images to text. Doesn't understand context. Difficult to scale."
+                },
+                "advanced": {
+                    "title": "Advanced OCR",
+                    "description": "Extracts structured information. Learns from document patterns. Integrates into real operational workflows."
+                }
+            }
+        },
+        "whyRelevant": {
+            "title": "Why is Advanced OCR Relevant for Business?",
+            "intro": "From an executive perspective, it enables concrete benefits:",
+            "list": [
+                "Reduction of operational times by automating repetitive tasks",
+                "Lower risk of errors, thanks to consistent extraction",
+                "Greater control and traceability, key in regulated environments",
+                "Scalability, even when document volume grows"
+            ],
+            "conclusion": "The combination of advanced OCR with AI is fundamental to transforming documents into data usable by business systems."
+        },
+        "useCases": {
+            "title": "Use Cases Where Advanced OCR Makes the Difference",
+            "intro": "Advanced OCR is especially valuable in document-intensive processes, such as:",
+            "list": [
+                "Legal and notarial operations",
+                "Contract management",
+                "Compliance and auditing",
+                "Client onboarding",
+                "Finance and back office"
+            ],
+            "conclusion": "Advanced OCR is the key to automating complex processes that depend on unstructured documents."
+        },
+        "idpIntegration": {
+            "title": "Advanced OCR as Part of Intelligent Document Processing",
+            "content": [
+                "It's important to understand that advanced OCR doesn't operate alone. It's part of a broader architecture known as Intelligent Document Processing (IDP), where OCR is the entry point and AI provides comprehension, validation, and context.",
+                "At DocumentoIQ, advanced OCR is conceived as a strategic capability, integrated into real workflows and designed to generate actionable information, not just digital files."
+            ]
+        },
+        "legalHelpAi": {
+            "title": "Applied Case: Advanced OCR in LegalHelp AI",
+            "content": [
+                "Within the DocumentoIQ ecosystem, LegalHelp AI uses advanced OCR as a foundation for processing complex legal and notarial documents."
+            ],
+            "list": [
+                "Extract key data from deeds, contracts, and files",
+                "Support mandatory human review",
+                "Maintain traceability and control in critical processes"
+            ],
+            "conclusion": "This applied use demonstrates how advanced OCR goes from being a technical tool to becoming a real operational enabler."
+        }
+    },
+    "cta": {
+        "title": "Want to see how advanced OCR can integrate into your document processes?",
+        "button": "Talk to an expert"
+    },
+    "references": {}
+}

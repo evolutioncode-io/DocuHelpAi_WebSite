@@ -1,7 +1,7 @@
 {
     "hero": {
         "badge": "Análisis Inteligente de Documentos Notariales",
-        "title": "LegalHelp AI Notarías",
+        "title": "Notarías",
         "subtitle": "LegalHelp AI Notarías asiste en el análisis, extracción y validación de información clave de escrituras y documentos notariales complejos, reduciendo tiempos y errores sin reemplazar el criterio del notario.",
         "microcopy": "Diseñado para escrituras, poderes, compraventas y protocolos notariales.",
         "primaryCta": "Solicitar demo para notarías",
@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Procesamiento con IA especializada",
-                "intro": "LegalHelp AI Notarías combina OCR avanzado con modelos de lenguaje entrenados para comprender documentos notariales, identificando automáticamente:",
+                "intro": "LegalHelp AI Notarías combina OCR avanzado* con modelos de lenguaje entrenados para comprender documentos notariales, identificando automáticamente:",
                 "items": [
                     "Partes involucradas",
                     "Fechas y actos jurídicos",
@@ -52,7 +52,7 @@
             "title": "Beneficios técnicos",
             "items": [
                 "Precisión superior al 90% en documentos notariales",
-                "OCR avanzado para documentos escaneados o de baja calidad",
+                "OCR avanzado* para documentos escaneados o de baja calidad",
                 "Extracción flexible de campos notariales personalizables",
                 "Panel visual para revisión manual opcional",
                 "Exportación inmediata (Excel, CSV, JSON)",

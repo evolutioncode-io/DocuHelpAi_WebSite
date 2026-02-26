@@ -1,0 +1,87 @@
+{
+    "hero": {
+        "title": "Como é el proceso para implementar o DocumentoIQ",
+        "highlights": [
+            "Claro",
+            "Transparente",
+            "Orientado a tomadores de decisão"
+        ],
+        "subtitle": "O DocumentoIQ segue um processo estruturado para garantir que cada implementação gere valor real desde o início, respeitando a confidencialidade, os fluxos existentes e o controle humano em cada etapa.",
+        "primaryCta": "Solicitar demonstração",
+        "microcopy": "Pensado para setores onde a precisão e a rastreabilidade são críticas."
+    },
+    "why": {
+        "title": "Um processo desenhado para minimizar riscos e maximizar resultados",
+        "text": "Trabalhamos com documentos críticos e processos sensíveis. Por isso, o DocumentoIQ não é implementado como uma ferramenta genérica, mas como uma solução que se adapta aos seus fluxos reais, valida resultados e escala de forma controlada."
+    },
+    "steps": {
+        "title": "Nosso processo comercial e de adoção",
+        "step1": {
+            "title": "1. Chamada de Descoberta",
+            "description": "Entendemos seus processos atuais, tipos de documentos, volumes e objetivos de negócio. Esta sessão nos permite avaliar se o DocumentoIQ é a solução adequada para o seu caso e definir o escopo inicial.",
+            "results": [
+                "Caso de uso priorizado",
+                "Expectativas claras",
+                "Próximo passo definido"
+            ]
+        },
+        "step2": {
+            "title": "2. NDA / MOU",
+            "description": "Firmamos acordos de confidencialidade e entendimento para proteger suas informações, documentos e processos internos.",
+            "results": [
+                "Confidencialidade garantizada",
+                "Estrutura clara de colaboração"
+            ],
+            "footer": "O DocumentoIQ foi projetado para operar em ambientes regulados e sensíveis."
+        },
+        "step3": {
+            "title": "3. Teste Piloto",
+            "description": "Implementamos um teste piloto sem custo* con documentos reais e fluxos de trabalho controlados. Aqui validamos precisão, tempos e valor operacional para a entidade organizacional.",
+            "results": [
+                "Métricas reais (tempo, erros, precisão)",
+                "Ajustes no modelo e regras",
+                "Decisão informada para produção"
+            ],
+            "footer": "⏱ Resultados visíveis em dias, no meses.",
+            "disclaimer": "*O piloto sem custo está sujeito a restrições indicadas no NDA."
+        },
+        "step4": {
+            "title": "4. Configuração de Produção",
+            "description": "Depois de garantir que o DocumentoIQ é a herramienta que você precisa, configuramos a operação produtiva: reglas de negocio, fluxos de trabalho e integrações (API / sistemas internos). Durante todo o processo de adopción acompanharemos você com nossos Agentes de Suporte ao Cliente e um Gerente de Conta dedicado.",
+            "results": [
+                "Plataforma pronta para uso diário",
+                "Processos alinhados à sua operação"
+            ]
+        },
+        "step5": {
+            "title": "5. Scale Workflows",
+            "description": "Escalamos o DocumentoIQ para mais tipos de documentos, mais áreas ou equipes e volumes maiores. Tudo de forma progresiva e controlada. Además, seguiremos acompanhando você no caminho e dando o suporte quando precisar.",
+            "results": [
+                "Maior impacto operacional",
+                "Escalabilidade sem fricção",
+                "Evolução contínua dos fluxos"
+            ]
+        }
+    },
+    "expectations": {
+        "title": "O que nossos clientes obtêm ao seguir este processo",
+        "items": [
+            "Implementações sem sobressaltos",
+            "Resultados mensuráveis desde o piloto",
+            "Menor risco operacional e regulatório",
+            "Adoção interna mais rápida",
+            "Confiança em cada etapa do processo"
+        ]
+    },
+    "assistive": {
+        "title": "IA asistiva, controle humano em todos os momentos",
+        "text1": "O DocumentoIQ auxilia a análise documental, mas as decisões finais permanecem sempre nas mãos de suas equipes.",
+        "text2": "Nosso processo é desenhado para validar, ajustar e escalar sem comprometer o controle ou a conformidade."
+    },
+    "cta": {
+        "title": "Pronto para explorar o DocumentoIQ na sua operação?",
+        "subtitle": "Solicite uma demonstração e veja como nosso processo pode se adaptar aos seus documentos, fluxos e objetivos de negócio.",
+        "button": "Solicitar demonstração",
+        "microcopy": "O primeiro passo para uma implementação segura e mensurável."
+    }
+}

@@ -8,7 +8,7 @@
     "badge": "Featured",
     "title": "What is Intelligent Document Processing (IDP)?",
     "description": "A complete guide to understanding how AI can transform reading and data extraction from PDF documents.",
-    "cta": "Read article →",
+    "cta": "Read more →",
     "topics": {
       "one": "Differences between traditional OCR and AI",
       "two": "Use cases in notaries and banking",
@@ -61,6 +61,12 @@
       "label": "AI in Action",
       "title": "AI in Action: What Separates a Successful Implementation from a Pilot That Doesn't Scale",
       "description": "Many organizations have already \"tried AI\". Few have turned it into a real operational advantage."
+    },
+    "resources": {
+      "emoji": "",
+      "label": "Advanced OCR",
+      "title": "Advanced OCR: What It Is, How It Works, and Why It's No Longer Just Digitization",
+      "description": "Discover how advanced OCR with AI transforms complex documents into actionable data."
     }
   },
   "articleDescription": "We dive deep into tactics, strategies and real learnings from document automation with AI.",

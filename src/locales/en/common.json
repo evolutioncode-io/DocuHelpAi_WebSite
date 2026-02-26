@@ -1,8 +1,8 @@
 {
   "cta": {
-    "startFree": "Schedule demo",
-    "scheduleDemo": "Schedule demo",
-    "requestDemo": "Request personalized demo",
+    "startFree": "Request demo",
+    "scheduleDemo": "Request demo",
+    "requestDemo": "Request demo",
     "contactUs": "Contact us",
     "learnMore": "Learn more →"
   },
