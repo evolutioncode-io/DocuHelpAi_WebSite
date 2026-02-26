@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next'
 import { usePageMetadata } from '../hooks/usePageMetadata'
 import { useLanguage } from '../hooks/useLanguage'
 
+import logoBlack from '../assets/logos/LegalHelp_AI_black.png'
+
 function LegalHelpAiBanking() {
     const { t } = useTranslation('banking')
     const { getLocalizedRoute } = useLanguage()
@@ -24,10 +26,8 @@ function LegalHelpAiBanking() {
                 <div className="absolute inset-0 bg-hero-overlay" />
                 <div className="max-w-6xl mx-auto px-6 relative">
                     <div className="text-center mb-16">
-                        <div className="inline-block mb-6">
-                            <span className="text-sm font-semibold px-4 py-2 rounded-full" style={{ backgroundColor: 'rgba(254, 201, 48, 0.15)', color: '#000000' }}>
-                                {t('hero.badge')}
-                            </span>
+                        <div className="flex justify-center mb-6">
+                            <img src={logoBlack} alt="LegalHelp AI Logo" className="h-12 w-auto md:h-16" />
                         </div>
                         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-heading">
                             {t('hero.title')}

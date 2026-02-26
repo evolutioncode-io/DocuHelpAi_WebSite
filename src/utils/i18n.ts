@@ -104,6 +104,12 @@ import blog07CustomPtBr from '../locales/pt-BR/blogs/07_custom.json'
 import blog08AiActionEn from '../locales/en/blogs/08_ai_action.json'
 import blog08AiActionEs from '../locales/es/blogs/08_ai_action.json'
 import blog08AiActionPtBr from '../locales/pt-BR/blogs/08_ai_action.json'
+import blog09ResourcesEn from '../locales/en/blogs/09_resources.json'
+import blog09ResourcesEs from '../locales/es/blogs/09_resources.json'
+import blog09ResourcesPtBr from '../locales/pt-BR/blogs/09_resources.json'
+import meta09ResourcesEn from '../locales/en/metadata/09_resources.json'
+import meta09ResourcesEs from '../locales/es/metadata/09_resources.json'
+import meta09ResourcesPtBr from '../locales/pt-BR/metadata/09_resources.json'
 
 export const supportedLanguages = ['en', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
@@ -153,6 +159,7 @@ const resources = {
     blog_06_human: blog06HumanEn,
     blog_07_custom: blog07CustomEn,
     blog_08_ai_action: blog08AiActionEn,
+    blog_09_resources: blog09ResourcesEn,
     meta_00_IDP: meta00IdpEn,
     meta_01_invest: meta01InvestEn,
     meta_02_solutions: meta02SolutionsEn,
@@ -162,6 +169,7 @@ const resources = {
     meta_06_human: meta06HumanEn,
     meta_07_custom: meta07CustomEn,
     meta_08_ai_action: meta08AiActionEn,
+    meta_09_resources: meta09ResourcesEn,
   },
   es: {
     common: commonEs,
@@ -189,6 +197,7 @@ const resources = {
     blog_06_human: blog06HumanEs,
     blog_07_custom: blog07CustomEs,
     blog_08_ai_action: blog08AiActionEs,
+    blog_09_resources: blog09ResourcesEs,
     meta_00_IDP: meta00IdpEs,
     meta_01_invest: meta01InvestEs,
     meta_02_solutions: meta02SolutionsEs,
@@ -198,6 +207,7 @@ const resources = {
     meta_06_human: meta06HumanEs,
     meta_07_custom: meta07CustomEs,
     meta_08_ai_action: meta08AiActionEs,
+    meta_09_resources: meta09ResourcesEs,
   },
   'pt-BR': {
     common: commonPtBr,
@@ -225,6 +235,7 @@ const resources = {
     blog_06_human: blog06HumanPtBr,
     blog_07_custom: blog07CustomPtBr,
     blog_08_ai_action: blog08AiActionPtBr,
+    blog_09_resources: blog09ResourcesPtBr,
     meta_00_IDP: meta00IdpPtBr,
     meta_01_invest: meta01InvestPtBr,
     meta_02_solutions: meta02SolutionsPtBr,
@@ -234,6 +245,7 @@ const resources = {
     meta_06_human: meta06HumanPtBr,
     meta_07_custom: meta07CustomPtBr,
     meta_08_ai_action: meta08AiActionPtBr,
+    meta_09_resources: meta09ResourcesPtBr,
   },
 }
 

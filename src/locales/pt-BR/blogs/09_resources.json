@@ -1,0 +1,88 @@
+{
+    "meta": {
+        "title": "OCR avançado: o que é, como funciona e por que já não é apenas digitalização | DocumentoIQ",
+        "description": "Descubra o que é o OCR avançado, como funciona com IA e por que é fundamental para automatizar processos documentais complexos."
+    },
+    "hero": {
+        "title": "OCR avançado: o que é, como funciona e por que já não é apenas digitalização",
+        "subtitle": "O OCR evoluiu: já não se trata apenas de ler texto, mas de entender documentos complexos e convertê-los em dados acionáveis.",
+        "intro": "Durante anos, o OCR (Reconhecimento Óptico de Caracteres) tem sido utilizado para converter documentos digitalizados em texto digital. No entanto, na prática empresarial moderna, ler texto já não é suficiente. As organizações trabalham com documentos cada vez mais complexos — contratos, escrituras, expedientes jurídicos, formulários, anexos — onde o verdadeiro desafio não é digitalizar, mas entender a informação, estruturá-la e usá-la para tomar decisões. É aqui que entra o OCR avançado, uma evolução-chave dentro das estratégias de automação e inteligência documental que impactam diretamente na eficiência operacional, controle e escalabilidade."
+    },
+    "sections": {
+        "whatIs": {
+            "title": "O que é o OCR avançado?",
+            "content": [
+                "O OCR avançado vai além do reconhecimento básico de caracteres. Combina OCR de alta precisão com IA e modelos de compreensão da linguagem, permitindo não apenas ler documentos, mas interpretá-los."
+            ],
+            "list": [
+                "Detectar dados-chave (datas, valores, nomes)",
+                "Reconhecer estruturas (tabelas, seções)",
+                "Adaptar-se a diferentes formatos",
+                "Funcionar mesmo com digitalizações de baixa qualidade"
+            ]
+        },
+        "comparison": {
+            "title": "OCR tradicional vs OCR avançado",
+            "content": [
+                "A diferença entre ambas as abordagens é crítica do ponto de vista do negócio, tornando-se uma peça-chave dentro do processamento inteligente de documentos:"
+            ],
+            "components": {
+                "traditional": {
+                    "title": "OCR tradicional",
+                    "description": "Converte imagens em texto. Não entende contexto. Difícil de escalar."
+                },
+                "advanced": {
+                    "title": "OCR avançado",
+                    "description": "Extrai informação estruturada. Aprende com padrões documentais. Integra-se a fluxos operacionais reais."
+                }
+            }
+        },
+        "whyRelevant": {
+            "title": "Por que o OCR avançado é relevante para o negócio?",
+            "intro": "Do ponto de vista executivo, habilita benefícios concretos:",
+            "list": [
+                "Redução de tempos operacionais ao automatizar tarefas repetitivas",
+                "Menor risco de erros, graças à extração consistente",
+                "Maior controle e rastreabilidade, fundamental em ambientes regulados",
+                "Escalabilidade, mesmo quando o volume documental cresce"
+            ],
+            "conclusion": "A combinação de OCR avançado com IA é fundamental para transformar documentos em dados utilizáveis por sistemas de negócio."
+        },
+        "useCases": {
+            "title": "Casos de uso onde o OCR avançado faz a diferença",
+            "intro": "O OCR avançado é especialmente valioso em processos intensivos em documentos, como:",
+            "list": [
+                "Operações jurídicas e notariais",
+                "Gestão de contratos",
+                "Conformidade e auditoria",
+                "Onboarding de clientes",
+                "Finanças e back office"
+            ],
+            "conclusion": "O OCR avançado é a chave para automatizar processos complexos que dependem de documentos não estruturados."
+        },
+        "idpIntegration": {
+            "title": "OCR avançado como parte do processamento inteligente de documentos",
+            "content": [
+                "É importante entender que o OCR avançado não opera sozinho. Faz parte de uma arquitetura mais ampla conhecida como processamento inteligente de documentos (IDP), onde o OCR é o ponto de entrada e a IA fornece compreensão, validação e contexto.",
+                "Na DocumentoIQ, o OCR avançado é concebido como uma capacidade estratégica, integrada a fluxos reais de trabalho e projetada para gerar informação acionável, não apenas arquivos digitais."
+            ]
+        },
+        "legalHelpAi": {
+            "title": "Caso aplicado: OCR avançado no LegalHelp AI",
+            "content": [
+                "Dentro do ecossistema DocumentoIQ, o LegalHelp AI utiliza OCR avançado como base para processar documentos jurídicos e notariais complexos."
+            ],
+            "list": [
+                "Extrair dados-chave de escrituras, contratos e expedientes",
+                "Suportar revisão humana obrigatória",
+                "Manter rastreabilidade e controle em processos críticos"
+            ],
+            "conclusion": "Este uso aplicado demonstra como o OCR avançado deixa de ser uma ferramenta técnica para se tornar um habilitador operacional real."
+        }
+    },
+    "cta": {
+        "title": "Quer ver como o OCR avançado pode se integrar aos seus processos documentais?",
+        "button": "Fale com um especialista"
+    },
+    "references": {}
+}

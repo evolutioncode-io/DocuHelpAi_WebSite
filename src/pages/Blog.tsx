@@ -126,6 +126,14 @@ function Blog() {
             iconPath: 'M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z', // play
             link: getLocalizedRoute('blog08AiAction'),
         },
+        {
+            label: t('categories.resources.label'),
+            title: t('categories.resources.title'),
+            description: t('categories.resources.description', { defaultValue: '' }),
+            color: 'from-[color:var(--color-neutral-100)] to-[color:var(--color-neutral-100)]',
+            iconPath: 'M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25', // book/guide
+            link: getLocalizedRoute('blog09Resources'),
+        },
     ]
 
     const featuredTopics = [t('featured.topics.one'), t('featured.topics.two'), t('featured.topics.three')]

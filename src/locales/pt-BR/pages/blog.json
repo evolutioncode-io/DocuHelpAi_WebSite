@@ -61,6 +61,12 @@
       "label": "IA em Ação",
       "title": "IA em Ação: O Que Separa uma Implementação de Sucesso de um Piloto que Não Escala",
       "description": "Muitas organizações já \"tentaram a IA\". Poucas a transformaram em uma vantagem operacional real."
+    },
+    "resources": {
+      "emoji": "",
+      "label": "OCR Avançado",
+      "title": "OCR avançado: o que é, como funciona e por que já não é apenas digitalização",
+      "description": "Descubra como o OCR avançado com IA transforma documentos complexos em dados acionáveis."
     }
   },
   "articleDescription": "Aprofundamos táticas, estratégias e aprendizados reais de automação de documentos com IA.",

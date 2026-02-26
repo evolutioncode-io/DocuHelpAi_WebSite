@@ -32,6 +32,7 @@ import heroImageProcedure from './assets/blog_images/05_art.png'
 import heroImageHuman from './assets/blog_images/06_art.png'
 import heroImageCustom from './assets/blog_images/07_art.png'
 import heroImageAiAction from './assets/blog_images/08_art.png'
+import heroImageResources from './assets/blog_images/09_art.png'
 
 // Loading component for Suspense
 function PageLoader() {
@@ -138,6 +139,10 @@ function App() {
               path="blog/ai-in-action-what-separates-implementation-from-pilot"
               element={<BlogPost contentNamespace="blog_08_ai_action" metadataNamespace="meta_08_ai_action" heroImage={heroImageAiAction} />}
             />
+            <Route
+              path="blog/advanced-ocr-what-it-is-how-it-works"
+              element={<BlogPost contentNamespace="blog_09_resources" metadataNamespace="meta_09_resources" heroImage={heroImageResources} />}
+            />
           </Route>
         </Route>
 
@@ -193,6 +198,10 @@ function App() {
               path="blog/ia-en-accion-que-separa-una-implementacion-exitosa-de-un-piloto"
               element={<BlogPost contentNamespace="blog_08_ai_action" metadataNamespace="meta_08_ai_action" heroImage={heroImageAiAction} />}
             />
+            <Route
+              path="blog/ocr-avanzado-que-es-como-funciona"
+              element={<BlogPost contentNamespace="blog_09_resources" metadataNamespace="meta_09_resources" heroImage={heroImageResources} />}
+            />
           </Route>
         </Route>
 
@@ -247,6 +256,10 @@ function App() {
             <Route
               path="blog/ia-em-acao-o-que-separa-uma-implementacao-de-sucesso-de-um-piloto"
               element={<BlogPost contentNamespace="blog_08_ai_action" metadataNamespace="meta_08_ai_action" heroImage={heroImageAiAction} />}
+            />
+            <Route
+              path="blog/ocr-avancado-o-que-e-como-funciona"
+              element={<BlogPost contentNamespace="blog_09_resources" metadataNamespace="meta_09_resources" heroImage={heroImageResources} />}
             />
           </Route>
         </Route>

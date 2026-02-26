@@ -28,6 +28,7 @@ const routeMappings = {
     blog06Human: '/blog/why-ai-needs-human-logic-to-be-truly-useful',
     blog07Custom: '/blog/tailored-ai-for-legal-document-processing',
     blog08AiAction: '/blog/ai-in-action-what-separates-implementation-from-pilot',
+    blog09Resources: '/blog/advanced-ocr-what-it-is-how-it-works',
   },
   es: {
     home: '/es/',
@@ -52,6 +53,7 @@ const routeMappings = {
     blog06Human: '/es/blog/por-que-la-ia-necesita-logica-humana-para-ser-realmente-util',
     blog07Custom: '/es/blog/ia-a-medida-para-el-procesamiento-de-documentos-legales',
     blog08AiAction: '/es/blog/ia-en-accion-que-separa-una-implementacion-exitosa-de-un-piloto',
+    blog09Resources: '/es/blog/ocr-avanzado-que-es-como-funciona',
   },
   'pt-BR': {
     home: '/pt-br/',
@@ -76,6 +78,7 @@ const routeMappings = {
     blog06Human: '/pt-br/blog/por-que-a-ia-precisa-da-logica-humana-para-ser-realmente-util',
     blog07Custom: '/pt-br/blog/ia-sob-medida-para-o-processamento-de-documentos-juridicos',
     blog08AiAction: '/pt-br/blog/ia-em-acao-o-que-separa-uma-implementacao-de-sucesso-de-um-piloto',
+    blog09Resources: '/pt-br/blog/ocr-avancado-o-que-e-como-funciona',
   },
 } as const
 

@@ -5,6 +5,9 @@ import { useTranslation } from 'react-i18next'
 import { LanguageSelector } from './LanguageSelector'
 import { useLanguage } from '../hooks/useLanguage'
 
+import logoBlack from '../assets/logos/Documento_IQ_black.png'
+import logoWhite from '../assets/logos/Documento_IQ_white.png'
+
 const baseNavLinkClasses = 'text-body hover:text-[color:var(--color-accent-500)] font-medium transition-colors cursor-pointer'
 
 const mobileNavLinkClasses =
@@ -42,9 +45,9 @@ function Layout() {
           <div className="flex justify-between items-center">
             <Link
               to={getLocalizedRoute('home')}
-              className="text-2xl font-bold text-heading cursor-pointer"
+              className="flex items-center cursor-pointer"
             >
-              DocumentoIQ
+              <img src={logoBlack} alt="DocumentoIQ Logo" className="h-8 w-auto" />
             </Link>
 
             <div className="hidden lg:flex items-center gap-8">
@@ -124,9 +127,9 @@ function Layout() {
         <div className="max-w-7xl mx-auto px-6 py-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             <div>
-              <h3 className="text-2xl font-bold mb-4">
-                DocumentoIQ
-              </h3>
+              <div className="mb-6">
+                <img src={logoWhite} alt="DocumentoIQ Logo" className="h-10 w-auto" />
+              </div>
               <p className="text-white/75 leading-relaxed mb-4">{t('footer.description')}</p>
               <div className="flex gap-4">
                 <a href="#" className="text-white/75 hover:text-white transition-colors" aria-label="Facebook">
