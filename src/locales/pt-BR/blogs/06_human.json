@@ -36,8 +36,8 @@
             ]
         },
         "exampleLegalHelpAi": {
-            "title": "Exemplo aplicado: LegalHelp AI",
-            "content": "A LegalHelp AI, dentro do ecossistema DocumentoIQ, aplica IA ao processamento documental jurídico através de:",
+            "title": "Exemplo aplicado: DocumentoIQ Cartórios",
+            "content": "O DocumentoIQ Cartórios aplica a IA ao processamento documental jurídico através de:",
             "components": {
                 "extract": {
                     "title": "Extração de dados",

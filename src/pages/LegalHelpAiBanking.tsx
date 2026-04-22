@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next'
 import { usePageMetadata } from '../hooks/usePageMetadata'
 import { useLanguage } from '../hooks/useLanguage'
 
-import logoBlack from '../assets/logos/LegalHelp_AI_black.png'
+import logoBlack from '../assets/logos/Documento_IQ_black.png'
 
-function LegalHelpAiBanking() {
+function DocumentoIqBanking() {
     const { t } = useTranslation('banking')
     const { getLocalizedRoute } = useLanguage()
 
@@ -27,7 +27,7 @@ function LegalHelpAiBanking() {
                 <div className="max-w-6xl mx-auto px-6 relative">
                     <div className="text-center mb-16">
                         <div className="flex justify-center mb-6">
-                            <img src={logoBlack} alt="LegalHelp AI Logo" className="h-12 w-auto md:h-16" />
+                            <img src={logoBlack} alt="DocumentoIQ Logo" className="h-12 w-auto md:h-16" />
                         </div>
                         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-heading">
                             {t('hero.title')}
@@ -57,7 +57,7 @@ function LegalHelpAiBanking() {
                 </div>
             </section>
 
-            {/* ¿Qué es LegalHelp AI Banca? */}
+            {/* ¿Qué es DocumentoIQ Banca? */}
             <section className="max-w-6xl mx-auto px-6 py-20">
                 <div className="text-center mb-12">
                     <h2 className="text-4xl md:text-5xl font-bold mb-6 text-heading">{t('whatIs.title')}</h2>
@@ -72,7 +72,7 @@ function LegalHelpAiBanking() {
                 </div>
             </section>
 
-            {/* ¿Cómo funciona LegalHelp AI Banca? */}
+            {/* ¿Cómo funciona DocumentoIQ Banca? */}
             <section className="bg-surface-muted py-20">
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="text-center mb-16">
@@ -232,20 +232,14 @@ function LegalHelpAiBanking() {
                 </div>
             </section>
 
-            {/* LegalHelp AI y DocumentoIQ */}
+            {/* DocumentoIQ y DocumentoIQ */}
             <section className="py-20 bg-surface">
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <h2 className="text-4xl font-bold mb-6 text-heading">{t('brand.title')}</h2>
                     <div className="space-y-6 text-lg text-body leading-relaxed">
-                        <p>
-                            {t('brand.description1')}
-                        </p>
-                        <p>
-                            {t('brand.description2')}
-                        </p>
                         <div className="flex justify-center gap-4 mt-8">
                             <Link to={getLocalizedRoute('legalHelpAiNotaries')} className="font-bold text-[#FEC930] hover:underline">
-                                LegalHelp AI Notarías →
+                                DocumentoIQ Notarías →
                             </Link>
                         </div>
                         <p className="font-semibold text-heading text-xl mt-8">
@@ -269,7 +263,7 @@ function LegalHelpAiBanking() {
                             <iframe
                                 className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-2xl"
                                 src="https://www.youtube.com/embed/mGWLNkYF99c"
-                                title="LegalHelpAI Demo"
+                                title="DocumentoIQ Demo"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
@@ -293,4 +287,4 @@ function LegalHelpAiBanking() {
     )
 }
 
-export default LegalHelpAiBanking
+export default DocumentoIqBanking

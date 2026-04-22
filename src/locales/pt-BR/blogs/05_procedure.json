@@ -1,10 +1,10 @@
 {
     "meta": {
-        "title": "Como a LegalHelp AI Está Transformando o Processamento de Documentos Jurídicos | DocumentoIQ",
-        "description": "Descubra como a LegalHelp AI transforma o processamento documental jurídico através de IA assistiva, garantindo precisão e controle humano."
+        "title": "Como o DocumentoIQ Está Transformando o Processamento de Documentos Jurídicos | DocumentoIQ",
+        "description": "Descubra como o DocumentoIQ transforma o processamento documental jurídico através de IA assistiva, garantindo precisão e controle humano."
     },
     "hero": {
-        "title": "Como a LegalHelp AI Está Transformando o Processamento de Documentos Jurídicos",
+        "title": "Como o DocumentoIQ Está Transformando o Processamento de Documentos Jurídicos",
         "subtitle": "Organizações jurídicas e notariais operam em ambientes onde a precisão, a consistência e a responsabilidade profissional são críticas.",
         "intro": "A IA assistiva aplicada ao processamento documental surge como uma resposta prática a este desafio, projetada para apoiar o critério profissional e melhorar a eficiência operacional."
     },
@@ -28,12 +28,12 @@
             ]
         },
         "howItWorks": {
-            "title": "Como funciona a LegalHelp AI by DocumentoIQ",
-            "content": "A LegalHelp AI foi projetada especificamente para documentos jurídicos e notariais, com foco em fluxos reais de trabalho:",
+            "title": "Como funciona o DocumentoIQ Cartórios",
+            "content": "O DocumentoIQ Cartórios foi projetado especificamente para documentos jurídicos e notariais, com foco em fluxos reais de trabalho:",
             "components": {
                 "ocr": {
                     "title": "OCR avançado para documentos complexos",
-                    "description": "A LegalHelp AI processa documentos digitalizados e digitais, incluindo aqueles com layouts complexos ou qualidade variável."
+                    "description": "O DocumentoIQ Cartórios processa documentos digitalizados e digitais, incluindo aqueles com layouts complexos ou qualidade variável."
                 },
                 "languageUnderstanding": {
                     "title": "Compreensão da linguagem jurídica",
@@ -48,7 +48,7 @@
                     "description": "Uma interface de revisão visual garante que os profissionais validem os dados extraídos antes de serem usados operacionalmente, preservando a responsabilidade."
                 }
             },
-            "conclusion": "Como parte do DocumentoIQ, a LegalHelp AI permite escalar o processamento documental jurídico mantendo rastreabilidade, conformidade normativa e controle operacional."
+            "conclusion": "O DocumentoIQ Cartórios permite escalar o processamento de documentos jurídicos, mantendo a rastreabilidade, o cumprimento normativo e o controle operacional."
         },
         "strategicImplications": {
             "title": "Implicações estratégicas",
@@ -64,13 +64,13 @@
         "finalConclusion": {
             "title": "Conclusão",
             "content": [
-                "A LegalHelp AI demonstra como a IA aplicada de forma responsável pode transformar o processamento documental jurídico sem substituir o critério profissional. A combinação de tecnologia, processos e validação humana é a base de uma adoção sustentável."
+                "O DocumentoIQ Cartórios demonstra como a IA aplicada de forma responsável pode transformar o processamento documental jurídico sem substituir o critério profissional. A combinação de tecnologia, processos e validação humana é a base de uma adoção sustentável."
             ]
         }
     },
     "cta": {
         "title": "Saiba como a IA assistiva pode otimizar o processamento documental jurídico.",
-        "button": "Explorar LegalHelp AI"
+        "button": "Explore o DocumentoIQ"
     },
     "references": {
         "1": "[1] Legal Technology & AI Adoption Report, 2025",

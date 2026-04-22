@@ -42,8 +42,8 @@
             ]
         },
         "legalHelpAi": {
-            "title": "LegalHelp AI: AI applied to legal and notarial documents",
-            "content": "A concrete example of this transformation is LegalHelp AI, the specialized product for the legal and notarial sector within the DocumentoIQ ecosystem. LegalHelpAI is designed to assist notaries and legal teams in managing complex documents such as deeds, powers of attorney, sales, and notarial protocols.",
+            "title": "DocumentoIQ: AI applied to legal and notarial documents",
+            "content": "A concrete example of this transformation is DocumentoIQ Notaries, the specialized product for the legal and notarial sector. DocumentoIQ Notaries is designed to assist notaries and legal teams in managing complex documents such as deeds, powers of attorney, sales, and notarial protocols.",
             "components": {
                 "OCR": {
                     "title": "Advanced OCR",
@@ -62,7 +62,7 @@
                     "description": "Allows validating results before use"
                 }
             },
-            "conclusion": "Unlike generic tools, LegalHelpAI adapts to real processes and always maintains human control as a central part of the workflow. AI accelerates document review and reduces errors, but the final decision remains in the hands of the professional."
+            "conclusion": "Unlike generic tools, DocumentoIQ Notaries adapts to real processes and always maintains human control as a central part of the workflow. AI accelerates document review and reduces errors, but the final decision remains in the hands of the professional."
         },
         "future": {
             "title": "The future of legal work",
@@ -78,7 +78,7 @@
     },
     "cta": {
         "title": "Discover how assistive AI can optimize legal and notarial document management.",
-        "button": "Request LegalHelp AI demo"
+        "button": "Request DocumentoIQ demo"
     },
     "references": {
         "1": "[1] 2024 Report on the State of the US Legal Market, 2024",

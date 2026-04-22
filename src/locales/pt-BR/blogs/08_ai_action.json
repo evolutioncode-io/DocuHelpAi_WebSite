@@ -68,10 +68,10 @@
             ]
         },
         "legalHelpAi": {
-            "title": "Como se Conecta com a LegalHelp AI",
+            "title": "Como se conecta com o DocumentoIQ Cartórios",
             "content": [
-                "Se seu objetivo é passar de piloto para operação real em processamento documental jurídico, a abordagem mais sólida é IA aplicada ao workflow, com controles, validação e rastreabilidade.",
-                "A LegalHelp AI (dentro do ecossistema DocumentoIQ) foi projetada precisamente para isso: apoiar o processamento documental jurídico/notarial com extração estruturada, revisão humana e governança operacional, para que a IA seja útil em produção, não apenas em testes."
+                "Se o seu objetivo é passar do piloto para a operação real no processamento de documentos jurídicos, a abordagem mais sólida é a IA aplicada ao workflow, com controles, validação e rastreabilidade.",
+                "O DocumentoIQ Cartórios foi projetado precisamente para isso: apoiar o processamento de documentos jurídicos/notariais com extração estruturada, revisão humana e governança operacional, para que a IA seja útil na produção, não apenas em testes."
             ]
         }
     },

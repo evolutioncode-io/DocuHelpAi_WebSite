@@ -68,9 +68,9 @@
             ]
         },
         "legalHelpAi": {
-            "title": "Caso aplicado: OCR avançado no LegalHelp AI",
+            "title": "Caso aplicado: OCR avançado no DocumentoIQ Cartórios",
             "content": [
-                "Dentro do ecossistema DocumentoIQ, o LegalHelp AI utiliza OCR avançado como base para processar documentos jurídicos e notariais complexos."
+                "O DocumentoIQ Cartórios utiliza OCR avançado como base para processar documentos jurídicos e notariais complexos."
             ],
             "list": [
                 "Extrair dados-chave de escrituras, contratos e expedientes",

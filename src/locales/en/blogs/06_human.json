@@ -36,8 +36,8 @@
             ]
         },
         "exampleLegalHelpAi": {
-            "title": "Applied Example: LegalHelp AI",
-            "content": "LegalHelp AI, within the DocumentoIQ ecosystem, applies AI to legal document processing by:",
+            "title": "Applied Example: DocumentoIQ Notaries",
+            "content": "DocumentoIQ Notaries applies AI to legal document processing through:",
             "components": {
                 "extract": {
                     "title": "Data Extraction",

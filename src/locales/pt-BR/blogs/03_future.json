@@ -42,8 +42,8 @@
             ]
         },
         "legalHelpAi": {
-            "title": "LegalHelp AI: IA aplicada a documentos jurídicos e notariais",
-            "content": "Um exemplo concreto dessa transformação é o LegalHelp AI, o produto especializado para o setor jurídico e notarial dentro do ecossistema DocumentoIQ. O LegalHelpAI foi projetado para auxiliar cartórios e equipes jurídicas na gestão de documentos complexos como escrituras, procurações, compra e venda e protocolos notariais.",
+            "title": "DocumentoIQ: IA aplicada a documentos jurídicos e notariais",
+            "content": "Um exemplo concreto dessa transformação é o DocumentoIQ Cartórios, o produto especializado para o setor jurídico e notarial. O DocumentoIQ Cartórios foi projetado para auxiliar cartórios e equipes jurídicas na gestão de documentos complexos como escrituras, procurações, compra e venda e protocolos notariais.",
             "components": {
                 "OCR": {
                     "title": "OCR avançado",
@@ -62,7 +62,7 @@
                     "description": "Permite validar resultados antes de seu uso"
                 }
             },
-            "conclusion": "Ao contrário de ferramentas genéricas, o LegalHelpAI adapta-se a processos reais e mantém sempre o controle humano como parte central do fluxo de trabalho. A IA acelera a revisão documental e reduz erros, mas a decisão final permanece nas mãos do profissional."
+            "conclusion": "Ao contrário de ferramentas genéricas, o DocumentoIQ Cartórios adapta-se a processos reais e mantém sempre o controlo humano como parte central do fluxo de trabalho. A IA acelera a revisão documental e reduz erros, mas a decisão final permanece nas mãos do profissional."
         },
         "future": {
             "title": "O futuro do trabalho jurídico",
@@ -78,7 +78,7 @@
     },
     "cta": {
         "title": "Descubra como a IA assistiva pode otimizar a gestão de documentos jurídicos e notariais.",
-        "button": "Solicitar demonstração do LegalHelp AI"
+        "button": "Solicitar demonstração do DocumentoIQ"
     },
     "references": {
         "1": "[1] 2024 Report on the State of the US Legal Market, 2024",
