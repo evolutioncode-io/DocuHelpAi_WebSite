@@ -68,10 +68,10 @@
             ]
         },
         "legalHelpAi": {
-            "title": "Cómo se conecta con LegalHelp AI",
+            "title": "Cómo se conecta con DocumentoIQ Notarías",
             "content": [
                 "Si tu objetivo es pasar de piloto a operación real en procesamiento documental legal, el enfoque más sólido es IA aplicada al workflow, con controles, validación y trazabilidad.",
-                "LegalHelp AI (dentro del ecosistema DocumentoIQ) está diseñado precisamente para eso: apoyar procesamiento documental legal/notarial con extracción estructurada, revisión humana y gobernanza operativa, para que la IA sea útil en producción, no solo en pruebas."
+                "DocumentoIQ Notarías está diseñado precisamente para eso: apoyar procesamiento documental legal/notarial con extracción estructurada, revisión humana y gobernanza operativa, para que la IA sea útil en producción, no solo en pruebas."
             ]
         }
     },

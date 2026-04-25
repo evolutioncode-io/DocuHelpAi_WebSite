@@ -47,8 +47,8 @@
             "conclusion": "De acuerdo con IBM, las empresas que implementan IA enfocada en procesos específicos logran mejoras significativas en productividad y calidad operativa en comparación con implementaciones genéricas. [3]"
         },
         "legalHelpAi": {
-            "title": "LegalHelpAI: un ejemplo de IA a medida aplicada a documentos complejos",
-            "content": "Un caso concreto donde la IA personalizada demuestra su valor es el análisis de documentos legales y notariales, que suelen ser extensos, heterogéneos y altamente sensibles a errores. LegalHelp AI, producto especializado del ecosistema DocumentoIQ, fue diseñado específicamente para asistir a notarías y equipos legales en la revisión y el análisis de documentos complejos como escrituras, poderes, compraventas y protocolos notariales.",
+            "title": "DocumentoIQ: un ejemplo de IA a medida aplicada a documentos complejos",
+            "content": "Un caso concreto donde la IA personalizada demuestra su valor es el análisis de documentos legales y notariales, que suelen ser extensos, heterogéneos y altamente sensibles a errores. DocumentoIQ Notarías, producto especializado del ecosistema DocumentoIQ, fue diseñado específicamente para asistir a notarías y equipos legales en la revisión y el análisis de documentos complejos como escrituras, poderes, compraventas y protocolos notariales.",
             "components": {
                 "1": {
                     "title": "1. OCR avanzado",
@@ -67,7 +67,7 @@
                     "description": "Permite validar y corregir resultados antes de su uso"
                 }
             },
-            "conclusion": "Es importante destacar que LegalHelp AI no reemplaza al notario ni al profesional legal. Funciona como un asistente inteligente que reduce la carga manual, acelera la revisión y disminuye errores, manteniendo siempre el control y la responsabilidad en manos humanas. Este enfoque refleja el verdadero valor de la IA a medida: adaptarse a un dominio específico y potenciar el trabajo profesional, no sustituirlo."
+            "conclusion": "Es importante destacar que DocumentoIQ Notarías no reemplaza al notario ni al profesional legal. Funciona como un asistente inteligente que reduce la carga manual, acelera la revisión y disminuye errores, manteniendo siempre el control y la responsabilidad en manos humanas. Este enfoque refleja el verdadero valor de la IA a medida: adaptarse a un dominio específico y potenciar el trabajo profesional, no sustituirlo."
         },
         "conclusion": {
             "title": "Conclusión",
@@ -79,11 +79,11 @@
     },
     "cta": {
         "title": "Conoce cómo una solución de IA a medida puede ayudarte a optimizar procesos complejos en tu organización.",
-        "button": "Solicitar demo de LegalHelp AI"
+        "button": "Solicitar demo de DocumentoIQ"
     },
     "references": {
         "1": "[1] The state of AI in early 2024: Gen AI adoption spikes and starts to generate value, 2024",
         "2": "[2] Inteligencia Artificial genera retorno de inversión en 45% de las empresas mexicanas, 2025",
-        "3": "[3] AI in Action, 2024"
+        "3": "[3] AI Action, 2024"
     }
 }

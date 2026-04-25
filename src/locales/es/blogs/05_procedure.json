@@ -1,10 +1,10 @@
 {
     "meta": {
-        "title": "Cómo LegalHelp AI Está Transformando el Procesamiento de Documentos Legales | DocumentoIQ",
-        "description": "Descubre cómo LegalHelp AI transforma el procesamiento documental legal mediante IA asistiva, garantizando precisión y control humano."
+        "title": "Cómo DocumentoIQ Está Transformando el Procesamiento de Documentos Legales | DocumentoIQ",
+        "description": "Descubre cómo DocumentoIQ transforma el procesamiento documental legal mediante IA asistiva, garantizando precisión y control humano."
     },
     "hero": {
-        "title": "Cómo LegalHelp AI Está Transformando el Procesamiento de Documentos Legales",
+        "title": "Cómo DocumentoIQ Está Transformando el Procesamiento de Documentos Legales",
         "subtitle": "Las organizaciones legales y notariales operan en entornos donde la precisión, la consistencia y la responsabilidad profesional son críticas.",
         "intro": "La IA asistiva aplicada al procesamiento documental surge como una respuesta práctica a este desafío, diseñada para apoyar el criterio profesional y mejorar la eficiencia operativa."
     },
@@ -28,12 +28,12 @@
             ]
         },
         "howItWorks": {
-            "title": "Cómo funciona LegalHelp AI by DocumentoIQ",
-            "content": "LegalHelp AI fue diseñado específicamente para documentos legales y notariales, con foco en flujos reales de trabajo:",
+            "title": "Cómo funciona DocumentoIQ Notarías",
+            "content": "DocumentoIQ Notarías fue diseñado específicamente para documentos legales y notariales, con foco en flujos reales de trabajo:",
             "components": {
                 "ocr": {
                     "title": "OCR avanzado para documentos complejos",
-                    "description": "LegalHelp AI procesa documentos escaneados y digitales, incluidos aquellos con diseños complejos o calidad variable."
+                    "description": "DocumentoIQ Notarías procesa documentos escaneados y digitales, incluidos aquellos con diseños complejos o calidad variable."
                 },
                 "languageUnderstanding": {
                     "title": "Comprensión del lenguaje legal",
@@ -48,7 +48,7 @@
                     "description": "Una interfaz de revisión visual garantiza que los profesionales validen los datos extraídos antes de que se utilicen operativamente, preservando la responsabilidad."
                 }
             },
-            "conclusion": "Como parte de DocumentoIQ, LegalHelp AI permite escalar el procesamiento documental legal manteniendo trazabilidad, cumplimiento normativo y control operativo."
+            "conclusion": "DocumentoIQ Notarías permite escalar el procesamiento documental legal manteniendo trazabilidad, cumplimiento normativo y control operativo."
         },
         "strategicImplications": {
             "title": "Implicaciones estratégicas",
@@ -64,13 +64,13 @@
         "finalConclusion": {
             "title": "Conclusión",
             "content": [
-                "LegalHelp AI demuestra cómo la IA aplicada de forma responsable puede transformar el procesamiento documental legal sin sustituir el criterio profesional. La combinación de tecnología, procesos y validación humana es la base de una adopción sostenible."
+                "DocumentoIQ Notarías demuestra cómo la IA aplicada de forma responsable puede transformar el procesamiento documental legal sin sustituir el criterio profesional. La combinación de tecnología, procesos y validación humana es la base de una adopción sostenible."
             ]
         }
     },
     "cta": {
         "title": "Conoce cómo la IA asistiva puede optimizar el procesamiento documental legal.",
-        "button": "Explorar LegalHelp AI"
+        "button": "Explora DocumentoIQ"
     },
     "references": {
         "1": "[1] Legal Technology & AI Adoption Report, 2025",

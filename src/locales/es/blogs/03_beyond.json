@@ -44,10 +44,10 @@
             ]
         },
         "legalHelpAi": {
-            "title": "Ejemplo breve: LegalHelp AI en DocumentoIQ",
+            "title": "Ejemplo breve: DocumentoIQ Notarías",
             "content": [
-                "Un ejemplo claro de este enfoque es LegalHelp AI, una solución especializada dentro del ecosistema DocumentoIQ.",
-                "LegalHelp AI aplica IA a flujos reales de documentos legales y notariales, combinando extracción estructurada, revisión visual y validación humana. Su diferenciación no está en el modelo, sino en cómo la aplicación apoya el trabajo profesional."
+                "Un ejemplo claro de este enfoque es DocumentoIQ Notarías, una solución especializada dentro del ecosistema DocumentoIQ.",
+                "DocumentoIQ Notarías aplica IA a flujos reales de documentos legales y notariales, combinando extracción estructurada, revisión visual y validación humana. Su diferenciación no está en el modelo, sino en cómo la aplicación apoya el trabajo profesional."
             ]
         },
         "implications": {
@@ -65,7 +65,7 @@
     },
     "cta": {
         "title": "Descubre cómo la IA liderada por aplicaciones puede optimizar flujos documentales complejos.",
-        "button": "Solicitar demo de LegalHelp AI"
+        "button": "Solicitar demo de DocumentoIQ"
     },
     "references": {
         "1": "[1] AI Adoption Trends in the Enterprise 2026, 2026",

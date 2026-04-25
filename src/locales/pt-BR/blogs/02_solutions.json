@@ -47,8 +47,8 @@
             "conclusion": "De acordo com a IBM, as empresas que implementam IA focada em processos específicos alcançam melhorias significativas em produtividade e qualidade operacional em comparação com implementações genéricas. [3]"
         },
         "legalHelpAi": {
-            "title": "LegalHelpAI: um exemplo de IA sob medida aplicada a documentos complexos",
-            "content": "Um caso concreto onde a IA personalizada demonstra seu valor é a análise de documentos legais e notariais, que costumam ser extensos, heterogêneos e altamente sensíveis a erros. O LegalHelp AI, produto especializado do ecossistema DocumentoIQ, foi projetado especificamente para ajudar cartórios e equipes jurídicas na revisão e análise de documentos complexos como escrituras, procurações, compras e vendas e protocolos notariais.",
+            "title": "DocumentoIQ: um exemplo de IA sob medida aplicada a documentos complexos",
+            "content": "Um caso concreto onde a IA personalizada demonstra o seu valor é a análise de documentos jurídicos e notariais, que costumam ser extensos, heterogéneos e altamente sensíveis a erros. O DocumentoIQ Cartórios, produto especializado do ecossistema DocumentoIQ, foi concebido especificamente para apoiar cartórios e equipas jurídicas na revisão e análise de documentos complexos como escrituras públicas, procurações, compra e venda e protocolos notariais.",
             "components": {
                 "1": {
                     "title": "1. OCR avançado",
@@ -67,7 +67,7 @@
                     "description": "Permite validar e corrigir resultados antes do uso"
                 }
             },
-            "conclusion": "É importante destacar que o LegalHelp AI não substitui o notário nem o profissional jurídico. Funciona como um assistente inteligente que reduz a carga manual, acelera a revisão e diminui erros, mantendo sempre o controle e a responsabilidade em mãos humanas. Essa abordagem reflete o verdadeiro valor da IA sob medida: adaptar-se a um domínio específico e potencializar o trabalho profissional, não substituí-lo."
+            "conclusion": "É importante destacar que o DocumentoIQ Cartórios não substitui o tabelião nem o profissional jurídico. Funciona como um assistente inteligente que reduz a carga manual, acelera a revisão e diminui erros, mantendo sempre o controlo e a responsabilidade em mãos humanas. Esta abordagem reflete o verdadeiro valor da IA sob medida: adaptar-se a um domínio específico e potenciar o trabalho profesional, não substituí-lo."
         },
         "conclusion": {
             "title": "Conclusão",
@@ -79,7 +79,7 @@
     },
     "cta": {
         "title": "Conheça como uma solução de IA sob medida pode ajudar a otimizar processos complexos em sua organização.",
-        "button": "Solicitar demonstração do LegalHelp AI"
+        "button": "Solicitar demonstração do DocumentoIQ"
     },
     "references": {
         "1": "[1] The state of AI in early 2024: Gen AI adoption spikes and starts to generate value, 2024",

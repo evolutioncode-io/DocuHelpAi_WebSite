@@ -47,8 +47,8 @@
             "conclusion": "According to IBM, companies that implement AI focused on specific processes achieve significant improvements in productivity and operational quality compared to generic implementations. [3]"
         },
         "legalHelpAi": {
-            "title": "LegalHelpAI: an example of custom AI applied to complex documents",
-            "content": "A concrete case where custom AI demonstrates its value is the analysis of legal and notarial documents, which are usually extensive, heterogeneous, and highly sensitive to errors. LegalHelp AI, a specialized product of the DocumentoIQ ecosystem, was designed specifically to assist notaries and legal teams in the review and analysis of complex documents such as deeds, powers of attorney, sales, and notarial protocols.",
+            "title": "DocumentoIQ: an example of custom AI applied to complex documents",
+            "content": "A specific case where custom AI demonstrates its value is the analysis of legal and notary documents, which are typically extensive, heterogeneous, and highly sensitive to errors. DocumentoIQ Notaries, a specialized product of the DocumentoIQ ecosystem, was specifically designed to assist notary offices and legal teams in the review and analysis of complex documents such as public deeds, powers of attorney, purchase and sale agreements, and notary protocols.",
             "components": {
                 "1": {
                     "title": "1. Advanced OCR",
@@ -67,7 +67,7 @@
                     "description": "Allows validating and correcting results before use"
                 }
             },
-            "conclusion": "It is important to emphasize that LegalHelp AI does not replace the notary or legal professional. It functions as an intelligent assistant that reduces manual load, speeds up review, and decreases errors, always maintaining control and responsibility in human hands. This approach reflects the true value of custom AI: adapting to a specific domain and empowering professional work, not replacing it."
+            "conclusion": "It is important to emphasize that DocumentoIQ Notaries does not replace the notary or legal professional. It functions as an intelligent assistant that reduces manual load, speeds up review, and decreases errors, always maintaining control and responsibility in human hands. This approach reflects the true value of custom AI: adapting to a specific domain and empowering professional work, not replacing it."
         },
         "conclusion": {
             "title": "Conclusion",
@@ -79,7 +79,7 @@
     },
     "cta": {
         "title": "Learn how a custom AI solution can help you optimize complex processes in your organization.",
-        "button": "Request LegalHelp AI demo"
+        "button": "Request DocumentoIQ demo"
     },
     "references": {
         "1": "[1] The state of AI in early 2024: Gen AI adoption spikes and starts to generate value, 2024",

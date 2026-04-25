@@ -6,8 +6,8 @@
     "ctaPrimary": "Solicitar demo personalizada",
     "ctaSecondary": "Ver cómo funciona con un documento real",
     "solutionsText": "Conoce nuestras soluciones",
-    "ctaNotary": "LegalHelp AI Notarías",
-    "ctaBanking": "LegalHelp AI Banca",
+    "ctaNotary": "DocumentoIQ Notarías",
+    "ctaBanking": "DocumentoIQ Banca",
     "microcopy": "Diseñado para notarías, equipos legales y empresas que trabajan con documentos críticos."
   },
   "stats": {
@@ -59,7 +59,7 @@
     "title": "¿Qué es el OCR* avanzado?",
     "description": "Una herramienta de scanning que limpia y convierte imágenes, PDFs o notas a mano en texto legible y editable, incluso cuando la calidad es baja o el formato es complejo, ayudando a que la IA procese documentos con menos complicaciones.",
     "question": "¿Quieres conocer más acerca del OCR avanzado?",
-    "link": "Link a artículo sobre OCR"
+    "link": "Más información"
   },
   "benefits": {
     "title": "Beneficios de usar IA para análisis documental",

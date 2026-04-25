@@ -2,18 +2,18 @@
     "hero": {
         "badge": "IA para análise e recomendação de documentos bancários",
         "title": "Banca",
-        "subtitle": "O LegalHelp AI Banca auxilia instituições bancárias na revisão, validação e recomendação de documentos críticos, reduzindo prazos e erros operacionais sem substituir o critério do analista jurídico.",
+        "subtitle": "O DocumentoIQ Banca auxilia instituições bancárias na revisão, validação e recomendação de documentos críticos, reduzindo prazos e erros operacionais sem substituir o critério do analista jurídico.",
         "microcopy": "Projetado para processos de abertura de contas, crédito e hipotecas.",
         "primaryCta": "Solicitar demonstração para banca",
         "secondaryCta": "Veja como funciona com um parecer jurídico"
     },
     "whatIs": {
-        "title": "O que é o LegalHelp AI Banca?",
-        "description": "LegalHelp AI Banca é o produto especializado do DocumentoIQ projetado para instituições financeiras que lidam com grandes volumes de documentação regulamentada. Utiliza inteligência artificial para analisar expedientes bancários, validar informações e gerar pareceres automatizados, ajudando as equipes jurídicas a trabalhar com maior velocidade, precisão e rastreabilidade.",
-        "disclaimer": "O LegalHelp AI Banca não toma decisões pelo banco. Ele funciona como um assistente inteligente que acelera a revisão documental e aponta apenas as ocorrências que exigem análise humana."
+        "title": "O que é o DocumentoIQ Banca?",
+        "description": "DocumentoIQ Banca é o produto especializado do DocumentoIQ projetado para instituições financeiras que lidam com grandes volumes de documentação regulamentada. Utiliza inteligência artificial para analisar expedientes bancários, validar informações e gerar pareceres automatizados, ajudando as equipes jurídicas a trabalhar com maior velocidade, precisão e rastreabilidade.",
+        "disclaimer": "O DocumentoIQ Banca não toma decisões pelo banco. Ele funciona como um assistente inteligente que acelera a revisão documental e aponta apenas as ocorrências que exigem análise humana."
     },
     "howItWorks": {
-        "title": "Como o LegalHelp AI Banca funciona?",
+        "title": "Como o DocumentoIQ Banca funciona?",
         "steps": {
             "step1": {
                 "title": "1. Envio de expedientes bancários",
@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Processamento com IA especializada em banca",
-                "intro": "O LegalHelp AI Banca combina OCR avançado* con modelos de linguagem treinados em documentação financeira e regulatória para:",
+                "intro": "O DocumentoIQ Banca combina OCR avançado* con modelos de linguagem treinados em documentação financeira e regulatória para:",
                 "items": [
                     "Validar informações do cliente",
                     "Identificar inconsistências ou faltas",
@@ -84,14 +84,12 @@
         }
     },
     "brand": {
-        "title": "LegalHelp AI Banca é parte do ecossistema DocumentoIQ",
-        "description1": "DocumentoIQ é a plataforma de inteligência artificial para análise documental.",
-        "description2": "LegalHelp AI é sua linha de produtos especializados por indústria.",
+        "title": "DocumentoIQ Banca é parte do ecossistema DocumentoIQ",
         "tagline": "Uma única base tecnológica. Produtos especializados para setores críticos."
     },
     "cta": {
-        "title": "Otimize a revisão documental bancária com LegalHelp AI Banca",
-        "subtitle": "Solicite uma demonstração personalizada e descubra como o LegalHelp AI Banca pode ajudar você a reduzir prazos, erros e riscos operacionais, mantendo sempre o controle humano em processos críticos.",
+        "title": "Otimize a revisão documental bancária com DocumentoIQ Banca",
+        "subtitle": "Solicite uma demonstração personalizada e descubra como o DocumentoIQ Banca pode ajudar você a reduzir prazos, erros e riscos operacionais, mantendo sempre o controle humano em processos críticos.",
         "button": "Solicitar demonstração para banca",
         "microcopy": "Demonstração focada em expedientes bancários reais."
     }

@@ -30,8 +30,8 @@
             ]
         },
         "howLegalHelpAiApplies": {
-            "title": "Como a LegalHelp AI aplica IA sob medida",
-            "content": "A LegalHelp AI foi projetada especificamente para documentos jurídicos e notariais. Integrada ao DocumentoIQ, a LegalHelp AI permite começar com um caso jurídico concreto e evoluir para uma estratégia mais ampla de inteligência documental.",
+            "title": "Como o DocumentoIQ aplica IA sob medida",
+            "content": "O DocumentoIQ Cartórios foi projetado especificamente para documentos jurídicos e notariais. Ele permite iniciar com um caso jurídico concreto e evoluir para uma estratégia mais ampla de inteligência documental.",
             "components": {
                 "ocr": {
                     "title": "OCR avançado",
@@ -66,7 +66,7 @@
         "finalConclusion": {
             "title": "Conclusão",
             "content": [
-                "Ferramentas genéricas já não são suficientes para as operações jurídicas modernas. A LegalHelp AI demonstra como a IA sob medida gera valor real alinhando tecnologia, processos e critério profissional."
+                "Ferramentas genéricas já não são suficientes para as operações jurídicas modernas. O DocumentoIQ demonstra como a IA sob medida gera valor real alinhando tecnologia, processos e critério profissional."
             ]
         }
     },

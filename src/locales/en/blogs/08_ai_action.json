@@ -68,10 +68,10 @@
             ]
         },
         "legalHelpAi": {
-            "title": "How It Connects with LegalHelp AI",
+            "title": "How it connects with DocumentoIQ Notaries",
             "content": [
-                "If your goal is to move from pilot to real operation in legal document processing, the strongest approach is AI applied to the workflow, with controls, validation, and traceability.",
-                "LegalHelp AI (within the DocumentoIQ ecosystem) is designed precisely for that: supporting legal/notarial document processing with structured extraction, human review, and operational governance, so that AI is useful in production, not just in testing."
+                "If your goal is to transition from pilot to real operation in legal document processing, the most solid approach is AI applied to the workflow, with controls, validation, and traceability.",
+                "DocumentoIQ Notaries is designed precisely for that: supporting legal/notarial document processing with structured extraction, human review, and operational governance, so that AI is useful in production, not just in testing."
             ]
         }
     },

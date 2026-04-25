@@ -21,7 +21,7 @@
                 "Funcionar incluso con escaneos de baja calidad"
             ]
         },
-        "comparison": {
+    "comparison": {
             "title": "OCR tradicional vs OCR avanzado",
             "content": [
                 "La diferencia entre ambos enfoques es crítica desde una perspectiva de negocio, logrando ser una pieza clave dentro del procesamiento inteligente de documentos:"
@@ -68,9 +68,9 @@
             ]
         },
         "legalHelpAi": {
-            "title": "Caso aplicado: OCR avanzado en LegalHelp AI",
+            "title": "Caso aplicado: OCR avanzado en DocumentoIQ Notarías",
             "content": [
-                "Dentro del ecosistema DocumentoIQ, LegalHelp AI utiliza OCR avanzado como base para procesar documentos legales y notariales complejos."
+                "DocumentoIQ Notarías utiliza OCR avanzado como base para procesar documentos legales y notariales complejos."
             ],
             "list": [
                 "Extraer datos clave de escrituras, contratos y expedientes",

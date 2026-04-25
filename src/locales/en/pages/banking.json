@@ -2,18 +2,18 @@
     "hero": {
         "badge": "AI for Banking Document Analysis and Recommendation",
         "title": "Banking",
-        "subtitle": "LegalHelp AI Banking assists banking institutions in the review, validation, and recommendation of critical documents, reducing times and operational errors without replacing the legal analyst's judgment.",
+        "subtitle": "DocumentoIQ Banking assists banking institutions in the review, validation, and recommendation of critical documents, reducing times and operational errors without replacing the legal analyst's judgment.",
         "microcopy": "Designed for account opening, credit, and mortgage processes.",
         "primaryCta": "Request demo for banking",
         "secondaryCta": "See how it works with a legal opinion"
     },
     "whatIs": {
-        "title": "What is LegalHelp AI Banking?",
-        "description": "LegalHelp AI Banking is the specialized DocumentoIQ product designed for financial institutions that handle large volumes of regulated documentation. It uses artificial intelligence to analyze banking files, validate information, and generate automated legal opinions, helping legal teams work with greater speed, precision, and traceability.",
-        "disclaimer": "LegalHelp AI Banking does not make decisions for the bank. It functions as an intelligent assistant that accelerates document review and points out only the incidents that require human analysis."
+        "title": "What is DocumentoIQ Banking?",
+        "description": "DocumentoIQ Banking is the specialized DocumentoIQ product designed for financial institutions that handle large volumes of regulated documentation. It uses artificial intelligence to analyze banking files, validate information, and generate automated legal opinions, helping legal teams work with greater speed, precision, and traceability.",
+        "disclaimer": "DocumentoIQ Banking does not make decisions for the bank. It functions as an intelligent assistant that accelerates document review and points out only the incidents that require human analysis."
     },
     "howItWorks": {
-        "title": "How does LegalHelp AI Banking work?",
+        "title": "How does DocumentoIQ Banking work?",
         "steps": {
             "step1": {
                 "title": "1. Submission of banking files",
@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Processing with banking-specialized AI",
-                "intro": "LegalHelp AI Banking combines advanced OCR* with language models trained in financial and regulatory documentation to:",
+                "intro": "DocumentoIQ Banking with the support of advanced OCR* combines OCR advanced* with language models trained in financial and regulatory documentation to:",
                 "items": [
                     "Validate customer information",
                     "Identify inconsistencies or missing information",
@@ -54,7 +54,7 @@
             "title": "Technical Benefits",
             "items": [
                 "Automated legal opinion per file",
-                "Automatic detection of incidents",
+                "Automated detection of incidents",
                 "Advanced OCR* for scanned or low-quality documents",
                 "Flexible extraction of banking data",
                 "Visual panel for optional manual review",
@@ -84,14 +84,12 @@
         }
     },
     "brand": {
-        "title": "LegalHelp AI Banking is part of the DocumentoIQ ecosystem",
-        "description1": "DocumentoIQ is the artificial intelligence platform for document analysis.",
-        "description2": "LegalHelp AI is its line of industry-specialized products.",
+        "title": "DocumentoIQ Banking is part of the DocumentoIQ ecosystem",
         "tagline": "A single technological base. Specialized products for critical sectors."
     },
     "cta": {
-        "title": "Optimize Banking document review with LegalHelp AI Banking",
-        "subtitle": "Request a personalized demo and discover how LegalHelp AI Banking can help you reduce time, errors, and operational risks, always maintaining human control in critical processes.",
+        "title": "Optimize Banking document review with DocumentoIQ Banking",
+        "subtitle": "Request a personalized demo and discover how DocumentoIQ Banking can help you reduce time, errors, and operational risks, always maintaining human control in critical processes.",
         "button": "Request demo for banking",
         "microcopy": "Demo focused on real banking files."
     }

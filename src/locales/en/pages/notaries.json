@@ -2,18 +2,18 @@
     "hero": {
         "badge": "Intelligent Notarial Document Analysis",
         "title": "Notaries",
-        "subtitle": "LegalHelp AI Notaries assists in the analysis, extraction, and validation of key information from complex deeds and notarial documents, reducing time and errors without replacing the notary's judgment.",
+        "subtitle": "DocumentoIQ Notaries assists in the analysis, extraction, and validation of key information from complex deeds and notarial documents, reducing time and errors without replacing the notary's judgment.",
         "microcopy": "Designed for deeds, powers of attorney, sales contracts, and notarial protocols.",
         "primaryCta": "Request demo for notaries",
         "secondaryCta": "See how it works with a power of attorney"
     },
     "whatIs": {
-        "title": "What is LegalHelp AI Notaries?",
-        "description": "LegalHelp AI Notaries is the specialized DocumentoIQ product designed specifically for notaries. It uses artificial intelligence to analyze extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
-        "disclaimer": "LegalHelp AI Notaries does not replace the notary. It functions as an intelligent assistant that reduces manual workload and errors in document review."
+        "title": "What is DocumentoIQ Notaries?",
+        "description": "DocumentoIQ Notaries is the specialized DocumentoIQ product designed specifically for notaries. It uses artificial intelligence to analyze extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
+        "disclaimer": "DocumentoIQ Notaries does not replace the notary. It functions as an intelligent assistant that reduces manual workload and errors in document review."
     },
     "howItWorks": {
-        "title": "How does LegalHelp AI Notaries work?",
+        "title": "How does DocumentoIQ Notaries work?",
         "steps": {
             "step1": {
                 "title": "1. Upload notarial documents",
@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Processing with specialized AI",
-                "intro": "LegalHelp AI Notaries combines advanced OCR* with language models trained to understand notarial documents, automatically identifying:",
+                "intro": "DocumentoIQ Notaries with the support of advanced OCR* combines OCR advanced* with language models trained to understand notarial documents, automatically identifying:",
                 "items": [
                     "Involved parties",
                     "Dates and legal acts",
@@ -82,14 +82,12 @@
         }
     },
     "brand": {
-        "title": "LegalHelp AI Notaries is part of the DocumentoIQ ecosystem",
-        "description1": "DocumentoIQ is the artificial intelligence platform for document analysis.",
-        "description2": "LegalHelp AI is its line of industry-specialized products.",
+        "title": "DocumentoIQ Notaries is part of the DocumentoIQ ecosystem",
         "tagline": "A single technological base. Specialized products for critical sectors."
     },
     "cta": {
-        "title": "Optimize notarial document analysis with LegalHelp AI Notaries",
-        "subtitle": "Request a personalized demo and discover how LegalHelp AI Notaries can help you reduce time, errors, and operational load in your notary's office, always maintaining professional control.",
+        "title": "Optimize notarial document analysis with DocumentoIQ Notaries",
+        "subtitle": "Request a personalized demo and discover how DocumentoIQ Notaries can help you reduce time, errors, and operational load in your notary's office, always maintaining professional control.",
         "button": "Request demo for notaries",
         "microcopy": "Demo focused on real notarial documents."
     }

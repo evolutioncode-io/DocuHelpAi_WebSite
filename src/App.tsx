@@ -14,8 +14,8 @@ const About = lazy(() => import('./pages/About'))
 const Blog = lazy(() => import('./pages/Blog'))
 const Contact = lazy(() => import('./pages/Contact'))
 const Product = lazy(() => import('./pages/Product'))
-const LegalHelpAiBanking = lazy(() => import('./pages/LegalHelpAiBanking'))
-const LegalHelpAiNotaries = lazy(() => import('./pages/LegalHelpAiNotaries'))
+const DocumentoIqBanking = lazy(() => import('./pages/LegalHelpAiBanking'))
+const DocumentoIqNotaries = lazy(() => import('./pages/LegalHelpAiNotaries'))
 const UseCases = lazy(() => import('./pages/UseCases'))
 const Privacy = lazy(() => import('./pages/Privacy'))
 const Terms = lazy(() => import('./pages/Terms'))
@@ -92,8 +92,8 @@ function App() {
           <Route element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="product" element={<Product />} />
-            <Route path="legal-help-ai-notaries" element={<LegalHelpAiNotaries />} />
-            <Route path="legal-help-ai-banking" element={<LegalHelpAiBanking />} />
+            <Route path="documentoiq-notaries" element={<DocumentoIqNotaries />} />
+            <Route path="documentoiq-banking" element={<DocumentoIqBanking />} />
             <Route path="how-we-work" element={<HowWeWork />} />
             <Route path="use-cases" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
@@ -124,7 +124,7 @@ function App() {
               element={<BlogPost contentNamespace="blog_04_beyond" metadataNamespace="meta_04_beyond" heroImage={heroImageBeyond} />}
             />
             <Route
-              path="blog/how-legalhelp-ai-is-transforming-legal-document-processing"
+              path="blog/how-documentoiq-is-transforming-legal-document-processing"
               element={<BlogPost contentNamespace="blog_05_procedure" metadataNamespace="meta_05_procedure" heroImage={heroImageProcedure} />}
             />
             <Route
@@ -151,8 +151,8 @@ function App() {
           <Route element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="producto" element={<Product />} />
-            <Route path="legal-help-ai-notarias" element={<LegalHelpAiNotaries />} />
-            <Route path="legal-help-ai-banca" element={<LegalHelpAiBanking />} />
+            <Route path="documentoiq-notarias" element={<DocumentoIqNotaries />} />
+            <Route path="documentoiq-banca" element={<DocumentoIqBanking />} />
             <Route path="how-we-work" element={<HowWeWork />} />
             <Route path="casos-de-uso" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
@@ -183,7 +183,7 @@ function App() {
               element={<BlogPost contentNamespace="blog_04_beyond" metadataNamespace="meta_04_beyond" heroImage={heroImageBeyond} />}
             />
             <Route
-              path="blog/como-legalhelp-ai-esta-transformando-el-procesamiento-de-documentos-legales"
+              path="blog/como-documentoiq-esta-transformando-el-procesamiento-de-documentos-legales"
               element={<BlogPost contentNamespace="blog_05_procedure" metadataNamespace="meta_05_procedure" heroImage={heroImageProcedure} />}
             />
             <Route
@@ -210,8 +210,8 @@ function App() {
           <Route element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="produto" element={<Product />} />
-            <Route path="legal-help-ai-notarios" element={<LegalHelpAiNotaries />} />
-            <Route path="legal-help-ai-bancario" element={<LegalHelpAiBanking />} />
+            <Route path="documentoiq-notarios" element={<DocumentoIqNotaries />} />
+            <Route path="documentoiq-bancario" element={<DocumentoIqBanking />} />
             <Route path="how-we-work" element={<HowWeWork />} />
             <Route path="casos-de-uso" element={<UseCases />} />
             <Route path="blog" element={<Blog />} />
@@ -242,7 +242,7 @@ function App() {
               element={<BlogPost contentNamespace="blog_04_beyond" metadataNamespace="meta_04_beyond" heroImage={heroImageBeyond} />}
             />
             <Route
-              path="blog/como-a-legalhelp-ai-esta-transformando-o-processamento-de-documentos-juridicos"
+              path="blog/como-o-documentoiq-esta-transformando-o-processamento-de-documentos-juridicos"
               element={<BlogPost contentNamespace="blog_05_procedure" metadataNamespace="meta_05_procedure" heroImage={heroImageProcedure} />}
             />
             <Route

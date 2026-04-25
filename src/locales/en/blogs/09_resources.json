@@ -68,9 +68,9 @@
             ]
         },
         "legalHelpAi": {
-            "title": "Applied Case: Advanced OCR in LegalHelp AI",
+            "title": "Applied Case: Advanced OCR in DocumentoIQ Notaries",
             "content": [
-                "Within the DocumentoIQ ecosystem, LegalHelp AI uses advanced OCR as a foundation for processing complex legal and notarial documents."
+                "DocumentoIQ Notaries uses advanced OCR as a foundation for processing complex legal and notary documents."
             ],
             "list": [
                 "Extract key data from deeds, contracts, and files",

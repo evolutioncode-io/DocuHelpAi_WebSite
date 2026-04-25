@@ -66,13 +66,13 @@
             "content": "At DocumentoIQ, IDP is conceived as a cross-cutting capability designed to integrate into real processes and support critical decisions. It is not just about automating documents, but about enabling operational intelligence from them. This approach allows organizations to move from basic digitization to truly intelligent and scalable document management."
         },
         "legalHelpAi": {
-            "title": "From Theory to Practice: LegalHelp AI",
-            "content": "Within the DocumentoIQ ecosystem, LegalHelp AI is a specialized product that applies IDP to legal and notarial document flows. It is designed to extract key information, facilitate human review, and support operations with high accuracy and compliance requirements."
+            "title": "From Theory to Practice: DocumentoIQ",
+            "content": "Within the DocumentoIQ ecosystem, DocumentoIQ is a specialized product that applies IDP to legal and notary document flows. It is designed to extract key information, facilitate human review, and support operations with high requirements for precision and compliance."
         }
     },
     "cta": {
         "title": "Do you want to understand how Intelligent Document Processing can impact your operations?",
-        "button": "Request a Demo"
+        "button": "Request a demo"
     },
     "references": {
         "1": "[1] Gartner",

@@ -2,18 +2,18 @@
     "hero": {
         "badge": "IA para análisis y dictaminación de documentos bancarios",
         "title": "Banca",
-        "subtitle": "LegalHelp AI Banca asiste a instituciones bancarias en la revisión, validación y dictaminación de documentos críticos, reduciendo tiempos y errores operativos sin reemplazar el criterio del analista legal.",
+        "subtitle": "DocumentoIQ Banca asiste a instituciones bancarias en la revisión, validación y dictaminación de documentos críticos, reduciendo tiempos y errores operativos sin reemplazar el criterio del analista legal.",
         "microcopy": "Diseñado para procesos de apertura de cuentas, crédito e hipotecas.",
         "primaryCta": "Solicitar demo para banca",
         "secondaryCta": "Ver cómo funciona con un dictamen"
     },
     "whatIs": {
-        "title": "¿Qué es LegalHelp AI Banca?",
-        "description": "LegalHelp AI Banca es el producto especializado de DocumentoIQ diseñado para instituciones financieras que manejan grandes volúmenes de documentación regulada. Utiliza inteligencia artificial para analizar expedientes bancarios, validar información y generar dictámenes automáticos, ayudando a los equipos legales a trabajar con mayor velocidad, precisión y trazabilidad.",
-        "disclaimer": "LegalHelp AI Banca no toma decisiones por el banco. Funciona como un asistente inteligente que acelera la revisión documental y señala únicamente las incidencias que requieren análisis humano."
+        "title": "¿Qué es DocumentoIQ Banca?",
+        "description": "DocumentoIQ Banca es el producto especializado de DocumentoIQ diseñado para instituciones financieras que manejan grandes volúmenes de documentación regulada. Utiliza inteligencia artificial para analizar expedientes bancarios, validar información y generar dictámenes automáticos, ayudando a los equipos legales a trabajar con mayor velocidad, precisión y trazabilidad.",
+        "disclaimer": "DocumentoIQ Banca no toma decisiones por el banco. Funciona como un asistente inteligente que acelera la revisión documental y señala únicamente las incidencias que requieren análisis humano."
     },
     "howItWorks": {
-        "title": "¿Cómo funciona LegalHelp AI Banca?",
+        "title": "¿Cómo funciona DocumentoIQ Banca?",
         "steps": {
             "step1": {
                 "title": "1. Ingreso de expedientes bancarios",
@@ -22,7 +22,7 @@
             },
             "step2": {
                 "title": "2. Procesamiento con IA especializada en banca",
-                "intro": "LegalHelp AI Banca combina OCR avanzado* con modelos de lenguaje entrenados en documentación financiera y regulatoria para:",
+                "intro": "DocumentoIQ Banca con apoyo de OCR avanzado* combina OCR avanzado* con modelos de lenguaje entrenados en documentación financiera y regulatoria para:",
                 "items": [
                     "Validar información del cliente",
                     "Identificar inconsistencias o faltantes",
@@ -84,14 +84,12 @@
         }
     },
     "brand": {
-        "title": "LegalHelp AI Banca es parte del ecosistema DocumentoIQ",
-        "description1": "DocumentoIQ es la plataforma de inteligencia artificial para análisis documental.",
-        "description2": "LegalHelp AI es su línea de productos especializados por industria.",
+        "title": "DocumentoIQ Banca es parte del ecosistema DocumentoIQ",
         "tagline": "Una sola base tecnológica. Productos especializados para sectores críticos."
     },
     "cta": {
-        "title": "Optimiza la revisión documental bancaria con LegalHelp AI Banca",
-        "subtitle": "Solicita una demo personalizada y descubre cómo LegalHelp AI Banca puede ayudarte a reducir tiempos, errores y riesgos operativos, manteniendo siempre el control humano en procesos críticos.",
+        "title": "Optimiza la revisión documental bancaria con DocumentoIQ Banca",
+        "subtitle": "Solicita una demo personalizada y descubre cómo DocumentoIQ Banca puede ayudarte a reducir tiempos, errores y riesgos operativos, manteniendo siempre el control humano en procesos críticos.",
         "button": "Solicitar demo para banca",
         "microcopy": "Demo enfocada en expedientes bancarios reales."
     }

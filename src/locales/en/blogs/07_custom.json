@@ -30,8 +30,8 @@
             ]
         },
         "howLegalHelpAiApplies": {
-            "title": "How LegalHelp AI applies tailored AI",
-            "content": "LegalHelp AI was designed specifically for legal and notarial documents. Integrated into DocumentoIQ, LegalHelp AI allows starting with a concrete legal case and evolving towards a broader document intelligence strategy.",
+            "title": "How DocumentoIQ applies tailored AI",
+            "content": "DocumentoIQ Notaries was designed specifically for legal and notary documents. It allows you to start with a concrete legal case and evolve towards a broader document intelligence strategy.",
             "components": {
                 "ocr": {
                     "title": "Advanced OCR",
@@ -66,7 +66,7 @@
         "finalConclusion": {
             "title": "Conclusion",
             "content": [
-                "Generic tools are no longer sufficient for modern legal operations. LegalHelp AI demonstrates how tailored AI generates real value by aligning technology, processes, and professional judgment."
+                "Generic tools are no longer sufficient for modern legal operations. DocumentoIQ demonstrates how tailored AI generates real value by aligning technology, processes, and professional judgment."
             ]
         }
     },
