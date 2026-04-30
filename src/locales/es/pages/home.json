@@ -48,7 +48,7 @@
     },
     "step2": {
       "title": "La IA analiza y extrae información clave",
-      "description": "DocumentoIQ con apoyo de OCR avanzado* identifica datos relevantes, secciones importantes y patrones críticos. La IA asiste, no reemplaza el criterio humano."
+      "description": "DocumentoIQ con apoyo de OCR avanzado identifica datos relevantes, secciones importantes y patrones críticos. La IA asiste, no reemplaza el criterio humano."
     },
     "step3": {
       "title": "Valida y decide con confianza",
@@ -56,7 +56,7 @@
     }
   },
   "ocr_faq": {
-    "title": "¿Qué es el OCR* avanzado?",
+    "title": "¿Qué es el OCR avanzado?",
     "description": "Una herramienta de scanning que limpia y convierte imágenes, PDFs o notas a mano en texto legible y editable, incluso cuando la calidad es baja o el formato es complejo, ayudando a que la IA procese documentos con menos complicaciones.",
     "question": "¿Quieres conocer más acerca del OCR avanzado?",
     "link": "Más información"

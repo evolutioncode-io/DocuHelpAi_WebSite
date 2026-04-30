@@ -48,7 +48,7 @@
     },
     "step2": {
       "title": "AI analyzes and extracts key information",
-      "description": "DocumentoIQ with the support of advanced OCR* identifies relevant data, important sections and critical patterns. AI assists, it does not replace human judgment."
+      "description": "DocumentoIQ with the support of advanced OCR identifies relevant data, important sections and critical patterns. AI assists, it does not replace human judgment."
     },
     "step3": {
       "title": "Validate and decide with confidence",
@@ -56,7 +56,7 @@
     }
   },
   "ocr_faq": {
-    "title": "What is advanced OCR*?",
+    "title": "What is advanced OCR?",
     "description": "A scanning tool that cleans and converts images, PDFs or handwritten notes into readable and editable text, even when quality is low or format is complex, helping AI process documents with fewer complications.",
     "question": "Want to learn more about advanced OCR?",
     "link": "More information"

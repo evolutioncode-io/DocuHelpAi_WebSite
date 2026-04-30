@@ -5,7 +5,8 @@
         "subtitle": "DocumentoIQ Banking assists banking institutions in the review, validation, and recommendation of critical documents, reducing times and operational errors without replacing the legal analyst's judgment.",
         "microcopy": "Designed for account opening, credit, and mortgage processes.",
         "primaryCta": "Request demo for banking",
-        "secondaryCta": "See how it works with a legal opinion"
+        "secondaryCta": "See how it works with a legal opinion",
+        "secondaryCtaUrl": "https://youtu.be/pk2Y69JA78s"
     },
     "whatIs": {
         "title": "What is DocumentoIQ Banking?",
@@ -22,7 +23,7 @@
             },
             "step2": {
                 "title": "2. Processing with banking-specialized AI",
-                "intro": "DocumentoIQ Banking with the support of advanced OCR* combines OCR advanced* with language models trained in financial and regulatory documentation to:",
+                "intro": "DocumentoIQ Banking combines advanced OCR with language models trained in financial and regulatory documentation to:",
                 "items": [
                     "Validate customer information",
                     "Identify inconsistencies or missing information",
@@ -55,7 +56,7 @@
             "items": [
                 "Automated legal opinion per file",
                 "Automated detection of incidents",
-                "Advanced OCR* for scanned or low-quality documents",
+                "Advanced OCR for scanned or low-quality documents",
                 "Flexible extraction of banking data",
                 "Visual panel for optional manual review",
                 "Export and integration via API"
@@ -91,6 +92,7 @@
         "title": "Optimize Banking document review with DocumentoIQ Banking",
         "subtitle": "Request a personalized demo and discover how DocumentoIQ Banking can help you reduce time, errors, and operational risks, always maintaining human control in critical processes.",
         "button": "Request demo for banking",
-        "microcopy": "Demo focused on real banking files."
+        "microcopy": "Demo focused on real banking files.",
+        "videoUrl": "https://www.youtube.com/embed/QFitxX8Bwzc"
     }
 }

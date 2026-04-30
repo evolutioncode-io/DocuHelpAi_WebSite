@@ -5,7 +5,8 @@
         "subtitle": "O DocumentoIQ Banca auxilia instituições bancárias na revisão, validação e recomendação de documentos críticos, reduzindo prazos e erros operacionais sem substituir o critério do analista jurídico.",
         "microcopy": "Projetado para processos de abertura de contas, crédito e hipotecas.",
         "primaryCta": "Solicitar demonstração para banca",
-        "secondaryCta": "Veja como funciona com um parecer jurídico"
+        "secondaryCta": "Veja como funciona con um parecer jurídico",
+        "secondaryCtaUrl": "https://youtu.be/pk2Y69JA78s"
     },
     "whatIs": {
         "title": "O que é o DocumentoIQ Banca?",
@@ -22,7 +23,7 @@
             },
             "step2": {
                 "title": "2. Processamento com IA especializada em banca",
-                "intro": "O DocumentoIQ Banca combina OCR avançado* con modelos de linguagem treinados em documentação financeira e regulatória para:",
+                "intro": "O DocumentoIQ Banca combina OCR avançado com modelos de linguagem treinados em documentação financeira e regulatória para:",
                 "items": [
                     "Validar informações do cliente",
                     "Identificar inconsistências ou faltas",
@@ -55,7 +56,7 @@
             "items": [
                 "Parecer automatizado por expediente",
                 "Detecção automática de ocorrências",
-                "OCR avançado* para documentos digitalizados ou de baixa qualidade",
+                "OCR avançado para documentos digitalizados ou de baixa qualidade",
                 "Extração flexível de dados bancários",
                 "Painel visual para revisão manual opcional",
                 "Exportação e integração via API"
@@ -91,6 +92,7 @@
         "title": "Otimize a revisão documental bancária com DocumentoIQ Banca",
         "subtitle": "Solicite uma demonstração personalizada e descubra como o DocumentoIQ Banca pode ajudar você a reduzir prazos, erros e riscos operacionais, mantendo sempre o controle humano em processos críticos.",
         "button": "Solicitar demonstração para banca",
-        "microcopy": "Demonstração focada em expedientes bancários reais."
+        "microcopy": "Demonstração focada em expedientes bancários reais.",
+        "videoUrl": "https://www.youtube.com/embed/QFitxX8Bwzc"
     }
 }

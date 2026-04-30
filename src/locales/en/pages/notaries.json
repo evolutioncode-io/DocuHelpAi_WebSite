@@ -5,7 +5,8 @@
         "subtitle": "DocumentoIQ Notaries assists in the analysis, extraction, and validation of key information from complex deeds and notarial documents, reducing time and errors without replacing the notary's judgment.",
         "microcopy": "Designed for deeds, powers of attorney, sales contracts, and notarial protocols.",
         "primaryCta": "Request demo for notaries",
-        "secondaryCta": "See how it works with a power of attorney"
+        "secondaryCta": "See how it works with a power of attorney",
+        "secondaryCtaUrl": "https://youtu.be/cbBvaBqJAcw"
     },
     "whatIs": {
         "title": "What is DocumentoIQ Notaries?",
@@ -22,7 +23,7 @@
             },
             "step2": {
                 "title": "2. Processing with specialized AI",
-                "intro": "DocumentoIQ Notaries with the support of advanced OCR* combines OCR advanced* with language models trained to understand notarial documents, automatically identifying:",
+                "intro": "DocumentoIQ Notaries with the support of advanced OCR combines OCR advanced with language models trained to understand notarial documents, automatically identifying:",
                 "items": [
                     "Involved parties",
                     "Dates and legal acts",
@@ -52,7 +53,7 @@
             "title": "Technical Benefits",
             "items": [
                 "Over 90% accuracy in notarial documents",
-                "Advanced OCR* for scanned or low-quality documents",
+                "Advanced OCR for scanned or low-quality documents",
                 "Flexible extraction of customizable notarial fields",
                 "Visual panel for optional manual review",
                 "Immediate export (Excel, CSV, JSON)",
@@ -89,6 +90,7 @@
         "title": "Optimize notarial document analysis with DocumentoIQ Notaries",
         "subtitle": "Request a personalized demo and discover how DocumentoIQ Notaries can help you reduce time, errors, and operational load in your notary's office, always maintaining professional control.",
         "button": "Request demo for notaries",
-        "microcopy": "Demo focused on real notarial documents."
+        "microcopy": "Demo focused on real notarial documents.",
+        "videoUrl": "https://www.youtube.com/embed/8LOnJLi-4hA"
     }
 }

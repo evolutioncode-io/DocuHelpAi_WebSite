@@ -211,12 +211,12 @@ function Home() {
                 <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-2xl cursor-pointer">
                   <h4 className="font-bold text-xl mb-3 text-heading">{item.title}</h4>
                   <p className="text-body leading-relaxed">
-                    {item.description.split(/(OCR avanzado\*|advanced OCR\*|OCR avançado\*)/g).map((part: string, i: number) => {
+                    {item.description.split(/(OCR avanzado\*?|advanced OCR\*?|OCR avançado\*?)/g).map((part: string, i: number) => {
                       const lowerPart = part.toLowerCase();
-                      const isOcr = lowerPart.includes('ocr') && lowerPart.includes('*');
+                      const isOcr = lowerPart.includes('ocr');
                       if (isOcr) {
                         return (
-                          <Link key={i} to={getLocalizedRoute('blog00Idp')} className="link font-semibold hover:underline">
+                          <Link key={i} to={getLocalizedRoute('blog09Resources')} className="link font-semibold hover:underline">
                             {part}
                           </Link>
                         );
@@ -239,7 +239,7 @@ function Home() {
           </p>
           <div className="flex flex-col items-center gap-2 text-lg">
             <span className="text-body font-medium">{t('ocr_faq.question')}</span>
-            <Link to={getLocalizedRoute('blog00Idp')} className="link font-bold hover:underline">
+            <Link to={getLocalizedRoute('blog09Resources')} className="link font-bold hover:underline">
               {t('ocr_faq.link')}
             </Link>
           </div>

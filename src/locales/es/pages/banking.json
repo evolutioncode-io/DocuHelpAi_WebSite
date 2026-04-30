@@ -5,7 +5,8 @@
         "subtitle": "DocumentoIQ Banca asiste a instituciones bancarias en la revisión, validación y dictaminación de documentos críticos, reduciendo tiempos y errores operativos sin reemplazar el criterio del analista legal.",
         "microcopy": "Diseñado para procesos de apertura de cuentas, crédito e hipotecas.",
         "primaryCta": "Solicitar demo para banca",
-        "secondaryCta": "Ver cómo funciona con un dictamen"
+        "secondaryCta": "Ver cómo funciona con un dictamen",
+        "secondaryCtaUrl": "https://youtu.be/pk2Y69JA78s"
     },
     "whatIs": {
         "title": "¿Qué es DocumentoIQ Banca?",
@@ -22,7 +23,7 @@
             },
             "step2": {
                 "title": "2. Procesamiento con IA especializada en banca",
-                "intro": "DocumentoIQ Banca con apoyo de OCR avanzado* combina OCR avanzado* con modelos de lenguaje entrenados en documentación financiera y regulatoria para:",
+                "intro": "DocumentoIQ Banca combina OCR avanzado con modelos de lenguaje entrenados en documentación financiera y regulatoria para:",
                 "items": [
                     "Validar información del cliente",
                     "Identificar inconsistencias o faltantes",
@@ -55,7 +56,7 @@
             "items": [
                 "Dictamen automatizado por expediente",
                 "Detección automática de incidencias",
-                "OCR avanzado* para documentos escaneados o de baja calidad",
+                "OCR avanzado para documentos escaneados o de baja calidad",
                 "Extracción flexible de datos bancarios",
                 "Panel visual para revisión manual opcional",
                 "Exportación e integración vía API"
@@ -91,6 +92,7 @@
         "title": "Optimiza la revisión documental bancaria con DocumentoIQ Banca",
         "subtitle": "Solicita una demo personalizada y descubre cómo DocumentoIQ Banca puede ayudarte a reducir tiempos, errores y riesgos operativos, manteniendo siempre el control humano en procesos críticos.",
         "button": "Solicitar demo para banca",
-        "microcopy": "Demo enfocada en expedientes bancarios reales."
+        "microcopy": "Demo enfocada en expedientes bancarios reales.",
+        "videoUrl": "https://www.youtube.com/embed/QFitxX8Bwzc"
     }
 }
