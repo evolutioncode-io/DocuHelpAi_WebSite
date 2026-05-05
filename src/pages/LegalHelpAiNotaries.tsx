@@ -114,7 +114,7 @@ function DocumentoIqNotaries() {
                                 </div>
                                 <h3 className="font-bold text-2xl mb-4 text-heading">{t('howItWorks.steps.step2.title')}</h3>
                                 <p className="text-body leading-relaxed mb-4">
-                                    {t('howItWorks.steps.step2.intro').split(/(OCR avanzado|advanced OCR|OCR avançado)/g).map((part, i) => {
+                                    {t('howItWorks.steps.step2.intro').split(/(OCR avanzado|advanced OCR|OCR avançado)/gi).map((part, i) => {
                                         const lowerPart = part.toLowerCase();
                                         const isOcr = lowerPart.includes('ocr');
                                         if (isOcr) {
@@ -188,7 +188,7 @@ function DocumentoIqNotaries() {
                                             <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                                         </svg>
                                         <p className="text-body font-medium">
-                                            {benefit.split(/(OCR avanzado|advanced OCR|OCR avançado)/g).map((part, i) => {
+                                            {benefit.split(/(OCR avanzado|advanced OCR|OCR avançado)/gi).map((part, i) => {
                                                 const lowerPart = part.toLowerCase();
                                                 const isOcr = lowerPart.includes('ocr');
                                                 if (isOcr) {

@@ -23,7 +23,7 @@
             },
             "step2": {
                 "title": "2. Processing with specialized AI",
-                "intro": "DocumentoIQ Notaries with the support of advanced OCR combines OCR advanced with language models trained to understand notarial documents, automatically identifying:",
+                "intro": "DocumentoIQ Notaries combines advanced OCR with language models trained to understand notarial documents, automatically identifying:",
                 "items": [
                     "Involved parties",
                     "Dates and legal acts",

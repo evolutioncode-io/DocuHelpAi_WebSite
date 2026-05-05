@@ -211,7 +211,7 @@ function Home() {
                 <div className="card-surface card-hover-blue border-2 border-[color:var(--color-neutral-400)] p-8 rounded-2xl cursor-pointer">
                   <h4 className="font-bold text-xl mb-3 text-heading">{item.title}</h4>
                   <p className="text-body leading-relaxed">
-                    {item.description.split(/(OCR avanzado\*?|advanced OCR\*?|OCR avançado\*?)/g).map((part: string, i: number) => {
+                    {item.description.split(/(OCR avanzado\*?|advanced OCR\*?|OCR avançado\*?)/gi).map((part: string, i: number) => {
                       const lowerPart = part.toLowerCase();
                       const isOcr = lowerPart.includes('ocr');
                       if (isOcr) {
