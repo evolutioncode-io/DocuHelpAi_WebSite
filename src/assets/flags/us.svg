@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 640 480">
+  <rect width="640" height="480" fill="#bd3d44"/>
+  <rect width="640" height="37" y="37" fill="#fff"/>
+  <rect width="640" height="37" y="111" fill="#fff"/>
+  <rect width="640" height="37" y="185" fill="#fff"/>
+  <rect width="640" height="37" y="259" fill="#fff"/>
+  <rect width="640" height="37" y="333" fill="#fff"/>
+  <rect width="640" height="37" y="407" fill="#fff"/>
+  <rect width="365" height="258" fill="#192f5d"/>
+  <g fill="#fff">
+    <polygon id="star" points="10,0 13,7 20,7 15,12 17,19 10,15 3,19 5,12 0,7 7,7" transform="scale(0.8)"/>
+    <g id="row">
+      <use xlink:href="#star" x="20" y="20"/>
+      <use xlink:href="#star" x="80" y="20"/>
+      <use xlink:href="#star" x="140" y="20"/>
+      <use xlink:href="#star" x="200" y="20"/>
+      <use xlink:href="#star" x="260" y="20"/>
+      <use xlink:href="#star" x="320" y="20"/>
+    </g>
+    <use xlink:href="#row" y="40" x="30"/>
+    <use xlink:href="#row" y="80"/>
+    <use xlink:href="#row" y="120" x="30"/>
+    <use xlink:href="#row" y="160"/>
+    <use xlink:href="#row" y="200" x="30"/>
+  </g>
+</svg>

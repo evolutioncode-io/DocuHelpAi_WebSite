@@ -1,0 +1,48 @@
+{
+  "cta": {
+    "startFree": "Request demo",
+    "scheduleDemo": "Request demo",
+    "requestDemo": "Request demo",
+    "contactUs": "Contact us",
+    "learnMore": "Learn more →"
+  },
+  "trust": {
+    "noCreditCard": "Personalized demo",
+    "setupMinutes": "Setup in minutes",
+    "spanishSupport": "Spanish support"
+  },
+  "footer": {
+    "rightsReserved": "All rights reserved",
+    "madeWith": "Made with",
+    "inLatinAmerica": "in Latin America",
+    "description": "Intelligent document processing with AI for notaries, banks and law firms.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "howItWorks": "How it works",
+    "useCases": "Use Cases",
+    "pricing": "Pricing",
+    "apiDocs": "API Documentation",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "careers": "Careers",
+    "privacy": "Privacy",
+    "terms": "Terms of Service",
+    "cookies": "Cookies",
+    "security": "Security",
+    "banner": "Request your demo now"
+  },
+  "nav": {
+    "product": "Product",
+    "legalHelpAi": "DocumentoIQ",
+    "notary": "Notaries",
+    "banking": "Banking",
+    "useCases": "Use Cases",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "menu": "Menu"
+  }
+}
