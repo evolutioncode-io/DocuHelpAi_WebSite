@@ -51,6 +51,7 @@ function NotFound() {
   const normalizedPath = location.pathname.toLowerCase()
   const isSpanish = normalizedPath.startsWith('/es/') || normalizedPath === '/es'
   const isPortuguese = normalizedPath.startsWith('/pt-br/') || normalizedPath === '/pt-br'
+  const isBritish = normalizedPath.startsWith('/en-gb/') || normalizedPath === '/en-gb'
 
   return (
     <div className="py-24 text-center px-6">
@@ -64,7 +65,7 @@ function NotFound() {
             ? 'A página que você procura não existe ou foi movida.'
             : 'The page you are looking for does not exist or has been moved.'}
       </p>
-      <a href={isSpanish ? '/es/' : isPortuguese ? '/pt-br/' : '/'} className="link font-semibold">
+      <a href={isSpanish ? '/es/' : isPortuguese ? '/pt-br/' : isBritish ? '/en-gb/' : '/'} className="link font-semibold">
         {isSpanish ? 'Volver al inicio' : isPortuguese ? 'Voltar ao início' : 'Go back home'}
       </a>
     </div>
@@ -76,7 +77,7 @@ function RootRedirect() {
   const { i18n } = useTranslation()
   const defaultLang = normalizeLanguage(i18n.resolvedLanguage || i18n.language)
   // Redirect to language-specific home page
-  return <Navigate to={defaultLang === 'es' ? '/es' : defaultLang === 'pt-BR' ? '/pt-br' : ''} replace />
+  return <Navigate to={defaultLang === 'es' ? '/es' : defaultLang === 'pt-BR' ? '/pt-br' : defaultLang === 'en-GB' ? '/en-gb' : ''} replace />
 }
 
 function App() {
@@ -266,6 +267,65 @@ function App() {
 
         {/* 404 */}
         <Route path="*" element={<NotFound />} />
+
+        {/* British English routes (with /en-gb/ prefix) */}
+        <Route path="/en-gb" element={<LocalizedRoutes />}>
+          <Route element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="product" element={<Product />} />
+            <Route path="documentoiq-notaries" element={<DocumentoIqNotaries />} />
+            <Route path="documentoiq-banking" element={<DocumentoIqBanking />} />
+            <Route path="how-we-work" element={<HowWeWork />} />
+            <Route path="use-cases" element={<UseCases />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="terms" element={<Terms />} />
+            <Route path="cookies" element={<Cookies />} />
+            <Route path="security" element={<Security />} />
+            <Route
+              path="blog/what-is-intelligent-document-processing-idp"
+              element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
+            />
+            <Route
+              path="blog/is-investing-in-custom-ai-worth-it"
+              element={<BlogPost contentNamespace="blog_01_invest" metadataNamespace="meta_01_invest" heroImage={heroImageInvest} />}
+            />
+            <Route
+              path="blog/custom-ai-solutions-how-to-power-up-your-business"
+              element={<BlogPost contentNamespace="blog_02_solutions" metadataNamespace="meta_02_solutions" heroImage={heroImageCustomAi} />}
+            />
+            <Route
+              path="blog/the-future-of-legal-work-how-ai-is-transforming-document-management"
+              element={<BlogPost contentNamespace="blog_03_future" metadataNamespace="meta_03_future" heroImage={heroImageFuture} />}
+            />
+            <Route
+              path="blog/beyond-the-ai-model-war-why-application-led-ai-wins-in-2026"
+              element={<BlogPost contentNamespace="blog_04_beyond" metadataNamespace="meta_04_beyond" heroImage={heroImageBeyond} />}
+            />
+            <Route
+              path="blog/how-documentoiq-is-transforming-legal-document-processing"
+              element={<BlogPost contentNamespace="blog_05_procedure" metadataNamespace="meta_05_procedure" heroImage={heroImageProcedure} />}
+            />
+            <Route
+              path="blog/why-ai-needs-human-logic-to-be-truly-useful"
+              element={<BlogPost contentNamespace="blog_06_human" metadataNamespace="meta_06_human" heroImage={heroImageHuman} />}
+            />
+            <Route
+              path="blog/tailored-ai-for-legal-document-processing"
+              element={<BlogPost contentNamespace="blog_07_custom" metadataNamespace="meta_07_custom" heroImage={heroImageCustom} />}
+            />
+            <Route
+              path="blog/ai-in-action-what-separates-implementation-from-pilot"
+              element={<BlogPost contentNamespace="blog_08_ai_action" metadataNamespace="meta_08_ai_action" heroImage={heroImageAiAction} />}
+            />
+            <Route
+              path="blog/advanced-ocr-what-it-is-how-it-works"
+              element={<BlogPost contentNamespace="blog_09_resources" metadataNamespace="meta_09_resources" heroImage={heroImageResources} />}
+            />
+          </Route>
+        </Route>
       </Routes>
     </Suspense>
   )

@@ -265,11 +265,11 @@ function Blog() {
                         <input
                             type="email"
                             placeholder={t('newsletter.placeholder')}
-                            className="flex-1 px-6 py-4 rounded-xl text-[color:var(--color-neutral-900)] placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-white"
+                            className="flex-1 px-6 py-4 rounded-2xl bg-transparent border-2 border-white text-white placeholder:text-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
                             aria-label={t('newsletter.placeholder')}
                             required
                         />
-                        <button className="bg-white text-[color:var(--color-accent-700)] px-8 py-4 rounded-xl font-bold hover:bg-gray-100 hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg" type="button" aria-label={t('newsletter.button')}>
+                        <button className="bg-white text-[color:var(--color-accent-500)] px-8 py-4 rounded-2xl font-bold hover:bg-gray-50 hover:scale-105 active:scale-95 transition-all duration-300 shadow-xl" type="button" aria-label={t('newsletter.button')}>
                             {t('newsletter.button')}
                         </button>
                     </div>

@@ -111,7 +111,14 @@ import meta09ResourcesEn from '../locales/en/metadata/09_resources.json'
 import meta09ResourcesEs from '../locales/es/metadata/09_resources.json'
 import meta09ResourcesPtBr from '../locales/pt-BR/metadata/09_resources.json'
 
-export const supportedLanguages = ['en', 'es', 'pt-BR'] as const
+import commonEnGb from '../locales/en-GB/common.json'
+import navEnGb from '../locales/en-GB/nav.json'
+import metaEnGb from '../locales/en-GB/meta.json'
+import homeEnGb from '../locales/en-GB/pages/home.json'
+import aboutEnGb from '../locales/en-GB/pages/about.json'
+import productEnGb from '../locales/en-GB/pages/product.json'
+
+export const supportedLanguages = ['en', 'en-GB', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
 
 /**
@@ -126,6 +133,7 @@ function getLanguageFromPath(): SupportedLanguage {
 
   if (firstSegment === 'es') return 'es'
   if (firstSegment === 'pt-br') return 'pt-BR'
+  if (firstSegment === 'en-gb') return 'en-GB'
   return 'en'
 }
 
@@ -247,6 +255,15 @@ const resources = {
     meta_08_ai_action: meta08AiActionPtBr,
     meta_09_resources: meta09ResourcesPtBr,
   },
+  'en-GB': {
+    common: commonEnGb,
+    nav: navEnGb,
+    meta: metaEnGb,
+    home: homeEnGb,
+    product: productEnGb,
+    about: aboutEnGb,
+    // The rest will fall back to 'en' automatically via i18next fallbackLng configuration
+  },
 }
 
 i18n
@@ -255,7 +272,10 @@ i18n
   .init({
     resources,
     lng: initialLanguage, // Use synchronously detected language from URL
-    fallbackLng: 'en',
+    fallbackLng: {
+      'en-GB': ['en'],
+      default: ['en'],
+    },
     defaultNS: 'common',
     supportedLngs: supportedLanguages,
     interpolation: {

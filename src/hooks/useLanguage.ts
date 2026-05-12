@@ -80,6 +80,31 @@ const routeMappings = {
     blog08AiAction: '/pt-br/blog/ia-em-acao-o-que-separa-uma-implementacao-de-sucesso-de-um-piloto',
     blog09Resources: '/pt-br/blog/ocr-avancado-o-que-e-como-funciona',
   },
+  'en-GB': {
+    home: '/en-gb/',
+    product: '/en-gb/product',
+    legalHelpAiNotaries: '/en-gb/documentoiq-notaries',
+    legalHelpAiBanking: '/en-gb/documentoiq-banking',
+    howWeWork: '/en-gb/how-we-work',
+    useCases: '/en-gb/use-cases',
+    about: '/en-gb/about',
+    contact: '/en-gb/contact',
+    blog: '/en-gb/blog',
+    privacy: '/en-gb/privacy',
+    terms: '/en-gb/terms',
+    cookies: '/en-gb/cookies',
+    security: '/en-gb/security',
+    blog00Idp: '/en-gb/blog/what-is-intelligent-document-processing-idp',
+    blog01Invest: '/en-gb/blog/is-investing-in-custom-ai-worth-it',
+    blog02Solutions: '/en-gb/blog/custom-ai-solutions-how-to-power-up-your-business',
+    blog03Future: '/en-gb/blog/the-future-of-legal-work-how-ai-is-transforming-document-management',
+    blog04Beyond: '/en-gb/blog/beyond-the-ai-model-war-why-application-led-ai-wins-in-2026',
+    blog05Procedure: '/en-gb/blog/how-documentoiq-is-transforming-legal-document-processing',
+    blog06Human: '/en-gb/blog/why-ai-needs-human-logic-to-be-truly-useful',
+    blog07Custom: '/en-gb/blog/tailored-ai-for-legal-document-processing',
+    blog08AiAction: '/en-gb/blog/ai-in-action-what-separates-implementation-from-pilot',
+    blog09Resources: '/en-gb/blog/advanced-ocr-what-it-is-how-it-works',
+  },
 } as const
 
 
@@ -90,6 +115,7 @@ const routeMappings = {
 export function normalizeLanguage(lang: string | undefined | null): SupportedLanguage {
   if (!lang) return 'en'
   const lower = lang.toLowerCase()
+  if (lower === 'en-gb') return 'en-GB'
   if (lower.startsWith('es')) return 'es'
   if (lower.startsWith('pt')) return 'pt-BR'
   return 'en'
@@ -116,7 +142,7 @@ export function useLanguage() {
         routeKey = key as keyof typeof routeMappings.en
         break
       }
-      // Handle root routes (/, /es, /pt-br)
+      // Handle root routes (/, /es, /pt-br, /en-gb)
       if (key === 'home') {
         const normalizedCurrent = currentPath.toLowerCase()
         if (
@@ -125,7 +151,9 @@ export function useLanguage() {
           normalizedCurrent === '/es' ||
           normalizedCurrent === '/es/' ||
           normalizedCurrent === '/pt-br' ||
-          normalizedCurrent === '/pt-br/'
+          normalizedCurrent === '/pt-br/' ||
+          normalizedCurrent === '/en-gb' ||
+          normalizedCurrent === '/en-gb/'
         ) {
           routeKey = 'home'
           break

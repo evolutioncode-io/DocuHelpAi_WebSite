@@ -15,6 +15,7 @@ function LocalizedRoutes() {
     let pathLang: string = 'en'
     if (firstSegment === 'es') pathLang = 'es'
     else if (firstSegment === 'pt-br') pathLang = 'pt-BR'
+    else if (firstSegment === 'en-gb') pathLang = 'en-GB'
 
     const currentNormalized = normalizeLanguage(i18n.language)
 
