@@ -90,9 +90,23 @@ function Home() {
       <section className="max-w-7xl mx-auto px-6 py-20">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-heading">{t('whatIs.title')}</h2>
-          <p className="text-xl text-body max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-body max-w-3xl mx-auto leading-relaxed mb-10">
             {t('whatIs.description')}
           </p>
+          
+          {/* YouTube Video Embed */}
+          <div className="mx-auto max-w-3xl">
+            <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-2xl"
+                src={t('whatIs.videoUrl')}
+                title="DocumentoIQ Demo"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -351,9 +365,12 @@ function Home() {
       <section className="max-w-6xl mx-auto px-6 py-20">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-heading">{t('security.title')}</h2>
-          <p className="text-xl text-body max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-body max-w-3xl mx-auto leading-relaxed mb-8">
             {t('security.description')}
           </p>
+          <Link to={getLocalizedRoute('security')} className="link font-bold text-lg hover:underline">
+            {t('security.link')}
+          </Link>
         </div>
       </section>
 
@@ -378,6 +395,19 @@ function Home() {
             <p className="font-semibold text-lg">{t('testimonial.author')}</p>
             <p className="text-white/75">{t('testimonial.company')}</p>
           </footer>
+        </div>
+      </section>
+
+      {/* Partners Banner */}
+      <section className="py-20 bg-surface border-t border-ui">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-4xl font-bold mb-6 text-heading">{t('partnersBanner.title')}</h2>
+          <p className="text-xl text-body mb-8 leading-relaxed">
+            {t('partnersBanner.description')}
+          </p>
+          <Link to={getLocalizedRoute('partners')} className="link font-bold text-lg hover:underline">
+            {t('partnersBanner.link')}
+          </Link>
         </div>
       </section>
 

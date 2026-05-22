@@ -20,7 +20,8 @@
   },
   "whatIs": {
     "title": "O que é o DocumentoIQ?",
-    "description": "DocumentoIQ é uma plataforma de inteligência artificial projetada para apoiar profissionais e empresas na análise, compreensão e revisão de documentos complexos. A IA identifica informações relevantes, reduz erros humanos e acelera processos sem substituir a validação profissional."
+    "description": "DocumentoIQ é uma plataforma de inteligência artificial projetada para apoiar profissionais e empresas na análise, compreensão e revisão de documentos complexos. A IA identifica informações relevantes, reduz erros humanos e acelera processos sem substituir a validação profissional.",
+    "videoUrl": "https://www.youtube.com/embed/sXSjarKobU8"
   },
   "useCases": {
     "title": "Uma plataforma de IA, múltiplos casos de uso",
@@ -101,8 +102,14 @@
     }
   },
   "security": {
-    "title": "Segurança, confidencialidade e controle",
-    "description": "O DocumentoIQ foi projetado para lidar com documentos sensíveis com altos padrões de segurança, garantindo confidencialidade, controle do usuário e uso responsável da inteligência artificial."
+    "title": "Segurança e proteção de dados",
+    "description": "DocumentoIQ protege seus documentos com infraestrutura segura do Google Cloud, criptografia avançada, controle de acesso e rastreabilidade completa.",
+    "link": "Ver detalhes de segurança →"
+  },
+  "partnersBanner": {
+    "title": "Leve soluções de IA para o seu mercado",
+    "description": "Junte-se à rede de parceiros DocumentoIQ e desenvolva novas oportunidades de negócios em torno da automação e inteligência documental.",
+    "link": "Saiba mais →"
   },
   "testimonial": {
     "quote": "É impossível voltar ao método tradicional e abrir mão das vantagens de eficiência e precisão que temos agora com o DocumentoIQ",

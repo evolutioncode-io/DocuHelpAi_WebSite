@@ -43,5 +43,9 @@
   "security": {
     "title": "Política de Segurança | DocumentoIQ - Proteção e segurança de dados",
     "description": "As medidas de segurança do DocumentoIQ, padrões de criptografia e compromisso com a proteção de seus documentos e dados."
+  },
+  "partners": {
+    "title": "Programa de Partners | DocumentoIQ - Automação com IA",
+    "description": "Participe do programa de Partners do DocumentoIQ. Construa novas oportunidades de negócios na América Latina com inteligência artificial e automação de documentos."
   }
 }

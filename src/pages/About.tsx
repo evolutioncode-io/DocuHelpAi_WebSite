@@ -251,6 +251,19 @@ function About() {
         </div>
       </section>
 
+      {/* Partners Banner */}
+      <section className="py-20 bg-surface border-t border-ui">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-4xl font-bold mb-6 text-heading">{t('partnersBanner.title')}</h2>
+          <p className="text-xl text-body mb-8 leading-relaxed">
+            {t('partnersBanner.description')}
+          </p>
+          <Link to={getLocalizedRoute('partners')} className="link font-bold text-lg hover:underline">
+            {t('partnersBanner.link')}
+          </Link>
+        </div>
+      </section>
+
       <section className="bg-gradient-secondary py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>

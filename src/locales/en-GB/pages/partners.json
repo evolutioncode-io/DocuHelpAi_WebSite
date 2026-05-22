@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "badge": "DocumentoIQ Partners Program",
+    "title": "Become a DocumentoIQ Partner",
+    "subtitle": "Drive AI-powered document intelligence solutions and participate in the digital transformation of organisations in Latin America.",
+    "description": "DocumentoIQ helps companies and professionals analyse, organise, and automate complex document processes using assistive artificial intelligence, always maintaining human control in critical processes.",
+    "ctaPrimary": "Talk to our team",
+    "ctaSecondary": "Learn more about DocumentoIQ",
+    "microcopy": "Program available for individuals and organisations."
+  },
+  "opportunity": {
+    "title": "AI-driven document automation is accelerating in Latin America",
+    "description": "Thousands of organisations in the region still rely on manual, slow, and error-prone document processes. At the same time, sectors such as legal, financial, compliance, insurance, real estate, and corporate operations are accelerating the adoption of automation and artificial intelligence technologies.",
+    "subtext": "DocumentoIQ seeks to build a strategic network of partners to lead this transformation in the region.",
+    "indicatorsTitle": "Opportunity indicators",
+    "stats": [
+      {
+        "value": "+40,000",
+        "label": "Notaries and document offices in LATAM"
+      },
+      {
+        "value": "High demand",
+        "label": "Document automation and efficiency"
+      },
+      {
+        "value": "Expanding market",
+        "label": "AI applied to real operations"
+      },
+      {
+        "value": "Early opportunity",
+        "label": "Regional strategic positioning"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Build new opportunities around AI and document automation",
+    "items": [
+      {
+        "title": "New business opportunities",
+        "description": "Develop new business lines related to document automation and applied artificial intelligence."
+      },
+      {
+        "title": "Recurring revenue",
+        "description": "Participate in scalable models with continuous growth potential."
+      },
+      {
+        "title": "Expanding market",
+        "description": "The AI-driven document transformation is just beginning in Latin America."
+      },
+      {
+        "title": "Support and guidance",
+        "description": "Work alongside a specialised team in AI, document automation, and critical processes."
+      },
+      {
+        "title": "Strategic positioning",
+        "description": "Become an innovation benchmark within your industry or market."
+      },
+      {
+        "title": "Flexible models",
+        "description": "Participate according to your commercial, technical, consultative, or strategic profile."
+      }
+    ]
+  },
+  "whatYouGet": {
+    "title": "Tools and support to grow with us",
+    "items": [
+      "Technical and commercial training",
+      "Sales materials",
+      "Demos and guidance",
+      "Technical support",
+      "Specialised onboarding",
+      "Continuous updates",
+      "Strategic collaboration"
+    ]
+  },
+  "profiles": {
+    "title": "The program is designed for both individuals and organisations",
+    "items": [
+      "Consultancies",
+      "Tech companies",
+      "Integrators",
+      "Legaltechs",
+      "Automation specialists",
+      "Independent consultants",
+      "Commercial networks",
+      "B2B professionals"
+    ],
+    "footer": "You don't need to be a large company to participate. We are looking for partners interested in generating value around document automation and applied artificial intelligence."
+  },
+  "process": {
+    "title": "Our partnership process",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Step 1 — Initial meeting",
+        "description": "We learn about your profile, experience, and goals."
+      },
+      {
+        "number": "2",
+        "title": "Step 2 — Opportunity assessment",
+        "description": "We identify industries, use cases, and possible collaboration models."
+      },
+      {
+        "number": "3",
+        "title": "Step 3 — Model selection",
+        "description": "We define the most appropriate partnership scheme."
+      },
+      {
+        "number": "4",
+        "title": "Step 4 — Onboarding and training",
+        "description": "We support you with technical, commercial training, and support materials."
+      },
+      {
+        "number": "5",
+        "title": "Step 5 — Start of collaboration",
+        "description": "We begin to develop joint opportunities and strategies."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Let's build the future of document intelligence together",
+    "description": "DocumentoIQ is creating a strategic network of partners to accelerate the adoption of AI-driven document automation in Latin America. Join and participate in the evolution of critical processes in legal, financial, corporate, and operational sectors.",
+    "buttonPrimary": "Schedule meeting",
+    "buttonSecondary": "See more about DocumentoIQ",
+    "microcopy": "Designed for commercial, strategic, and technological partners."
+  }
+}

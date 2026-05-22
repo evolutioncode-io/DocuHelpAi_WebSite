@@ -91,10 +91,16 @@
       "description": "Verificación automática de datos extraídos con reglas de negocio personalizables reduciendo errores y mejorando la confiabilidad"
     }
   },
+  "security": {
+    "title": "Seguridad y protección de datos",
+    "description": "DocumentoIQ combina IA asistiva con controles empresariales de seguridad, incluyendo cifrado, segregación de datos, auditoría y autenticación segura sobre Google Cloud.",
+    "link": "Explorar arquitectura y seguridad →"
+  },
   "cta": {
     "title": "¿Tienes un flujo documental personalizado?",
     "subtitle": "Nuestro equipo puede ayudarte a adaptar DocumentoIQ a procesos notariales, hipotecarios o legales específicos, integrándose a tu operación actual sin fricciones.",
     "buttonPrimary": "Hablar con un especialista",
-    "buttonSecondary": "Solicitar demo personalizada"
+    "buttonSecondary": "Solicitar demo personalizada",
+    "videoUrl": "https://www.youtube.com/embed/sXSjarKobU8"
   }
 }

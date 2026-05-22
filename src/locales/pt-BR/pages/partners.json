@@ -1,0 +1,127 @@
+{
+  "hero": {
+    "badge": "Programa de Partners DocumentoIQ",
+    "title": "Torne-se um Partner do DocumentoIQ",
+    "subtitle": "Impulsione soluções de inteligência documental baseadas em IA e participe da transformação digital das organizações na América Latina.",
+    "description": "O DocumentoIQ ajuda empresas e profissionais a analisar, organizar e automatizar processos documentais complexos por meio de inteligência artificial assistiva, mantendo sempre o controle humano em processos críticos.",
+    "ctaPrimary": "Falar com nossa equipe",
+    "ctaSecondary": "Saiba mais sobre o DocumentoIQ",
+    "microcopy": "Programa disponível para pessoas físicas e organizações."
+  },
+  "opportunity": {
+    "title": "A automação de documentos impulsionada por IA está acelerando na América Latina",
+    "description": "Milhares de organizações na região ainda dependem de processos documentais manuais, lentos e propensos a erros. Ao mesmo tempo, setores como jurídico, financeiro, compliance, seguros, imobiliário e operações corporativas estão acelerando a adoção de tecnologias de automação e inteligência artificial.",
+    "subtext": "O DocumentoIQ busca construir uma rede estratégica de partners para liderar esta transformação na região.",
+    "indicatorsTitle": "Indicadores de oportunidade",
+    "stats": [
+      {
+        "value": "+40.000",
+        "label": "Cartórios e escritórios documentais na LATAM"
+      },
+      {
+        "value": "Alta demanda",
+        "label": "Automação e eficiência documental"
+      },
+      {
+        "value": "Mercado em expansão",
+        "label": "IA aplicada a operações reais"
+      },
+      {
+        "value": "Oportunidade inicial",
+        "label": "Posicionamento estratégico regional"
+      }
+    ]
+  },
+  "benefits": {
+    "title": "Construa novas oportunidades em torno de IA e automação de documentos",
+    "items": [
+      {
+        "title": "Novas oportunidades de negócios",
+        "description": "Desenvolva novas linhas de negócios relacionadas à automação de documentos e inteligência artificial aplicada."
+      },
+      {
+        "title": "Receita recorrente",
+        "description": "Participe de modelos escaláveis com potencial de crescimento contínuo."
+      },
+      {
+        "title": "Mercado em expansão",
+        "description": "A transformação de documentos impulsionada por IA está apenas começando na América Latina."
+      },
+      {
+        "title": "Suporte e acompanhamento",
+        "description": "Trabalhe ao lado de uma equipe especializada em IA, automação de documentos e processos críticos."
+      },
+      {
+        "title": "Posicionamento estratégico",
+        "description": "Torne-se uma referência de inovação em seu setor ou mercado."
+      },
+      {
+        "title": "Modelos flexíveis",
+        "description": "Participe de acordo com o seu perfil comercial, técnico, consultivo ou estratégico."
+      }
+    ]
+  },
+  "whatYouGet": {
+    "title": "Ferramentas e suporte para crescer conosco",
+    "items": [
+      "Treinamento técnico e comercial",
+      "Materiais de vendas",
+      "Demos e acompanhamento",
+      "Suporte técnico",
+      "Onboarding especializado",
+      "Atualizações contínuas",
+      "Colaboração estratégica"
+    ]
+  },
+  "profiles": {
+    "title": "O programa é projetado tanto para pessoas físicas quanto para organizações",
+    "items": [
+      "Consultorias",
+      "Empresas de tecnologia",
+      "Integradores",
+      "Legaltechs",
+      "Especialistas em automação",
+      "Consultores independentes",
+      "Redes comerciais",
+      "Profissionais B2B"
+    ],
+    "footer": "Você não precisa ser uma grande empresa para participar. Buscamos parceiros interessados em gerar valor em torno da automação de documentos e inteligência artificial aplicada."
+  },
+  "process": {
+    "title": "Nosso processo de parceria",
+    "steps": [
+      {
+        "number": "1",
+        "title": "Passo 1 — Reunião inicial",
+        "description": "Conhecemos seu perfil, experiência e objetivos."
+      },
+      {
+        "number": "2",
+        "title": "Passo 2 — Avaliação de oportunidades",
+        "description": "Identificamos setores, casos de uso e possíveis modelos de colaboração."
+      },
+      {
+        "number": "3",
+        "title": "Passo 3 — Seleção de modelo",
+        "description": "Definimos o esquema de parceria mais adequado."
+      },
+      {
+        "number": "4",
+        "title": "Passo 4 — Onboarding e treinamento",
+        "description": "Nós o acompanhamos com treinamento técnico, comercial e materiais de apoio."
+      },
+      {
+        "number": "5",
+        "title": "Passo 5 — Início da colaboração",
+        "description": "Começamos a desenvolver oportunidades e estratégias conjuntas."
+      }
+    ]
+  },
+  "ctaFinal": {
+    "title": "Vamos construir juntos o futuro da inteligência documental",
+    "description": "O DocumentoIQ está criando uma rede estratégica de partners para acelerar a adoção da automação de documentos impulsionada por IA na América Latina. Junte-se a nós e participe da evolução de processos críticos em setores jurídicos, financeiros, corporativos e operacionais.",
+    "buttonPrimary": "Agendar reunião",
+    "buttonSecondary": "Saiba mais sobre o DocumentoIQ",
+    "microcopy": "Projetado para partners comerciais, estratégicos e tecnológicos."
+  }
+}

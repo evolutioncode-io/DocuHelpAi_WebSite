@@ -91,10 +91,16 @@
       "description": "Automatic verification of extracted data with customisable business rules"
     }
   },
+  "security": {
+    "title": "Security and data protection",
+    "description": "DocumentoIQ combines assistive AI with enterprise security controls, including encryption, data segregation, auditing and secure authentication on Google Cloud.",
+    "link": "Explore architecture and security →"
+  },
   "cta": {
     "title": "Do you have a custom document workflow?",
     "subtitle": "Our team can help you adapt DocumentoIQ to specific notarial, mortgage or legal processes, integrating into your current operation without friction.",
     "buttonPrimary": "Speak with a specialist",
-    "buttonSecondary": "Request personalised demo"
+    "buttonSecondary": "Request personalised demo",
+    "videoUrl": "https://www.youtube.com/embed/FLu8kk0iqjI"
   }
 }

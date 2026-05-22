@@ -11,7 +11,7 @@
   },
   "infrastructure": {
     "title": "How we protect our customers' information",
-    "description": "DocumentoIQ operates entirely on managed services from Google Cloud Platform (GCP), eliminating risks associated with physical servers or poorly managed local infrastructure. Furthermore, it uses certified enterprise services widely adopted by banks, insurers, and regulated organizations.",
+    "description": "DocumentoIQ operates entirely on managed services from Google Cloud Platform (GCP), eliminating risks associated with physical servers or poorly managed local infrastructure. Furthermore, it uses certified enterprise services widely adopted by banks, insurers, and regulated organisations.",
     "benefits": {
       "title": "Benefits for our customers",
       "items": [
@@ -50,7 +50,7 @@
     },
     "signedUrls": {
       "title": "Signed URLs and temporary access",
-      "description": "Document downloads and uploads use short-duration temporary links. This significantly reduces the risk of unauthorized access."
+      "description": "Document downloads and uploads use short-duration temporary links. This significantly reduces the risk of unauthorised access."
     }
   },
   "access": {
@@ -70,7 +70,7 @@
     },
     "isolation": {
       "title": "Total isolation between companies",
-      "description": "DocumentoIQ is built under a multi-tenant architecture (also called \"multi-client\"), where each company operates within its own isolated logical space, separated from the rest of the organizations using the platform."
+      "description": "DocumentoIQ is built under a multi-tenant architecture (also called \"multi-client\"), where each company operates within its own isolated logical space, separated from the rest of the organisations using the platform."
     },
     "audit": {
       "title": "Audit logs",
@@ -126,7 +126,7 @@
   },
   "cta": {
     "title": "Security designed for critical documents",
-    "description": "DocumentoIQ was created for organizations working with sensitive information that require precision, traceability, and control at every stage of document processing.",
+    "description": "DocumentoIQ was created for organisations working with sensitive information that require precision, traceability, and control at every stage of document processing.",
     "button": "Request Demo",
     "microcopy": "Available for due diligence processes and provider evaluations."
   },
