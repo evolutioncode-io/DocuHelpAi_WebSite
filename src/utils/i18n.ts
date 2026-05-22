@@ -50,6 +50,9 @@ import cookiesPtBr from '../locales/pt-BR/pages/cookies.json'
 import securityEn from '../locales/en/pages/security.json'
 import securityEs from '../locales/es/pages/security.json'
 import securityPtBr from '../locales/pt-BR/pages/security.json'
+import partnersEn from '../locales/en/pages/partners.json'
+import partnersEs from '../locales/es/pages/partners.json'
+import partnersPtBr from '../locales/pt-BR/pages/partners.json'
 import blog00IdpEn from '../locales/en/blogs/00-IDP.json'
 import blog00IdpEs from '../locales/es/blogs/00-IDP.json'
 import blog00IdpPtBr from '../locales/pt-BR/blogs/00-IDP.json'
@@ -117,6 +120,17 @@ import metaEnGb from '../locales/en-GB/meta.json'
 import homeEnGb from '../locales/en-GB/pages/home.json'
 import aboutEnGb from '../locales/en-GB/pages/about.json'
 import productEnGb from '../locales/en-GB/pages/product.json'
+import securityEnGb from '../locales/en-GB/pages/security.json'
+import partnersEnGb from '../locales/en-GB/pages/partners.json'
+import contactEnGb from '../locales/en-GB/pages/contact.json'
+import blogEnGb from '../locales/en-GB/pages/blog.json'
+import privacyEnGb from '../locales/en-GB/pages/privacy.json'
+import termsEnGb from '../locales/en-GB/pages/terms.json'
+import cookiesEnGb from '../locales/en-GB/pages/cookies.json'
+import useCasesEnGb from '../locales/en-GB/pages/useCases.json'
+import howWeWorkEnGb from '../locales/en-GB/pages/howWeWork.json'
+import notariesEnGb from '../locales/en-GB/pages/notaries.json'
+import bankingEnGb from '../locales/en-GB/pages/banking.json'
 
 export const supportedLanguages = ['en', 'en-GB', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
@@ -158,6 +172,7 @@ const resources = {
     terms: termsEn,
     cookies: cookiesEn,
     security: securityEn,
+    partners: partnersEn,
     blog_00_IDP: blog00IdpEn,
     blog_01_invest: blog01InvestEn,
     blog_02_solutions: blog02SolutionsEn,
@@ -196,6 +211,7 @@ const resources = {
     terms: termsEs,
     cookies: cookiesEs,
     security: securityEs,
+    partners: partnersEs,
     blog_00_IDP: blog00IdpEs,
     blog_01_invest: blog01InvestEs,
     blog_02_solutions: blog02SolutionsEs,
@@ -234,6 +250,7 @@ const resources = {
     terms: termsPtBr,
     cookies: cookiesPtBr,
     security: securityPtBr,
+    partners: partnersPtBr,
     blog_00_IDP: blog00IdpPtBr,
     blog_01_invest: blog01InvestPtBr,
     blog_02_solutions: blog02SolutionsPtBr,
@@ -262,7 +279,18 @@ const resources = {
     home: homeEnGb,
     product: productEnGb,
     about: aboutEnGb,
-    // The rest will fall back to 'en' automatically via i18next fallbackLng configuration
+    security: securityEnGb,
+    partners: partnersEnGb,
+    contact: contactEnGb,
+    blog: blogEnGb,
+    privacy: privacyEnGb,
+    terms: termsEnGb,
+    cookies: cookiesEnGb,
+    useCases: useCasesEnGb,
+    howWeWork: howWeWorkEnGb,
+    notaries: notariesEnGb,
+    banking: bankingEnGb,
+    // Blog post namespaces fall back to 'en' automatically via i18next fallbackLng
   },
 }
 

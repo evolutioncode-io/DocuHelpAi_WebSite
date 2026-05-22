@@ -21,6 +21,7 @@ const Privacy = lazy(() => import('./pages/Privacy'))
 const Terms = lazy(() => import('./pages/Terms'))
 const Cookies = lazy(() => import('./pages/Cookies'))
 const Security = lazy(() => import('./pages/Security'))
+const Partners = lazy(() => import('./pages/Partners'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
 const HowWeWork = lazy(() => import('./pages/HowWeWork'))
 import heroImageIdp from './assets/blog_images/00_art.png'
@@ -104,6 +105,7 @@ function App() {
             <Route path="terms" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
             <Route path="security" element={<Security />} />
+            <Route path="partners" element={<Partners />} />
             <Route
               path="blog/what-is-intelligent-document-processing-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
@@ -163,6 +165,7 @@ function App() {
             <Route path="terminos" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
             <Route path="seguridad" element={<Security />} />
+            <Route path="partners" element={<Partners />} />
             <Route
               path="blog/que-es-procesamiento-inteligente-documentos-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
@@ -222,6 +225,7 @@ function App() {
             <Route path="termos" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
             <Route path="seguranca" element={<Security />} />
+            <Route path="partners" element={<Partners />} />
             <Route
               path="blog/o-que-e-processamento-inteligente-documentos-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
@@ -284,6 +288,7 @@ function App() {
             <Route path="terms" element={<Terms />} />
             <Route path="cookies" element={<Cookies />} />
             <Route path="security" element={<Security />} />
+            <Route path="partners" element={<Partners />} />
             <Route
               path="blog/what-is-intelligent-document-processing-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}

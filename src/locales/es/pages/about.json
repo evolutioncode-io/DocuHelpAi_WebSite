@@ -91,6 +91,11 @@
       "description": "Soporte nativo para español e inglés, con comprensión profunda de la terminología y contextos legales."
     }
   },
+  "partnersBanner": {
+    "title": "Lleva soluciones de IA a tu mercado",
+    "description": "Únete a la red de partners DocumentoIQ y desarrolla nuevas oportunidades de negocio alrededor de automatización e inteligencia documental.",
+    "link": "Conocer más →"
+  },
   "cta": {
     "title": "¿Quieres colaborar con nosotros?",
     "subtitle": "Buscamos aliados estratégicos, integradores y distribuidores interesados en llevar la automatización documental con IA a sectores donde la precisión y el control humano son críticos. Escríbenos y conversemos.",

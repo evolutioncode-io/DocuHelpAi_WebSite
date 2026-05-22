@@ -2,7 +2,7 @@
     "hero": {
         "badge": "Intelligent Notarial Document Analysis",
         "title": "Notaries",
-        "subtitle": "DocumentoIQ Notaries assists in the analysis, extraction, and validation of key information from complex deeds and notarial documents, reducing time and errors without replacing the notary's judgment.",
+        "subtitle": "DocumentoIQ Notaries assists in the analysis, extraction, and validation of key information from complex deeds and notarial documents, reducing time and errors without replacing the notary's judgement.",
         "microcopy": "Designed for deeds, powers of attorney, sales contracts, and notarial protocols.",
         "primaryCta": "Request demo for notaries",
         "secondaryCta": "See how it works with a power of attorney",
@@ -10,7 +10,7 @@
     },
     "whatIs": {
         "title": "What is DocumentoIQ Notaries?",
-        "description": "DocumentoIQ Notaries is the specialized DocumentoIQ product designed specifically for notaries. It uses artificial intelligence to analyze extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
+        "description": "DocumentoIQ Notaries is the specialised DocumentoIQ product designed specifically for notaries. It uses artificial intelligence to analyse extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
         "disclaimer": "DocumentoIQ Notaries does not replace the notary. It functions as an intelligent assistant that reduces manual workload and errors in document review."
     },
     "howItWorks": {
@@ -22,7 +22,7 @@
                 "footer": "Supported formats: PDF, JPG, PNG, TIFF"
             },
             "step2": {
-                "title": "2. Processing with specialized AI",
+                "title": "2. Processing with specialised AI",
                 "intro": "DocumentoIQ Notaries combines advanced OCR with language models trained to understand notarial documents, automatically identifying:",
                 "items": [
                     "Involved parties",
@@ -54,7 +54,7 @@
             "items": [
                 "Over 90% accuracy in notarial documents",
                 "Advanced OCR for scanned or low-quality documents",
-                "Flexible extraction of customizable notarial fields",
+                "Flexible extraction of customisable notarial fields",
                 "Visual panel for optional manual review",
                 "Immediate export (Excel, CSV, JSON)",
                 "Integration via API and Zapier"
@@ -78,17 +78,17 @@
             },
             "wills": {
                 "title": "Wills",
-                "description": "Structured review of wills to identify provisions, heirs, assets, and special conditions, helping to minimize formal errors in legally sensitive documents."
+                "description": "Structured review of wills to identify provisions, heirs, assets, and special conditions, helping to minimise formal errors in legally sensitive documents."
             }
         }
     },
     "brand": {
         "title": "DocumentoIQ Notaries is part of the DocumentoIQ ecosystem",
-        "tagline": "A single technological base. Specialized products for critical sectors."
+        "tagline": "A single technological base. Specialised products for critical sectors."
     },
     "cta": {
-        "title": "Optimize notarial document analysis with DocumentoIQ Notaries",
-        "subtitle": "Request a personalized demo and discover how DocumentoIQ Notaries can help you reduce time, errors, and operational load in your notary's office, always maintaining professional control.",
+        "title": "Optimise notarial document analysis with DocumentoIQ Notaries",
+        "subtitle": "Request a personalised demo and discover how DocumentoIQ Notaries can help you reduce time, errors, and operational load in your notary's office, always maintaining professional control.",
         "button": "Request demo for notaries",
         "microcopy": "Demo focused on real notarial documents.",
         "videoUrl": "https://www.youtube.com/embed/Oi8MrZS8zek"

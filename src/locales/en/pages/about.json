@@ -91,6 +91,11 @@
       "description": "Native support for Spanish and English with deep understanding of terminology and contexts."
     }
   },
+  "partnersBanner": {
+    "title": "Bring AI solutions to your market",
+    "description": "Join the DocumentoIQ partner network and develop new business opportunities around document automation and intelligence.",
+    "link": "Learn more →"
+  },
   "cta": {
     "title": "Want to collaborate with us?",
     "subtitle": "We are looking for strategic partners, integrators and distributors interested in bringing AI document automation to sectors where precision and human control are critical. Write to us and let's talk.",

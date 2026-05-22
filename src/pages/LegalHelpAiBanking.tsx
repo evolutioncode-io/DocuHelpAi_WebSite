@@ -8,6 +8,7 @@ import logoBlack from '../assets/logos/Documento_IQ_black.png'
 
 function DocumentoIqBanking() {
     const { t } = useTranslation('banking')
+    const { t: tProduct } = useTranslation('product')
     const { getLocalizedRoute } = useLanguage()
 
     usePageMetadata({
@@ -246,6 +247,19 @@ function DocumentoIqBanking() {
                             {t('brand.tagline')}
                         </p>
                     </div>
+                </div>
+            </section>
+
+            {/* Seguridad */}
+            <section className="py-20 bg-surface border-t border-ui">
+                <div className="max-w-4xl mx-auto px-6 text-center">
+                    <h2 className="text-4xl font-bold mb-6 text-heading">{tProduct('security.title')}</h2>
+                    <p className="text-xl text-body mb-8 leading-relaxed">
+                        {tProduct('security.description')}
+                    </p>
+                    <Link to={getLocalizedRoute('security')} className="link font-bold text-lg hover:underline">
+                        {tProduct('security.link')}
+                    </Link>
                 </div>
             </section>
 

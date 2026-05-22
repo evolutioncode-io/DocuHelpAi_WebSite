@@ -246,6 +246,18 @@ function Product() {
         </div>
       </section>
 
+      <section className="py-20 bg-surface border-t border-ui">
+        <div className="max-w-4xl mx-auto px-6 text-center">
+          <h2 className="text-4xl font-bold mb-6 text-heading">{t('security.title')}</h2>
+          <p className="text-xl text-body mb-8 leading-relaxed">
+            {t('security.description')}
+          </p>
+          <Link to={getLocalizedRoute('security')} className="link font-bold text-lg hover:underline">
+            {t('security.link')}
+          </Link>
+        </div>
+      </section>
+
       <section className="bg-[color:var(--color-neutral-900)] py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
@@ -258,7 +270,7 @@ function Product() {
             <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
               <iframe
                 className="absolute top-0 left-0 w-full h-full rounded-2xl shadow-2xl"
-                src="https://www.youtube.com/embed/0_qIE1Bag6s"
+                src={t('cta.videoUrl')}
                 title="DocuHelp AI Demo"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

@@ -41,8 +41,12 @@
     "description": "Understand how DocumentoIQ uses cookies and similar technologies to improve your experience and platform functionality."
   },
   "security": {
-    "title": "Security Policy | DocumentoIQ - Data Protection and Security",
-    "description": "DocumentoIQ's security measures, encryption standards, and commitment to protecting your documents and data."
+    "title": "Security and Data Protection | DocumentoIQ",
+    "description": "Learn how DocumentoIQ protects your information with Google Cloud infrastructure, advanced encryption, and granular access control."
+  },
+  "partners": {
+    "title": "Partners Program | DocumentoIQ - AI Automation",
+    "description": "Join the DocumentoIQ Partners program. Build new business opportunities in Latin America with artificial intelligence and document automation."
   }
 }
 
