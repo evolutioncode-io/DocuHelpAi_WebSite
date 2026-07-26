@@ -1,0 +1,114 @@
+{
+  "sidebar": {
+    "documentoIQ": "DocumentoIQ",
+    "partnerPortal": "Partner Portal",
+    "menu": "Menu",
+    "principal": "Principal",
+    "dashboard": "Dashboard",
+    "resourceCenter": "Resource Center",
+    "academy": "Academy",
+    "recursos": "Resources",
+    "videos": "Videos",
+    "guia": "Guías",
+    "brandAssets": "Brand Assets",
+    "backToHome": "Log out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome to the partner control panel.",
+    "activeClients": "Active clients",
+    "trainingsCompleted": "Completed trainings",
+    "resourcesDownloaded": "Resources downloaded",
+    "revenueGenerated": "Revenue generated",
+    "thisMonth": "this month",
+    "goToResourceCenter": "Go to Resource Center"
+  },
+  "resourceCenter": {
+    "title": "Resource Center",
+    "subtitle": "Find official materials of DocumentoIQ to support your commercial conversations, present the solution and share key information with prospects and clients.",
+    "search": "Search resources, decks, videos, onepagers…",
+    "featured": "Featured Resources",
+    "viewResource": "View resource",
+    "viewVideo": "Watch video",
+    "results": "Resource Library",
+    "resources": "resources",
+    "noResults": "No results found",
+    "noResultsSub": "Try searching another term or clear the filters.",
+    "clearFilters": "Clear filters",
+    "stats": {
+      "available": "materials available",
+      "language": "Language: Spanish",
+      "exclusive": "Exclusive use for Partners"
+    },
+    "filters": {
+      "all": "All",
+      "general": "General",
+      "banking": "Banking",
+      "notarial": "Notaries",
+      "pitch": "Pitch",
+      "onboarding": "Onboarding",
+      "brand": "Brand",
+      "videos": "Videos",
+      "guides": "Onepagers",
+      "logos": "Logos",
+      "solutionLabel": "Solution:",
+      "typeLabel": "Type:",
+      "allTypes": "All types"
+    },
+    "modal": {
+      "file": "File",
+      "duration": "Duration",
+      "stage": "Stage",
+      "recommended": "Recommended use",
+      "type": "Type",
+      "solution": "Solution",
+      "language": "Language",
+      "languageVal": "Spanish",
+      "description": "Description",
+      "notice": "This material is for the exclusive use of authorized partners of DocumentoIQ and must be used solely for commercial purposes related to the promotion of the platform.",
+      "download": "Download file",
+      "watchYoutube": "Watch on YouTube",
+      "preview": "Preview",
+      "copyLink": "Copy link",
+      "copied": "Copied!",
+      "back": "Back to library"
+    }
+  },
+  "login": {
+  "title": "Partner Portal",
+  "subtitle": "Sign in to access your resources",
+  "email": "Email",
+  "emailPlaceholder": "your@email.com",
+  "password": "Password",
+  "passwordPlaceholder": "••••••••",
+  "submit": "Sign in",
+  "submitting": "Signing in...",
+  "backToPartners": "← Back to Partners",
+  "errors": {
+    "invalidCredential": "Incorrect email or password",
+    "userNotFound": "No account found with this email",
+    "tooManyRequests": "Too many attempts. Try again later.",
+    "notPartner": "Unexpected error check your credentials and try again"
+  }
+},
+"academy": {
+    "title": "Academy",
+    "modules": "Modules",
+    "evaluation": "Evaluation",
+    "submit": "Submit answers",
+    "retry": "Retry",
+    "correct": "correct",
+    "excellent": "Excellent. You have successfully completed the module.",
+    "approved": "You passed the module. We recommend reviewing the main concepts before continuing.",
+    "failed": "We recommend reviewing the module content and trying again.",
+    "badge": "Badge",
+    "comingSoon": "This module is being prepared.",
+    "modulesList": {
+      "mod1": "Module 1 — DocumentoIQ Fundamentals",
+      "mod2": "Module 2 — Artificial Intelligence Applied to Documents",
+      "mod3": "Module 3 — Security and Confidentiality",
+      "mod4": "Module 4 — Specialized DocumentoIQ Solutions",
+      "mod5": "Module 5 — How to Sell DocumentoIQ"
+    }
+  }
+}

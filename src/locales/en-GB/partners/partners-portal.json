@@ -1,0 +1,114 @@
+{
+  "sidebar": {
+    "documentoIQ": "DocumentoIQ",
+    "partnerPortal": "Partner Portal",
+    "menu": "Menu",
+    "principal": "Principal",
+    "dashboard": "Dashboard",
+    "resourceCenter": "Resource Centre",
+    "academy": "Academy",
+    "recursos": "Resources",
+    "videos": "Videos",
+    "guia": "Guides",
+    "brandAssets": "Brand Assets",
+    "backToHome": "Log out"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Welcome to the partner control panel.",
+    "activeClients": "Active clients",
+    "trainingsCompleted": "Completed trainings",
+    "resourcesDownloaded": "Resources downloaded",
+    "revenueGenerated": "Revenue generated",
+    "thisMonth": "this month",
+    "goToResourceCenter": "Go to Resource Centre"
+  },
+  "resourceCenter": {
+    "title": "Resource Centre",
+    "subtitle": "Find everything you need to train your clients: presentations, guides, videos and brand resources.",
+    "search": "Search resources...",
+    "featured": "Featured resource",
+    "viewResource": "View resource",
+    "viewVideo": "View video",
+    "results": "Results",
+    "resources": "resources",
+    "noResults": "No resources found.",
+    "noResultsSub": "Try another term or clear your filters.",
+    "clearFilters": "Clear filters",
+    "stats": {
+      "available": "materials available",
+      "language": "Language: English",
+      "exclusive": "Exclusive for Partners"
+    },
+    "filters": {
+      "all": "All",
+      "general": "General",
+      "banking": "Banking",
+      "notarial": "Notarial",
+      "pitch": "Pitch",
+      "onboarding": "Onboarding",
+      "brand": "Brand",
+      "videos": "Videos",
+      "guides": "Onepagers",
+      "logos": "Logos",
+      "solutionLabel": "Solution:",
+      "typeLabel": "Type:",
+      "allTypes": "All types"
+    },
+    "modal": {
+      "file": "File",
+      "duration": "Duration",
+      "stage": "Stage",
+      "recommended": "Recommended use",
+      "type": "Type",
+      "solution": "Solution",
+      "language": "Language",
+      "languageVal": "English",
+      "description": "Description",
+      "notice": "This material is for exclusive use by authorised DocumentoIQ partners and should only be used for commercial purposes related to promoting the platform.",
+      "download": "Download file",
+      "watchYoutube": "Watch on YouTube",
+      "preview": "Preview",
+      "copyLink": "Copy link",
+      "copied": "Copied!",
+      "back": "Back to library"
+    }
+  },
+  "login": {
+    "title": "Partner Portal",
+    "subtitle": "Sign in to access your resources",
+    "email": "Email",
+    "emailPlaceholder": "your@email.com",
+    "password": "Password",
+    "passwordPlaceholder": "••••••••",
+    "submit": "Sign in",
+    "submitting": "Signing in...",
+    "backToPartners": "← Back to Partners",
+    "errors": {
+      "invalidCredential": "Incorrect email or password",
+      "userNotFound": "No account found with this email",
+      "tooManyRequests": "Too many attempts. Try again later.",
+      "notPartner": "Unexpected error check your credentials and try again"
+    }
+  },
+  "academy": {
+    "title": "Academy",
+    "modules": "Modules",
+    "evaluation": "Evaluation",
+    "submit": "Submit answers",
+    "retry": "Retry",
+    "correct": "correct",
+    "excellent": "Excellent. You have successfully completed the module.",
+    "approved": "You passed the module. We recommend reviewing the main concepts before continuing.",
+    "failed": "We recommend reviewing the module content and trying again.",
+    "badge": "Badge",
+    "comingSoon": "This module is in preparation.",
+    "modulesList": {
+      "mod1": "Module 1 — DocumentoIQ Fundamentals",
+      "mod2": "Module 2 — Artificial Intelligence Applied to Documents",
+      "mod3": "Module 3 — Security and Confidentiality",
+      "mod4": "Module 4 — Specialised DocumentoIQ Solutions",
+      "mod5": "Module 5 — How to Sell DocumentoIQ"
+    }
+  }
+}

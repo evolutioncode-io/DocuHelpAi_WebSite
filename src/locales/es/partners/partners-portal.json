@@ -1,0 +1,114 @@
+{
+  "sidebar": {
+    "documentoIQ": "DocumentoIQ",
+    "partnerPortal": "Partner Portal",
+    "menu": "Menú",
+    "principal": "Principal",
+    "dashboard": "Dashboard",
+    "resourceCenter": "Resource Center",
+    "academy": "Academy",
+    "recursos": "Recursos",
+    "videos": "Videos",
+    "guia": "Guías",
+    "brandAssets": "Brand Assets",
+    "backToHome": "Cerrar sesión"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Bienvenido al panel de control de partners.",
+    "activeClients": "Clientes activos",
+    "trainingsCompleted": "Capacitaciones completadas",
+    "resourcesDownloaded": "Recursos descargados",
+    "revenueGenerated": "Ingresos generados",
+    "thisMonth": "este mes",
+    "goToResourceCenter": "Ir al Resource Center"
+  },
+  "resourceCenter": {
+    "title": "Resource Center",
+    "subtitle": "Encuentra materiales oficiales de DocumentoIQ para apoyar tus conversaciones comerciales, presentar la solución y compartir información clave con prospectos y clientes.",
+    "search": "Buscar recursos, decks, videos, onepagers…",
+    "featured": "Recursos Destacados",
+    "viewResource": "Ver recurso",
+    "viewVideo": "Ver video",
+    "results": "Biblioteca de Recursos",
+    "resources": "recursos",
+    "noResults": "Sin resultados",
+    "noResultsSub": "Intenta con otro término o cambia los filtros.",
+    "clearFilters": "Limpiar filtros",
+    "stats": {
+      "available": "materiales disponibles",
+      "language": "Idioma: Español",
+      "exclusive": "Uso exclusivo para Partners"
+    },
+    "filters": {
+      "all": "Todos",
+      "general": "General",
+      "banking": "Banca",
+      "notarial": "Notarías",
+      "pitch": "Pitch",
+      "onboarding": "Onboarding",
+      "brand": "Brand",
+      "videos": "Videos",
+      "guides": "Onepagers",
+      "logos": "Logos",
+      "solutionLabel": "Solución:",
+      "typeLabel": "Tipo:",
+      "allTypes": "Todos los tipos"
+    },
+    "modal": {
+      "file": "Archivo",
+      "duration": "Duración",
+      "stage": "Etapa",
+      "recommended": "Uso recomendado",
+      "type": "Tipo",
+      "solution": "Solución",
+      "language": "Idioma",
+      "languageVal": "Español",
+      "description": "Descripción",
+      "notice": "Este material es de uso exclusivo para partners autorizados de DocumentoIQ y debe utilizarse únicamente con fines comerciales relacionados con la promoción de la plataforma.",
+      "download": "Descargar archivo",
+      "watchYoutube": "Ver en YouTube",
+      "preview": "Preview",
+      "copyLink": "Copiar link",
+      "copied": "¡Copiado!",
+      "back": "Volver a biblioteca"
+    }
+  },
+  "login": {
+  "title": "Partner Portal",
+  "subtitle": "Inicia sesión para acceder a tus recursos",
+  "email": "Email",
+  "emailPlaceholder": "tu@email.com",
+  "password": "Contraseña",
+  "passwordPlaceholder": "••••••••",
+  "submit": "Iniciar sesión",
+  "submitting": "Iniciando sesión...",
+  "backToPartners": "← Volver a Partners",
+  "errors": {
+    "invalidCredential": "Email o contraseña incorrectos",
+    "userNotFound": "No existe una cuenta con este email",
+    "tooManyRequests": "Demasiados intentos. Intenta más tarde.",
+    "notPartner": "Error inesperado. Compruebe sus credenciales e inténtelo de nuevo."
+  }
+},
+"academy": {
+    "title": "Academy",
+    "modules": "Módulos",
+    "evaluation": "Evaluación",
+    "submit": "Enviar respuestas",
+    "retry": "Reintentar",
+    "correct": "correctas",
+    "excellent": "Excelente. Has completado satisfactoriamente el módulo.",
+    "approved": "Has aprobado el módulo. Te recomendamos revisar nuevamente los conceptos principales antes de continuar.",
+    "failed": "Te recomendamos repasar el contenido del módulo y volver a intentar la evaluación.",
+    "badge": "Badge",
+    "comingSoon": "Este módulo se encuentra en preparación.",
+    "modulesList": {
+      "mod1": "Módulo 1 — Fundamentos de DocumentoIQ",
+      "mod2": "Módulo 2 — Inteligencia Artificial Aplicada a Documentos",
+      "mod3": "Módulo 3 — Seguridad y Confidencialidad",
+      "mod4": "Módulo 4 — Soluciones Especializadas DocumentoIQ",
+      "mod5": "Módulo 5 — Cómo Vender DocumentoIQ"
+    }
+  }
+}

@@ -15,6 +15,7 @@ const mobileNavLinkClasses =
 
 function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
   const location = useLocation()
   const { t } = useTranslation('common')
   const { getLocalizedRoute } = useLanguage()
@@ -32,7 +33,6 @@ function Layout() {
     { labelKey: 'nav.blog', pathKey: 'blog' as const },
     { labelKey: 'nav.about', pathKey: 'about' as const },
     { labelKey: 'nav.contact', pathKey: 'contact' as const },
-    { labelKey: 'nav.partners', pathKey: 'partners' as const },
   ]
 
   return (
@@ -63,6 +63,36 @@ function Layout() {
                   {t(item.labelKey)}
                 </NavLink>
               ))}
+
+              {/* Partners dropdown */}
+              <div className="relative group">
+                <NavLink
+                  to={getLocalizedRoute('partners')}
+                  className={({ isActive }) =>
+                    `${baseNavLinkClasses} flex items-center gap-1 ${isActive ? 'text-[color:var(--color-accent-700)]' : ''}`
+                  }
+                >
+                  {t('nav.partners')}
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </NavLink>
+
+                <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-xl shadow-lg border border-ui py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                    <NavLink
+                      to={getLocalizedRoute('partners')}
+                      className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors"
+                    >
+                      {t('nav.partnersProgram')}
+                    </NavLink>
+                    <Link
+                      to="/partners/login"
+                      className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors"
+                    >
+                      {t('nav.partnersLogin')}
+                    </Link>
+                  </div>
+              </div>
             </div>
 
             <div className="hidden lg:flex items-center gap-4">
@@ -106,6 +136,19 @@ function Layout() {
                     {t(item.labelKey)}
                   </NavLink>
                 ))}
+                <NavLink
+                  to={getLocalizedRoute('partners')}
+                  onClick={() => setMobileMenuOpen(false)}
+                  className={mobileNavLinkClasses}
+                >
+                  {t('nav.partnersProgram')}
+                </NavLink>
+                <Link
+                  to="/partners/login"
+                  className={mobileNavLinkClasses}
+                >
+                  {t('nav.partnersLogin')}
+                </Link>
                 <div className="flex items-center justify-between mt-2">
                   <LanguageSelector />
                   <a href="https://meetings.hubspot.com/hpensado3" target="_blank" rel="noopener noreferrer">
@@ -240,4 +283,3 @@ function Layout() {
 }
 
 export default Layout
-

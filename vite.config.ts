@@ -1,9 +1,19 @@
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
+import { fileURLToPath } from 'url'
+import { dirname, resolve } from 'path'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: {
+      '@': resolve(__dirname, './src'),
+    },
+  },
   preview: {
     port: 4173,
     strictPort: true,
@@ -27,7 +37,7 @@ export default defineConfig({
     // Enable minification (using esbuild - faster and built-in)
     minify: 'esbuild',
     // Remove console.logs in production via esbuild
-    target: 'es2015',
+    target: 'es2020',
   },
   // Performance optimizations
   optimizeDeps: {

@@ -7,7 +7,7 @@
   "featured": {
     "badge": "Featured",
     "title": "What is Intelligent Document Processing (IDP)?",
-    "description": "A complete guide to understanding how AI can transform the reading and data extraction from PDF documents.",
+    "description": "A complete guide to understanding how AI can transform reading and data extraction from PDF documents.",
     "cta": "Read more →",
     "topics": {
       "one": "Differences between traditional OCR and AI",
@@ -24,7 +24,7 @@
     "legal": {
       "emoji": "",
       "label": "Solutions",
-      "title": "Custom AI Solutions: How to Power Up Your Business with Personalised Artificial Intelligence",
+      "title": "Custom AI Solutions: How to Power Up Your Business with Personalized Artificial Intelligence",
       "description": "Discover how personalised AI improves efficiency and reduces errors in critical processes and complex documents."
     },
     "notarial": {
@@ -78,5 +78,6 @@
     "placeholder": "your@email.com",
     "button": "Subscribe",
     "disclaimer": "No spam. Only valuable content. Cancel anytime."
-  }
+  },
+  "backToBlog": "Back to Blog"
 }

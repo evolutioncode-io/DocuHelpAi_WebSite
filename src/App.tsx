@@ -6,6 +6,7 @@ import Layout from './components/Layout'
 import LocalizedRoutes from './components/LocalizedRoutes'
 import ScrollToTop from './components/ScrollToTop'
 import { normalizeLanguage } from './hooks/useLanguage'
+import { AuthProvider } from './providers/AuthProvider'
 
 
 // Lazy load pages for better code splitting and performance
@@ -24,6 +25,8 @@ const Security = lazy(() => import('./pages/Security'))
 const Partners = lazy(() => import('./pages/Partners'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
 const HowWeWork = lazy(() => import('./pages/HowWeWork'))
+const PartnerLogin = lazy(() => import('./pages/partners/PartnerLogin'))
+const PartnerLayout = lazy(() => import('./pages/partners/PartnerLayout'))
 import heroImageIdp from './assets/blog_images/00_art.png'
 import heroImageInvest from './assets/blog_images/01_art.png'
 import heroImageCustomAi from './assets/blog_images/02_art.png'
@@ -268,6 +271,10 @@ function App() {
             />
           </Route>
         </Route>
+
+        {/* Partner portal */}
+        <Route path="/partners/login" element={<PartnerLogin />} />
+        <Route path="/partners/portal" element={<AuthProvider><PartnerLayout /></AuthProvider>} />
 
         {/* 404 */}
         <Route path="*" element={<NotFound />} />

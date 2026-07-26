@@ -78,5 +78,6 @@
     "placeholder": "tu@email.com",
     "button": "Suscribirse",
     "disclaimer": "Sin spam. Solo contenido valioso. Cancela cuando quieras."
-  }
+  },
+  "backToBlog": "Volver al Blog"
 }
