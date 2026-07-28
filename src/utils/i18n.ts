@@ -143,6 +143,26 @@ import bankingEnGb from '../locales/en-GB/pages/banking.json'
 import partnersPortalEnGb from '../locales/en-GB/partners/partners-portal.json'
 import academyEnGb from '../locales/en-GB/partners/academy.json'
 import resourcesEnGb from '../locales/en-GB/partners/resources.json'
+import blog00IdpEnGb from '../locales/en-GB/blogs/00-IDP.json'
+import blog01InvestEnGb from '../locales/en-GB/blogs/01-invest.json'
+import blog02SolutionsEnGb from '../locales/en-GB/blogs/02_solutions.json'
+import blog03FutureEnGb from '../locales/en-GB/blogs/03_future.json'
+import blog04BeyondEnGb from '../locales/en-GB/blogs/03_beyond.json'
+import blog05ProcedureEnGb from '../locales/en-GB/blogs/05_procedure.json'
+import blog06HumanEnGb from '../locales/en-GB/blogs/06_human.json'
+import blog07CustomEnGb from '../locales/en-GB/blogs/07_custom.json'
+import blog08AiActionEnGb from '../locales/en-GB/blogs/08_ai_action.json'
+import blog09ResourcesEnGb from '../locales/en-GB/blogs/09_resources.json'
+import meta00IdpEnGb from '../locales/en-GB/metadata/00-IDP.json'
+import meta01InvestEnGb from '../locales/en-GB/metadata/01-invest.json'
+import meta02SolutionsEnGb from '../locales/en-GB/metadata/02_solutions.json'
+import meta03FutureEnGb from '../locales/en-GB/metadata/03_future.json'
+import meta04BeyondEnGb from '../locales/en-GB/metadata/04_beyond.json'
+import meta05ProcedureEnGb from '../locales/en-GB/metadata/05_procedure.json'
+import meta06HumanEnGb from '../locales/en-GB/metadata/06_human.json'
+import meta07CustomEnGb from '../locales/en-GB/metadata/07_custom.json'
+import meta08AiActionEnGb from '../locales/en-GB/metadata/08_ai_action.json'
+import meta09ResourcesEnGb from '../locales/en-GB/metadata/09_resources.json'
 
 export const supportedLanguages = ['en', 'en-GB', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
@@ -229,6 +249,16 @@ const resources = {
     useCases: useCasesEnGb, howWeWork: howWeWorkEnGb,
     notaries: notariesEnGb, banking: bankingEnGb,
     'partners-portal': partnersPortalEnGb, academy: academyEnGb, resources: resourcesEnGb,
+    blog_00_IDP: blog00IdpEnGb, blog_01_invest: blog01InvestEnGb,
+    blog_02_solutions: blog02SolutionsEnGb, blog_03_future: blog03FutureEnGb,
+    blog_04_beyond: blog04BeyondEnGb, blog_05_procedure: blog05ProcedureEnGb,
+    blog_06_human: blog06HumanEnGb, blog_07_custom: blog07CustomEnGb,
+    blog_08_ai_action: blog08AiActionEnGb, blog_09_resources: blog09ResourcesEnGb,
+    meta_00_IDP: meta00IdpEnGb, meta_01_invest: meta01InvestEnGb,
+    meta_02_solutions: meta02SolutionsEnGb, meta_03_future: meta03FutureEnGb,
+    meta_04_beyond: meta04BeyondEnGb, meta_05_procedure: meta05ProcedureEnGb,
+    meta_06_human: meta06HumanEnGb, meta_07_custom: meta07CustomEnGb,
+    meta_08_ai_action: meta08AiActionEnGb, meta_09_resources: meta09ResourcesEnGb,
   },
 }
 
