@@ -27,3 +27,7 @@ dist-ssr
 # execution cache 
 **/npm-cache/
 UsersHPAppDataRoamingnpm-cache/
+
+# env variables
+.env
+.env.*

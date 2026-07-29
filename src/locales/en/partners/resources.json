@@ -1,0 +1,200 @@
+{
+  "pitch": {
+    "title": "Pitch",
+    "desc": "Presentations for prospect meetings.",
+    "resources": [
+      {
+        "id": "p1",
+        "sectionLabel": "Pitch",
+        "type": "presentation",
+        "typeLabel": "Deck",
+        "title": "DocumentoIQ — Sales Deck",
+        "desc": "Full sales deck.",
+        "longDesc": "Complete sales deck with positioning, key features, pricing and success stories.",
+        "stage": "Prospecting",
+        "file": "/files/resources/en/DocumentoIQ - Intro - Deck.pdf",
+        "recommended": "First meeting with prospect.",
+        "featured": true
+      },
+      {
+        "id": "p2",
+        "sectionLabel": "Pitch",
+        "type": "presentation",
+        "typeLabel": "Deck",
+        "title": "DocumentoIQ — One Pager",
+        "desc": "One page executive summary.",
+        "longDesc": "One page summary with key points: problem, solution, ROI and use cases.",
+        "stage": "Prospecting",
+        "file": "/files/resources/en/DocumentoIQ - Onepager.pdf",
+        "recommended": "Leave-behind after meeting."
+      }
+    ]
+  },
+
+  "onboarding": {
+    "title": "Onboarding & Training",
+    "desc": "Guides and videos for partners.",
+    "resources": [
+    ]
+  },
+
+  "notaria": {
+    "title": "Notarial Case",
+    "desc": "Materials for notaries.",
+    "resources": [
+      {
+        "id": "n1",
+        "sectionLabel": "Notarial Case",
+        "type": "presentation",
+        "typeLabel": "Deck",
+        "title": "DocumentoIQ Notaries — Deck",
+        "desc": "Deck for notaries.",
+        "longDesc": "Commercial presentation of DocumentoIQ Notaries.",
+        "stage": "Commercial",
+        "file": "/files/resources/en/DocumentoIQ Notaries - Intro - Deck.pdf",
+        "recommended": "Meeting with notarial prospect."
+      },
+      {
+        "id": "n2",
+        "sectionLabel": "Notarial Case",
+        "type": "presentation",
+        "typeLabel": "Onepager",
+        "title": "DocumentoIQ Notaries — Onepager",
+        "desc": "Summary for notaries.",
+        "longDesc": "One page summary about DocumentoIQ Notaries.",
+        "stage": "Commercial",
+        "file": "/files/resources/en/DocumentoIQ Notaries - Onepager.pdf",
+        "recommended": "Leave-behind after meeting."
+      },
+      {
+        "id": "n3",
+        "sectionLabel": "Notarial Case",
+        "type": "video",
+        "typeLabel": "Video",
+        "title": "DocumentoIQ Notaries",
+        "desc": "Promo video.",
+        "longDesc": "DocumentoIQ video for the notarial sector.",
+        "stage": "Commercial",
+        "duration": "2:30",
+        "file": "https://youtu.be/Oi8MrZS8zek",
+        "recommended": "Meeting with notarial prospect."
+      }
+    ]
+  },
+
+  "banca": {
+    "title": "Banking Case",
+    "desc": "Materials for financial institutions.",
+    "resources": [
+      {
+        "id": "b1",
+        "sectionLabel": "Banking Case",
+        "type": "presentation",
+        "typeLabel": "Deck",
+        "title": "DocumentoIQ Banking — Deck",
+        "desc": "Deck for banking.",
+        "longDesc": "Commercial presentation of DocumentoIQ Banking.",
+        "stage": "Commercial",
+        "file": "/files/resources/en/DocumentoIQ Banking - Intro - Deck.pdf",
+        "recommended": "Meeting with banking prospect.",
+        "featured": true
+      },
+      {
+        "id": "b2",
+        "sectionLabel": "Banking Case",
+        "type": "presentation",
+        "typeLabel": "Onepager",
+        "title": "DocumentoIQ Banking — Onepager",
+        "desc": "Summary for banking.",
+        "longDesc": "One page summary about DocumentoIQ Banking.",
+        "stage": "Commercial",
+        "file": "/files/resources/en/DocumentoIQ Banking - Onepager.pdf",
+        "recommended": "Leave-behind after meeting."
+      }
+    ]
+  },
+
+  "videos": {
+    "title": "General Videos",
+    "desc": "Platform overview videos.",
+    "resources": [
+      {
+        "id": "v1",
+        "sectionLabel": "Videos",
+        "type": "video",
+        "typeLabel": "Video",
+        "title": "DocumentoIQ Overview",
+        "desc": "General video.",
+        "longDesc": "General overview of DocumentoIQ platform.",
+        "stage": "Prospecting",
+        "duration": "2:45",
+        "file": "https://youtu.be/FLu8kk0iqjI",
+        "recommended": "First approach.",
+        "featured": true
+      }
+    ]
+  },
+
+  "marketing": {
+    "title": "Marketing Resources",
+    "desc": "Editable templates for commercial documents.",
+    "resources": [
+      {
+        "id": "m1",
+        "sectionLabel": "Marketing Resources",
+        "type": "guide",
+        "typeLabel": "DOCX",
+        "title": "DocumentoIQ — Word Template V1",
+        "desc": "Letter/proposal template.",
+        "longDesc": "Editable Word template for letters, commercial presentations and customized proposals.",
+        "stage": "Commercial",
+        "file": "/files/marketing_resources/DocumentoIQ - Template V1.docx",
+        "recommended": "Proposals and commercial communications."
+      },
+      {
+        "id": "m2",
+        "sectionLabel": "Marketing Resources",
+        "type": "guide",
+        "typeLabel": "DOCX",
+        "title": "DocumentoIQ — Word Template V2",
+        "desc": "Alternative template.",
+        "longDesc": "Second Word template version with alternative design for different communication types.",
+        "stage": "Commercial",
+        "file": "/files/marketing_resources/DocumentoIQ - Template V2.docx",
+        "recommended": "Follow-up documents."
+      },
+      {
+        "id": "m3",
+        "sectionLabel": "Marketing Resources",
+        "type": "presentation",
+        "typeLabel": "PPTX",
+        "title": "DocumentoIQ — PowerPoint Template",
+        "desc": "Presentation template.",
+        "longDesc": "Editable PowerPoint template for commercial presentations aligned with DocumentoIQ brand.",
+        "stage": "Commercial",
+        "file": "/files/marketing_resources/DocumentoIQ - Template.pptx",
+        "recommended": "Prospect presentations."
+      }
+    ]
+  },
+
+  "brand": {
+    "title": "Brand Assets",
+    "desc": "Official brand assets for authorized use in presentations, proposals and commercial materials of DocumentoIQ.",
+    "resources": [
+      {
+        "id": "l1",
+        "sectionLabel": "Brand Assets",
+        "type": "logo",
+        "typeLabel": "Logo",
+        "title": "DocumentoIQ — Official Logos",
+        "desc": "Official logo pack in PNG for authorized presentations and commercial materials.",
+        "longDesc": "Official DocumentoIQ logo pack in PNG format. Includes positive, negative, monochrome and isotype versions. For use in authorized commercial materials without altering proportions or colors.",
+        "stage": "Commercial Presentation",
+        "file": "DocumentoIQ - Logos.zip",
+        "recommended": "Commercial presentations, follow-up documents and materials authorized by DocumentoIQ.",
+        "featured": true
+      }
+    ]
+  }
+}

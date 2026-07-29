@@ -53,6 +53,15 @@ import securityPtBr from '../locales/pt-BR/pages/security.json'
 import partnersEn from '../locales/en/pages/partners.json'
 import partnersEs from '../locales/es/pages/partners.json'
 import partnersPtBr from '../locales/pt-BR/pages/partners.json'
+import partnersPortalEn from '../locales/en/partners/partners-portal.json'
+import partnersPortalEs from '../locales/es/partners/partners-portal.json'
+import partnersPortalPtBr from '../locales/pt-BR/partners/partners-portal.json'
+import academyEn from '../locales/en/partners/academy.json'
+import academyEs from '../locales/es/partners/academy.json'
+import academyPtBr from '../locales/pt-BR/partners/academy.json'
+import resourcesEn from '../locales/en/partners/resources.json'
+import resourcesEs from '../locales/es/partners/resources.json'
+import resourcesPtBr from '../locales/pt-BR/partners/resources.json'
 import blog00IdpEn from '../locales/en/blogs/00-IDP.json'
 import blog00IdpEs from '../locales/es/blogs/00-IDP.json'
 import blog00IdpPtBr from '../locales/pt-BR/blogs/00-IDP.json'
@@ -131,6 +140,29 @@ import useCasesEnGb from '../locales/en-GB/pages/useCases.json'
 import howWeWorkEnGb from '../locales/en-GB/pages/howWeWork.json'
 import notariesEnGb from '../locales/en-GB/pages/notaries.json'
 import bankingEnGb from '../locales/en-GB/pages/banking.json'
+import partnersPortalEnGb from '../locales/en-GB/partners/partners-portal.json'
+import academyEnGb from '../locales/en-GB/partners/academy.json'
+import resourcesEnGb from '../locales/en-GB/partners/resources.json'
+import blog00IdpEnGb from '../locales/en-GB/blogs/00-IDP.json'
+import blog01InvestEnGb from '../locales/en-GB/blogs/01-invest.json'
+import blog02SolutionsEnGb from '../locales/en-GB/blogs/02_solutions.json'
+import blog03FutureEnGb from '../locales/en-GB/blogs/03_future.json'
+import blog04BeyondEnGb from '../locales/en-GB/blogs/03_beyond.json'
+import blog05ProcedureEnGb from '../locales/en-GB/blogs/05_procedure.json'
+import blog06HumanEnGb from '../locales/en-GB/blogs/06_human.json'
+import blog07CustomEnGb from '../locales/en-GB/blogs/07_custom.json'
+import blog08AiActionEnGb from '../locales/en-GB/blogs/08_ai_action.json'
+import blog09ResourcesEnGb from '../locales/en-GB/blogs/09_resources.json'
+import meta00IdpEnGb from '../locales/en-GB/metadata/00-IDP.json'
+import meta01InvestEnGb from '../locales/en-GB/metadata/01-invest.json'
+import meta02SolutionsEnGb from '../locales/en-GB/metadata/02_solutions.json'
+import meta03FutureEnGb from '../locales/en-GB/metadata/03_future.json'
+import meta04BeyondEnGb from '../locales/en-GB/metadata/04_beyond.json'
+import meta05ProcedureEnGb from '../locales/en-GB/metadata/05_procedure.json'
+import meta06HumanEnGb from '../locales/en-GB/metadata/06_human.json'
+import meta07CustomEnGb from '../locales/en-GB/metadata/07_custom.json'
+import meta08AiActionEnGb from '../locales/en-GB/metadata/08_ai_action.json'
+import meta09ResourcesEnGb from '../locales/en-GB/metadata/09_resources.json'
 
 export const supportedLanguages = ['en', 'en-GB', 'es', 'pt-BR'] as const
 export type SupportedLanguage = (typeof supportedLanguages)[number]
@@ -156,141 +188,77 @@ const initialLanguage = getLanguageFromPath()
 
 const resources = {
   en: {
-    common: commonEn,
-    nav: navEn,
-    meta: metaEn,
-    home: homeEn,
-    product: productEn,
-    useCases: useCasesEn,
-    notaries: notariesEn,
-    banking: bankingEn,
-    howWeWork: howWeWorkEn,
-    about: aboutEn,
-    contact: contactEn,
-    blog: blogEn,
-    privacy: privacyEn,
-    terms: termsEn,
-    cookies: cookiesEn,
-    security: securityEn,
-    partners: partnersEn,
-    blog_00_IDP: blog00IdpEn,
-    blog_01_invest: blog01InvestEn,
-    blog_02_solutions: blog02SolutionsEn,
-    blog_03_future: blog03FutureEn,
-    blog_04_beyond: blog04BeyondEn,
-    blog_05_procedure: blog05ProcedureEn,
-    blog_06_human: blog06HumanEn,
-    blog_07_custom: blog07CustomEn,
-    blog_08_ai_action: blog08AiActionEn,
-    blog_09_resources: blog09ResourcesEn,
-    meta_00_IDP: meta00IdpEn,
-    meta_01_invest: meta01InvestEn,
-    meta_02_solutions: meta02SolutionsEn,
-    meta_03_future: meta03FutureEn,
-    meta_04_beyond: meta04BeyondEn,
-    meta_05_procedure: meta05ProcedureEn,
-    meta_06_human: meta06HumanEn,
-    meta_07_custom: meta07CustomEn,
-    meta_08_ai_action: meta08AiActionEn,
-    meta_09_resources: meta09ResourcesEn,
+    common: commonEn, nav: navEn, meta: metaEn, home: homeEn,
+    product: productEn, useCases: useCasesEn, notaries: notariesEn,
+    banking: bankingEn, howWeWork: howWeWorkEn, about: aboutEn,
+    contact: contactEn, blog: blogEn, privacy: privacyEn,
+    terms: termsEn, cookies: cookiesEn, security: securityEn,
+    partners: partnersEn, 'partners-portal': partnersPortalEn, academy: academyEn, resources: resourcesEn,
+    blog_00_IDP: blog00IdpEn, blog_01_invest: blog01InvestEn,
+    blog_02_solutions: blog02SolutionsEn, blog_03_future: blog03FutureEn,
+    blog_04_beyond: blog04BeyondEn, blog_05_procedure: blog05ProcedureEn,
+    blog_06_human: blog06HumanEn, blog_07_custom: blog07CustomEn,
+    blog_08_ai_action: blog08AiActionEn, blog_09_resources: blog09ResourcesEn,
+    meta_00_IDP: meta00IdpEn, meta_01_invest: meta01InvestEn,
+    meta_02_solutions: meta02SolutionsEn, meta_03_future: meta03FutureEn,
+    meta_04_beyond: meta04BeyondEn, meta_05_procedure: meta05ProcedureEn,
+    meta_06_human: meta06HumanEn, meta_07_custom: meta07CustomEn,
+    meta_08_ai_action: meta08AiActionEn, meta_09_resources: meta09ResourcesEn,
   },
   es: {
-    common: commonEs,
-    nav: navEs,
-    meta: metaEs,
-    home: homeEs,
-    product: productEs,
-    useCases: useCasesEs,
-    notaries: notariesEs,
-    banking: bankingEs,
-    howWeWork: howWeWorkEs,
-    about: aboutEs,
-    contact: contactEs,
-    blog: blogEs,
-    privacy: privacyEs,
-    terms: termsEs,
-    cookies: cookiesEs,
-    security: securityEs,
-    partners: partnersEs,
-    blog_00_IDP: blog00IdpEs,
-    blog_01_invest: blog01InvestEs,
-    blog_02_solutions: blog02SolutionsEs,
-    blog_03_future: blog03FutureEs,
-    blog_04_beyond: blog04BeyondEs,
-    blog_05_procedure: blog05ProcedureEs,
-    blog_06_human: blog06HumanEs,
-    blog_07_custom: blog07CustomEs,
-    blog_08_ai_action: blog08AiActionEs,
-    blog_09_resources: blog09ResourcesEs,
-    meta_00_IDP: meta00IdpEs,
-    meta_01_invest: meta01InvestEs,
-    meta_02_solutions: meta02SolutionsEs,
-    meta_03_future: meta03FutureEs,
-    meta_04_beyond: meta04BeyondEs,
-    meta_05_procedure: meta05ProcedureEs,
-    meta_06_human: meta06HumanEs,
-    meta_07_custom: meta07CustomEs,
-    meta_08_ai_action: meta08AiActionEs,
-    meta_09_resources: meta09ResourcesEs,
+    common: commonEs, nav: navEs, meta: metaEs, home: homeEs,
+    product: productEs, useCases: useCasesEs, notaries: notariesEs,
+    banking: bankingEs, howWeWork: howWeWorkEs, about: aboutEs,
+    contact: contactEs, blog: blogEs, privacy: privacyEs,
+    terms: termsEs, cookies: cookiesEs, security: securityEs,
+    partners: partnersEs, 'partners-portal': partnersPortalEs, academy: academyEs, resources: resourcesEs,
+    blog_00_IDP: blog00IdpEs, blog_01_invest: blog01InvestEs,
+    blog_02_solutions: blog02SolutionsEs, blog_03_future: blog03FutureEs,
+    blog_04_beyond: blog04BeyondEs, blog_05_procedure: blog05ProcedureEs,
+    blog_06_human: blog06HumanEs, blog_07_custom: blog07CustomEs,
+    blog_08_ai_action: blog08AiActionEs, blog_09_resources: blog09ResourcesEs,
+    meta_00_IDP: meta00IdpEs, meta_01_invest: meta01InvestEs,
+    meta_02_solutions: meta02SolutionsEs, meta_03_future: meta03FutureEs,
+    meta_04_beyond: meta04BeyondEs, meta_05_procedure: meta05ProcedureEs,
+    meta_06_human: meta06HumanEs, meta_07_custom: meta07CustomEs,
+    meta_08_ai_action: meta08AiActionEs, meta_09_resources: meta09ResourcesEs,
   },
   'pt-BR': {
-    common: commonPtBr,
-    nav: navPtBr,
-    meta: metaPtBr,
-    home: homePtBr,
-    product: productPtBr,
-    useCases: useCasesPtBr,
-    notaries: notariesPtBr,
-    banking: bankingPtBr,
-    howWeWork: howWeWorkPtBr,
-    about: aboutPtBr,
-    contact: contactPtBr,
-    blog: blogPtBr,
-    privacy: privacyPtBr,
-    terms: termsPtBr,
-    cookies: cookiesPtBr,
-    security: securityPtBr,
-    partners: partnersPtBr,
-    blog_00_IDP: blog00IdpPtBr,
-    blog_01_invest: blog01InvestPtBr,
-    blog_02_solutions: blog02SolutionsPtBr,
-    blog_03_future: blog03FuturePtBr,
-    blog_04_beyond: blog04BeyondPtBr,
-    blog_05_procedure: blog05ProcedurePtBr,
-    blog_06_human: blog06HumanPtBr,
-    blog_07_custom: blog07CustomPtBr,
-    blog_08_ai_action: blog08AiActionPtBr,
-    blog_09_resources: blog09ResourcesPtBr,
-    meta_00_IDP: meta00IdpPtBr,
-    meta_01_invest: meta01InvestPtBr,
-    meta_02_solutions: meta02SolutionsPtBr,
-    meta_03_future: meta03FuturePtBr,
-    meta_04_beyond: meta04BeyondPtBr,
-    meta_05_procedure: meta05ProcedurePtBr,
-    meta_06_human: meta06HumanPtBr,
-    meta_07_custom: meta07CustomPtBr,
-    meta_08_ai_action: meta08AiActionPtBr,
-    meta_09_resources: meta09ResourcesPtBr,
+    common: commonPtBr, nav: navPtBr, meta: metaPtBr, home: homePtBr,
+    product: productPtBr, useCases: useCasesPtBr, notaries: notariesPtBr,
+    banking: bankingPtBr, howWeWork: howWeWorkPtBr, about: aboutPtBr,
+    contact: contactPtBr, blog: blogPtBr, privacy: privacyPtBr,
+    terms: termsPtBr, cookies: cookiesPtBr, security: securityPtBr,
+    partners: partnersPtBr, 'partners-portal': partnersPortalPtBr, academy: academyPtBr, resources: resourcesPtBr,
+    blog_00_IDP: blog00IdpPtBr, blog_01_invest: blog01InvestPtBr,
+    blog_02_solutions: blog02SolutionsPtBr, blog_03_future: blog03FuturePtBr,
+    blog_04_beyond: blog04BeyondPtBr, blog_05_procedure: blog05ProcedurePtBr,
+    blog_06_human: blog06HumanPtBr, blog_07_custom: blog07CustomPtBr,
+    blog_08_ai_action: blog08AiActionPtBr, blog_09_resources: blog09ResourcesPtBr,
+    meta_00_IDP: meta00IdpPtBr, meta_01_invest: meta01InvestPtBr,
+    meta_02_solutions: meta02SolutionsPtBr, meta_03_future: meta03FuturePtBr,
+    meta_04_beyond: meta04BeyondPtBr, meta_05_procedure: meta05ProcedurePtBr,
+    meta_06_human: meta06HumanPtBr, meta_07_custom: meta07CustomPtBr,
+    meta_08_ai_action: meta08AiActionPtBr, meta_09_resources: meta09ResourcesPtBr,
   },
   'en-GB': {
-    common: commonEnGb,
-    nav: navEnGb,
-    meta: metaEnGb,
-    home: homeEnGb,
-    product: productEnGb,
-    about: aboutEnGb,
-    security: securityEnGb,
-    partners: partnersEnGb,
-    contact: contactEnGb,
-    blog: blogEnGb,
-    privacy: privacyEnGb,
-    terms: termsEnGb,
-    cookies: cookiesEnGb,
-    useCases: useCasesEnGb,
-    howWeWork: howWeWorkEnGb,
-    notaries: notariesEnGb,
-    banking: bankingEnGb,
-    // Blog post namespaces fall back to 'en' automatically via i18next fallbackLng
+    common: commonEnGb, nav: navEnGb, meta: metaEnGb, home: homeEnGb,
+    product: productEnGb, about: aboutEnGb, security: securityEnGb,
+    partners: partnersEnGb, contact: contactEnGb, blog: blogEnGb,
+    privacy: privacyEnGb, terms: termsEnGb, cookies: cookiesEnGb,
+    useCases: useCasesEnGb, howWeWork: howWeWorkEnGb,
+    notaries: notariesEnGb, banking: bankingEnGb,
+    'partners-portal': partnersPortalEnGb, academy: academyEnGb, resources: resourcesEnGb,
+    blog_00_IDP: blog00IdpEnGb, blog_01_invest: blog01InvestEnGb,
+    blog_02_solutions: blog02SolutionsEnGb, blog_03_future: blog03FutureEnGb,
+    blog_04_beyond: blog04BeyondEnGb, blog_05_procedure: blog05ProcedureEnGb,
+    blog_06_human: blog06HumanEnGb, blog_07_custom: blog07CustomEnGb,
+    blog_08_ai_action: blog08AiActionEnGb, blog_09_resources: blog09ResourcesEnGb,
+    meta_00_IDP: meta00IdpEnGb, meta_01_invest: meta01InvestEnGb,
+    meta_02_solutions: meta02SolutionsEnGb, meta_03_future: meta03FutureEnGb,
+    meta_04_beyond: meta04BeyondEnGb, meta_05_procedure: meta05ProcedureEnGb,
+    meta_06_human: meta06HumanEnGb, meta_07_custom: meta07CustomEnGb,
+    meta_08_ai_action: meta08AiActionEnGb, meta_09_resources: meta09ResourcesEnGb,
   },
 }
 
@@ -299,16 +267,11 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: initialLanguage, // Use synchronously detected language from URL
-    fallbackLng: {
-      'en-GB': ['en'],
-      default: ['en'],
-    },
+    lng: initialLanguage,
+    fallbackLng: { 'en-GB': ['en'], default: ['en'] },
     defaultNS: 'common',
     supportedLngs: supportedLanguages,
-    interpolation: {
-      escapeValue: false,
-    },
+    interpolation: { escapeValue: false },
     detection: {
       order: ['localStorage', 'navigator'],
       lookupLocalStorage: 'i18nextLng',
@@ -317,4 +280,3 @@ i18n
   })
 
 export default i18n
-
