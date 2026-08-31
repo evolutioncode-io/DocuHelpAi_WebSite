@@ -1,98 +1,97 @@
 {
     "hero": {
-        "badge": "AI for Banking Document Analysis and Recommendation",
-        "title": "Banking",
-        "subtitle": "DocumentoIQ Banking assists banking institutions in the review, validation, and recommendation of critical documents, reducing times and operational errors without replacing the legal analyst's judgement.",
-        "microcopy": "Designed for account opening, credit, and mortgage processes.",
-        "primaryCta": "Request demo for banking",
-        "secondaryCta": "See how it works with a legal opinion",
+        "badge": "Specialisation",
+        "title": "Document Intelligence for Banking",
+        "subtitle": "DocumentoIQ helps analyse, extract and organise information from banking files and documents, reducing review times while always keeping the final decision in the hands of the analyst.",
+        "microcopy": "Designed to understand documentation specific to the banking sector.",
+        "primaryCta": "Request a demo",
+        "secondaryCta": "See DocumentoIQ in action",
         "secondaryCtaUrl": "https://youtu.be/pk2Y69JA78s"
     },
     "whatIs": {
-        "title": "What is DocumentoIQ Banking?",
-        "description": "DocumentoIQ Banking is the specialised DocumentoIQ product designed for financial institutions that handle large volumes of regulated documentation. It uses artificial intelligence to analyse banking files, validate information, and generate automated legal opinions, helping legal teams work with greater speed, precision, and traceability.",
-        "disclaimer": "DocumentoIQ Banking does not make decisions for the bank. It functions as an intelligent assistant that accelerates document review and points out only the incidents that require human analysis."
+        "title": "Why a specialisation for banking?",
+        "description": "Banking files bring together contracts, applications, guarantees and regulatory documentation that require precise and consistent review. DocumentoIQ incorporates specialised document logic to organise that information and facilitate its analysis.",
+        "disclaimer": "DocumentoIQ assists document analysis; evaluation and the final decision always remain in the hands of the responsible team."
     },
     "howItWorks": {
-        "title": "How does DocumentoIQ Banking work?",
+        "title": "How does DocumentoIQ for Banking work?",
         "steps": {
             "step1": {
-                "title": "1. Submission of banking files",
-                "description": "Upload complete files for account opening, credit applications, or mortgage cancellations, either through direct upload or integration via API.",
-                "footer": "Supported formats: PDF, JPG, PNG, TIFF"
+                "title": "1. Uploading files",
+                "description": "Upload banking files and documents from digital files, scanned documents, or integrations with other systems.",
+                "footer": "Compatible with PDF and images."
             },
             "step2": {
-                "title": "2. Processing with banking-specialised AI",
-                "intro": "DocumentoIQ Banking combines advanced OCR with language models trained in financial and regulatory documentation to:",
-                "items": [
-                    "Validate customer information",
-                    "Identify inconsistencies or missing information",
-                    "Analyse contracts and guarantees",
-                    "Detect relevant incidents"
-                ],
-                "footer": "The AI analyses the entire file and highlights only what requires human review."
+                "title": "2. Specialised document analysis",
+                "intro": "DocumentoIQ identifies relevant information, organises content, and detects elements that require attention to facilitate review.",
+                "footer": "Advanced OCR + Document Intelligence"
             },
             "step3": {
-                "title": "3. Automated recommendation and final review",
-                "description": "The system generates an automated legal opinion and allows the legal analyst to review only the flagged incidents, drastically reducing evaluation time.",
-                "footer": "⏱ Average time: 5 minutes per credit. Export results or integrate them directly into the bank's systems."
+                "title": "3. Review and validation",
+                "description": "The responsible team reviews the organised information, validates the results, and continues with its operational process.",
+                "footer": "Export and integration available."
             }
         }
     },
     "benefits": {
-        "title": "Technical and Business Benefits for Banking",
+        "title": "What does DocumentoIQ bring to a financial institution?",
+        "description": "DocumentoIQ combines document specialisation for banking with capabilities designed to integrate naturally into the organisation's processes.",
         "business": {
-            "title": "Business Benefits",
+            "title": "Operational benefits",
             "items": [
-                "Up to 40% reduction in reporting times",
-                "Up to 60% reduction in errors from manual capture or review",
-                "Greater control and traceability at each stage of the process",
-                "Faster processing without increasing staff",
-                "Improved final customer experience"
+                "Reduces document review times",
+                "Organises information from complex files",
+                "Reduces errors in critical processes",
+                "Keeps control in the hands of the responsible team"
             ]
         },
         "technical": {
-            "title": "Technical Benefits",
+            "title": "Platform capabilities",
             "items": [
-                "Automated legal opinion per file",
-                "Automated detection of incidents",
-                "Advanced OCR for scanned or low-quality documents",
-                "Flexible extraction of banking data",
-                "Visual panel for optional manual review",
-                "Export and integration via API"
+                "Advanced OCR",
+                "Configurable information extraction",
+                "Visual review and validation",
+                "Export and integration"
             ]
         }
     },
     "useCases": {
-        "title": "Key Applications in Banking",
+        "title": "Documentation understood by the Banking specialisation",
+        "description": "DocumentoIQ incorporates document logic to organise and facilitate the review of different types of banking and regulatory documentation.",
         "items": {
             "opening": {
-                "title": "Account Opening Review",
-                "description": "Automatic validation of KYC files and required documentation, pointing out inconsistencies or missing information."
+                "title": "Account opening files",
+                "description": "Organises the documentation needed to facilitate the review of new customer onboarding processes."
             },
             "credit": {
-                "title": "Validation of Credit Documents",
-                "description": "Complete analysis of credit applications, contracts, and guarantees, with automated legal opinion."
+                "title": "Credit files",
+                "description": "Identifies relevant information from contracts, guarantees, and other documents associated with credit applications."
             },
             "reports": {
-                "title": "Legal Opinion Creation",
-                "description": "Generation of structured legal opinions for internal approval, audit, or compliance."
+                "title": "Mortgage documentation",
+                "description": "Facilitates the review of mortgage files through structured and organised information."
             },
             "mortgage": {
-                "title": "Mortgage Cancellation",
-                "description": "Document review and validation for mortgage release and cancellation processes."
+                "title": "KYC and compliance documentation",
+                "description": "Analyses regulatory documentation to support validation and compliance processes."
             }
         }
     },
     "brand": {
-        "title": "DocumentoIQ Banking is part of the DocumentoIQ ecosystem",
-        "tagline": "A single technological base. Specialised products for critical sectors."
+        "title": "One platform. Multiple specialisations.",
+        "tagline": "The Banking specialisation is part of DocumentoIQ, a Document Intelligence platform designed to adapt to different document processes through specific specialisations.",
+        "cta": "Explore all specialisations →"
+    },
+    "security": {
+        "title": "Protection and trust in every document",
+        "description": "DocumentoIQ is designed to protect information and provide a reliable experience at every stage of the document process, regardless of the specialisation you work with.",
+        "link": "Learn how we protect your information →"
     },
     "cta": {
-        "title": "Optimise Banking document review with DocumentoIQ Banking",
-        "subtitle": "Request a personalised demo and discover how DocumentoIQ Banking can help you reduce time, errors, and operational risks, always maintaining human control in critical processes.",
-        "button": "Request demo for banking",
-        "microcopy": "Demo focused on real banking files.",
+        "title": "Discover how DocumentoIQ transforms document review in banking",
+        "subtitle": "Learn how the Banking specialisation helps process a greater volume of files with organised information, allowing your team to spend more time on analysis and decisions that create value.",
+        "button": "Request demo",
+        "microcopy": "Learn how DocumentoIQ can adapt to the financial institution's document processes.",
         "videoUrl": "https://www.youtube.com/embed/QFitxX8Bwzc"
     }
 }

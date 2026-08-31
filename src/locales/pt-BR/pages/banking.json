@@ -1,98 +1,97 @@
 {
     "hero": {
-        "badge": "IA para análise e recomendação de documentos bancários",
-        "title": "Banca",
-        "subtitle": "O DocumentoIQ Banca auxilia instituições bancárias na revisão, validação e recomendação de documentos críticos, reduzindo prazos e erros operacionais sem substituir o critério do analista jurídico.",
-        "microcopy": "Projetado para processos de abertura de contas, crédito e hipotecas.",
-        "primaryCta": "Solicitar demonstração para banca",
-        "secondaryCta": "Veja como funciona con um parecer jurídico",
+        "badge": "Especialização",
+        "title": "Inteligência Documental para Banca",
+        "subtitle": "O DocumentoIQ ajuda a analisar, extrair e organizar informações de arquivos e documentos bancários, reduzindo o tempo de revisão e mantendo sempre a decisão final nas mãos do analista.",
+        "microcopy": "Projetada para compreender a documentação própria do setor bancário.",
+        "primaryCta": "Solicitar uma demonstração",
+        "secondaryCta": "Ver o DocumentoIQ em ação",
         "secondaryCtaUrl": "https://youtu.be/pk2Y69JA78s"
     },
     "whatIs": {
-        "title": "O que é o DocumentoIQ Banca?",
-        "description": "DocumentoIQ Banca é o produto especializado do DocumentoIQ projetado para instituições financeiras que lidam com grandes volumes de documentação regulamentada. Utiliza inteligência artificial para analisar expedientes bancários, validar informações e gerar pareceres automatizados, ajudando as equipes jurídicas a trabalhar com maior velocidade, precisão e rastreabilidade.",
-        "disclaimer": "O DocumentoIQ Banca não toma decisões pelo banco. Ele funciona como um assistente inteligente que acelera a revisão documental e aponta apenas as ocorrências que exigem análise humana."
+        "title": "Por que uma especialização para banca?",
+        "description": "Os arquivos bancários reúnem contratos, solicitações, garantias e documentação regulatória que exigem uma revisão precisa e consistente. O DocumentoIQ incorpora lógica documental especializada para organizar essas informações e facilitar sua análise.",
+        "disclaimer": "O DocumentoIQ auxilia a análise documental; a avaliação e a decisão final permanecem sempre nas mãos da equipe responsável."
     },
     "howItWorks": {
-        "title": "Como o DocumentoIQ Banca funciona?",
+        "title": "Como funciona o DocumentoIQ para Bancos?",
         "steps": {
             "step1": {
-                "title": "1. Envio de expedientes bancários",
-                "description": "Envie expedientes completos para abertura de contas, solicitações de crédito ou cancelamento de hipotecas, seja por upload direto ou integração via API.",
-                "footer": "Formatos suportados: PDF, JPG, PNG, TIFF"
+                "title": "1. Envio de expedientes",
+                "description": "Envie expedientes e documentos bancários a partir de arquivos digitais, documentos digitalizados ou integrações com outros sistemas.",
+                "footer": "Compatível com PDF e imagens."
             },
             "step2": {
-                "title": "2. Processamento com IA especializada em banca",
-                "intro": "O DocumentoIQ Banca combina OCR avançado com modelos de linguagem treinados em documentação financeira e regulatória para:",
-                "items": [
-                    "Validar informações do cliente",
-                    "Identificar inconsistências ou faltas",
-                    "Analisar contratos e garantias",
-                    "Detectar ocorrências relevantes"
-                ],
-                "footer": "A IA analisa todo o expediente e destaca apenas o que exige revisão humana."
+                "title": "2. Análise documental especializada",
+                "intro": "O DocumentoIQ identifica as informações relevantes, organiza o conteúdo e detecta elementos que requerem atenção para facilitar sua revisão.",
+                "footer": "OCR avançado + Inteligência Documental"
             },
             "step3": {
-                "title": "3. Parecer automatizado e revisão final",
-                "description": "O sistema gera um parecer automatizado e permite ao analista jurídico revisar apenas as ocorrências sinalizadas, reduzindo drasticamente o tempo de avaliação.",
-                "footer": "⏱ Tempo médio: 5 minutos por crédito. Exporte resultados ou integre-os diretamente aos sistemas do banco."
+                "title": "3. Revisão e validação",
+                "description": "A equipe responsável revisa as informações organizadas, valida os resultados e continua com seu processo operacional.",
+                "footer": "Exportação e integração disponíveis."
             }
         }
     },
     "benefits": {
-        "title": "Benefícios técnicos e de negócio para banca",
+        "title": "O que o DocumentoIQ oferece a uma instituição financeira?",
+        "description": "O DocumentoIQ combina uma especialização documental para bancos com capacidades projetadas para se integrar naturalmente aos processos da organização.",
         "business": {
-            "title": "Benefícios de negócio",
+            "title": "Benefícios para a operação",
             "items": [
-                "Redução de até 40% nos prazos de parecer",
-                "Redução de até 60% nos erros de captura ou revisão manual",
-                "Maior controle e rastreabilidade em cada etapa do processo",
-                "Processamento mais rápido sem aumentar o pessoal",
-                "Melhoria na experiência do cliente final"
+                "Reduz os tempos de revisão documental",
+                "Organiza as informações de expedientes complexos",
+                "Diminui erros em processos críticos",
+                "Mantém o controle nas mãos da equipe responsável"
             ]
         },
         "technical": {
-            "title": "Benefícios técnicos",
+            "title": "Capacidades da plataforma",
             "items": [
-                "Parecer automatizado por expediente",
-                "Detecção automática de ocorrências",
-                "OCR avançado para documentos digitalizados ou de baixa qualidade",
-                "Extração flexível de dados bancários",
-                "Painel visual para revisão manual opcional",
-                "Exportação e integração via API"
+                "OCR avançado",
+                "Extração configurável de informações",
+                "Revisão visual e validação",
+                "Exportação e integração"
             ]
         }
     },
     "useCases": {
-        "title": "Principais aplicações em banca",
+        "title": "Documentação compreendida pela especialização para Bancos",
+        "description": "O DocumentoIQ incorpora lógica documental para organizar e facilitar a revisão de diferentes tipos de documentação bancária e regulatória.",
         "items": {
             "opening": {
-                "title": "Revisão na abertura de contas",
-                "description": "Validação automática de expedientes KYC e documentação exigida, sinalizando inconsistências ou faltas."
+                "title": "Expedientes de abertura de contas",
+                "description": "Organiza a documentação necessária para facilitar a revisão dos processos de integração de novos clientes."
             },
             "credit": {
-                "title": "Validação de documentos de crédito",
-                "description": "Análise completa de solicitações de crédito, contratos e garantias, com parecer automatizado."
+                "title": "Expedientes de crédito",
+                "description": "Identifica as informações relevantes de contratos, garantias e outros documentos associados a solicitações de crédito."
             },
             "reports": {
-                "title": "Criação de pareceres",
-                "description": "Geração de pareceres estruturados para aprovação interna, auditoria ou conformidade."
+                "title": "Documentação hipotecária",
+                "description": "Facilita a revisão de expedientes hipotecários por meio de informações estruturadas e organizadas."
             },
             "mortgage": {
-                "title": "Cancelamento de hipotecas",
-                "description": "Revisão e validação documental para processos de liberação e cancelamento de hipotecas."
+                "title": "Documentação KYC e de conformidade",
+                "description": "Analisa documentação regulatória para apoiar os processos de validação e conformidade."
             }
         }
     },
     "brand": {
-        "title": "DocumentoIQ Banca é parte do ecossistema DocumentoIQ",
-        "tagline": "Uma única base tecnológica. Produtos especializados para setores críticos."
+        "title": "Uma plataforma. Múltiplas especializações.",
+        "tagline": "A especialização para Bancos faz parte do DocumentoIQ, uma plataforma de Inteligência Documental projetada para se adaptar a diferentes processos documentais por meio de especializações específicas.",
+        "cta": "Explorar todas as especializações →"
+    },
+    "security": {
+        "title": "Proteção e confiança em cada documento",
+        "description": "O DocumentoIQ foi projetado para proteger as informações e oferecer uma experiência confiável em cada etapa do processo documental, independentemente da especialização com a qual você trabalhe.",
+        "link": "Conheça como protegemos suas informações →"
     },
     "cta": {
-        "title": "Otimize a revisão documental bancária com DocumentoIQ Banca",
-        "subtitle": "Solicite uma demonstração personalizada e descubra como o DocumentoIQ Banca pode ajudar você a reduzir prazos, erros e riscos operacionais, mantendo sempre o controle humano em processos críticos.",
-        "button": "Solicitar demonstração para banca",
-        "microcopy": "Demonstração focada em expedientes bancários reais.",
+        "title": "Descubra como o DocumentoIQ transforma a revisão documental em bancos",
+        "subtitle": "Conheça como a especialização para Bancos ajuda a processar um volume maior de expedientes com informações organizadas, permitindo que sua equipe dedique mais tempo à análise e às decisões que geram valor.",
+        "button": "Solicitar demonstração",
+        "microcopy": "Conheça como o DocumentoIQ pode se adaptar aos processos documentais da instituição financeira.",
         "videoUrl": "https://www.youtube.com/embed/QFitxX8Bwzc"
     }
 }

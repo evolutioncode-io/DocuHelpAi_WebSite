@@ -1,26 +1,49 @@
 {
   "hero": {
-    "badge": "Soluciones por Industria",
-    "title": "Casos de Uso",
-    "subtitle": "Automatización de documentos con IA para notarías, bancos, firmas legales y más"
+    "badge": "Especializaciones DocumentoIQ",
+    "title": "Inteligencia Documental para cada industria",
+    "subtitle": "DocumentoIQ combina IA, OCR y lógica documental para adaptarse a los procesos de distintos sectores, manteniendo una experiencia consistente en toda la plataforma.",
+    "ctaPrimary": "Explorar plataforma",
+    "ctaSecondary": "Solicitar demo"
+  },
+  "whySpecializations": {
+    "title": "Una misma plataforma. Diferentes conocimientos documentales",
+    "cards": {
+      "logic": { "title": "Lógica documental", "description": "Cada especialización comprende la estructura y el contexto de distintos documentos." },
+      "consistency": { "title": "Resultados consistentes", "description": "Extrae la información relevante con mayor precisión y uniformidad." },
+      "scalable": { "title": "Escalable", "description": "La misma plataforma evoluciona hacia nuevos sectores y procesos." }
+    }
   },
   "mainCases": {
+    "documentsTitle": "Documentos",
+    "resultsTitle": "Resultados",
+    "cta": "Conocer especialización →",
     "notarial": {
       "title": "Notarías",
-      "description": "Procesa automáticamente actas, poderes, escrituras notariales y testamentos. Ideal para modernizar registros físicos.",
-      "highlight": "Ahorra hasta 75% del tiempo de procesamiento"
+      "subtitle": "Documentación notarial",
+      "description": "Procesa escrituras, poderes, actas y otros documentos notariales.",
+      "documents": { "one": "Escrituras", "two": "Poderes", "three": "Testamentos", "four": "Actas" },
+      "results": { "one": "Información estructurada", "two": "Menos revisión manual" },
+      "highlight": "Hasta 75% menos tiempo de revisión"
     },
     "banking": {
       "title": "Banca / Hipotecas",
-      "description": "Automatiza la revisión de cierres hipotecarios, solicitudes de préstamo, formularios KYC y reportes regulatorios.",
-      "highlight": "90%+ precisión en datos financieros"
+      "subtitle": "Documentación bancaria e hipotecaria",
+      "description": "Organiza y extrae información de expedientes financieros.",
+      "documents": { "one": "Expedientes de crédito", "two": "Hipotecas", "three": "Dictámenes", "four": "Solicitudes" },
+      "results": { "one": "Extracción automatizada", "two": "Procesos consistentes" },
+      "highlight": "90%+ precisión documental"
     },
     "legal": {
-      "title": "Legal / Contratos",
-      "description": "Extrae automáticamente datos clave de contratos, actas constitutivas, NDAs y acuerdos de servicios.",
-      "highlight": "Procesa contratos 10x más rápido"
+      "title": "Áreas legales",
+      "subtitle": "Documentación legal y contractual",
+      "description": "Analiza contratos y expedientes para acelerar su revisión.",
+      "documents": { "one": "Contratos", "two": "Convenios", "three": "Actas", "four": "NDAs" },
+      "results": { "one": "Información organizada", "two": "Mayor productividad" },
+      "highlight": "Hasta 10x más rápido"
     }
   },
+  "specializationsTitle": "Especializaciones",
   "documents": {
     "title": "Documentos soportados",
     "items": {
@@ -39,20 +62,28 @@
   },
   "link": "Contáctanos →",
   "otherIndustries": {
-    "title": "Otras industrias",
-    "subtitle": "DocumentoIQ se adapta a múltiples sectores y tipos de documentos",
+    "title": "DocumentoIQ sigue creciendo",
+    "subtitle": "La plataforma puede adaptarse a nuevos sectores y tipos de documentos.",
     "finance": {
       "title": "Finanzas",
-      "description": "Facturas, estados de cuenta, reportes financieros"
+      "description": "Facturas, estados de cuenta y reportes financieros."
     },
     "realEstate": {
-      "title": "Inmobiliaria",
-      "description": "Contratos de arrendamiento, avalúos, títulos de propiedad"
+      "title": "Inmobiliario",
+      "description": "Contratos, avalúos y títulos de propiedad."
+    },
+    "education": {
+      "title": "Educación",
+      "description": "Expedientes y documentación educativa."
+    },
+    "humanResources": {
+      "title": "Recursos Humanos",
+      "description": "Expedientes laborales y documentación administrativa."
     }
   },
   "cta": {
-    "title": "¿Tienes un caso de uso distinto?",
-    "subtitle": "Trabajamos con empresas de múltiples sectores para adaptar la extracción de datos a diferentes documentos. Escríbenos y te ayudamos.",
-    "button": "Contáctanos →"
+    "title": "¿No encuentras tu industria?",
+    "subtitle": "DocumentoIQ puede adaptarse a procesos documentales específicos. Hablemos de tu caso.",
+    "button": "Contáctanos"
   }
 }

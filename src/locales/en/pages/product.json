@@ -1,29 +1,30 @@
 {
   "hero": {
-    "badge": "📊 Intelligent Document Processing (IDP)",
+    "badge": "Document Processing",
     "title": "How does DocumentoIQ work?",
-    "subtitle": "Intelligent document processing through advanced OCR and state-of-the-art language models to extract critical information with high precision."
+    "subtitle": "DocumentoIQ transforms complex documents into structured, ready-to-use information through a process that combines technology, document logic, and human validation.",
+    "followup": "From the original document to organized, reviewable information that can be integrated into your operation."
   },
   "steps": {
     "step1": {
-      "heading": "1. Document upload",
-      "description": "Drag your PDF to the panel or connect via API. We accept scanned documents, images or computer-generated files. No size limits.",
-      "badge": "Supported formats: PDF, JPG, PNG, TIFF"
+      "heading": "1. Upload documents",
+      "description": "Start the process with digital or scanned files, or documents from other systems.",
+      "badge": "PDF and images"
     },
     "step2": {
-      "heading": "2. AI processing",
-      "description": "We combine advanced OCR with language models (LLM + NLP) to automatically identify text, legal entities, dates, amounts and key fields with accuracy above 90%. AI assists the analysis; control and final validation are always human.",
-      "badge": "Technology: OCR + LLM + NLP"
+      "heading": "2. DocumentoIQ analyzes and organizes",
+      "description": "Advanced OCR and Artificial Intelligence interpret the content, while document logic structures the relevant data for each workflow.",
+      "badge": "Advanced OCR · AI · Document logic"
     },
     "step3": {
-      "heading": "3. Structured results",
-      "description": "Export data in Excel, CSV or JSON to integrate into your systems, or review all information directly from the platform's visual panel.",
-      "badge": "Outputs: Excel, CSV, JSON, API"
+      "heading": "3. Review and continue the process",
+      "description": "Validate the information obtained from the platform and send it to other systems or formats according to operational needs.",
+      "badge": "Human validation · APIs · Structured export"
     }
   },
   "benefits": {
-    "title": "Technical and business benefits",
-    "subtitle": "AI document automation technology designed to reduce time, errors and operational friction in legal and notarial processes.",
+    "title": "What happens during processing?",
+    "subtitle": "DocumentoIQ combines different layers of analysis to transform unstructured content into organized information ready for review.",
     "business": {
       "title": "Business benefits",
       "items": {
@@ -73,11 +74,27 @@
           "description": "Connect with your systems without drastic changes to your current process"
         }
       }
+    },
+    "items": {
+      "reading": { "title": "Document reading", "description": "Advanced OCR recognizes text and content in digital files, scans, and images." },
+      "interpretation": { "title": "Content interpretation", "description": "Artificial Intelligence models identify context, relationships, and relevant elements." },
+      "extraction": { "title": "Data extraction", "description": "Locates the variables defined for each workflow and retrieves their values." },
+      "organization": { "title": "Structured organization", "description": "Converts the obtained data into a clear and consistent structure." },
+      "logic": { "title": "Document logic", "description": "Applies specific rules and configurations according to the needs of each process." },
+      "validation": { "title": "Validation", "description": "Presents the results for review before continuing with the operation." }
     }
   },
   "technology": {
-    "title": "Technology for AI document processing",
-    "subtitle": "We combine the best of OCR and language models",
+    "title": "The technology behind Document Intelligence",
+    "subtitle": "DocumentoIQ combines processing technologies, AI models, and document logic to interpret complex content and consistently convert it into structured information.",
+    "items": {
+      "ocr": { "title": "Advanced OCR", "description": "Digital and scanned document processing through optical character recognition (OCR) to identify and prepare content for analysis." },
+      "llm": { "title": "LLMs", "description": "Large Language Models interpret context, semantic relationships, and relevant elements within document content." },
+      "extraction": { "title": "Structured extraction", "description": "Configured schemas and variables transform unstructured content into normalized, usable data." },
+      "logic": { "title": "Document logic", "description": "Processing rules define how information is interpreted, validated, and structured for each document workflow." },
+      "workflows": { "title": "Specialized workflows", "description": "Configured workflows coordinate the different processing stages to maintain consistent, repeatable execution." },
+      "integrations": { "title": "APIs and integrations", "description": "Processed information can connect with other systems to become part of the organization's existing processes." }
+    },
     "ocr": {
       "title": "Advanced OCR",
       "description": "optical character recognition for documents of any quality, including scans and manuscripts."
@@ -92,15 +109,15 @@
     }
   },
   "security": {
-    "title": "Security and data protection",
-    "description": "DocumentoIQ combines assistive AI with enterprise security controls, including encryption, data segregation, auditing, and secure authentication on Google Cloud.",
-    "link": "Explore architecture and security →"
+    "title": "Security integrated into document processing",
+    "description": "DocumentoIQ's architecture incorporates protection mechanisms to safeguard information during transmission, processing, and storage.",
+    "link": "Learn how we protect your information →"
   },
   "cta": {
-    "title": "Do you have a custom document workflow?",
-    "subtitle": "Our team can help you adapt DocumentoIQ to specific notarial, mortgage or legal processes, integrating into your current operation without friction.",
-    "buttonPrimary": "Speak with a specialist",
-    "buttonSecondary": "Request personalized demo",
+    "title": "Bring DocumentoIQ to your document processes",
+    "subtitle": "Whether through an existing specialization or a configuration adapted to your operation, DocumentoIQ can integrate with the way your organization works with documents.",
+    "buttonPrimary": "Explore DocumentoIQ",
+    "buttonSecondary": "Request a demonstration",
     "videoUrl": "https://www.youtube.com/embed/FLu8kk0iqjI"
   }
 }

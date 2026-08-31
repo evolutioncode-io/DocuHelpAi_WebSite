@@ -1,5 +1,7 @@
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router-dom'
 import { usePageMetadata } from '../hooks/usePageMetadata'
+import { useLanguage } from '../hooks/useLanguage'
 
 const ShieldCheckIcon = () => (
   <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -27,6 +29,7 @@ const CpuChipIcon = () => (
 
 function Security() {
   const { t } = useTranslation('security')
+  const { getLocalizedRoute } = useLanguage()
 
   usePageMetadata({
     titleKey: 'security.title',
@@ -111,22 +114,17 @@ function Security() {
             <div className="card-surface p-8 rounded-2xl border border-ui shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-heading">{t('protection.transit.title')}</h4>
               <p className="text-body mb-6">{t('protection.transit.description')}</p>
-              <ul className="space-y-3">
-                {(t('protection.transit.items', { returnObjects: true }) as string[] || []).map((item: string, i: number) => (
-                  <li key={i} className="flex items-center gap-2 text-sm font-semibold text-body bg-app/50 p-2 rounded-lg">
-                    <span className="w-2 h-2 rounded-full bg-[#FFCF00]" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
+              <p className="inline-block text-sm font-semibold text-heading bg-app/70 px-3 py-2 rounded-lg">{t('protection.transit.detail')}</p>
             </div>
             <div className="card-surface p-8 rounded-2xl border border-ui shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-heading">{t('protection.rest.title')}</h4>
-              <p className="text-body leading-relaxed">{t('protection.rest.description')}</p>
+              <p className="text-body leading-relaxed mb-6">{t('protection.rest.description')}</p>
+              <p className="inline-block text-sm font-semibold text-heading bg-app/70 px-3 py-2 rounded-lg">{t('protection.rest.detail')}</p>
             </div>
             <div className="card-surface p-8 rounded-2xl border border-ui shadow-lg">
               <h4 className="text-xl font-bold mb-4 text-heading">{t('protection.signedUrls.title')}</h4>
-              <p className="text-body leading-relaxed">{t('protection.signedUrls.description')}</p>
+              <p className="text-body leading-relaxed mb-6">{t('protection.signedUrls.description')}</p>
+              <p className="inline-block text-sm font-semibold text-heading bg-app/70 px-3 py-2 rounded-lg">{t('protection.signedUrls.detail')}</p>
             </div>
           </div>
         </div>
@@ -175,17 +173,15 @@ function Security() {
                 <table className="w-full text-left">
                   <thead className="bg-white/10 text-white font-bold">
                     <tr>
-                      <th className="p-4">{t('ai.providers.headers.provider')}</th>
-                      <th className="p-4">{t('ai.providers.headers.service')}</th>
-                      <th className="p-4">{t('ai.providers.headers.usage')}</th>
+                      <th className="p-4">{t('ai.providers.headers.technology')}</th>
+                      <th className="p-4">{t('ai.providers.headers.purpose')}</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-white/10">
                     {(t('ai.providers.items', { returnObjects: true }) as any[] || []).map((item: any, i: number) => (
                       <tr key={i} className="hover:bg-white/5 transition-colors">
-                        <td className="p-4 font-semibold">{item.name}</td>
-                        <td className="p-4 text-white/80">{item.service}</td>
-                        <td className="p-4 text-white/80">{item.usage}</td>
+                        <td className="p-4 font-semibold">{item.technology}</td>
+                        <td className="p-4 text-white/80">{item.purpose}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -210,23 +206,9 @@ function Security() {
             </div>
           </div>
 
-
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="bg-[#FEC930] py-20">
-        <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-black">{t('cta.title')}</h2>
-          <p className="text-xl mb-10 text-black leading-relaxed">
-            {t('cta.description')}
+          <p className="mt-12 text-center text-lg text-white/85 max-w-4xl mx-auto leading-relaxed">
+            {t('ai.closing')}
           </p>
-          <a href="https://meetings.hubspot.com/hpensado3" target="_blank" rel="noopener noreferrer">
-            <button className="bg-black text-white px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
-              {t('cta.button')}
-            </button>
-          </a>
-          <p className="mt-6 text-black text-sm font-medium">{t('cta.microcopy')}</p>
         </div>
       </section>
 
@@ -240,6 +222,29 @@ function Security() {
               <p className="text-body leading-relaxed">{item.answer}</p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="bg-[#FEC930] py-20">
+        <div className="max-w-4xl mx-auto text-center px-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-black">{t('cta.title')}</h2>
+          <p className="text-xl mb-10 text-black leading-relaxed">
+            {t('cta.description')}
+          </p>
+          <div className="flex flex-col sm:flex-row justify-center gap-4">
+            <Link to={getLocalizedRoute('contact')}>
+              <button className="bg-black text-white px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
+                {t('cta.primaryButton')}
+              </button>
+            </Link>
+            <a href="https://meetings.hubspot.com/hpensado3" target="_blank" rel="noopener noreferrer">
+              <button className="bg-transparent text-black border-2 border-black px-10 py-5 rounded-xl hover:bg-black hover:text-white transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
+                {t('cta.secondaryButton')}
+              </button>
+            </a>
+          </div>
+          <p className="mt-6 text-black text-sm font-medium">{t('cta.microcopy')}</p>
         </div>
       </section>
     </div>

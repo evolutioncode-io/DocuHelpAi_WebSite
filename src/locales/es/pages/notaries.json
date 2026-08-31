@@ -1,96 +1,97 @@
 {
     "hero": {
-        "badge": "Análisis Inteligente de Documentos Notariales",
-        "title": "Notarías",
-        "subtitle": "DocumentoIQ Notarías asiste en el análisis, extracción y validación de información clave de escrituras y documentos notariales complejos, reduciendo tiempos y errores sin reemplazar el criterio del notario.",
-        "microcopy": "Diseñado para escrituras, poderes, compraventas y protocolos notariales.",
-        "primaryCta": "Solicitar demo para notarías",
-        "secondaryCta": "Ver cómo funciona con un poder",
+        "badge": "Especialización",
+        "title": "Inteligencia Documental para Notarías",
+        "subtitle": "DocumentoIQ ayuda a analizar, extraer y organizar la información de escrituras y otros documentos notariales, reduciendo tiempos de revisión y manteniendo siempre la decisión final en manos del notario.",
+        "microcopy": "Diseñada para comprender la documentación propia del entorno notarial.",
+        "primaryCta": "Solicitar una demo",
+        "secondaryCta": "Ver DocumentoIQ en acción",
         "secondaryCtaUrl": "https://youtu.be/cbBvaBqJAcw"
     },
     "whatIs": {
-        "title": "¿Qué es DocumentoIQ Notarías?",
-        "description": "DocumentoIQ Notarías es el producto especializado de DocumentoIQ diseñado específicamente para notarías. Utiliza inteligencia artificial para analizar documentos notariales extensos, identificar información crítica y estructurar datos relevantes, ayudando a los notarios y su equipo a trabajar con mayor precisión, velocidad y confianza.",
-        "disclaimer": "DocumentoIQ Notarías no reemplaza al notario. Funciona como un asistente inteligente que reduce la carga manual y los errores en la revisión documental."
+        "title": "¿Por qué una especialización para notarías?",
+        "description": "Las escrituras, poderes, actas y demás documentos notariales requieren comprender una estructura documental y un contexto jurídico específicos. DocumentoIQ incorpora lógica documental especializada para organizar la información y facilitar su revisión.",
+        "disclaimer": "DocumentoIQ asiste el proceso documental; la interpretación jurídica y la decisión final permanecen siempre en manos del notario."
     },
     "howItWorks": {
-        "title": "¿Cómo funciona DocumentoIQ Notarías?",
+        "title": "¿Cómo funciona DocumentoIQ para Notarías?",
         "steps": {
             "step1": {
-                "title": "1. Subida de documentos notariales",
-                "description": "Carga escrituras públicas, poderes, compraventas, protocolos u otros documentos notariales, ya sean digitales o escaneados.",
-                "footer": "Formatos soportados: PDF, JPG, PNG, TIFF"
+                "title": "1. Carga de documentos",
+                "description": "Carga escrituras, poderes, actas y otros documentos notariales en formato digital o escaneado.",
+                "footer": "Compatible con PDF e imágenes."
             },
             "step2": {
-                "title": "2. Procesamiento con IA especializada",
-                "intro": "DocumentoIQ Notarías combina OCR avanzado con modelos de lenguaje entrenados para comprender documentos notariales, identificando automáticamente:",
-                "items": [
-                    "Partes involucradas",
-                    "Fechas y actos jurídicos",
-                    "Montos y bienes",
-                    "Referencias y datos clave"
-                ],
-                "footer": "La IA asiste el análisis; la validación final siempre es humana."
+                "title": "2. Comprensión documental especializada",
+                "intro": "DocumentoIQ analiza el documento, identifica la información relevante y la organiza automáticamente.",
+                "footer": "OCR avanzado + Inteligencia Documental"
             },
             "step3": {
-                "title": "3. Resultados estructurados y revisables",
-                "description": "Revisa la información desde el panel visual o exporta los datos en Excel, CSV o JSON para integrarlos a tus sistemas notariales."
+                "title": "3. Revisión y validación",
+                "description": "Consulta la información organizada, realiza las validaciones necesarias y continúa con tu proceso documental.",
+                "footer": "Exportación e integración disponibles."
             }
         }
     },
     "benefits": {
-        "title": "Beneficios técnicos y de negocio para notarías",
+        "title": "¿Qué aporta DocumentoIQ a una notaría?",
+        "description": "DocumentoIQ combina una especialización documental para notarías con capacidades diseñadas para integrarse de forma natural a tu operación.",
         "business": {
-            "title": "Beneficios de negocio",
+            "title": "Beneficios para la operación",
             "items": [
-                "Reducción significativa del tiempo de revisión de escrituras",
-                "Menor carga operativa para el equipo notarial",
-                "Menos errores humanos en documentos críticos",
-                "Mayor consistencia y control en procesos notariales"
+                "Reduce tiempos de revisión",
+                "Disminuye errores documentales",
+                "Organiza la información automáticamente",
+                "Mantiene el control en manos del notario"
             ]
         },
         "technical": {
-            "title": "Beneficios técnicos",
+            "title": "Capacidades de la plataforma",
             "items": [
-                "Precisión superior al 90% en documentos notariales",
-                "OCR avanzado para documentos escaneados o de baja calidad",
-                "Extracción flexible de campos notariales personalizables",
-                "Panel visual para revisión manual opcional",
-                "Exportación inmediata (Excel, CSV, JSON)",
-                "Integración vía API y Zapier"
+                "OCR avanzado",
+                "Extracción configurable de información",
+                "Revisión visual y validación",
+                "Exportación e integración"
             ]
         }
     },
     "useCases": {
-        "title": "Aplicaciones clave en notarías",
+        "title": "Documentos que comprende la especialización para Notarías",
+        "description": "DocumentoIQ incorpora lógica documental para comprender distintos tipos de documentación notarial y facilitar su revisión. Algunos de ellos son:",
         "items": {
             "acts": {
-                "title": "Revisión de actas notariales",
-                "description": "Análisis de actas notariales para identificar datos clave como comparecientes, declaraciones, fechas y actos jurídicos, reduciendo errores en documentos de alta frecuencia."
+                "title": "Escrituras públicas",
+                "description": "Identifica comparecientes, actos jurídicos, inmuebles y otros elementos relevantes de una escritura pública."
             },
             "powers": {
-                "title": "Validación de poderes",
-                "description": "Extracción y validación automática de información en poderes generales o especiales, identificando otorgantes, apoderados, alcances y vigencia, y señalando posibles inconsistencias para revisión del notario."
+                "title": "Poderes",
+                "description": "Organiza la información clave de poderes generales y especiales para facilitar su revisión."
             },
             "deeds": {
-                "title": "Revisión de escrituras públicas",
-                "description": "Análisis de escrituras extensas y complejas para identificar partes, bienes, montos, antecedentes y cláusulas relevantes, facilitando la revisión y reduciendo el tiempo de preparación y validación."
+                "title": "Testamentos",
+                "description": "Facilita la revisión documental mediante información estructurada del testamento."
             },
             "wills": {
-                "title": "Testamentos",
-                "description": "Revisión estructurada de testamentos para identificar disposiciones, herederos, bienes y condiciones especiales, ayudando a minimizar errores formales en documentos jurídicamente sensibles."
+                "title": "Protocolos y actas",
+                "description": "Analiza la estructura documental para presentar la información de forma clara y organizada."
             }
         }
     },
     "brand": {
-        "title": "DocumentoIQ Notarías es parte del ecosistema DocumentoIQ",
-        "tagline": "Una sola base tecnológica. Productos especializados para sectores críticos."
+        "title": "Una plataforma. Múltiples especializaciones.",
+        "tagline": "La especialización para Notarías forma parte de DocumentoIQ, una plataforma de Inteligencia Documental diseñada para adaptarse a distintos procesos documentales mediante especializaciones específicas.",
+        "cta": "Explorar todas las especializaciones →"
+    },
+    "security": {
+        "title": "Protección y confianza en cada documento",
+        "description": "DocumentoIQ está diseñado para proteger la información y ofrecer una experiencia confiable en cada etapa del proceso documental, sin importar la especialización con la que trabajes.",
+        "link": "Conoce cómo protegemos tu información →"
     },
     "cta": {
-        "title": "Optimiza el análisis de documentos notariales con DocumentoIQ Notarías",
-        "subtitle": "Solicita una demo personalizada y descubre cómo DocumentoIQ Notarías puede ayudarte a reducir tiempos, errores y carga operativa en tu notaría, manteniendo siempre el control profesional.",
-        "button": "Solicitar demo para notarías",
-        "microcopy": "Demo enfocada en documentos notariales reales.",
+        "title": "Descubre cómo DocumentoIQ transforma la operación de una notaría",
+        "subtitle": "Conoce cómo la especialización para Notarías ayuda a reducir la carga operativa de la revisión documental para que tu equipo pueda dedicar más tiempo a atender clientes y hacer crecer la notaría.",
+        "button": "Solicitar demo",
+        "microcopy": "Conoce cómo DocumentoIQ puede adaptarse a los procesos de tu notaría.",
         "videoUrl": "https://www.youtube.com/embed/8LOnJLi-4hA"
     }
 }

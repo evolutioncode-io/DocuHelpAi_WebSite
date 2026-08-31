@@ -15,6 +15,7 @@ const mobileNavLinkClasses =
 
 function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileSpecializationsOpen, setMobileSpecializationsOpen] = useState(false)
 
   const location = useLocation()
   const { t } = useTranslation('common')
@@ -22,14 +23,12 @@ function Layout() {
 
   useEffect(() => {
     setMobileMenuOpen(false)
+    setMobileSpecializationsOpen(false)
   }, [location.pathname])
 
   const year = new Date().getFullYear()
 
   const navItems = [
-    { labelKey: 'nav.notary', pathKey: 'legalHelpAiNotaries' as const },
-    { labelKey: 'nav.banking', pathKey: 'legalHelpAiBanking' as const },
-    { labelKey: 'nav.useCases', pathKey: 'useCases' as const },
     { labelKey: 'nav.blog', pathKey: 'blog' as const },
     { labelKey: 'nav.about', pathKey: 'about' as const },
     { labelKey: 'nav.contact', pathKey: 'contact' as const },
@@ -52,6 +51,38 @@ function Layout() {
             </Link>
 
             <div className="hidden lg:flex items-center gap-8">
+              {/* Specializations dropdown */}
+              <div className="relative group">
+                <NavLink
+                  to={getLocalizedRoute('useCases')}
+                  className={() => {
+                    const specializationPaths = [
+                      getLocalizedRoute('useCases'),
+                      getLocalizedRoute('legalHelpAiNotaries'),
+                      getLocalizedRoute('legalHelpAiBanking'),
+                    ]
+                    const isActive = specializationPaths.includes(location.pathname)
+                    return `${baseNavLinkClasses} flex items-center gap-1 ${isActive ? 'text-[color:var(--color-accent-700)]' : ''}`
+                  }}
+                >
+                  {t('nav.useCases')}
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </NavLink>
+                <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-lg border border-ui py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200">
+                  <NavLink to={getLocalizedRoute('useCases')} className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors">
+                    {t('nav.useCases')}
+                  </NavLink>
+                  <NavLink to={getLocalizedRoute('legalHelpAiNotaries')} className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors">
+                    {t('nav.notary')}
+                  </NavLink>
+                  <NavLink to={getLocalizedRoute('legalHelpAiBanking')} className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors">
+                    {t('nav.banking')}
+                  </NavLink>
+                </div>
+              </div>
+
               {navItems.map((item) => (
                 <NavLink
                   key={item.pathKey}
@@ -85,12 +116,12 @@ function Layout() {
                     >
                       {t('nav.partnersProgram')}
                     </NavLink>
-                    <Link
-                      to="/partners/login"
+                    <a
+                      href="https://parnersportaldocumentoiq.vercel.app"
                       className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors"
                     >
                       {t('nav.partnersLogin')}
-                    </Link>
+                    </a>
                   </div>
               </div>
             </div>
@@ -124,6 +155,26 @@ function Layout() {
           {mobileMenuOpen && (
             <div id="mobile-menu" className="lg:hidden mt-4 pb-4 border-t border-[color:var(--color-neutral-400)]/40 pt-4" role="menu">
               <div className="flex flex-col gap-4">
+                <div>
+                  <button
+                    type="button"
+                    onClick={() => setMobileSpecializationsOpen((prev) => !prev)}
+                    className={`${mobileNavLinkClasses} w-full flex items-center justify-between text-left`}
+                    aria-expanded={mobileSpecializationsOpen}
+                  >
+                    {t('nav.useCases')}
+                    <svg className={`w-4 h-4 transition-transform ${mobileSpecializationsOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+                  {mobileSpecializationsOpen && (
+                    <div className="ml-4 pl-4 border-l border-ui flex flex-col gap-1">
+                      <NavLink to={getLocalizedRoute('useCases')} className={mobileNavLinkClasses}>{t('nav.useCases')}</NavLink>
+                      <NavLink to={getLocalizedRoute('legalHelpAiNotaries')} className={mobileNavLinkClasses}>{t('nav.notary')}</NavLink>
+                      <NavLink to={getLocalizedRoute('legalHelpAiBanking')} className={mobileNavLinkClasses}>{t('nav.banking')}</NavLink>
+                    </div>
+                  )}
+                </div>
                 {navItems.map((item) => (
                   <NavLink
                     key={item.pathKey}
@@ -143,12 +194,12 @@ function Layout() {
                 >
                   {t('nav.partnersProgram')}
                 </NavLink>
-                <Link
-                  to="/partners/login"
+                <a
+                  href="https://partners.documentoiq.com"
                   className={mobileNavLinkClasses}
                 >
                   {t('nav.partnersLogin')}
-                </Link>
+                </a>
                 <div className="flex items-center justify-between mt-2">
                   <LanguageSelector />
                   <a href="https://meetings.hubspot.com/hpensado3" target="_blank" rel="noopener noreferrer">
@@ -205,6 +256,11 @@ function Layout() {
                 <li>
                   <NavLink to={getLocalizedRoute('security')} className={baseNavLinkClasses}>
                     {t('footer.security')}
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to={getLocalizedRoute('plans')} className={baseNavLinkClasses}>
+                    {t('nav.pricing')}
                   </NavLink>
                 </li>
 

@@ -156,12 +156,11 @@ function About() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-4 gap-8 mb-8">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
             {[
               { value: t('impact.accuracy.value'), label: t('impact.accuracy.label') },
               { value: t('impact.timeReduction.value'), label: t('impact.timeReduction.label') },
               { value: t('impact.documents.value'), label: t('impact.documents.label') },
-              { value: t('impact.response.value'), label: t('impact.response.label') },
             ].map((stat) => (
               <div
                 key={stat.label}
@@ -206,9 +205,6 @@ function About() {
       <section className="bg-surface py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
-            <div className="inline-block mb-6">
-              <span className="bg-gradient-primary text-white text-sm font-semibold px-4 py-2 rounded-full">{t('differentiator.badge')}</span>
-            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-heading">
               {t('differentiator.title')}
             </h2>
@@ -216,7 +212,7 @@ function About() {
               {t('differentiator.subtitle')}
             </p>
           </div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
                 title: t('differentiator.specialization.title'),
@@ -232,6 +228,11 @@ function About() {
                 title: t('differentiator.multilingual.title'),
                 description: t('differentiator.multilingual.description'),
                 iconPath: 'M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129',
+              },
+              {
+                title: t('differentiator.evolution.title'),
+                description: t('differentiator.evolution.description'),
+                iconPath: 'M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15',
               },
             ].map((item) => (
               <div
@@ -251,26 +252,13 @@ function About() {
         </div>
       </section>
 
-      {/* Partners Banner */}
-      <section className="py-20 bg-surface border-t border-ui">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6 text-heading">{t('partnersBanner.title')}</h2>
-          <p className="text-xl text-body mb-8 leading-relaxed">
-            {t('partnersBanner.description')}
-          </p>
-          <Link to={getLocalizedRoute('partners')} className="link font-bold text-lg hover:underline">
-            {t('partnersBanner.link')}
-          </Link>
-        </div>
-      </section>
-
       <section className="bg-gradient-secondary py-20">
         <div className="max-w-4xl mx-auto text-center px-6">
           <h2 className="text-4xl font-bold mb-6 text-white">{t('cta.title')}</h2>
           <p className="text-xl mb-10 text-white/90 leading-relaxed">
             {t('cta.subtitle')}
           </p>
-          <Link to={getLocalizedRoute('contact')}>
+          <Link to={getLocalizedRoute('partners')}>
             <button className="bg-white text-[color:var(--color-accent-700)] px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl transform hover:-translate-y-1 transition-all duration-200 font-bold text-lg">
               {t('cta.button')}
             </button>

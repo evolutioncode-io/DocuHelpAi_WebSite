@@ -1,96 +1,97 @@
 {
     "hero": {
-        "badge": "Intelligent Notarial Document Analysis",
-        "title": "Notaries",
-        "subtitle": "DocumentoIQ Notaries assists in the analysis, extraction, and validation of key information from complex deeds and notarial documents, reducing time and errors without replacing the notary's judgment.",
-        "microcopy": "Designed for deeds, powers of attorney, sales contracts, and notarial protocols.",
-        "primaryCta": "Request demo for notaries",
-        "secondaryCta": "See how it works with a power of attorney",
+        "badge": "Specialization",
+        "title": "Document Intelligence for Notaries",
+        "subtitle": "DocumentoIQ helps analyze, extract and organize information from deeds and other notarial documents, reducing review times while always keeping the final decision in the hands of the notary.",
+        "microcopy": "Designed to understand documentation specific to the notarial environment.",
+        "primaryCta": "Request a demo",
+        "secondaryCta": "See DocumentoIQ in action",
         "secondaryCtaUrl": "https://youtu.be/Oi8MrZS8zek"
     },
     "whatIs": {
-        "title": "What is DocumentoIQ Notaries?",
-        "description": "DocumentoIQ Notaries is the specialized DocumentoIQ product designed specifically for notaries. It uses artificial intelligence to analyze extensive notarial documents, identify critical information, and structure relevant data, helping notaries and their teams work with greater precision, speed, and confidence.",
-        "disclaimer": "DocumentoIQ Notaries does not replace the notary. It functions as an intelligent assistant that reduces manual workload and errors in document review."
+        "title": "Why a specialization for notaries?",
+        "description": "Deeds, powers of attorney, records and other notarial documents require an understanding of their specific document structure and legal context. DocumentoIQ incorporates specialized document logic to organize information and facilitate its review.",
+        "disclaimer": "DocumentoIQ assists the document process; legal interpretation and the final decision always remain in the hands of the notary."
     },
     "howItWorks": {
-        "title": "How does DocumentoIQ Notaries work?",
+        "title": "How does DocumentoIQ for Notaries work?",
         "steps": {
             "step1": {
-                "title": "1. Upload notarial documents",
-                "description": "Upload public deeds, powers of attorney, sales contracts, protocols, or other notarial documents, whether digital or scanned.",
-                "footer": "Supported formats: PDF, JPG, PNG, TIFF"
+                "title": "1. Document upload",
+                "description": "Upload deeds, powers of attorney, records and other notarial documents in digital or scanned format.",
+                "footer": "Compatible with PDFs and images."
             },
             "step2": {
-                "title": "2. Processing with specialized AI",
-                "intro": "DocumentoIQ Notaries combines advanced OCR with language models trained to understand notarial documents, automatically identifying:",
-                "items": [
-                    "Involved parties",
-                    "Dates and legal acts",
-                    "Amounts and assets",
-                    "References and key data"
-                ],
-                "footer": "AI assists the analysis; final validation is always human."
+                "title": "2. Specialized document understanding",
+                "intro": "DocumentoIQ analyzes the document, identifies relevant information and organizes it automatically.",
+                "footer": "Advanced OCR + Document Intelligence"
             },
             "step3": {
-                "title": "3. Structured and reviewable results",
-                "description": "Review the information from the visual panel or export the data in Excel, CSV, or JSON to integrate it into your notarial systems."
+                "title": "3. Review and validation",
+                "description": "Review the organized information, perform the necessary validations and continue with your document process.",
+                "footer": "Export and integration available."
             }
         }
     },
     "benefits": {
-        "title": "Technical and Business Benefits for Notaries",
+        "title": "What does DocumentoIQ bring to a notary office?",
+        "description": "DocumentoIQ combines document specialization for notaries with capabilities designed to integrate naturally into your operation.",
         "business": {
-            "title": "Business Benefits",
+            "title": "Operational benefits",
             "items": [
-                "Significant reduction in deed review time",
-                "Lower operational load for the notarial team",
-                "Fewer human errors in critical documents",
-                "Greater consistency and control in notarial processes"
+                "Reduces review times",
+                "Decreases document errors",
+                "Organizes information automatically",
+                "Keeps control in the hands of the notary"
             ]
         },
         "technical": {
-            "title": "Technical Benefits",
+            "title": "Platform capabilities",
             "items": [
-                "Over 90% accuracy in notarial documents",
-                "Advanced OCR for scanned or low-quality documents",
-                "Flexible extraction of customizable notarial fields",
-                "Visual panel for optional manual review",
-                "Immediate export (Excel, CSV, JSON)",
-                "Integration via API and Zapier"
+                "Advanced OCR",
+                "Configurable information extraction",
+                "Visual review and validation",
+                "Export and integration"
             ]
         }
     },
     "useCases": {
-        "title": "Key Applications in Notaries",
+        "title": "Documents understood by the Notaries specialization",
+        "description": "DocumentoIQ incorporates document logic to understand different types of notarial documentation and facilitate their review. Some of them are:",
         "items": {
             "acts": {
-                "title": "Review of notarial minutes",
-                "description": "Analysis of notarial minutes to identify key data such as appearing parties, statements, dates, and legal acts, reducing errors in high-frequency documents."
+                "title": "Public deeds",
+                "description": "Identifies appearing parties, legal acts, properties and other relevant elements of a public deed."
             },
             "powers": {
-                "title": "Validation of powers of attorney",
-                "description": "Automatic extraction and validation of information in general or special powers of attorney, identifying grantors, attorneys-in-fact, scopes, and validity, and pointing out possible inconsistencies for the notary's review."
+                "title": "Powers of attorney",
+                "description": "Organizes key information from general and special powers of attorney to facilitate their review."
             },
             "deeds": {
-                "title": "Review of public deeds",
-                "description": "Analysis of extensive and complex deeds to identify parties, assets, amounts, backgrounds, and relevant clauses, facilitating review and reducing preparation and validation time."
+                "title": "Wills",
+                "description": "Facilitates document review through structured information from the will."
             },
             "wills": {
-                "title": "Wills",
-                "description": "Structured review of wills to identify provisions, heirs, assets, and special conditions, helping to minimize formal errors in legally sensitive documents."
+                "title": "Protocols and records",
+                "description": "Analyzes the document structure to present information clearly and in an organized manner."
             }
         }
     },
     "brand": {
-        "title": "DocumentoIQ Notaries is part of the DocumentoIQ ecosystem",
-        "tagline": "A single technological base. Specialized products for critical sectors."
+        "title": "One platform. Multiple specializations.",
+        "tagline": "The Notaries specialization is part of DocumentoIQ, a Document Intelligence platform designed to adapt to different document processes through specific specializations.",
+        "cta": "Explore all specializations →"
+    },
+    "security": {
+        "title": "Protection and trust in every document",
+        "description": "DocumentoIQ is designed to protect information and provide a reliable experience at every stage of the document process, regardless of the specialization you work with.",
+        "link": "Learn how we protect your information →"
     },
     "cta": {
-        "title": "Optimize notarial document analysis with DocumentoIQ Notaries",
-        "subtitle": "Request a personalized demo and discover how DocumentoIQ Notaries can help you reduce time, errors, and operational load in your notary's office, always maintaining professional control.",
-        "button": "Request demo for notaries",
-        "microcopy": "Demo focused on real notarial documents.",
+        "title": "Discover how DocumentoIQ transforms a notary office's operation",
+        "subtitle": "Learn how the Notaries specialization helps reduce the operational burden of document review so your team can spend more time serving clients and growing the notary office.",
+        "button": "Request a demo",
+        "microcopy": "Learn how DocumentoIQ can adapt to your notary office's processes.",
         "videoUrl": "https://www.youtube.com/embed/Oi8MrZS8zek"
     }
 }

@@ -2,57 +2,57 @@
   "hero": {
     "badge": "Nossa história",
     "title": "Sobre o DocumentoIQ",
-    "subtitle": "Criamos o DocumentoIQ para ajudar empresas de todos os tamanhos a analisar e compreender documentos complexos com inteligência artificial, reduzindo tempo, erros e carga operacional, sem substituir o julgamento humano."
+    "subtitle": "O DocumentoIQ nasceu com uma visão: transformar a forma como as organizações trabalham com documentos complexos, tornando as informações mais fáceis de compreender, organizar e utilizar sem substituir o critério profissional."
   },
   "mission": {
     "title": "Nossa missão",
-    "description": "Reduzir a carga manual do processamento de documentos em setores críticos como jurídico, bancário e notarial, por meio de soluções de inteligência artificial que apoiem a análise, sejam acessíveis, precisas e multilíngues."
+    "description": "Simplificar o trabalho com documentos complexos, convertendo informações em resultados claros e utilizáveis que ajudem profissionais e organizações a trabalhar com mais confiança e eficiência."
   },
   "vision": {
     "title": "Nossa visão",
-    "description": "Ser a plataforma de referência para automação de documentos com IA na América Latina e em mercados emergentes, reconhecida por ajudar profissionais a tomar melhores decisões em cartórios, bancos, escritórios de advocacia e organizações que trabalham com documentos críticos."
+    "description": "Ser uma plataforma de referência em Inteligência Documental, capaz de evoluir junto às necessidades de diferentes indústrias e transformar a forma como as organizações trabalham com suas informações."
   },
   "values": {
-    "title": "Nossos valores",
-    "subtitle": "Os princípios que guiam nosso trabalho",
+    "title": "Nossos princípios",
+    "subtitle": "As ideias que orientam como construímos o DocumentoIQ e como entendemos a Inteligência Documental.",
     "precision": {
       "emoji": "",
-      "title": "Precisão",
-      "description": "Focamos na exatidão e qualidade dos dados extraídos, especialmente em documentos jurídicos, notariais e financeiros, onde o erro não é uma opção."
+      "title": "Confiança",
+      "description": "Projetamos cada experiência para trabalhar com informações sensíveis de forma consistente, responsável e confiável."
     },
     "speed": {
       "emoji": "",
-      "title": "Velocidade",
-      "description": "Projetamos nossas soluções para serem rápidas e eficientes, reduzindo significativamente o tempo de revisão de documentos sem sacrificar a precisão."
+      "title": "Critério humano",
+      "description": "A tecnologia deve auxiliar o profissional, facilitando seu trabalho sem substituir o conhecimento nem a decisão final."
     },
     "accessibility": {
       "emoji": "",
       "title": "Acessibilidade",
-      "description": "Acreditamos que a inteligência artificial avançada deve ser acessível a empresas de todos os tamanhos, sem barreiras técnicas ou mudanças drásticas em seus processos."
+      "description": "Buscamos tornar a Inteligência Documental fácil de adotar e utilizar, sem exigir conhecimentos técnicos avançados."
     }
   },
   "team": {
     "title": "Nosso time",
-    "description": "Somos uma equipe interdisciplinar de desenvolvedores, especialistas em legaltech e especialistas em inteligência artificial aplicada. Trabalhamos para criar ferramentas que auxiliem profissionais na revisão de documentos complexos, reduzindo erros e melhorando a eficiência operacional.",
+    "description": "O DocumentoIQ reúne experiência em tecnologia, desenvolvimento e processos documentais para construir soluções que respondam às necessidades reais de diferentes indústrias.",
     "ai": {
       "emoji": "",
-      "title": "Experiência em IA",
-      "description": "Modelos de linguagem e visão computacional aplicados à análise de documentos e extração de informações críticas."
+      "title": "Tecnologia e Inteligência Artificial",
+      "description": "Experiência em IA, processamento documental e tecnologias aplicadas à análise de informações complexas."
     },
     "legal": {
       "emoji": "",
-      "title": "Conhecimento jurídico",
-      "description": "Profundo entendimento de documentos jurídicos, notariais e financeiros, e dos riscos associados ao seu processamento manual."
+      "title": "Conhecimento documental",
+      "description": "Compreensão dos processos, estruturas e necessidades documentais próprias de diferentes indústrias."
     },
     "development": {
       "emoji": "",
-      "title": "Desenvolvimento full-stack",
-      "description": "Desenvolvimento de uma plataforma robusta, segura e escalável, projetada para integrar-se a fluxos de trabalho documentais existentes."
+      "title": "Desenvolvimento e integração",
+      "description": "Capacidade técnica para construir, evoluir e integrar o DocumentoIQ em diferentes ambientes e operações."
     }
   },
   "impact": {
-    "title": "Nosso impacto",
-    "subtitle": "Ajudamos empresas e profissionais a trabalhar com mais eficiência por meio de análise e automação de documentos assistidas por IA.",
+    "title": "O impacto de trabalhar de forma mais inteligente",
+    "subtitle": "O DocumentoIQ ajuda a transformar processos documentais intensivos em tarefas mais ágeis, consistentes e fáceis de gerenciar.",
     "accuracy": {
       "value": "90%+",
       "label": "Precisão média"
@@ -71,14 +71,35 @@
     },
     "microcopy": "Resultados médios observados em implementações reais."
   },
+  "differentiator": {
+    "badge": "",
+    "title": "Como construímos o DocumentoIQ",
+    "subtitle": "Partimos de necessidades reais para desenvolver capacidades que tornem o trabalho com informações complexas mais simples e consistente.",
+    "specialization": {
+      "title": "Partimos do processo",
+      "description": "Entendemos o contexto, as regras e os resultados que cada fluxo necessita."
+    },
+    "humanCentric": {
+      "title": "Projetamos a especialização",
+      "description": "Definimos quais informações são relevantes e como devem ser apresentadas."
+    },
+    "multilingual": {
+      "title": "Aplicamos a tecnologia",
+      "description": "Selecionamos as capacidades necessárias para analisar e estruturar o conteúdo."
+    },
+    "evolution": {
+      "title": "Evoluímos continuamente",
+      "description": "Incorporamos melhorias conforme surgem novas necessidades e formas de trabalhar."
+    }
+  },
   "partnersBanner": {
     "title": "Leve soluções de IA para o seu mercado",
     "description": "Junte-se à rede de parceiros DocumentoIQ e desenvolva novas oportunidades de negócios em torno da automação e inteligência documental.",
     "link": "Saiba mais →"
   },
   "cta": {
-    "title": "Quer colaborar conosco?",
-    "subtitle": "Buscamos parceiros estratégicos, integradores e distribuidores interessados em levar a automação de documentos com IA a setores onde precisão e controle humano são críticos. Escreva para nós e vamos conversar.",
-    "button": "Fale conosco →"
+    "title": "Parcerias que ampliam nosso alcance",
+    "subtitle": "Trabalhamos com parceiros que compartilham nossa visão e nos ajudam a levar o DocumentoIQ a novas organizações, mercados e indústrias.",
+    "button": "Conheça nosso programa de parceiros →"
   }
 }

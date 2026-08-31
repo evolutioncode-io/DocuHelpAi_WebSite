@@ -1,26 +1,49 @@
 {
   "hero": {
-    "badge": "Soluções por setor",
-    "title": "Casos de uso",
-    "subtitle": "Automação de documentos com IA para cartórios, bancos, escritórios de advocacia e mais"
+    "badge": "Especializações DocumentoIQ",
+    "title": "Inteligência Documental para cada setor",
+    "subtitle": "O DocumentoIQ combina IA, OCR e lógica documental para se adaptar aos processos de diferentes setores, mantendo uma experiência consistente em toda a plataforma.",
+    "ctaPrimary": "Explorar a plataforma",
+    "ctaSecondary": "Solicitar demo"
   },
-  "mainCases": {
-    "notarial": {
-      "title": "Cartórios",
-      "description": "Processe automaticamente escrituras, procurações, certidões notariais e testamentos. Ideal para modernizar acervos físicos.",
-      "highlight": "Economize até 75% do tempo de processamento"
-    },
-    "banking": {
-      "title": "Bancos / Hipotecas",
-      "description": "Automatize a revisão de contratos de hipoteca, propostas de crédito, formulários KYC e relatórios regulatórios.",
-      "highlight": "Mais de 90% de precisão em dados financeiros"
-    },
-    "legal": {
-      "title": "Jurídico / Contratos",
-      "description": "Extraia automaticamente dados-chave de contratos, atos constitutivos, NDAs e acordos de prestação de serviços.",
-      "highlight": "Processe contratos 10x mais rápido"
+  "whySpecializations": {
+    "title": "Uma mesma plataforma. Diferentes conhecimentos documentais",
+    "cards": {
+      "logic": { "title": "Lógica documental", "description": "Cada especialização compreende a estrutura e o contexto de diferentes documentos." },
+      "consistency": { "title": "Resultados consistentes", "description": "Extrai as informações relevantes com maior precisão e uniformidade." },
+      "scalable": { "title": "Escalável", "description": "A mesma plataforma evolui para novos setores e processos." }
     }
   },
+  "mainCases": {
+    "documentsTitle": "Documentos",
+    "resultsTitle": "Resultados",
+    "cta": "Conhecer especialização →",
+    "notarial": {
+      "title": "Cartórios",
+      "subtitle": "Documentação notarial",
+      "description": "Processe escrituras, procurações, atas e outros documentos notariais.",
+      "documents": { "one": "Escrituras", "two": "Procurações", "three": "Testamentos", "four": "Atas" },
+      "results": { "one": "Informações estruturadas", "two": "Menos revisão manual" },
+      "highlight": "Até 75% menos tempo de revisão"
+    },
+    "banking": {
+      "title": "Banca / Hipotecas",
+      "subtitle": "Documentação bancária e hipotecária",
+      "description": "Organize e extraia informações de arquivos financeiros.",
+      "documents": { "one": "Arquivos de crédito", "two": "Hipotecas", "three": "Pareceres", "four": "Solicitações" },
+      "results": { "one": "Extração automatizada", "two": "Processos consistentes" },
+      "highlight": "90%+ de precisão documental"
+    },
+    "legal": {
+      "title": "Áreas jurídicas",
+      "subtitle": "Documentação jurídica e contratual",
+      "description": "Analise contratos e processos para acelerar sua revisão.",
+      "documents": { "one": "Contratos", "two": "Convênios", "three": "Atas", "four": "NDAs" },
+      "results": { "one": "Informações organizadas", "two": "Maior produtividade" },
+      "highlight": "Até 10x mais rápido"
+    }
+  },
+  "specializationsTitle": "Especializações",
   "documents": {
     "title": "Documentos suportados",
     "items": {
@@ -39,28 +62,16 @@
   },
   "link": "Contate-nos →",
   "otherIndustries": {
-    "title": "Outros setores",
-    "subtitle": "O DocumentoIQ se adapta a múltiplos setores e tipos de documentos",
-    "finance": {
-      "title": "Finanças",
-      "description": "Faturas, extratos e relatórios financeiros"
-    },
-    "insurance": {
-      "title": "Seguros",
-      "description": "Apólices, sinistros, formulários médicos"
-    },
-    "realEstate": {
-      "title": "Imobiliário",
-      "description": "Contratos de aluguel, avaliações, títulos de propriedade"
-    },
-    "logistics": {
-      "title": "Logística",
-      "description": "Ordens de compra, faturas de frete, documentos aduaneiros"
-    }
+    "title": "O DocumentoIQ continua crescendo",
+    "subtitle": "A plataforma pode se adaptar a novos setores e tipos de documentos.",
+    "finance": { "title": "Finanças", "description": "Faturas, extratos e relatórios financeiros." },
+    "realEstate": { "title": "Imobiliário", "description": "Contratos, avaliações e títulos de propriedade." },
+    "education": { "title": "Educação", "description": "Registros e documentação educacional." },
+    "humanResources": { "title": "Recursos Humanos", "description": "Registros trabalhistas e documentação administrativa." }
   },
   "cta": {
-    "title": "Você tem um caso de uso diferente?",
-    "subtitle": "Trabalhamos com empresas de vários setores para adaptar a extração de dados a diferentes documentos. Escreva para nós e vamos ajudar.",
-    "button": "Fale conosco →"
+    "title": "Não encontrou seu setor?",
+    "subtitle": "O DocumentoIQ pode se adaptar a processos documentais específicos. Vamos conversar sobre o seu caso.",
+    "button": "Fale conosco"
   }
 }
