@@ -32,9 +32,11 @@ function Partners() {
             <p className="text-xl text-body max-w-3xl mx-auto leading-relaxed mb-6">
               {t('hero.subtitle')}
             </p>
-            <p className="text-lg text-body max-w-4xl mx-auto leading-relaxed mb-10">
-              {t('hero.description')}
-            </p>
+            {t('hero.description') && (
+              <p className="text-lg text-body max-w-4xl mx-auto leading-relaxed mb-10">
+                {t('hero.description')}
+              </p>
+            )}
 
             <div className="flex flex-col sm:flex-row justify-center gap-4 mb-4">
               <Link to={getLocalizedRoute('contact')}>
@@ -89,7 +91,10 @@ function Partners() {
       {/* Benefits Grid */}
       <section className="bg-surface py-20 border-y border-ui">
         <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-16 text-center text-heading">{t('benefits.title')}</h2>
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4 text-heading">{t('benefits.title')}</h2>
+            <p className="text-xl text-body max-w-3xl mx-auto">{t('benefits.description')}</p>
+          </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {(t('benefits.items', { returnObjects: true }) as any[] || []).map((benefit: any, index: number) => (
               <div key={index} className="card-surface card-hover-blue p-8 rounded-3xl border-2 border-ui">
@@ -106,22 +111,48 @@ function Partners() {
         </div>
       </section>
 
-      {/* Tools & Profiles */}
+      {/* Collaboration Models */}
       <section className="py-20 bg-app">
+        <div className="max-w-5xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl font-bold mb-4 text-heading">{t('collaboration.title')}</h2>
+            <p className="text-xl text-body max-w-4xl mx-auto leading-relaxed">{t('collaboration.description')}</p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            {(t('collaboration.models', { returnObjects: true }) as any[] || []).map((model: any, index: number) => (
+              <div key={index} className="card-surface border-2 border-ui p-8 rounded-2xl">
+                <h3 className="text-2xl font-bold mb-4 text-heading">{model.title}</h3>
+                <p className="text-body leading-relaxed mb-6">{model.description}</p>
+                <p className="font-bold text-heading mb-2">{t('collaboration.idealFor')}</p>
+                <p className="text-body leading-relaxed">{model.idealFor}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Tools & Profiles */}
+      <section className="py-20 bg-surface border-y border-ui">
         <div className="max-w-7xl mx-auto px-6 flex flex-col gap-16">
 
           {/* What you get */}
           <div>
-            <h2 className="text-3xl font-bold mb-8 text-center text-heading">{t('whatYouGet.title')}</h2>
-            <div className="grid md:grid-cols-2 gap-x-8 gap-y-4 max-w-4xl mx-auto px-4">
-              {(t('whatYouGet.items', { returnObjects: true }) as string[] || []).map((item: string, index: number) => (
-                <div key={index} className="flex items-start gap-3 py-2">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-bold mb-4 text-heading">{t('whatYouGet.title')}</h2>
+              <p className="text-xl text-body max-w-4xl mx-auto">{t('whatYouGet.description')}</p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto px-4">
+              {(t('whatYouGet.items', { returnObjects: true }) as any[] || []).map((item: any, index: number) => (
+                <div key={index} className="flex items-start gap-3 p-5 card-surface rounded-xl border border-ui">
                   <div className="flex-shrink-0 w-6 h-6 rounded-full bg-green-100 flex items-center justify-center mt-0.5">
                     <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="font-semibold text-heading leading-relaxed">{item}</span>
+                  <div>
+                    <h3 className="font-bold text-heading mb-1">{item.title}</h3>
+                    <p className="text-body leading-relaxed">{item.description}</p>
+                  </div>
                 </div>
               ))}
             </div>
@@ -129,17 +160,9 @@ function Partners() {
 
           {/* Who can partner */}
           <div>
-            <h2 className="text-3xl font-bold mb-8 text-center text-heading">{t('profiles.title')}</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              {(t('profiles.items', { returnObjects: true }) as string[] || []).map((profile: string, index: number) => (
-                <div key={index} className="bg-surface-muted p-4 rounded-xl text-center font-semibold text-body border border-ui">
-                  {profile}
-                </div>
-              ))}
-            </div>
             <div className="bg-[#FEC930]/10 p-6 rounded-2xl border border-[#FEC930]/30 max-w-3xl mx-auto">
-              <p className="text-body font-medium italic text-center">
-                {t('profiles.footer')}
+              <p className="text-body font-medium text-center text-lg">
+                {t('profiles.description')}
               </p>
             </div>
           </div>

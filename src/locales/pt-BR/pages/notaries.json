@@ -1,96 +1,97 @@
 {
     "hero": {
-        "badge": "Análise Inteligente de Documentos Notariais",
-        "title": "Cartórios",
-        "subtitle": "O DocumentoIQ Cartórios auxilia na análise, extração e validação de informações-chave de escrituras e documentos notariais complexos, reduzindo prazos e erros sem substituir o critério do tabelião.",
-        "microcopy": "Projetado para escrituras, procurações, compra e venda e protocolos notariais.",
-        "primaryCta": "Solicitar demonstração para cartórios",
-        "secondaryCta": "Veja como funciona com uma procuração",
+        "badge": "Especialização",
+        "title": "Inteligência Documental para Cartórios",
+        "subtitle": "O DocumentoIQ ajuda a analisar, extrair e organizar informações de escrituras e outros documentos notariais, reduzindo o tempo de revisão e mantendo sempre a decisão final nas mãos do tabelião.",
+        "microcopy": "Projetada para compreender a documentação própria do ambiente notarial.",
+        "primaryCta": "Solicitar uma demonstração",
+        "secondaryCta": "Ver o DocumentoIQ em ação",
         "secondaryCtaUrl": "https://youtu.be/cbBvaBqJAcw"
     },
     "whatIs": {
-        "title": "O que é o DocumentoIQ Cartórios?",
-        "description": "DocumentoIQ Cartórios é o produto especializado do DocumentoIQ projetado especificamente para cartórios. Ele utiliza inteligência artificial para analisar documentos notariais extensos, identificar informações críticas e estruturar dados relevantes, ajudando tabeliães e suas equipes a trabalhar com maior precisão, velocidade e confiança.",
-        "disclaimer": "O DocumentoIQ Cartórios não substitui o tabelião. Ele funciona como um assistente inteligente que reduz a carga manual e os erros na revisão documental."
+        "title": "Por que uma especialização para cartórios?",
+        "description": "Escrituras, procurações, atas e outros documentos notariais exigem a compreensão de uma estrutura documental e de um contexto jurídico específicos. O DocumentoIQ incorpora lógica documental especializada para organizar as informações e facilitar sua revisão.",
+        "disclaimer": "O DocumentoIQ auxilia o processo documental; a interpretação jurídica e a decisão final permanecem sempre nas mãos do tabelião."
     },
     "howItWorks": {
-        "title": "Como o DocumentoIQ Cartórios funciona?",
+        "title": "Como funciona o DocumentoIQ para Cartórios?",
         "steps": {
             "step1": {
-                "title": "1. Upload de documentos notariais",
-                "description": "Envie escrituras públicas, procurações, contratos de compra e venda, protocolos ou outros documentos notariais, digitais ou digitalizados.",
-                "footer": "Formatos suportados: PDF, JPG, PNG, TIFF"
+                "title": "1. Envio de documentos",
+                "description": "Envie escrituras, procurações, atas e outros documentos notariais em formato digital ou digitalizado.",
+                "footer": "Compatível com PDFs e imagens."
             },
             "step2": {
-                "title": "2. Processamento com IA especializada",
-                "intro": "O DocumentoIQ Cartórios combina OCR avançado com modelos de linguagem treinados para entender documentos notariais, identificando automaticamente:",
-                "items": [
-                    "Partes envolvidas",
-                    "Datas e atos jurídicos",
-                    "Valores e bens",
-                    "Referências e dados fundamentais"
-                ],
-                "footer": "A IA auxilia na análise; a validação final é sempre humana."
+                "title": "2. Compreensão documental especializada",
+                "intro": "O DocumentoIQ analisa o documento, identifica as informações relevantes e as organiza automaticamente.",
+                "footer": "OCR avançado + Inteligência Documental"
             },
             "step3": {
-                "title": "3. Resultados estruturados e revisáveis",
-                "description": "Revise as informações pelo painel visual ou exporte os dados em Excel, CSV ou JSON para integrá-los aos seus sistemas notariais."
+                "title": "3. Revisão e validação",
+                "description": "Consulte as informações organizadas, realize as validações necessárias e continue com seu processo documental.",
+                "footer": "Exportação e integração disponíveis."
             }
         }
     },
     "benefits": {
-        "title": "Benefícios Técnicos e de Negócio para Cartórios",
+        "title": "O que o DocumentoIQ oferece a um cartório?",
+        "description": "O DocumentoIQ combina uma especialização documental para cartórios com capacidades projetadas para se integrar naturalmente à sua operação.",
         "business": {
-            "title": "Benefícios de Negócio",
+            "title": "Benefícios para a operação",
             "items": [
-                "Redução significativa no tempo de revisão de escrituras",
-                "Menor carga operacional para a equipe do cartório",
-                "Menos erros humanos em documentos críticos",
-                "Maior consistência e controle nos processos notariais"
+                "Reduz os tempos de revisão",
+                "Diminui erros documentais",
+                "Organiza as informações automaticamente",
+                "Mantém o controle nas mãos do tabelião"
             ]
         },
         "technical": {
-            "title": "Benefícios Técnicos",
+            "title": "Capacidades da plataforma",
             "items": [
-                "Precisão superior a 90% em documentos notariais",
-                "OCR avançado para documentos digitalizados ou de baixa qualidade",
-                "Extração flexível de campos notariais personalizáveis",
-                "Painel visual para revisão manual opcional",
-                "Exportação imediata (Excel, CSV, JSON)",
-                "Integração via API e Zapier"
+                "OCR avançado",
+                "Extração configurável de informações",
+                "Revisão visual e validação",
+                "Exportação e integração"
             ]
         }
     },
     "useCases": {
-        "title": "Principais Aplicações em Cartórios",
+        "title": "Documentos compreendidos pela especialização para Cartórios",
+        "description": "O DocumentoIQ incorpora lógica documental para compreender diferentes tipos de documentação notarial e facilitar sua revisão. Alguns deles são:",
         "items": {
             "acts": {
-                "title": "Revisão de atas notariais",
-                "description": "Análise de atas notariais para identificar dados fundamentais como partes, declarações, dicas e atos jurídicos, reduzindo erros em documentos de alta frequência."
+                "title": "Escrituras públicas",
+                "description": "Identifica comparecentes, atos jurídicos, imóveis e outros elementos relevantes de uma escritura pública."
             },
             "powers": {
-                "title": "Validação de procurações",
-                "description": "Extração e validação automática de informações em procurações gerais ou especiais, identificando outorgantes, procuradores, poderes e validade, apontando possíveis inconsistências para revisão do tabelião."
+                "title": "Procurações",
+                "description": "Organiza as informações-chave de procurações gerais e especiais para facilitar sua revisão."
             },
             "deeds": {
-                "title": "Revisión de escrituras públicas",
-                "description": "Análise de escrituras extensas e complexas para identificar partes, bens, valores, antecedentes e cláusulas relevantes, facilitando a revisão e reduzindo o tempo de preparação e validação."
+                "title": "Testamentos",
+                "description": "Facilita a revisão documental por meio de informações estruturadas do testamento."
             },
             "wills": {
-                "title": "Testamentos",
-                "description": "Revisão estruturada de testamentos para identificar disposições, herdeiros, bens e condições especiais, ajudando a minimizar erros formais em documentos juridicamente sensíveis."
+                "title": "Protocolos e atas",
+                "description": "Analisa a estrutura documental para apresentar as informações de forma clara e organizada."
             }
         }
     },
     "brand": {
-        "title": "DocumentoIQ Cartórios é parte do ecossistema DocumentoIQ",
-        "tagline": "Uma única base tecnológica. Produtos especializados para setores críticos."
+        "title": "Uma plataforma. Múltiplas especializações.",
+        "tagline": "A especialização para Cartórios faz parte do DocumentoIQ, uma plataforma de Inteligência Documental projetada para se adaptar a diferentes processos documentais por meio de especializações específicas.",
+        "cta": "Explorar todas as especializações →"
+    },
+    "security": {
+        "title": "Proteção e confiança em cada documento",
+        "description": "O DocumentoIQ foi projetado para proteger as informações e oferecer uma experiência confiável em cada etapa do processo documental, independentemente da especialização com a qual você trabalha.",
+        "link": "Saiba como protegemos suas informações →"
     },
     "cta": {
-        "title": "Otimize a análise de documentos notariais com DocumentoIQ Cartórios",
-        "subtitle": "Solicite uma demonstração personalizada e descubra como o DocumentoIQ Cartórios pode ajudar você a reduzir prazos, erros e carga operacional em seu cartório, mantendo sempre o controle profissional.",
-        "button": "Solicitar demonstração para cartórios",
-        "microcopy": "Demonstração focada em documentos notariais reais.",
+        "title": "Descubra como o DocumentoIQ transforma a operação de um cartório",
+        "subtitle": "Conheça como a especialização para Cartórios ajuda a reduzir a carga operacional da revisão documental para que sua equipe possa dedicar mais tempo ao atendimento de clientes e ao crescimento do cartório.",
+        "button": "Solicitar demonstração",
+        "microcopy": "Conheça como o DocumentoIQ pode se adaptar aos processos do seu cartório.",
         "videoUrl": "https://www.youtube.com/embed/8LOnJLi-4hA"
     }
 }

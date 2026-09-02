@@ -2,16 +2,16 @@
   "hero": {
     "badge": "Programa de Partners DocumentoIQ",
     "title": "Torne-se um Partner do DocumentoIQ",
-    "subtitle": "Impulsione soluções de inteligência documental baseadas em IA e participe da transformação digital das organizações na América Latina.",
-    "description": "O DocumentoIQ ajuda empresas e profissionais a analisar, organizar e automatizar processos documentais complexos por meio de inteligência artificial assistiva, mantendo sempre o controle humano em processos críticos.",
+    "subtitle": "Leve o DocumentoIQ a novas organizações e desenvolva oportunidades em torno de processos documentais que exigem maior especialização, integração e acompanhamento.",
+    "description": "",
     "ctaPrimary": "Falar com nossa equipe",
     "ctaSecondary": "Saiba mais sobre o DocumentoIQ",
-    "microcopy": "Programa disponível para pessoas físicas e organizações."
+    "microcopy": "Voltado a partners comerciais, consultivos e tecnológicos. Indivíduos e organizações."
   },
   "opportunity": {
-    "title": "A automação de documentos impulsionada por IA está acelerando na América Latina",
-    "description": "Milhares de organizações na região ainda dependem de processos documentais manuais, lentos e propensos a erros. Ao mesmo tempo, setores como jurídico, financeiro, compliance, seguros, imobiliário e operações corporativas estão acelerando a adoção de tecnologias de automação e inteligência artificial.",
-    "subtext": "O DocumentoIQ busca construir uma rede estratégica de partners para liderar esta transformação na região.",
+    "title": "A Inteligência Documental abre novas oportunidades na América Latina",
+    "description": "Muitas organizações ainda dependem de processos documentais manuais, enquanto cresce a necessidade de analisar, organizar e integrar informações de forma mais eficiente.",
+    "subtext": "O DocumentoIQ busca desenvolver essa oportunidade junto a partners que conhecem seus mercados e as necessidades de seus clientes.",
     "indicatorsTitle": "Indicadores de oportunidade",
     "stats": [
       {
@@ -33,7 +33,8 @@
     ]
   },
   "benefits": {
-    "title": "Construa novas oportunidades em torno de IA e automação de documentos",
+    "title": "Benefícios de ser Partner do DocumentoIQ",
+    "description": "Um programa projetado para desenvolver novas oportunidades, ampliar sua oferta e crescer junto com o DocumentoIQ.",
     "items": [
       {
         "title": "Novas oportunidades de negócios",
@@ -61,20 +62,29 @@
       }
     ]
   },
+  "collaboration": {
+    "title": "Escolha como colaborar com o DocumentoIQ",
+    "description": "O programa se adapta às capacidades comerciais e técnicas de cada partner, com diferentes níveis de participação durante o desenvolvimento de uma oportunidade.",
+    "idealFor": "Ideal para:",
+    "models": [
+      { "title": "Partner Comercial", "description": "Desenvolve a oportunidade do início ao fim, enquanto o DocumentoIQ acompanha a implementação.", "idealFor": "Consultorias, especialistas de indústria e partners com capacidade comercial e conhecimento de mercado." },
+      { "title": "Partner Integral", "description": "Gerencia a oportunidade e possui a capacidade necessária para acompanhar também a implementação.", "idealFor": "Integradores tecnológicos, empresas de software e consultorias com capacidades técnicas." }
+    ]
+  },
   "whatYouGet": {
-    "title": "Ferramentas e suporte para crescer conosco",
+    "title": "Tudo o que é necessário para desenvolver oportunidades",
+    "description": "Da capacitação inicial ao acompanhamento em projetos, o DocumentoIQ oferece recursos para que cada partner avance com confiança.",
     "items": [
-      "Treinamento técnico e comercial",
-      "Materiais de vendas",
-      "Demos e acompanhamento",
-      "Suporte técnico",
-      "Onboarding especializado",
-      "Atualizações contínuas",
-      "Colaboração estratégica"
+      { "title": "Capacitação e Academy", "description": "Formação sobre a plataforma, especializações e processo." },
+      { "title": "Material comercial", "description": "Apresentações, one-pagers e recursos para conversas com clientes." },
+      { "title": "Ambiente de demonstração", "description": "Ferramentas e materiais para apresentar o DocumentoIQ em cenários comerciais." },
+      { "title": "Acompanhamento", "description": "Suporte durante o desenvolvimento de oportunidades e projetos." },
+      { "title": "Onboarding estruturado", "description": "Um processo guiado para conhecer a plataforma, o programa e a forma de trabalho." },
+      { "title": "Atualizações", "description": "Novidades, capacidades e recursos conforme o DocumentoIQ evolui." }
     ]
   },
   "profiles": {
-    "title": "O programa é projetado tanto para pessoas físicas quanto para organizações",
+    "description": "Buscamos partners com conhecimento de mercado e capacidade comercial, técnica ou especializada para desenvolver novas oportunidades.",
     "items": [
       "Consultorias",
       "Empresas de tecnologia",
@@ -118,10 +128,10 @@
     ]
   },
   "ctaFinal": {
-    "title": "Vamos construir juntos o futuro da inteligência documental",
-    "description": "O DocumentoIQ está criando uma rede estratégica de partners para acelerar a adoção da automação de documentos impulsionada por IA na América Latina. Junte-se a nós e participe da evolução de processos críticos em setores jurídicos, financeiros, corporativos e operacionais.",
+    "title": "Vamos construir novas oportunidades juntos",
+    "description": "Transforme seu conhecimento de mercado em novas oportunidades e desenvolva com nossa equipe projetos que transformam a forma de trabalhar com documentos.",
     "buttonPrimary": "Agendar reunião",
     "buttonSecondary": "Saiba mais sobre o DocumentoIQ",
-    "microcopy": "Projetado para partners comerciais, estratégicos e tecnológicos."
+    "microcopy": "Vamos conversar sobre seu mercado, experiência e modelo de colaboração."
   }
 }

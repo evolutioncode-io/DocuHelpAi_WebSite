@@ -1,29 +1,30 @@
 {
   "hero": {
-    "badge": "Procesamiento Inteligente de Documentos (IDP)",
+    "badge": "Procesamiento Documental",
     "title": "¿Cómo funciona DocumentoIQ?",
-    "subtitle": "Procesamiento inteligente de documentos mediante OCR avanzado y modelos de lenguaje de última generación para extraer información crítica con alta precisión."
+    "subtitle": "DocumentoIQ transforma documentos complejos en información estructurada y lista para trabajar, mediante un proceso que combina tecnología, lógica documental y validación humana.",
+    "followup": "Del documento original a información organizada, revisable e integrable en tu operación."
   },
   "steps": {
     "step1": {
-      "heading": "1. Subida de documentos",
-      "description": "Arrastra tu PDF al panel o conéctate por API. Aceptamos documentos escaneados, imágenes o generados por computadora. Sin límites de tamaño.",
-      "badge": "Formatos compatibles: PDF, JPG, PNG, TIFF"
+      "heading": "1. Carga los documentos",
+      "description": "Inicia el proceso con archivos digitales, escaneados o provenientes de otros sistemas.",
+      "badge": "PDF e imágenes"
     },
     "step2": {
-      "heading": "2. Procesamiento con IA",
-      "description": "Combinamos OCR avanzado con modelos de lenguaje (LLM + NLP) para identificar texto, entidades legales, fechas, montos y campos clave automáticamente, con una precisión superior al 90%. La IA asiste el análisis; el control y la validación final siempre son humanos.",
-      "badge": "Tecnología: OCR + LLM + NLP"
+      "heading": "2. DocumentoIQ analiza y organiza",
+      "description": "OCR avanzado e Inteligencia Artificial interpretan el contenido, mientras la lógica documental estructura los datos relevantes para cada flujo.",
+      "badge": "OCR avanzado · IA · Lógica documental"
     },
     "step3": {
-      "heading": "3. Resultados estructurados",
-      "description": "Exporta los datos en Excel, CSV o JSON para integrarlos en tus sistemas, o revisa toda la información directamente desde el panel visual de la plataforma.",
-      "badge": "Salidas: Excel, CSV, JSON, API"
+      "heading": "3. Revisa y continúa el proceso",
+      "description": "Valida la información obtenida desde la plataforma y envíala a otros sistemas o formatos según las necesidades de la operación.",
+      "badge": "Validación humana · APIs · Exportación estructurada"
     }
   },
   "benefits": {
-    "title": "Beneficios técnicos y de negocio",
-    "subtitle": "Tecnología de automatización documental con IA diseñada para reducir tiempos, errores y fricción operativa en procesos legales y notariales.",
+    "title": "¿Qué ocurre durante el procesamiento?",
+    "subtitle": "DocumentoIQ combina distintas capas de análisis para transformar contenido no estructurado en información organizada y lista para revisar.",
     "business": {
       "title": "Beneficios de negocio",
       "items": {
@@ -73,11 +74,27 @@
           "description": "Conecta con tus sistemas sin cambios drásticos en tu proceso actual"
         }
       }
+    },
+    "items": {
+      "reading": { "title": "Lectura documental", "description": "El OCR avanzado reconoce texto y contenido en archivos digitales, escaneados e imágenes." },
+      "interpretation": { "title": "Interpretación del contenido", "description": "Modelos de Inteligencia Artificial identifican contexto, relaciones y elementos relevantes." },
+      "extraction": { "title": "Extracción de datos", "description": "Localiza las variables definidas para cada flujo y recupera sus valores." },
+      "organization": { "title": "Organización estructurada", "description": "Convierte los datos obtenidos en una estructura clara y consistente." },
+      "logic": { "title": "Lógica documental", "description": "Aplica reglas y configuraciones específicas según las necesidades de cada proceso." },
+      "validation": { "title": "Validación", "description": "Presenta los resultados para su revisión antes de continuar con la operación." }
     }
   },
   "technology": {
-    "title": "Tecnología de última generación para procesamiento documental con IA",
-    "subtitle": "Combinamos lo mejor de OCR y modelos de lenguaje",
+    "title": "La tecnología detrás de la Inteligencia Documental",
+    "subtitle": "DocumentoIQ combina tecnologías de procesamiento, modelos de IA y lógica documental para interpretar contenido complejo y convertirlo en información estructurada de forma consistente.",
+    "items": {
+      "ocr": { "title": "OCR avanzado", "description": "Procesamiento de documentos digitales y escaneados mediante reconocimiento óptico de caracteres (OCR) para identificar y preparar el contenido para su análisis." },
+      "llm": { "title": "LLMs", "description": "Large Language Models interpretan contexto, relaciones semánticas y elementos relevantes dentro del contenido documental." },
+      "extraction": { "title": "Extracción estructurada", "description": "Esquemas y variables configuradas permiten transformar contenido no estructurado en datos normalizados y utilizables." },
+      "logic": { "title": "Lógica documental", "description": "Reglas de procesamiento definen cómo interpretar, validar y estructurar la información según cada flujo documental." },
+      "workflows": { "title": "Workflows especializados", "description": "Flujos configurados coordinan las distintas etapas del procesamiento para mantener una ejecución consistente y repetible." },
+      "integrations": { "title": "APIs e integraciones", "description": "La información procesada puede conectarse con otros sistemas para incorporarse a los procesos existentes de la organización." }
+    },
     "ocr": {
       "title": "OCR Avanzado",
       "description": "Reconocimiento óptico de caracteres de última generación para documentos de cualquier calidad, incluyendo escaneos y manuscritos"
@@ -92,15 +109,15 @@
     }
   },
   "security": {
-    "title": "Seguridad y protección de datos",
-    "description": "DocumentoIQ combina IA asistiva con controles empresariales de seguridad, incluyendo cifrado, segregación de datos, auditoría y autenticación segura sobre Google Cloud.",
-    "link": "Explorar arquitectura y seguridad →"
+    "title": "Seguridad integrada en el procesamiento documental",
+    "description": "La arquitectura de DocumentoIQ incorpora mecanismos de protección para resguardar la información durante su transmisión, procesamiento y almacenamiento.",
+    "link": "Conoce cómo protegemos tu información →"
   },
   "cta": {
-    "title": "¿Tienes un flujo documental personalizado?",
-    "subtitle": "Nuestro equipo puede ayudarte a adaptar DocumentoIQ a procesos notariales, hipotecarios o legales específicos, integrándose a tu operación actual sin fricciones.",
-    "buttonPrimary": "Hablar con un especialista",
-    "buttonSecondary": "Solicitar demo personalizada",
+    "title": "Lleva DocumentoIQ a tus procesos documentales",
+    "subtitle": "Ya sea con una especialización existente o mediante una configuración adaptada a tu operación, DocumentoIQ puede integrarse a la forma en que tu organización trabaja con documentos.",
+    "buttonPrimary": "Explorar DocumentoIQ",
+    "buttonSecondary": "Solicitar una demostración",
     "videoUrl": "https://www.youtube.com/embed/sXSjarKobU8"
   }
 }

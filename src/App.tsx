@@ -6,7 +6,6 @@ import Layout from './components/Layout'
 import LocalizedRoutes from './components/LocalizedRoutes'
 import ScrollToTop from './components/ScrollToTop'
 import { normalizeLanguage } from './hooks/useLanguage'
-import { AuthProvider } from './providers/AuthProvider'
 
 
 // Lazy load pages for better code splitting and performance
@@ -23,10 +22,9 @@ const Terms = lazy(() => import('./pages/Terms'))
 const Cookies = lazy(() => import('./pages/Cookies'))
 const Security = lazy(() => import('./pages/Security'))
 const Partners = lazy(() => import('./pages/Partners'))
+const Plans = lazy(() => import('./pages/Plans'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
 const HowWeWork = lazy(() => import('./pages/HowWeWork'))
-const PartnerLogin = lazy(() => import('./pages/partners/PartnerLogin'))
-const PartnerLayout = lazy(() => import('./pages/partners/PartnerLayout'))
 import heroImageIdp from './assets/blog_images/00_art.png'
 import heroImageInvest from './assets/blog_images/01_art.png'
 import heroImageCustomAi from './assets/blog_images/02_art.png'
@@ -109,6 +107,7 @@ function App() {
             <Route path="cookies" element={<Cookies />} />
             <Route path="security" element={<Security />} />
             <Route path="partners" element={<Partners />} />
+            <Route path="plans" element={<Plans />} />
             <Route
               path="blog/what-is-intelligent-document-processing-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
@@ -169,6 +168,7 @@ function App() {
             <Route path="cookies" element={<Cookies />} />
             <Route path="seguridad" element={<Security />} />
             <Route path="partners" element={<Partners />} />
+            <Route path="planes" element={<Plans />} />
             <Route
               path="blog/que-es-procesamiento-inteligente-documentos-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
@@ -229,6 +229,7 @@ function App() {
             <Route path="cookies" element={<Cookies />} />
             <Route path="seguranca" element={<Security />} />
             <Route path="partners" element={<Partners />} />
+            <Route path="planos" element={<Plans />} />
             <Route
               path="blog/o-que-e-processamento-inteligente-documentos-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}
@@ -272,10 +273,6 @@ function App() {
           </Route>
         </Route>
 
-        {/* Partner portal */}
-        <Route path="/partners/login" element={<PartnerLogin />} />
-        <Route path="/partners/portal" element={<AuthProvider><PartnerLayout /></AuthProvider>} />
-
         {/* 404 */}
         <Route path="*" element={<NotFound />} />
 
@@ -296,6 +293,7 @@ function App() {
             <Route path="cookies" element={<Cookies />} />
             <Route path="security" element={<Security />} />
             <Route path="partners" element={<Partners />} />
+            <Route path="plans" element={<Plans />} />
             <Route
               path="blog/what-is-intelligent-document-processing-idp"
               element={<BlogPost contentNamespace="blog_00_IDP" metadataNamespace="meta_00_IDP" heroImage={heroImageIdp} />}

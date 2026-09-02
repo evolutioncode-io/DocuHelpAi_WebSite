@@ -2,79 +2,89 @@
   "hero": {
     "badge": "DocumentoIQ Partners Program",
     "title": "Become a DocumentoIQ Partner",
-    "subtitle": "Drive AI-powered document intelligence solutions and participate in the digital transformation of organizations in Latin America.",
-    "description": "DocumentoIQ helps companies and professionals analyze, organize, and automate complex document processes using assistive artificial intelligence, always maintaining human control in critical processes.",
+    "subtitle": "Bring DocumentoIQ to new organizations and develop opportunities around document processes that require greater specialization, integration, and support.",
+    "description": "",
     "ctaPrimary": "Talk to our team",
     "ctaSecondary": "Learn more about DocumentoIQ",
-    "microcopy": "Program available for individuals and organizations."
+    "microcopy": "For commercial, consulting, and technology partners. Individuals and organizations."
   },
   "opportunity": {
-    "title": "AI-driven document automation is accelerating in Latin America",
-    "description": "Thousands of organizations in the region still rely on manual, slow, and error-prone document processes. At the same time, sectors such as legal, financial, compliance, insurance, real estate, and corporate operations are accelerating the adoption of automation and artificial intelligence technologies.",
-    "subtext": "DocumentoIQ seeks to build a strategic network of partners to lead this transformation in the region.",
+    "title": "Document Intelligence opens new opportunities in Latin America",
+    "description": "Many organizations still rely on manual document processes, while the need to analyze, organize, and integrate information more efficiently continues to grow.",
+    "subtext": "DocumentoIQ seeks to develop this opportunity alongside partners who understand their markets and their clients' needs.",
     "indicatorsTitle": "Opportunity indicators",
     "stats": [
       {
         "value": "+40,000",
-        "label": "Notaries and document offices in LATAM"
+        "label": "Notaries and document offices in Latin America*"
       },
       {
-        "value": "High demand",
-        "label": "Document automation and efficiency"
+        "value": "Processes still manual",
+        "label": "High transformation potential in document-intensive operations."
       },
       {
-        "value": "Expanding market",
-        "label": "AI applied to real operations"
+        "value": "Multiple industries",
+        "label": "Document needs across legal, financial, real estate, and corporate sectors."
       },
       {
-        "value": "Early opportunity",
-        "label": "Regional strategic positioning"
+        "value": "Room for specialization",
+        "label": "Each market requires knowledge of its documents, processes, and needs."
       }
     ]
   },
   "benefits": {
-    "title": "Build new opportunities around AI and document automation",
+    "title": "Benefits of becoming a DocumentoIQ Partner",
+    "description": "A program designed to develop new opportunities, expand your offering, and grow alongside DocumentoIQ.",
     "items": [
       {
-        "title": "New business opportunities",
-        "description": "Develop new business lines related to document automation and applied artificial intelligence."
+        "title": "New commercial opportunities",
+        "description": "Expand your offering with a platform applicable to different document needs."
       },
       {
         "title": "Recurring revenue",
-        "description": "Participate in scalable models with continuous growth potential."
+        "description": "Develop long-term relationships through an ongoing collaboration model."
       },
       {
-        "title": "Expanding market",
-        "description": "The AI-driven document transformation is just beginning in Latin America."
+        "title": "Differentiated offering",
+        "description": "Add Document Intelligence to your portfolio with specializations for different industries."
       },
       {
-        "title": "Support and guidance",
-        "description": "Work alongside a specialized team in AI, document automation, and critical processes."
+        "title": "Specialized support",
+        "description": "Work with the DocumentoIQ team throughout the development of opportunities and projects."
       },
       {
-        "title": "Strategic positioning",
-        "description": "Become an innovation benchmark within your industry or market."
+        "title": "Joint development",
+        "description": "Work with our team to identify needs and build proposals for your clients."
       },
       {
         "title": "Flexible models",
-        "description": "Participate according to your commercial, technical, consultative, or strategic profile."
+        "description": "Participate commercially or expand your scope into implementation according to your capabilities."
       }
     ]
   },
+  "collaboration": {
+    "title": "Choose how to collaborate with DocumentoIQ",
+    "description": "The program adapts to each partner's commercial and technical capabilities, with different levels of participation throughout an opportunity.",
+    "idealFor": "Ideal for:",
+    "models": [
+      { "title": "Commercial Partner", "description": "Develops the opportunity from start to finish while DocumentoIQ supports the implementation.", "idealFor": "Consultancies, industry specialists, and partners with commercial capabilities and market knowledge." },
+      { "title": "Full-Service Partner", "description": "Manages the opportunity and has the capabilities required to support the implementation as well.", "idealFor": "Technology integrators, software companies, and consultancies with technical capabilities." }
+    ]
+  },
   "whatYouGet": {
-    "title": "Tools and support to grow with us",
+    "title": "Everything needed to develop opportunities",
+    "description": "From initial training to project support, DocumentoIQ provides resources so each partner can move forward with confidence.",
     "items": [
-      "Technical and commercial training",
-      "Sales materials",
-      "Demos and guidance",
-      "Technical support",
-      "Specialized onboarding",
-      "Continuous updates",
-      "Strategic collaboration"
+      { "title": "Training and Academy", "description": "Training on the platform, specializations, and process." },
+      { "title": "Commercial materials", "description": "Presentations, one-pagers, and resources for client conversations." },
+      { "title": "Demo environment", "description": "Tools and materials for presenting DocumentoIQ in commercial scenarios." },
+      { "title": "Support", "description": "Support throughout the development of opportunities and projects." },
+      { "title": "Structured onboarding", "description": "A guided process to learn about the platform, program, and ways of working." },
+      { "title": "Updates", "description": "News, capabilities, and resources as DocumentoIQ evolves." }
     ]
   },
   "profiles": {
-    "title": "The program is designed for both individuals and organizations",
+    "description": "We are looking for partners with market knowledge and commercial, technical, or specialized capabilities to develop new opportunities.",
     "items": [
       "Consultancies",
       "Tech companies",
@@ -118,10 +128,10 @@
     ]
   },
   "ctaFinal": {
-    "title": "Let's build the future of document intelligence together",
-    "description": "DocumentoIQ is creating a strategic network of partners to accelerate the adoption of AI-driven document automation in Latin America. Join and participate in the evolution of critical processes in legal, financial, corporate, and operational sectors.",
+    "title": "Let's build new opportunities together",
+    "description": "Turn your market knowledge into new opportunities and develop projects with our team that transform how people work with documents.",
     "buttonPrimary": "Schedule meeting",
     "buttonSecondary": "See more about DocumentoIQ",
-    "microcopy": "Designed for commercial, strategic, and technological partners."
+    "microcopy": "Let's talk about your market, experience, and collaboration model."
   }
 }

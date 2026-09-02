@@ -1,0 +1,39 @@
+{
+  "hero": { "badge": "Planes DocumentoIQ", "title": "Un DocumentoIQ. Diferentes formas de crecer", "description": "Elige el nivel de capacidades que mejor se adapta a tu operación, desde el trabajo individual hasta procesos colaborativos, integrados y de mayor escala.", "primaryCta": "Explorar planes", "secondaryCta": "Hablar con nuestro equipo", "microcopy": "Starter · Growth · Scale" },
+  "progression": { "title": "La plataforma es la misma. Las capacidades avanzan contigo", "description": "DocumentoIQ acompaña distintas etapas de tu operación, ampliando lo que puedes hacer conforme evolucionan tus necesidades documentales.", "items": [
+    { "title": "Aprende", "description": "Define cómo trabajar con cada tipo de documento y qué información necesitas obtener." },
+    { "title": "Automatiza", "description": "Convierte ese conocimiento en procesos que generan resultados de forma consistente." },
+    { "title": "Conecta", "description": "Integra DocumentoIQ con otros sistemas para llevar la información a tu operación." },
+    { "title": "Escala", "description": "Extiende tus procesos, usuarios y capacidades conforme crecen tus necesidades." }
+  ] },
+  "plans": { "title": "Encuentra el plan para tu operación", "description": "Tres formas de trabajar con DocumentoIQ según tus necesidades de procesamiento, colaboración e integración.", "items": [
+    { "name": "DocumentoIQ Starter", "audience": "Para profesionales independientes", "tagline": "Empieza a trabajar con tus propios procesos.", "description": "Enseña a DocumentoIQ cómo trabajar con tus documentos y crea workflows directamente desde la plataforma.", "includesTitle": "Incluye:", "features": ["Personalización de workflows mediante chat", "Configuración de formato de salida por chat", "Modelo SaaS", "Soporte mediante tickets"], "cta": "Conocer Starter" },
+    { "name": "DocumentoIQ Growth", "audience": "Para despachos y PyMEs", "tagline": "Lleva tus procesos al trabajo en equipo.", "description": "Amplía el uso de DocumentoIQ con mayor capacidad de procesamiento, colaboración y acceso a workflows adicionales.", "includesTitle": "Incluye:", "features": ["Modelo de cuentas", "Mayor volumen y procesos", "Workflows prediseñados", "Soporte mediante tickets"], "cta": "Conocer Growth" },
+    { "name": "DocumentoIQ Scale", "audience": "Para operaciones con necesidades avanzadas", "tagline": "Integra DocumentoIQ a tu organización.", "description": "Extiende las capacidades de la plataforma con configuraciones específicas, múltiples cuentas e integración con otros sistemas.", "includesTitle": "Incluye:", "features": ["Uso robusto de la plataforma", "Múltiples cuentas", "Plantillas de extracción personalizadas", "Formatos especiales de salida", "Integraciones con sistemas", "Equipo de soporte dedicado"], "cta": "Hablar sobre Scale" }
+  ] },
+  "comparison": { "title": "Compara las capacidades de cada plan", "description": "DocumentoIQ mantiene una misma base. Cada plan amplía las capacidades disponibles según las necesidades de tu operación.", "capability": "Capacidad", "rows": [
+    { "capability": "Uso de la plataforma", "starter": true, "growth": true, "scale": true },
+    { "capability": "Creación de workflows mediante chat", "starter": true, "growth": true, "scale": true },
+    { "capability": "Soporte mediante tickets", "starter": true, "growth": true, "scale": true },
+    { "capability": "Trabajo con múltiples cuentas", "starter": false, "growth": true, "scale": true },
+    { "capability": "Mayor volumen y procesos", "starter": false, "growth": true, "scale": true },
+    { "capability": "Workflows preconfigurados", "starter": false, "growth": true, "scale": true },
+    { "capability": "Workflows diseñados bajo solicitud", "starter": false, "growth": false, "scale": true },
+    { "capability": "Formatos especiales de salida", "starter": true, "growth": true, "scale": true },
+    { "capability": "Integraciones con otros sistemas", "starter": false, "growth": false, "scale": true },
+    { "capability": "Equipo de soporte dedicado", "starter": false, "growth": false, "scale": true }
+  ] },
+  "specializations": { "title": "Tu plan define cómo trabajas. La especialización, qué comprende DocumentoIQ", "description": "Los planes determinan las capacidades disponibles para tu operación, mientras que las especializaciones incorporan conocimiento documental para necesidades específicas de cada industria.", "cta": "Explorar especializaciones →" },
+  "growth": { "title": "Empieza donde lo necesitas. Avanza cuando lo requieras", "description": "DocumentoIQ te permite ampliar capacidades conforme cambian tus procesos, equipo y necesidades de integración, sin cambiar de plataforma.", "items": [
+    { "title": "Starter", "action": "Comienza", "description": "Trabaja con tus propios procesos y documentos desde la plataforma." },
+    { "title": "Growth", "action": "Amplía", "description": "Incorpora mayor capacidad y colaboración para trabajar en equipo." },
+    { "title": "Scale", "action": "Integra", "description": "Adapta DocumentoIQ a operaciones que requieren personalización, integraciones y mayor acompañamiento." }
+  ], "closing": "El plan puede evolucionar contigo sin cambiar la forma en que trabajas con DocumentoIQ." },
+  "faq": { "title": "FAQ sobre planes", "items": [
+    { "question": "¿Starter, Growth y Scale son productos diferentes?", "answer": "No. Todos utilizan DocumentoIQ. Cada plan amplía las capacidades disponibles según las necesidades de tu operación." },
+    { "question": "¿Puedo cambiar de plan más adelante?", "answer": "Sí. Puedes avanzar a otro plan conforme cambien tus necesidades de procesamiento, colaboración o integración." },
+    { "question": "¿Las especializaciones dependen del plan?", "answer": "No. Las especializaciones aportan conocimiento para distintos contextos documentales; el plan define las capacidades disponibles para trabajar con DocumentoIQ." },
+    { "question": "¿Qué plan necesito si requiero integraciones o configuraciones específicas?", "answer": "Scale está diseñado para operaciones que requieren integraciones, extracciones personalizadas, formatos especiales de salida y mayor acompañamiento." }
+  ] },
+  "cta": { "title": "Encuentra el plan adecuado para tu operación", "description": "Elige cómo quieres trabajar con DocumentoIQ hoy y amplía sus capacidades conforme evolucionen tus necesidades.", "primary": "Explorar planes", "secondary": "Hablar con nuestro equipo", "microcopy": "¿No sabes cuál elegir? Te ayudamos a identificar el plan que mejor se adapta a tu operación." }
+}

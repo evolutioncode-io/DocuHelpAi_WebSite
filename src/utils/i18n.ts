@@ -53,15 +53,9 @@ import securityPtBr from '../locales/pt-BR/pages/security.json'
 import partnersEn from '../locales/en/pages/partners.json'
 import partnersEs from '../locales/es/pages/partners.json'
 import partnersPtBr from '../locales/pt-BR/pages/partners.json'
-import partnersPortalEn from '../locales/en/partners/partners-portal.json'
-import partnersPortalEs from '../locales/es/partners/partners-portal.json'
-import partnersPortalPtBr from '../locales/pt-BR/partners/partners-portal.json'
-import academyEn from '../locales/en/partners/academy.json'
-import academyEs from '../locales/es/partners/academy.json'
-import academyPtBr from '../locales/pt-BR/partners/academy.json'
-import resourcesEn from '../locales/en/partners/resources.json'
-import resourcesEs from '../locales/es/partners/resources.json'
-import resourcesPtBr from '../locales/pt-BR/partners/resources.json'
+import plansEn from '../locales/en/pages/plans.json'
+import plansEs from '../locales/es/pages/plans.json'
+import plansPtBr from '../locales/pt-BR/pages/plans.json'
 import blog00IdpEn from '../locales/en/blogs/00-IDP.json'
 import blog00IdpEs from '../locales/es/blogs/00-IDP.json'
 import blog00IdpPtBr from '../locales/pt-BR/blogs/00-IDP.json'
@@ -140,9 +134,7 @@ import useCasesEnGb from '../locales/en-GB/pages/useCases.json'
 import howWeWorkEnGb from '../locales/en-GB/pages/howWeWork.json'
 import notariesEnGb from '../locales/en-GB/pages/notaries.json'
 import bankingEnGb from '../locales/en-GB/pages/banking.json'
-import partnersPortalEnGb from '../locales/en-GB/partners/partners-portal.json'
-import academyEnGb from '../locales/en-GB/partners/academy.json'
-import resourcesEnGb from '../locales/en-GB/partners/resources.json'
+import plansEnGb from '../locales/en-GB/pages/plans.json'
 import blog00IdpEnGb from '../locales/en-GB/blogs/00-IDP.json'
 import blog01InvestEnGb from '../locales/en-GB/blogs/01-invest.json'
 import blog02SolutionsEnGb from '../locales/en-GB/blogs/02_solutions.json'
@@ -193,7 +185,7 @@ const resources = {
     banking: bankingEn, howWeWork: howWeWorkEn, about: aboutEn,
     contact: contactEn, blog: blogEn, privacy: privacyEn,
     terms: termsEn, cookies: cookiesEn, security: securityEn,
-    partners: partnersEn, 'partners-portal': partnersPortalEn, academy: academyEn, resources: resourcesEn,
+    partners: partnersEn, plans: plansEn,
     blog_00_IDP: blog00IdpEn, blog_01_invest: blog01InvestEn,
     blog_02_solutions: blog02SolutionsEn, blog_03_future: blog03FutureEn,
     blog_04_beyond: blog04BeyondEn, blog_05_procedure: blog05ProcedureEn,
@@ -211,7 +203,7 @@ const resources = {
     banking: bankingEs, howWeWork: howWeWorkEs, about: aboutEs,
     contact: contactEs, blog: blogEs, privacy: privacyEs,
     terms: termsEs, cookies: cookiesEs, security: securityEs,
-    partners: partnersEs, 'partners-portal': partnersPortalEs, academy: academyEs, resources: resourcesEs,
+    partners: partnersEs, plans: plansEs,
     blog_00_IDP: blog00IdpEs, blog_01_invest: blog01InvestEs,
     blog_02_solutions: blog02SolutionsEs, blog_03_future: blog03FutureEs,
     blog_04_beyond: blog04BeyondEs, blog_05_procedure: blog05ProcedureEs,
@@ -229,7 +221,7 @@ const resources = {
     banking: bankingPtBr, howWeWork: howWeWorkPtBr, about: aboutPtBr,
     contact: contactPtBr, blog: blogPtBr, privacy: privacyPtBr,
     terms: termsPtBr, cookies: cookiesPtBr, security: securityPtBr,
-    partners: partnersPtBr, 'partners-portal': partnersPortalPtBr, academy: academyPtBr, resources: resourcesPtBr,
+    partners: partnersPtBr, plans: plansPtBr,
     blog_00_IDP: blog00IdpPtBr, blog_01_invest: blog01InvestPtBr,
     blog_02_solutions: blog02SolutionsPtBr, blog_03_future: blog03FuturePtBr,
     blog_04_beyond: blog04BeyondPtBr, blog_05_procedure: blog05ProcedurePtBr,
@@ -247,8 +239,7 @@ const resources = {
     partners: partnersEnGb, contact: contactEnGb, blog: blogEnGb,
     privacy: privacyEnGb, terms: termsEnGb, cookies: cookiesEnGb,
     useCases: useCasesEnGb, howWeWork: howWeWorkEnGb,
-    notaries: notariesEnGb, banking: bankingEnGb,
-    'partners-portal': partnersPortalEnGb, academy: academyEnGb, resources: resourcesEnGb,
+    notaries: notariesEnGb, banking: bankingEnGb, plans: plansEnGb,
     blog_00_IDP: blog00IdpEnGb, blog_01_invest: blog01InvestEnGb,
     blog_02_solutions: blog02SolutionsEnGb, blog_03_future: blog03FutureEnGb,
     blog_04_beyond: blog04BeyondEnGb, blog_05_procedure: blog05ProcedureEnGb,

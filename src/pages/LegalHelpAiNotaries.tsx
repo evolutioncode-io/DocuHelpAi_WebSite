@@ -8,7 +8,6 @@ import logoBlack from '../assets/logos/Documento_IQ_black.png'
 
 function DocumentoIqNotaries() {
     const { t } = useTranslation('notaries')
-    const { t: tProduct } = useTranslation('product')
     const { getLocalizedRoute } = useLanguage()
 
     usePageMetadata({
@@ -29,6 +28,11 @@ function DocumentoIqNotaries() {
                     <div className="text-center mb-16">
                         <div className="flex justify-center mb-6">
                             <img src={logoBlack} alt="DocumentoIQ Logo" className="h-12 w-auto md:h-16" />
+                        </div>
+                        <div className="inline-block mb-6">
+                            <span className="text-sm font-semibold px-4 py-2 rounded-full bg-[rgba(254,201,48,0.15)] text-black">
+                                {t('hero.badge')}
+                            </span>
                         </div>
                         <h1 className="text-5xl md:text-6xl font-bold mb-6 text-heading">
                             {t('hero.title')}
@@ -128,12 +132,7 @@ function DocumentoIqNotaries() {
                                         return <span key={i}>{part}</span>;
                                     })}
                                 </p>
-                                <ul className="text-body space-y-2 mb-4">
-                                    {(t('howItWorks.steps.step2.items', { returnObjects: true }) as string[]).map((item, index) => (
-                                        <li key={index}>• {item}</li>
-                                    ))}
-                                </ul>
-                                <p className="text-sm text-body/80 italic">
+                                <p className="mt-6 pt-6 border-t border-[color:var(--color-neutral-400)] text-sm text-body/80 font-medium">
                                     {t('howItWorks.steps.step2.footer')}
                                 </p>
                             </div>
@@ -150,8 +149,11 @@ function DocumentoIqNotaries() {
                                     </svg>
                                 </div>
                                 <h3 className="font-bold text-2xl mb-4 text-heading">{t('howItWorks.steps.step3.title')}</h3>
-                                <p className="text-body leading-relaxed">
+                                <p className="text-body leading-relaxed mb-4">
                                     {t('howItWorks.steps.step3.description')}
+                                </p>
+                                <p className="mt-6 pt-6 border-t border-[color:var(--color-neutral-400)] text-sm text-body/80 font-medium">
+                                    {t('howItWorks.steps.step3.footer')}
                                 </p>
                             </div>
                         </div>
@@ -164,6 +166,7 @@ function DocumentoIqNotaries() {
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold mb-4 text-heading">{t('benefits.title')}</h2>
+                        <p className="text-xl text-body max-w-4xl mx-auto leading-relaxed">{t('benefits.description')}</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-12">
@@ -215,6 +218,7 @@ function DocumentoIqNotaries() {
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl font-bold mb-4 text-heading">{t('useCases.title')}</h2>
+                        <p className="text-xl text-body max-w-4xl mx-auto leading-relaxed">{t('useCases.description')}</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -233,14 +237,14 @@ function DocumentoIqNotaries() {
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <h2 className="text-4xl font-bold mb-6 text-heading">{t('brand.title')}</h2>
                     <div className="space-y-6 text-lg text-body leading-relaxed">
-                        <div className="flex justify-center gap-4 mt-8">
-                            <Link to={getLocalizedRoute('legalHelpAiBanking')} className="font-bold text-[#FEC930] hover:underline">
-                                DocumentoIQ Banca →
-                            </Link>
-                        </div>
                         <p className="font-semibold text-heading text-xl mt-8">
                             {t('brand.tagline')}
                         </p>
+                        <div className="flex justify-center mt-8">
+                            <Link to={getLocalizedRoute('useCases')} className="link font-bold text-lg hover:underline">
+                                {t('brand.cta')}
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -248,12 +252,12 @@ function DocumentoIqNotaries() {
             {/* Seguridad */}
             <section className="py-20 bg-surface border-t border-ui">
                 <div className="max-w-4xl mx-auto px-6 text-center">
-                    <h2 className="text-4xl font-bold mb-6 text-heading">{tProduct('security.title')}</h2>
+                    <h2 className="text-4xl font-bold mb-6 text-heading">{t('security.title')}</h2>
                     <p className="text-xl text-body mb-8 leading-relaxed">
-                        {tProduct('security.description')}
+                        {t('security.description')}
                     </p>
                     <Link to={getLocalizedRoute('security')} className="link font-bold text-lg hover:underline">
-                        {tProduct('security.link')}
+                        {t('security.link')}
                     </Link>
                 </div>
             </section>

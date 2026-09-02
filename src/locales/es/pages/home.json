@@ -1,59 +1,61 @@
 {
   "hero": {
-    "badge": "Análisis Inteligente de Documentos",
-    "title": "IA para extraer información y analizar documentos complejos con mayor precisión y menos errores",
-    "subtitle": "Analiza, extrae y organiza información clave de documentos extensos en minutos, reduciendo hasta 70% el tiempo de revisión y hasta 80% los errores humanos, sin reemplazar tu criterio profesional.",
-    "ctaPrimary": "Solicitar demo personalizada",
-    "ctaSecondary": "Ver cómo funciona con un documento real",
+    "badge": "Plataforma de Inteligencia Documental",
+    "title": "Convierte documentos complejos en información útil y confiable",
+    "subtitle": "DocumentoIQ utiliza Inteligencia Documental para analizar, extraer y organizar la información de tus documentos, ayudando a optimizar procesos, reduciendo hasta un 70% el tiempo de revisión y hasta un 80% los errores, manteniendo siempre la decisión final en manos del profesional.",
+    "ctaPrimary": "Comenzar con DocumentoIQ",
+    "ctaSecondary": "Explorar especializaciones",
     "solutionsText": "Conoce nuestras soluciones",
     "ctaNotary": "DocumentoIQ Notarías",
     "ctaBanking": "DocumentoIQ Banca",
-    "microcopy": "Diseñado para notarías, equipos legales y empresas que trabajan con documentos críticos."
+    "microcopy": "Plataforma especializada | Múltiples industrias | Decisión siempre humana"
   },
   "stats": {
     "accuracy": "90%+",
-    "accuracyLabel": "Precisión en datos legales y notariales",
-    "timeReduction": "70%",
-    "timeReductionLabel": "Reducción de tiempo de revisión",
-    "errorReduction": "80%",
-    "errorReductionLabel": "Reducción de errores humanos"
+    "accuracyLabel": "Precisión en la extracción de información",
+    "timeReduction": "Multisector",
+    "timeReductionLabel": "Diseñado para diferentes industrias",
+    "errorReduction": "Escalable",
+    "errorReductionLabel": "Crece junto con tus procesos"
   },
   "whatIs": {
-    "title": "¿Qué es DocumentoIQ?",
-    "description": "DocumentoIQ es una plataforma de inteligencia artificial diseñada para asistir a profesionales y empresas en el análisis, comprensión y revisión de documentos complejos. La IA identifica información relevante, reduce errores humanos y acelera procesos sin sustituir la validación profesional.",
+    "title": "Una nueva forma de trabajar con documentos",
+    "description": "Conoce cómo DocumentoIQ ayuda a transformar procesos documentales que tradicionalmente requieren horas de revisión manual en flujos de trabajo más ágiles, precisos y confiables.",
     "videoUrl": "https://www.youtube.com/embed/sXSjarKobU8"
   },
   "useCases": {
-    "title": "Una plataforma de IA, múltiples casos de uso",
-    "subtitle": "Análisis documental con IA adaptado a diferentes industrias y procesos",
+    "title": "Una plataforma, múltiples especializaciones",
+    "subtitle": "La Inteligencia Documental de DocumentoIQ responde a los desafíos documentales de cada industria mediante especializaciones diseñadas para optimizar el análisis y procesamiento de documentos.",
     "notarial": {
-      "title": "IA para documentos notariales",
-      "description": "Escrituras, poderes, compraventas y protocolos extensos, con información clave resaltada para una revisión más eficiente."
+      "title": "Notarías",
+      "description": "Optimiza la revisión de escrituras, poderes, actas y otros documentos notariales para agilizar los procesos y reducir tareas manuales."
     },
     "legal": {
-      "title": "IA para revisión legal y contratos",
-      "description": "Identifica cláusulas relevantes, datos críticos y posibles omisiones en documentos legales."
+      "title": "Banca",
+      "description": "Agiliza el análisis de expedientes, dictámenes y documentación financiera para acelerar procesos y fortalecer el control operativo."
     },
     "business": {
-      "title": "IA para documentos empresariales",
-      "description": "Analiza reportes, propuestas y documentación interna para mejorar la toma de decisiones."
+      "title": "Más especializaciones",
+      "description": "Descubre cómo DocumentoIQ aplica su Inteligencia Documental a diferentes industrias y procesos documentales mediante nuevas especializaciones."
     },
-    "seeMore": "Ver más →"
+    "notarialCta": "Explorar especialización →",
+    "legalCta": "Explorar especialización →",
+    "businessCta": "Ver todas las especializaciones →"
   },
   "howItWorks": {
     "title": "Cómo funciona DocumentoIQ",
-    "subtitle": "Procesamiento inteligente de documentos en 3 simples pasos",
+    "subtitle": "Transforma tus documentos en información útil en solo 3 pasos",
     "step1": {
       "title": "Carga tus documentos",
-      "description": "Sube PDFs u otros formatos, incluso documentos largos y complejos."
+      "description": "Sube PDFs y otros formatos, incluso documentos extensos y complejos, para iniciar el procesamiento."
     },
     "step2": {
-      "title": "La IA analiza y extrae información clave",
-      "description": "DocumentoIQ con apoyo de OCR avanzado identifica datos relevantes, secciones importantes y patrones críticos. La IA asiste, no reemplaza el criterio humano."
+      "title": "DocumentoIQ analiza, extrae y organiza la información",
+      "description": "Identifica la información relevante, organiza los datos extraídos y los presenta listos para su validación, agilizando el trabajo sin sustituir el criterio profesional."
     },
     "step3": {
       "title": "Valida y decide con confianza",
-      "description": "Revisa la información organizada y toma decisiones con mayor seguridad."
+      "description": "Revisa la información organizada, realiza los ajustes necesarios y toma la decisión final con mayor rapidez y confianza."
     }
   },
   "ocr_faq": {
@@ -62,34 +64,42 @@
     "question": "¿Quieres conocer más acerca del OCR avanzado?",
     "link": "Más información"
   },
-  "benefits": {
-    "title": "Beneficios de usar IA para análisis documental",
-    "subtitle": "Resultados medibles que mejoran la eficiencia y precisión en el procesamiento de documentos complejos",
-    "time": {
-      "emoji": "⏱",
-      "title": "Reduce hasta 70%",
-      "description": "el tiempo de revisión"
-    },
-    "errors": {
-      "emoji": "",
-      "title": "Disminuye hasta 80%",
-      "description": "los errores humanos"
-    },
-    "understanding": {
-      "emoji": "",
-      "title": "Mejora la comprensión",
-      "description": "de documentos extensos"
-    },
-    "keyInfo": {
-      "emoji": "",
-      "title": "Información clave",
-      "description": "clara y estructurada"
-    },
-    "control": {
-      "emoji": "⚖",
-      "title": "Control profesional",
-      "description": "en todo momento"
+  "technology": {
+    "title": "La tecnología que impulsa la Inteligencia Documental",
+    "description": "DocumentoIQ combina diferentes tecnologías para interpretar documentos, comprender su contexto y transformar su contenido en información útil para procesos reales de negocio.",
+    "cards": {
+      "understanding": { "title": "Comprensión documental", "description": "La Inteligencia Artificial interpreta la estructura y el contexto de documentos complejos." },
+      "ocr": { "title": "OCR avanzado", "description": "Digitaliza documentos escaneados e imágenes con alta precisión para su procesamiento." },
+      "extraction": { "title": "Extracción inteligente", "description": "Identifica y extrae la información relevante según el tipo de documento." },
+      "workflows": { "title": "Workflows inteligentes", "description": "Estandariza el procesamiento mediante flujos reutilizables y configurables." },
+      "structured": { "title": "Información estructurada", "description": "Organiza los datos extraídos en formatos listos para validar, exportar o integrar." },
+      "integration": { "title": "Integración empresarial", "description": "Conecta DocumentoIQ con plataformas y sistemas mediante APIs e integraciones." }
     }
+  },
+  "benefits": {
+    "title": "¿Por qué elegir DocumentoIQ?",
+    "subtitle": "DocumentoIQ fue diseñada bajo principios que permiten transformar documentos complejos en información útil, manteniendo el equilibrio entre tecnología, eficiencia y criterio profesional.",
+    "specialized": { "title": "Inteligencia especializada", "description": "Comprende documentos complejos y se adapta a las necesidades documentales de diferentes industrias." },
+    "human": { "title": "Supervisión humana", "description": "La tecnología agiliza el trabajo, mientras la validación y la decisión final permanecen en manos del profesional." },
+    "growth": { "title": "Crecimiento continuo", "description": "Evoluciona desde un proceso específico hasta operaciones más complejas, sin cambiar de plataforma." },
+    "adaptation": { "title": "Adaptación operativa", "description": "Se integra a la forma de trabajar de cada organización y a sus procesos documentales." },
+    "ecosystem": { "title": "Ecosistema conectado", "description": "Puede operar de forma independiente o integrarse con otros sistemas para potenciar los procesos existentes." },
+    "impact": { "title": "Impacto medible", "description": "Transforma documentos en información útil, reduciendo tiempos de revisión y minimizando errores." }
+  },
+  "comparison": {
+    "title": "Cuando los documentos son parte del proceso, una IA genérica no siempre es suficiente",
+    "description": "Las IAs generativas son excelentes para crear contenido, responder preguntas y asistir en tareas generales. DocumentoIQ complementa esas capacidades con Inteligencia Documental especializada, diseñada para analizar, comprender y procesar documentos complejos dentro de procesos reales de negocio.",
+    "generic": { "title": "IA Genérica", "subtitle": "Asistencia conversacional" },
+    "documentoiq": { "title": "DocumentoIQ", "subtitle": "Inteligencia Documental" },
+    "rows": {
+      "one": { "generic": "Diseñada para tareas de propósito general", "documentoiq": "Diseñada específicamente para procesos documentales" },
+      "two": { "generic": "Cada consulta depende de instrucciones (prompts) proporcionadas por el usuario", "documentoiq": "Utiliza especializaciones y workflows configurados para cada tipo de documento" },
+      "three": { "generic": "Interpreta el contenido como una conversación", "documentoiq": "Comprende el documento como parte de un proceso de negocio" },
+      "four": { "generic": "Cada interacción es independiente", "documentoiq": "Conserva la lógica del proceso para obtener resultados consistentes en cada ejecución" },
+      "five": { "generic": "Entrega respuestas para interpretar", "documentoiq": "Entrega información estructurada y lista para integrarse a procesos y sistemas" },
+      "six": { "generic": "Asiste al usuario de forma individual", "documentoiq": "Facilita el trabajo de equipos mediante procesos estandarizados, trazables y escalables" }
+    },
+    "closing": "Las IAs generativas ayudan a responder preguntas. DocumentoIQ ayuda a que los documentos impulsen procesos."
   },
   "differentiator": {
     "title": "Una plataforma de IA flexible, no limitada a una sola industria",
@@ -102,24 +112,33 @@
     }
   },
   "security": {
-    "title": "Seguridad y protección de datos",
-    "description": "DocumentoIQ protege tus documentos con infraestructura segura de Google Cloud, cifrado avanzado, control de accesos y trazabilidad completa.",
-    "link": "Ver detalles de seguridad →"
+    "title": "Confiabilidad para cada etapa del proceso documental",
+    "description": "DocumentoIQ ofrece una experiencia confiable desde el primer documento, protegiendo la información, manteniendo resultados consistentes y evolucionando junto con tu operación.",
+    "points": {
+      "one": "Infraestructura diseñada para proteger la confidencialidad de tus documentos",
+      "two": "Workflows que mantienen una ejecución uniforme en cada proceso documental",
+      "three": "Plataforma estable para el procesamiento diario de documentos",
+      "four": "Nuevas capacidades disponibles conforme evoluciona tu operación"
+    },
+    "link": "Conoce cómo protegemos tu información →"
   },
   "partnersBanner": {
-    "title": "Lleva soluciones de IA a tu mercado",
-    "description": "Únete a la red de partners DocumentoIQ y desarrolla nuevas oportunidades de negocio alrededor de automatización e inteligencia documental.",
-    "link": "Conocer más →"
+    "eyebrow": "¿Buscas nuevas oportunidades de negocio?",
+    "title": "Conviértete en Partner de DocumentoIQ",
+    "description": "Forma parte de una red de partners que impulsa la adopción de soluciones especializadas para el análisis y procesamiento de documentos.",
+    "link": "Conoce el programa de partners →"
   },
   "testimonial": {
-    "quote": "Es imposible regresar al método tradicional y abandonar las ventajas de eficiencia y precisión que ahora tenemos con DocumentoIQ",
-    "author": "Director Legal",
-    "company": "Firma especializada en documentación bancaria • México"
+    "label": "Experiencia de nuestros clientes",
+    "quote": "DocumentoIQ cambió la forma en que trabajamos con documentos. Hoy dedicamos menos tiempo a revisar información y más tiempo a tomar decisiones.",
+    "author": "Director Jurídico",
+    "company": "Firma especializada en documentación bancaria · México"
   },
   "cta": {
-    "title": "Descubre cómo DocumentoIQ se adapta a tus documentos",
-    "subtitle": "Solicita una demo personalizada y comprueba cómo la IA puede ayudarte a reducir tiempos y errores en tu operación diaria.",
-    "button": "Solicitar demo",
-    "microcopy": "Sin compromiso • Adaptado a tu tipo de documento • Soporte en español"
+    "title": "Comienza a transformar la forma en que trabajas con documentos",
+    "subtitle": "Ya sea que quieras comenzar por tu cuenta o explorar una implementación para tu organización, DocumentoIQ tiene una forma de adaptarse a tus necesidades.",
+    "buttonDemo": "Solicitar demo",
+    "buttonStart": "Comenzar ahora",
+    "microcopy": "Soporte en español · Implementación escalable · Acompañamiento especializado"
   }
 }

@@ -1,26 +1,49 @@
 {
   "hero": {
-    "badge": "Industry Solutions",
-    "title": "Use Cases",
-    "subtitle": "AI document automation for notaries, banks, law firms and more"
+    "badge": "DocumentoIQ Specialisations",
+    "title": "Document Intelligence for every industry",
+    "subtitle": "DocumentoIQ combines AI, OCR and document logic to adapt to processes across different sectors while maintaining a consistent experience throughout the platform.",
+    "ctaPrimary": "Explore the platform",
+    "ctaSecondary": "Request a demo"
+  },
+  "whySpecializations": {
+    "title": "One platform. Different areas of document expertise",
+    "cards": {
+      "logic": { "title": "Document logic", "description": "Each specialisation understands the structure and context of different documents." },
+      "consistency": { "title": "Consistent results", "description": "Extracts relevant information with greater accuracy and consistency." },
+      "scalable": { "title": "Scalable", "description": "The same platform evolves into new sectors and processes." }
+    }
   },
   "mainCases": {
+    "documentsTitle": "Documents",
+    "resultsTitle": "Results",
+    "cta": "Discover specialisation →",
     "notarial": {
       "title": "Notaries",
-      "description": "Automatically process deeds, powers of attorney, notarial certificates and wills. Ideal for modernising physical records.",
-      "highlight": "Save up to 75% of processing time"
+      "subtitle": "Notarial documentation",
+      "description": "Process deeds, powers of attorney, records and other notarial documents.",
+      "documents": { "one": "Deeds", "two": "Powers of attorney", "three": "Wills", "four": "Records" },
+      "results": { "one": "Structured information", "two": "Less manual review" },
+      "highlight": "Up to 75% less review time"
     },
     "banking": {
       "title": "Banking / Mortgages",
-      "description": "Automate review of mortgage closings, loan applications, KYC forms and regulatory reports.",
-      "highlight": "90%+ accuracy in financial data"
+      "subtitle": "Banking and mortgage documentation",
+      "description": "Organise and extract information from financial files.",
+      "documents": { "one": "Credit files", "two": "Mortgages", "three": "Reports", "four": "Applications" },
+      "results": { "one": "Automated extraction", "two": "Consistent processes" },
+      "highlight": "90%+ document accuracy"
     },
     "legal": {
-      "title": "Legal / Contracts",
-      "description": "Automatically extract key data from contracts, articles of incorporation, NDAs and service agreements.",
-      "highlight": "Process contracts 10x faster"
+      "title": "Legal departments",
+      "subtitle": "Legal and contractual documentation",
+      "description": "Analyse contracts and case files to accelerate their review.",
+      "documents": { "one": "Contracts", "two": "Agreements", "three": "Records", "four": "NDAs" },
+      "results": { "one": "Organised information", "two": "Greater productivity" },
+      "highlight": "Up to 10x faster"
     }
   },
+  "specializationsTitle": "Specialisations",
   "documents": {
     "title": "Supported documents",
     "items": {
@@ -39,20 +62,16 @@
   },
   "link": "Contact us →",
   "otherIndustries": {
-    "title": "Other industries",
-    "subtitle": "DocumentoIQ adapts to multiple sectors and document types",
-    "finance": {
-      "title": "Finance",
-      "description": "Invoices, account statements, financial reports"
-    },
-    "realEstate": {
-      "title": "Real Estate",
-      "description": "Lease contracts, appraisals, property titles"
-    }
+    "title": "DocumentoIQ keeps growing",
+    "subtitle": "The platform can adapt to new sectors and document types.",
+    "finance": { "title": "Finance", "description": "Invoices, account statements and financial reports." },
+    "realEstate": { "title": "Real estate", "description": "Contracts, appraisals and property titles." },
+    "education": { "title": "Education", "description": "Student records and educational documentation." },
+    "humanResources": { "title": "Human Resources", "description": "Employment records and administrative documentation." }
   },
   "cta": {
-    "title": "Do you have a different use case?",
-    "subtitle": "We work with companies across multiple sectors to adapt data extraction to different documents. Write to us and we'll help you.",
-    "button": "Contact us →"
+    "title": "Can't find your industry?",
+    "subtitle": "DocumentoIQ can adapt to specific document processes. Let's discuss your case.",
+    "button": "Contact us"
   }
 }

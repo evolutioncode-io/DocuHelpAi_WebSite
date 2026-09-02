@@ -5,24 +5,24 @@
   },
   "hero": {
     "badge": "Security",
-    "title": "Security and data protection in DocumentoIQ",
-    "subtitle": "DocumentoIQ is designed to operate in environments where confidentiality, precision, and traceability are critical.",
-    "microcopy": "Designed for legal, notary, and financial sectors."
+    "title": "The trust behind DocumentoIQ",
+    "subtitle": "Every processed document is backed by secure infrastructure, reliable technologies and best practices designed to protect information at every stage of the document process.",
+    "microcopy": "Enterprise infrastructure · Data protection · Responsible AI"
   },
   "infrastructure": {
-    "title": "How we protect our customers' information",
-    "description": "DocumentoIQ operates entirely on managed services from Google Cloud Platform (GCP), eliminating risks associated with physical servers or poorly managed local infrastructure. Furthermore, it uses certified enterprise services widely adopted by banks, insurers, and regulated organisations.",
+    "title": "Infrastructure designed to protect your information",
+    "description": "DocumentoIQ runs on Google Cloud enterprise infrastructure, leveraging managed services and international standards to provide a secure, stable platform prepared for organisations that process sensitive information.",
     "benefits": {
-      "title": "Benefits for our customers",
+      "title": "What does this mean for you or your organisation?",
       "items": [
-        "Infrastructure certified under international standards",
-        "High availability and automatic redundancy",
+        "Infrastructure backed by international standards",
+        "High availability for continuous operation",
         "Physical and logical protection managed by Google",
-        "Secure scalability for large document volumes"
+        "Scalability to support the growth of your operation"
       ]
     },
     "certifications": {
-      "title": "Inherited Google Cloud certifications",
+      "title": "Infrastructure security standards",
       "items": [
         "SOC 2",
         "ISO 27001",
@@ -33,75 +33,65 @@
     }
   },
   "protection": {
-    "title": "Data protection in transit and at rest",
-    "description": "All information processed by DocumentoIQ is protected using modern encryption mechanisms.",
+    "title": "Information protection at every stage of the process",
+    "description": "From document upload through processing and storage, DocumentoIQ protects information using modern security and encryption mechanisms.",
     "transit": {
-      "title": "Encryption in transit",
-      "description": "All communication uses HTTPS and TLS 1.2 or higher. This includes:",
-      "items": [
-        "user ↔ platform",
-        "platform ↔ databases",
-        "platform ↔ AI services"
-      ]
+      "title": "Secure communication",
+      "description": "All information travels through encrypted connections.",
+      "detail": "HTTPS and TLS 1.2+"
     },
     "rest": {
-      "title": "Encryption at rest",
-      "description": "Documents and metadata stored in Google Cloud use automatic AES-256 encryption managed by Google."
+      "title": "Protected storage",
+      "description": "Documents and metadata remain encrypted while stored in the infrastructure.",
+      "detail": "AES-256 managed by Google Cloud"
     },
     "signedUrls": {
-      "title": "Signed URLs and temporary access",
-      "description": "Document downloads and uploads use short-duration temporary links. This significantly reduces the risk of unauthorised access."
+      "title": "Temporary document access",
+      "description": "Uploads and downloads use temporary links that reduce information exposure.",
+      "detail": "Short-lived signed URLs"
     }
   },
   "access": {
-    "title": "Permission-based access control",
-    "description": "DocumentoIQ implements secure authentication and a granular permission model.",
+    "title": "Controlled access to your information",
+    "description": "DocumentoIQ incorporates authentication and control mechanisms to protect access to information throughout the document process.",
     "authentication": {
       "title": "Secure authentication",
-      "description": "The platform uses Firebase Authentication, including encrypted passwords, automatic token rotation, protection against brute-force attacks, and secure sessions."
+      "description": "Access protected through modern authentication mechanisms."
     },
     "session": {
-      "title": "Automatic session logout",
-      "description": "Sessions close automatically after periods of inactivity to protect sensitive documents on unattended devices."
+      "title": "Session management",
+      "description": "Sessions are managed automatically to reduce the risk of unauthorised access."
     },
     "pbac": {
-      "title": "Granular permissions (PBAC)",
-      "description": "Each action within DocumentoIQ validates the user's identity and whether they have specific permissions to perform the operation. This allows much more precise control than traditional \"admin / non-admin\" models."
+      "title": "Access permissions",
+      "description": "Each user only views information authorised according to their configuration."
     },
     "isolation": {
-      "title": "Total isolation between companies",
-      "description": "DocumentoIQ is built under a multi-tenant architecture (also called \"multi-client\"), where each company operates within its own isolated logical space, separated from the rest of the organisations using the platform."
+      "title": "Information isolation",
+      "description": "Each organisation keeps its information separate within the platform."
     },
     "audit": {
-      "title": "Audit logs",
-      "description": "DocumentoIQ maintains a log of actions on sensitive information, allowing clarity on who accessed, deleted, or generated an extraction."
+      "title": "Advanced capabilities",
+      "description": "Implementations can incorporate additional administration, auditing and integration controls according to the organisation's needs."
     }
   },
   "ai": {
-    "title": "Secure processing with enterprise AI providers",
-    "description": "DocumentoIQ only uses leading and certified providers for intelligent document processing.",
+    "title": "Responsible AI for document processing",
+    "description": "DocumentoIQ uses Artificial Intelligence providers with enterprise security and privacy standards. Processed information remains protected and is not used to train public models.",
     "providers": {
       "title": "Authorized providers",
       "headers": {
-        "provider": "Provider",
-        "service": "Service",
-        "usage": "Usage"
+        "technology": "Technology",
+        "purpose": "Purpose"
       },
       "items": [
         {
-          "name": "Google Cloud",
-          "service": "Document AI",
-          "usage": "OCR"
+          "technology": "Google Gemini Enterprise",
+          "purpose": "Document understanding and analysis"
         },
         {
-          "name": "Google Cloud",
-          "service": "Gemini",
-          "usage": "Primary information extraction"
-        },
-        {
-          "name": "OpenAI",
-          "service": "Enterprise",
-          "usage": "Extraction backup and cross-validation"
+          "technology": "OpenAI Enterprise",
+          "purpose": "Specialised processing according to the document workflow"
         }
       ]
     },
@@ -119,35 +109,37 @@
         "internationally certified providers"
       ]
     },
+    "closing": "At DocumentoIQ, AI is a tool for understanding documents; security and control over information always remain in the hands of the platform and those who use it.",
     "responsibleUse": {
       "title": "Responsible use of AI",
       "description": "Models are used in inference mode to process documents, not to train models with customer information."
     }
   },
   "cta": {
-    "title": "Security designed for critical documents",
-    "description": "DocumentoIQ was created for organisations working with sensitive information that require precision, traceability, and control at every stage of document processing.",
-    "button": "Request Demo",
+    "title": "Do you have questions about security or compliance?",
+    "description": "Our team can help answer questions about DocumentoIQ's architecture, security practices and information processing.",
+    "primaryButton": "Talk to a specialist",
+    "secondaryButton": "Request Demo",
     "microcopy": "Available for due diligence processes and provider evaluations."
   },
   "faq": {
-    "title": "Security FAQ",
+    "title": "FAQ about security",
     "items": [
       {
-        "question": "Where are my documents stored?",
-        "answer": "In secure Google Cloud Platform infrastructure."
-      },
-      {
-        "question": "Can DocumentoIQ access my documents?",
-        "answer": "Technical access is restricted, audited, and controlled. There is no central interface where documents are freely visible."
+        "question": "Who can access my documents?",
+        "answer": "Only users authorised according to the platform configuration."
       },
       {
         "question": "What happens if I stop using DocumentoIQ?",
-        "answer": "There is a formal procedure for definitive data deletion per company."
+        "answer": "There is a formal procedure for permanently deleting each company's data."
       },
       {
-        "question": "Do you comply with international standards?",
-        "answer": "DocumentoIQ relies on infrastructure certified under SOC 2, ISO 27001, ISO 27018, HIPAA-eligible infrastructure, and other compliance programs."
+        "question": "How does DocumentoIQ protect my information?",
+        "answer": "Through enterprise infrastructure, encryption and security controls throughout the document process."
+      },
+      {
+        "question": "Need more information?",
+        "answer": "Our team can help answer any questions about security and data protection."
       }
     ]
   }
