@@ -71,9 +71,6 @@ function Layout() {
                   </svg>
                 </NavLink>
                 <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-xl shadow-lg border border-ui py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible group-focus-within:opacity-100 group-focus-within:visible transition-all duration-200">
-                  <NavLink to={getLocalizedRoute('useCases')} className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors">
-                    {t('nav.useCases')}
-                  </NavLink>
                   <NavLink to={getLocalizedRoute('legalHelpAiNotaries')} className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors">
                     {t('nav.notary')}
                   </NavLink>
@@ -110,12 +107,6 @@ function Layout() {
                 </NavLink>
 
                 <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-xl shadow-lg border border-ui py-2 z-50 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                    <NavLink
-                      to={getLocalizedRoute('partners')}
-                      className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors"
-                    >
-                      {t('nav.partnersProgram')}
-                    </NavLink>
                     <a
                       href="https://parnersportaldocumentoiq.vercel.app"
                       className="block px-4 py-2 text-sm text-body hover:bg-surface-muted transition-colors"
